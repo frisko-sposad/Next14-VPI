@@ -5,10 +5,10 @@ type RawFlank = Record<string, RawFlankRow>;
 type RawData = Record<string, RawFlank>;
 
 export function getParseData(data: Record<string, RawData>) {
-  const newData = {} as ParseData;
+  const newData = {} as any;
 
   for (const player in data) {
-    const newDataFlank = {};
+    const newDataFlank = [{}];
 
     for (const flank in data[player]) {
       const newDataSquad = [];
@@ -21,7 +21,8 @@ export function getParseData(data: Record<string, RawData>) {
         const squadNumber = Number(squadInfo.unitNumber);
         const squadHero = JSON.parse(`${data[player][flank].hero}`);
         const squadFortification =
-          data[player][flank].fortification && JSON.parse(`${data[player][flank].fortification}`);
+          data[player][flank].fortification &&
+          JSON.parse(`${data[player][flank].fortification}`);
         const squadUnit = squadInfo.unitData && JSON.parse(squadInfo.unitData);
 
         if (squadUnit) {
@@ -31,13 +32,18 @@ export function getParseData(data: Record<string, RawData>) {
         }
 
         if (squad !== 'hero' && squad !== 'fortification') {
-          newDataSquad.push({ squadUnit, squadHero, squadFlank, squadFortification });
+          newDataSquad.push({
+            squadUnit,
+            squadHero,
+            squadFlank,
+            squadFortification,
+          });
         }
       }
 
-      newDataFlank[`${flank}`] = newDataSquad;
+      newDataFlank[Number(flank)] = newDataSquad;
     }
-    newData[`${player}`] = newDataFlank;
+    newData[Number(player)] = newDataFlank;
   }
   // console.log({ newData, data });
 
