@@ -74,7 +74,7 @@ const Header = () => {
                 href="/map_dorn"
                 className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
               >
-                <h2>Map Dorn</h2>
+                <h2 className="text-red-500">Map Dorn</h2>
               </Link>
             </li>
           </ul>
