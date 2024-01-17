@@ -1,5 +1,6 @@
-import Header from '@/components/Header/header';
+'use client';
 import React from 'react';
+import Header from '@/components/Header/header';
 
 const UserInfo = () => {
   return (
@@ -7,7 +8,7 @@ const UserInfo = () => {
       <Header />
       <div className="flex justify-center">
         <div className="flex-col">
-          <p>Home Page</p>
+          <p>User Info Page</p>
         </div>
       </div>
     </div>
