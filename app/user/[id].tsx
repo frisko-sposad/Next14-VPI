@@ -5,7 +5,7 @@ import Table from '@/components/Table/Table';
 import { useRouter } from 'next/router';
 
 const UserInfo = () => {
-  const [dataUsers, setDataUsers] = useState([]);
+  const [dataUsers, setDataUsers] = useState([] as any);
   console.log(dataUsers);
 
   const router = useRouter();
