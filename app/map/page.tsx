@@ -1,6 +1,6 @@
 'use client';
 import Head from 'next/head';
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '@/components/Header/header';
 import Footer from '@/components/Footer/footer';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
