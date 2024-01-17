@@ -21,7 +21,7 @@ const App = () => {
     // formState: { errors },
   } = methods;
 
-  const onSubmit = (data: ParseData) => {
+  const onSubmit = (data: any) => {
     setUnitsData(getParseData(data));
   };
 
