@@ -1,6 +1,6 @@
-import { useFormContext } from 'react-hook-form';
-import { unitsData } from '../../public/database/units-data';
 import React from 'react';
+import { useFormContext } from 'react-hook-form';
+import { unitsData } from '@/public/database/units-data';
 
 interface Row {
   player: string;
@@ -24,7 +24,10 @@ export function Row({ player, rowNumber = '1', flank }: Row): JSX.Element {
 
   return (
     <div className="pt-1">
-      <select className="border rounded text-right" {...register(`${player}.${flank}.${rowNumber}.unitData`)}>
+      <select
+        className="border rounded text-right"
+        {...register(`${player}.${flank}.${rowNumber}.unitData`)}
+      >
         {options}
       </select>
       <input

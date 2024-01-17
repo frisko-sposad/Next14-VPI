@@ -1,7 +1,6 @@
 import { useFormContext } from 'react-hook-form';
-import { fortificationData } from '../../public/database/fortification-data';
 import React from 'react';
-import { Flank } from '../../function/battle';
+import { fortificationData } from '@/public/database/fortification-data';
 
 interface Fortification {
   player: string;
@@ -13,7 +12,11 @@ export function Fortification({ player, flank }: Fortification): JSX.Element {
 
   const options = fortificationData.map((fortification) => {
     return (
-      <option key={fortification.id} value={JSON.stringify(fortification)} label={fortification.fortificationName}>
+      <option
+        key={fortification.id}
+        value={JSON.stringify(fortification)}
+        label={fortification.fortificationName}
+      >
         {fortification.fortificationName}
       </option>
     );
@@ -21,7 +24,10 @@ export function Fortification({ player, flank }: Fortification): JSX.Element {
 
   return (
     <div className="pt-1">
-      <select className="border rounded text-right" {...register(`${player}.${flank}.fortification`)}>
+      <select
+        className="border rounded text-right"
+        {...register(`${player}.${flank}.fortification`)}
+      >
         {options}
       </select>
     </div>

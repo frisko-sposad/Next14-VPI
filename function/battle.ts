@@ -1,7 +1,7 @@
-import { LogData } from '../components/Calculator/logs';
-import { Fortification } from '../public/database/fortification-data';
-import { Hero } from '../public/database/heroes-data';
-import { squadUnitOld, Weapon } from '../public/database/units-data';
+import { LogData } from '@/components/Calculator/logs';
+import { Fortification } from '@/public/database/fortification-data';
+import { Hero } from '@/public/database/heroes-data';
+import { squadUnitOld, Weapon } from '@/public/database/units-data';
 import { getResultRoundFight } from './fight';
 
 export interface squadUnit extends squadUnitOld {
@@ -64,7 +64,10 @@ export enum Direction {
   inReverse,
 }
 
-export function battle(unitData: ParseData): { logsData: LogData[]; unitData: ParseData } {
+export function battle(unitData: ParseData): {
+  logsData: LogData[];
+  unitData: ParseData;
+} {
   const logsData = [] as unknown as LogData[];
   const roundNumber = 50;
   const flankRows1 = {
@@ -97,7 +100,7 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
     place1: Flank,
     place2: Flank,
     direction1: Direction,
-    direction2: Direction,
+    direction2: Direction
   ) {
     const flankName1 = `${flankData1[row1]?.squadFlank}`;
     const flankName2 = `${flankData2[row2]?.squadFlank}`;
@@ -113,7 +116,7 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
         direction1,
         direction2,
         place1,
-        place2,
+        place2
       );
 
       const { flankRow1, flankRow2, alive1, alive2, ready1, ready2 } = result;
@@ -127,10 +130,14 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
       unitData.player1[place1][row1].squadUnit.squadAlive = alive1;
       unitData.player2[place2][row2].squadUnit.squadAlive = alive2;
       unitData.player1[place1][row1].squadUnit.squadLosses = Number(
-        (unitData.player1[place1][row1].squadUnit.squadNumber - alive1).toFixed(2),
+        (unitData.player1[place1][row1].squadUnit.squadNumber - alive1).toFixed(
+          2
+        )
       );
       unitData.player2[place2][row2].squadUnit.squadLosses = Number(
-        (unitData.player2[place2][row2].squadUnit.squadNumber - alive2).toFixed(2),
+        (unitData.player2[place2][row2].squadUnit.squadNumber - alive2).toFixed(
+          2
+        )
       );
 
       logsData.push({
@@ -153,17 +160,18 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
     switch (centerFightPlase) {
       case FightPlace.front:
         {
-          const { flankRow1: centerFlank1, flankRow2: centerFlank2 } = flankFight(
-            player1.center,
-            player2.center,
-            flankRows1.center,
-            flankRows2.center,
-            round,
-            Flank.center,
-            Flank.center,
-            Direction.inOrder,
-            Direction.inOrder,
-          );
+          const { flankRow1: centerFlank1, flankRow2: centerFlank2 } =
+            flankFight(
+              player1.center,
+              player2.center,
+              flankRows1.center,
+              flankRows2.center,
+              round,
+              Flank.center,
+              Flank.center,
+              Direction.inOrder,
+              Direction.inOrder
+            );
           flankRows1.center = centerFlank1;
           flankRows2.center = centerFlank2;
           if (centerFlank1 === 5) centerFightPlase = FightPlace.defence1;
@@ -172,17 +180,18 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
         break;
       case FightPlace.defence1:
         {
-          const { flankRow1: defenceFlank1, flankRow2: centerFlank2 } = flankFight(
-            player1.defence,
-            player2.center,
-            flankRows1.defence,
-            flankRows2.center,
-            round,
-            Flank.defence,
-            Flank.center,
-            Direction.inOrder,
-            Direction.inOrder,
-          );
+          const { flankRow1: defenceFlank1, flankRow2: centerFlank2 } =
+            flankFight(
+              player1.defence,
+              player2.center,
+              flankRows1.defence,
+              flankRows2.center,
+              round,
+              Flank.defence,
+              Flank.center,
+              Direction.inOrder,
+              Direction.inOrder
+            );
           flankRows1.defence = defenceFlank1;
           flankRows2.center = centerFlank2;
           if (defenceFlank1 === 5) {
@@ -194,17 +203,18 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
         break;
       case FightPlace.defence2:
         {
-          const { flankRow1: centerFlank1, flankRow2: defenceFlank2 } = flankFight(
-            player1.center,
-            player2.defence,
-            flankRows1.center,
-            flankRows2.defence,
-            round,
-            Flank.center,
-            Flank.defence,
-            Direction.inOrder,
-            Direction.inOrder,
-          );
+          const { flankRow1: centerFlank1, flankRow2: defenceFlank2 } =
+            flankFight(
+              player1.center,
+              player2.defence,
+              flankRows1.center,
+              flankRows2.defence,
+              round,
+              Flank.center,
+              Flank.defence,
+              Direction.inOrder,
+              Direction.inOrder
+            );
           flankRows1.center = centerFlank1;
           flankRows2.defence = defenceFlank2;
           if (defenceFlank2 === 5) {
@@ -229,7 +239,7 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
             Flank.right,
             Flank.right,
             Direction.inOrder,
-            Direction.inOrder,
+            Direction.inOrder
           );
           flankRows1.right = rightFlank1;
           flankRows2.right = rightFlank2;
@@ -239,17 +249,18 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
         break;
       case FightPlace.defence1:
         {
-          const { flankRow1: defenceFlank1, flankRow2: rightFlank2 } = flankFight(
-            player1.defence,
-            player2.right,
-            flankRows1.defenceReverse,
-            flankRows2.right,
-            round,
-            Flank.defence,
-            Flank.right,
-            Direction.inReverse,
-            Direction.inOrder,
-          );
+          const { flankRow1: defenceFlank1, flankRow2: rightFlank2 } =
+            flankFight(
+              player1.defence,
+              player2.right,
+              flankRows1.defenceReverse,
+              flankRows2.right,
+              round,
+              Flank.defence,
+              Flank.right,
+              Direction.inReverse,
+              Direction.inOrder
+            );
           flankRows1.defenceReverse = defenceFlank1;
           flankRows2.right = rightFlank2;
           if (defenceFlank1 === 5) {
@@ -261,17 +272,18 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
         break;
       case FightPlace.defence2:
         {
-          const { flankRow1: rightFlank1, flankRow2: defenceFlank2 } = flankFight(
-            player1.right,
-            player2.defence,
-            flankRows1.right,
-            flankRows2.defenceReverse,
-            round,
-            Flank.right,
-            Flank.defence,
-            Direction.inOrder,
-            Direction.inReverse,
-          );
+          const { flankRow1: rightFlank1, flankRow2: defenceFlank2 } =
+            flankFight(
+              player1.right,
+              player2.defence,
+              flankRows1.right,
+              flankRows2.defenceReverse,
+              round,
+              Flank.right,
+              Flank.defence,
+              Direction.inOrder,
+              Direction.inReverse
+            );
           flankRows1.right = rightFlank1;
           flankRows2.defenceReverse = defenceFlank2;
           if (defenceFlank2 === 5) {
@@ -295,7 +307,7 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
             Flank.left,
             Flank.left,
             Direction.inOrder,
-            Direction.inOrder,
+            Direction.inOrder
           );
           flankRows1.left = leftFlank1;
           flankRows2.left = leftFlank2;
@@ -305,17 +317,18 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
         break;
       case FightPlace.defence1:
         {
-          const { flankRow1: defenceFlank1, flankRow2: leftFlank2 } = flankFight(
-            player1.defence,
-            player2.left,
-            flankRows1.defenceReverse,
-            flankRows2.left,
-            round,
-            Flank.defence,
-            Flank.left,
-            Direction.inReverse,
-            Direction.inOrder,
-          );
+          const { flankRow1: defenceFlank1, flankRow2: leftFlank2 } =
+            flankFight(
+              player1.defence,
+              player2.left,
+              flankRows1.defenceReverse,
+              flankRows2.left,
+              round,
+              Flank.defence,
+              Flank.left,
+              Direction.inReverse,
+              Direction.inOrder
+            );
           flankRows1.defenceReverse = defenceFlank1;
           flankRows2.left = leftFlank2;
           if (defenceFlank1 === 5) {
@@ -327,17 +340,18 @@ export function battle(unitData: ParseData): { logsData: LogData[]; unitData: Pa
         break;
       case FightPlace.defence2:
         {
-          const { flankRow1: leftFlank1, flankRow2: defenceFlank2 } = flankFight(
-            player1.left,
-            player2.defence,
-            flankRows1.left,
-            flankRows2.defenceReverse,
-            round,
-            Flank.left,
-            Flank.defence,
-            Direction.inOrder,
-            Direction.inReverse,
-          );
+          const { flankRow1: leftFlank1, flankRow2: defenceFlank2 } =
+            flankFight(
+              player1.left,
+              player2.defence,
+              flankRows1.left,
+              flankRows2.defenceReverse,
+              round,
+              Flank.left,
+              Flank.defence,
+              Direction.inOrder,
+              Direction.inReverse
+            );
           flankRows1.left = leftFlank1;
           flankRows2.defenceReverse = defenceFlank2;
           if (defenceFlank2 === 5) {

@@ -1,6 +1,9 @@
-import { Fortification, fortificationData } from '../public/database/fortification-data';
-import { Hero } from '../public/database/heroes-data';
-import { Weapon } from '../public/database/units-data';
+import {
+  Fortification,
+  fortificationData,
+} from '@/public/database/fortification-data';
+import { Hero } from '@/public/database/heroes-data';
+import { Weapon } from '@/public/database/units-data';
 import { Direction, Flank, FlankRow, squadUnit } from './battle';
 
 function getAttackBonus(
@@ -11,7 +14,7 @@ function getAttackBonus(
   place1: Flank,
   place2: Flank,
   fortification1: Fortification,
-  fortification2: Fortification,
+  fortification2: Fortification
 ) {
   // проверяем какое оружие у врага и даём бонус против этого оружия
   // const weaponBonus1 =
@@ -82,14 +85,21 @@ function getAttackBonus(
 
   // суммарная атака, если нет бонуса против конницы то действует бонус против оружия
   const attack1 =
-    (unit1.attack + hero1.attackBonus + attackBonus1) * (attackOnCavalryBonus1 ? attackOnCavalryBonus1 : weaponBonus1);
+    (unit1.attack + hero1.attackBonus + attackBonus1) *
+    (attackOnCavalryBonus1 ? attackOnCavalryBonus1 : weaponBonus1);
   const attack2 =
-    (unit2.attack + hero2.attackBonus + attackBonus2) * (attackOnCavalryBonus2 ? attackOnCavalryBonus2 : weaponBonus2);
+    (unit2.attack + hero2.attackBonus + attackBonus2) *
+    (attackOnCavalryBonus2 ? attackOnCavalryBonus2 : weaponBonus2);
 
   return { attack1, attack2 };
 }
 
-function getFightSize(number1: number, number2: number, squad1: squadUnit, squad2: squadUnit): number {
+function getFightSize(
+  number1: number,
+  number2: number,
+  squad1: squadUnit,
+  squad2: squadUnit
+): number {
   let fightSize = 0;
 
   if (number1 * squad1.size <= number2 * squad2.size) {
@@ -108,18 +118,30 @@ function getLosses(
   attack1: number,
   attack2: number,
   distanceAttackBonus1: number,
-  distanceAttackBonus2: number,
+  distanceAttackBonus2: number
 ) {
   // расчёт потерь с 2 знаками после запятой
   const lossesPlayer1 =
-    Math.floor((((attack2 * fightSize) / unit1.size + distanceAttackBonus2) / unit1.health) * 100) / 100;
+    Math.floor(
+      (((attack2 * fightSize) / unit1.size + distanceAttackBonus2) /
+        unit1.health) *
+        100
+    ) / 100;
   const lossesPlayer2 =
-    Math.floor((((attack1 * fightSize) / unit2.size + distanceAttackBonus1) / unit2.health) * 100) / 100;
+    Math.floor(
+      (((attack1 * fightSize) / unit2.size + distanceAttackBonus1) /
+        unit2.health) *
+        100
+    ) / 100;
 
   return { lossesPlayer1, lossesPlayer2 };
 }
 
-function getDistanceAttackBonus(flank: [FlankRow], currentRow: number, fightSize: number) {
+function getDistanceAttackBonus(
+  flank: [FlankRow],
+  currentRow: number,
+  fightSize: number
+) {
   // расчёт лучников
   let remainsSizeArcher = fightSize;
   let archerNumber = 0;
@@ -150,10 +172,18 @@ export function fight(
   number1: number,
   number2: number,
   place1: Flank,
-  place2: Flank,
+  place2: Flank
 ) {
-  const { squadUnit: squad1, squadHero: hero1, squadFortification: fortification1 } = flank1[row1];
-  const { squadUnit: squad2, squadHero: hero2, squadFortification: fortification2 } = flank2[row2];
+  const {
+    squadUnit: squad1,
+    squadHero: hero1,
+    squadFortification: fortification1,
+  } = flank1[row1];
+  const {
+    squadUnit: squad2,
+    squadHero: hero2,
+    squadFortification: fortification2,
+  } = flank2[row2];
 
   // const squadNumber1 = Number(currentUnitsFlank1 ? currentUnitsFlank1 : squad1.squadNumber);
   // const squadNumber2 = Number(currentUnitsFlank2 ? currentUnitsFlank2 : squad2.squadNumber);
@@ -170,7 +200,7 @@ export function fight(
     place1,
     place2,
     fortification1,
-    fortification2,
+    fortification2
   );
 
   const { lossesPlayer1, lossesPlayer2 } = getLosses(
@@ -180,11 +210,17 @@ export function fight(
     attack1,
     attack2,
     distanceAttackBonus1,
-    distanceAttackBonus2,
+    distanceAttackBonus2
   );
 
-  const alive1 = Math.floor((number1 - lossesPlayer1 > 0 ? number1 - lossesPlayer1 : 0) * 100) / 100;
-  const alive2 = Math.floor((number2 - lossesPlayer2 > 0 ? number2 - lossesPlayer2 : 0) * 100) / 100;
+  const alive1 =
+    Math.floor(
+      (number1 - lossesPlayer1 > 0 ? number1 - lossesPlayer1 : 0) * 100
+    ) / 100;
+  const alive2 =
+    Math.floor(
+      (number2 - lossesPlayer2 > 0 ? number2 - lossesPlayer2 : 0) * 100
+    ) / 100;
 
   return { alive1, alive2, lossesPlayer1, lossesPlayer2 };
 }
@@ -209,7 +245,7 @@ function getIsFight(
   ready1: boolean,
   ready2: boolean,
   moralityBonus1: number,
-  moralityBonus2: number,
+  moralityBonus2: number
 ) {
   const allMorality1 = morality1 + moralityBonus1;
   const allMorality2 = morality2 + moralityBonus2;
@@ -313,7 +349,7 @@ export function getResultRoundFight(
   direction1: Direction,
   direction2: Direction,
   place1: Flank,
-  place2: Flank,
+  place2: Flank
 ) {
   const squadUnit1 = flank1[flankRow1].squadUnit;
   const squadUnit2 = flank2[flankRow2].squadUnit;
@@ -339,7 +375,7 @@ export function getResultRoundFight(
     squadUnit1.ready,
     squadUnit2.ready,
     moralityBonus1,
-    moralityBonus2,
+    moralityBonus2
   );
 
   if (!isFight || !ready1 || !ready2) {
@@ -367,7 +403,7 @@ export function getResultRoundFight(
       squadUnit1.squadAlive,
       squadUnit2.squadAlive,
       place1,
-      place2,
+      place2
     );
 
     return {

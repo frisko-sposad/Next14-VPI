@@ -1,6 +1,6 @@
 import { useFormContext } from 'react-hook-form';
-import { heroesData } from '../../public/database/heroes-data';
 import React from 'react';
+import { heroesData } from '@/public/database/heroes-data';
 
 interface Heroes {
   player: string;
@@ -20,7 +20,10 @@ export function Heroes({ player, flank }: Heroes): JSX.Element {
 
   return (
     <div className="pt-1">
-      <select className="border rounded text-right" {...register(`${player}.${flank}.hero`)}>
+      <select
+        className="border rounded text-right"
+        {...register(`${player}.${flank}.hero`)}
+      >
         {options}
       </select>
     </div>
