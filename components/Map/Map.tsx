@@ -1,7 +1,7 @@
 import { MapContainer, Marker, Polygon, Popup, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import myIcon from '../../components/leflet/icons/castle.svg';
-import { Icon } from 'leaflet';
+import { Icon, LatLngExpression } from 'leaflet';
 
 const markerIcon = new Icon({
   iconUrl: myIcon,
@@ -9,7 +9,10 @@ const markerIcon = new Icon({
 });
 
 const Map = () => {
-  const polygon = [
+  const polygon:
+    | LatLngExpression[]
+    | LatLngExpression[][]
+    | LatLngExpression[][][] = [
     [36.28, -71.1894],
     [30.28, -72.1894],
     [38.28, -73.1894],
