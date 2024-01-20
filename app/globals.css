@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* @import url("leaflet/dist/leaflet.css"); */
   .leaflet-container {
     width: 100%;
@@ -9,5 +10,16 @@
     background-color:white !important; 
   }
 
+  .sr-only {
+    display: none;
+  }
+
+
+
+.leaflet-draw-toolbar a {
+  background-image: url('./user-info/spritesheet.png') !important;
+  background-repeat: no-repeat;
+  color: transparent !important;
+}
   
 
