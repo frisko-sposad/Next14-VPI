@@ -63,9 +63,15 @@ const polygonsBorder = polygonsData.map((el) => {
     >
       <Popup>
         <p>
-          {el.id}
-          <br />
-          {el.info.text}
+          <p>
+            id: {el.id}
+            <br />
+            <b>{el.info.name}</b>
+            <br />
+            Владелец: {el.info.owner}
+            <br />
+            Описание: {el.info.text}
+          </p>
         </p>
       </Popup>
     </Polygon>
