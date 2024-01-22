@@ -1,23 +1,57 @@
 import {
-  Circle,
   FeatureGroup,
+  LayersControl,
   MapContainer,
   Marker,
   Polygon,
   Popup,
   TileLayer,
+  LayerGroup,
 } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
-import myIcon from '../../components/leflet/icons/castle.svg';
+import IconCastle from '../../components/leflet/icons/castle.svg';
 import { Icon } from 'leaflet';
 import { EditControl } from 'react-leaflet-draw';
 import { useState } from 'react';
-import { polygonsData } from '../../public/database/polygons-data';
+import { polygonsData } from '../../public/database/data-polygons';
+import { LocationFinderDummy } from './LocationFinderDummy';
+import { castleData } from '@/public/database/data-icon';
 
-const markerIcon = new Icon({
-  iconUrl: myIcon,
+const markerIconCastle = new Icon({
+  iconUrl: IconCastle,
   iconSize: [38, 38], // set the size of the icon
+});
+
+const markerIconcastleData = castleData.map((el) => {
+  return (
+    <>
+      <Marker key={el.id} position={[el.lat, el.lng]} icon={markerIconCastle}>
+        <Popup>
+          {
+            <p>
+              id: {el.id}
+              <br />
+              <br />
+              {el.info.name}
+              <br />
+              <br />
+              Владелец: {el.info.owner}
+              <br />
+              <br />
+              Положение: {el.info.position}
+              <br />
+              <br />
+              Описание: {el.info.text}
+              <br />
+              <br />
+              Укрепления: {el.info.fortifications}
+            </p>
+          }
+        </Popup>
+      </Marker>
+    </>
+  );
 });
 
 const polygonsBorder = polygonsData.map((el) => {
@@ -64,12 +98,7 @@ const Map = () => {
     Object.values(layers).map(({ _leaflet_id, editing }) => {
       setMapLayers((layers: any) =>
         layers.map((l: any) =>
-          l.id == _leaflet_id
-            ? {
-                ...l,
-                latlngs: { ...editing.latlngs[0] },
-              }
-            : l
+          l.id == _leaflet_id ? { ...l, latlngs: { ...editing.latlngs[0] } } : l
         )
       );
     });
@@ -107,7 +136,6 @@ const Map = () => {
               marker: false,
             }}
           />
-          <Circle center={[51.51, -0.06]} radius={200} />
         </FeatureGroup>
         <TileLayer
           noWrap={true}
@@ -116,14 +144,24 @@ const Map = () => {
           attribution="Stamen Watercolor"
           url="https://map-dorn.netlify.app//map/{z}-{x}-{y}.jpg"
         />
-
-        {polygonsBorder}
-
-        <Marker position={[33.28, -79.1894]} icon={markerIcon}>
-          <Popup>
-            Пиздец работает!!! <br /> Это земли Лорда Жупела!
-          </Popup>
-        </Marker>
+        <LayersControl position="topright" collapsed={false}>
+          <LayersControl.Overlay name="Границы Феодов" checked>
+            <LayerGroup>{polygonsBorder}</LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Метки" checked>
+            <LayerGroup>
+              {markerIconcastleData}
+              {
+                <Marker position={[51.51, -0.06]} icon={markerIconCastle}>
+                  <Popup>
+                    Пиздец работает!!! <br /> Это земли Лорда Жупела!
+                  </Popup>
+                </Marker>
+              }
+            </LayerGroup>
+          </LayersControl.Overlay>
+        </LayersControl>
+        <LocationFinderDummy />
       </MapContainer>
       <div>
         <pre className="text-left">
