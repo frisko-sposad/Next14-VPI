@@ -5229,15 +5229,15 @@ export const polygonsData = [
   {
     id: 105351,
     info: {
-      name: 'Название феода',
+      name: 'Солнечная дорога',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
+      owner: 'Мартеллы',
       fortifications:
         'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 76.90058518878449,
@@ -6049,15 +6049,15 @@ export const polygonsData = [
   {
     id: 134713,
     info: {
-      name: 'Название феода',
+      name: 'Солнечные горы',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
+      owner: 'Мартеллы',
       fortifications:
         'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 76.9306401389715,
@@ -6237,15 +6237,15 @@ export const polygonsData = [
   {
     id: 134770,
     info: {
-      name: 'Название феода',
+      name: 'Крапчатый лес',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
+      owner: 'Мартеллы',
       fortifications:
         'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 78.78485788573212,
@@ -6315,15 +6315,15 @@ export const polygonsData = [
   {
     id: 134802,
     info: {
-      name: 'Название феода',
+      name: 'Солнечное побережье',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
+      owner: 'Мартеллы',
       fortifications:
         'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 76.7403731690145,
@@ -6366,15 +6366,15 @@ export const polygonsData = [
   {
     id: 134816,
     info: {
-      name: 'Название феода',
+      name: 'Солнечное копьё',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
+      owner: 'Мартеллы',
       fortifications:
         'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 75.43102849062286,
