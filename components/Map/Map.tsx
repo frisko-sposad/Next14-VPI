@@ -14,7 +14,7 @@ import IconCastle from '../../components/leflet/icons/castle.svg';
 import { Icon } from 'leaflet';
 import { EditControl } from 'react-leaflet-draw';
 import { useState } from 'react';
-import { polygonsData } from '../../public/database/data-polygons1';
+import { polygonsData } from '../../public/database/data-polygons';
 import { LocationFinderDummy } from './LocationFinderDummy';
 import { castleData } from '@/public/database/data-icon';
 
