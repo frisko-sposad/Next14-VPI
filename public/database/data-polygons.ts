@@ -230,7 +230,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#336666',
     latlngs: [
       {
         lat: 83.65753230799717,
@@ -280,7 +280,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#336666',
     latlngs: [
       {
         lat: 84.38457301353884,
@@ -314,7 +314,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#336666',
     latlngs: [
       {
         lat: 84.59962955864088,
@@ -364,7 +364,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#336666',
     latlngs: [
       {
         lat: 84.92060416075873,
@@ -406,7 +406,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#336666',
     latlngs: [
       {
         lat: 83.64327399143457,
@@ -440,7 +440,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#336666',
     latlngs: [
       {
         lat: 84.48247927092434,
@@ -474,7 +474,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#336666',
     latlngs: [
       {
         lat: 83.76399593890298,
@@ -516,7 +516,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 84.48684221005205,
@@ -550,7 +550,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 84.68579924026157,
@@ -588,7 +588,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 83.31905448854137,
@@ -630,7 +630,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 84.98621885442346,
@@ -664,7 +664,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 84.59131250875537,
@@ -694,7 +694,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 84.59541362443487,
@@ -728,7 +728,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#99FFFF',
     latlngs: [
       {
         lat: 83.30845036740205,
@@ -774,7 +774,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 83.2982469160905,
@@ -816,7 +816,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 83.90518801162168,
@@ -846,7 +846,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 83.90037609465189,
@@ -880,7 +880,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 81.97246064482263,
@@ -926,7 +926,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 81.8549920577941,
@@ -964,7 +964,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 82.80947460685125,
@@ -998,7 +998,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 83.3032893585036,
@@ -1032,7 +1032,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000066',
     latlngs: [
       {
         lat: 84.95925944598257,
@@ -1066,7 +1066,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000066',
     latlngs: [
       {
         lat: 84.65719901612678,
@@ -1100,7 +1100,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000066',
     latlngs: [
       {
         lat: 84.14746058868619,
@@ -1130,7 +1130,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 84.3412744150594,
@@ -1172,7 +1172,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 82.83152215917069,
@@ -1214,7 +1214,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000066',
     latlngs: [
       {
         lat: 84.20987891247806,
@@ -1256,7 +1256,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FF6633',
     latlngs: [
       {
         lat: 84.14735638307086,
@@ -1298,7 +1298,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FF6633',
     latlngs: [
       {
         lat: 83.42016765054598,
@@ -1340,7 +1340,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 82.48338533676421,
@@ -1390,7 +1390,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFFFCC',
     latlngs: [
       {
         lat: 82.94575756313407,
@@ -1428,7 +1428,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#99FFFF',
     latlngs: [
       {
         lat: 82.84783895111332,
@@ -1478,7 +1478,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#99FFFF',
     latlngs: [
       {
         lat: 82.62003133616952,
@@ -1516,7 +1516,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#99FFFF',
     latlngs: [
       {
         lat: 82.10632421439223,
@@ -1554,7 +1554,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 81.54411911821917,
@@ -1592,7 +1592,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 81.53760928269017,
@@ -1630,7 +1630,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 79.71082154175451,
@@ -1664,7 +1664,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 81.64049343251368,
@@ -1702,7 +1702,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000066',
     latlngs: [
       {
         lat: 84.98240003408525,
@@ -1732,7 +1732,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000066',
     latlngs: [
       {
         lat: 85.01686040591717,
@@ -1820,7 +1820,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 82.68748567531878,
@@ -1866,7 +1866,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#99FFFF',
     latlngs: [
       {
         lat: 82.74306965904769,
@@ -1900,7 +1900,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 80.51052278780584,
@@ -1942,7 +1942,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FF6633',
     latlngs: [
       {
         lat: 84.06617963237956,
@@ -1980,7 +1980,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FF6633',
     latlngs: [
       {
         lat: 84.5329112089418,
@@ -2034,7 +2034,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 83.41006229918037,
@@ -2076,7 +2076,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FF6633',
     latlngs: [
       {
         lat: 83.57439045887051,
@@ -2114,7 +2114,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 82.24981196766541,
@@ -2148,7 +2148,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 82.94560455206036,
@@ -2182,7 +2182,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 82.9510905423051,
@@ -2216,7 +2216,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 81.88597474216905,
@@ -2266,7 +2266,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 80.07332828611835,
@@ -2308,7 +2308,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 82.53493834701436,
@@ -2366,7 +2366,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 82.52911205934849,
@@ -2424,7 +2424,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 81.22819290814196,
@@ -2478,7 +2478,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 81.96012069539287,
@@ -2524,7 +2524,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 79.62399199820958,
@@ -2578,7 +2578,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 80.0351483777806,
@@ -2628,7 +2628,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 80.07314125662042,
@@ -2662,7 +2662,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 76.67988327383325,
@@ -2704,7 +2704,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 75.87822094932504,
@@ -2758,7 +2758,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 78.59504313648334,
@@ -2796,7 +2796,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 78.12547125605835,
@@ -2826,7 +2826,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#663300',
     latlngs: [
       {
         lat: 80.78878419919621,
@@ -2860,7 +2860,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 79.72646096887206,
@@ -2898,7 +2898,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FF6633',
     latlngs: [
       {
         lat: 81.8798360301232,
@@ -2970,7 +2970,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 79.68717287687342,
@@ -3009,7 +3009,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 82.53478647757255,
@@ -3073,7 +3073,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 75.70480366480659,
@@ -3187,7 +3187,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 81.09996106891202,
@@ -3229,7 +3229,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 79.42436228141644,
@@ -3263,7 +3263,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 80.55368010616121,
@@ -3313,7 +3313,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#FFCC00',
     latlngs: [
       {
         lat: 78.66473703355474,
@@ -3351,7 +3351,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 76.03724733055768,
@@ -3381,7 +3381,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 75.07280438721183,
@@ -3411,7 +3411,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 76.75999446438833,
@@ -3436,7 +3436,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1914,
+    id: 1814,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -3495,7 +3495,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 78.56914117793194,
@@ -3529,7 +3529,7 @@ export const polygonsData = [
       owner: '-',
       fortifications: '-',
     },
-    color: '#333333',
+    color: '#000000',
     latlngs: [
       {
         lat: 75.74822026283248,
@@ -3567,7 +3567,7 @@ export const polygonsData = [
   },
 
   {
-    id: 1914,
+    id: 719414,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -3576,7 +3576,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 80.02764648734443,
@@ -3626,7 +3626,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 80.67551572400741,
@@ -3660,7 +3660,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 81.61511932772413,
@@ -3711,7 +3711,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 79.8355583312371,
@@ -3749,7 +3749,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#996600',
     latlngs: [
       {
         lat: 79.54454019056286,
@@ -4509,7 +4509,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 77.55095979732599,
@@ -4547,7 +4547,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 78.43749425730951,
@@ -4581,7 +4581,7 @@ export const polygonsData = [
       owner: 'Лорд',
       fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#000000',
     latlngs: [
       {
         lat: 77.85969985985487,
@@ -4606,7 +4606,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1915,
+    id: 1815,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4648,7 +4648,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1916,
+    id: 1816,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4691,7 +4691,7 @@ export const polygonsData = [
   },
 
   {
-    id: 1917,
+    id: 1817,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4737,7 +4737,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1918,
+    id: 1818,
     info: {
       name: 'Название феода',
       text: 'Описание',
