@@ -4989,9 +4989,9 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1959,
+    id: 1954,
     info: {
-      name: 'Название феода',
+      name: 'Лимонная Дорога',
       text: 'Описание',
       resources: '',
       population: '',
