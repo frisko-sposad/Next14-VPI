@@ -3567,7 +3567,7 @@ export const polygonsData = [
   },
 
   {
-    id: 85017,
+    id: 1914,
     info: {
       name: 'Название феода',
       text: 'Описание',
