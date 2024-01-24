@@ -6,9 +6,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -66,9 +65,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -129,9 +127,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -176,9 +173,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -231,9 +227,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -282,9 +277,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -317,9 +311,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -368,9 +361,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -411,9 +403,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -446,9 +437,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -481,9 +471,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -524,9 +513,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -559,9 +547,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -598,9 +585,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -641,9 +627,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -676,9 +661,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -707,9 +691,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -742,9 +725,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -789,9 +771,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -832,9 +813,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -863,9 +843,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -898,9 +877,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -945,9 +923,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -984,9 +961,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1019,9 +995,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1054,9 +1029,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1089,9 +1063,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1124,9 +1097,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1155,9 +1127,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1198,9 +1169,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1241,9 +1211,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1284,9 +1253,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1327,9 +1295,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1370,9 +1337,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1421,9 +1387,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1460,9 +1425,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1511,9 +1475,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1550,9 +1513,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1589,9 +1551,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1628,9 +1589,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1667,9 +1627,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1702,9 +1661,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1741,9 +1699,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1772,9 +1729,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1809,17 +1765,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 19616,
+    id: 1924,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#009933',
     latlngs: [
       {
         lat: 82.24389673085605,
@@ -1862,9 +1817,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1909,9 +1863,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1944,9 +1897,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -1987,9 +1939,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2026,9 +1977,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2081,9 +2031,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2124,9 +2073,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2163,9 +2111,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2198,9 +2145,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2233,9 +2179,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2268,9 +2213,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2319,9 +2263,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2362,9 +2305,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2421,9 +2363,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2480,9 +2421,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2535,9 +2475,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2582,9 +2521,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2637,9 +2575,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2688,9 +2625,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2723,9 +2659,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2766,9 +2701,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2821,9 +2755,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2860,9 +2793,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2891,9 +2823,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2926,9 +2857,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2965,9 +2895,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -2998,17 +2927,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 37056,
+    id: 1921,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#009933',
     latlngs: [
       {
         lat: 81.21478053137191,
@@ -3039,9 +2967,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -3071,119 +2998,7 @@ export const polygonsData = [
       },
     ],
   },
-  {
-    id: 37083,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 78.35826625853576,
-        lng: -93.33984375000001,
-      },
-      {
-        lat: 77.8047736991997,
-        lng: -93.29589843750001,
-      },
-      {
-        lat: 77.25458062186999,
-        lng: -97.4267578125,
-      },
-      {
-        lat: 77.37994900490189,
-        lng: -100.63476562500001,
-      },
-      {
-        lat: 78.93759964870723,
-        lng: -95.93261718750001,
-      },
-    ],
-  },
-  {
-    id: 37097,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 77.25440612269851,
-        lng: -97.4267578125,
-      },
-      {
-        lat: 77.37982819056785,
-        lng: -100.63476562500001,
-      },
-      {
-        lat: 76.80069715207047,
-        lng: -102.34863281250001,
-      },
-      {
-        lat: 75.89875872542935,
-        lng: -102.17285156250001,
-      },
-      {
-        lat: 75.54115275431806,
-        lng: -101.6455078125,
-      },
-      {
-        lat: 75.67227880209553,
-        lng: -98.39355468750001,
-      },
-    ],
-  },
-  {
-    id: 37110,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 75.67209346026591,
-        lng: -98.43750000000001,
-      },
-      {
-        lat: 74.402207767678,
-        lng: -96.89941406250001,
-      },
-      {
-        lat: 73.6278657401233,
-        lng: -97.998046875,
-      },
-      {
-        lat: 74.0316990317496,
-        lng: -101.51367187500001,
-      },
-      {
-        lat: 74.7180571017442,
-        lng: -101.95312500000001,
-      },
-      {
-        lat: 75.54098148148606,
-        lng: -101.689453125,
-      },
-    ],
-  },
+
   {
     id: 40283,
     info: {
@@ -3191,9 +3006,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -3216,17 +3030,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 40296,
+    id: 1920,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#009933',
     latlngs: [
       {
         lat: 79.695009561253,
@@ -3257,9 +3070,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -3286,302 +3098,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 46742,
+    id: 1922,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 73.61537143120091,
-        lng: -94.70214843750001,
-      },
-      {
-        lat: 73.62785192919877,
-        lng: -97.998046875,
-      },
-      {
-        lat: 74.390268610363,
-        lng: -96.85546875000001,
-      },
-      {
-        lat: 74.82186456414874,
-        lng: -90.21972656250001,
-      },
-      {
-        lat: 73.21411412051886,
-        lng: -88.1103515625,
-      },
-      {
-        lat: 73.26476423798465,
-        lng: -91.8017578125,
-      },
-    ],
-  },
-  {
-    id: 46756,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 75.27534500269223,
-        lng: -84.19921875000001,
-      },
-      {
-        lat: 75.39764354723867,
-        lng: -88.98925781250001,
-      },
-      {
-        lat: 74.76428231630868,
-        lng: -90.17578125000001,
-      },
-      {
-        lat: 73.31535028393328,
-        lng: -88.06640625000001,
-      },
-      {
-        lat: 73.11229367419192,
-        lng: -85.86914062500001,
-      },
-      {
-        lat: 72.90683658862885,
-        lng: -82.7490234375,
-      },
-      {
-        lat: 73.40340164008363,
-        lng: -78.96972656250001,
-      },
-      {
-        lat: 73.81268499243093,
-        lng: -77.12402343750001,
-      },
-      {
-        lat: 75.16316044370426,
-        lng: -79.36523437500001,
-      },
-    ],
-  },
-  {
-    id: 46770,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 76.95029616267257,
-        lng: -84.85839843750001,
-      },
-      {
-        lat: 76.44487944773027,
-        lng: -88.02246093750001,
-      },
-      {
-        lat: 75.38676703412777,
-        lng: -89.03320312500001,
-      },
-      {
-        lat: 75.16340240878357,
-        lng: -79.45312500000001,
-      },
-      {
-        lat: 75.69403177301614,
-        lng: -77.12402343750001,
-      },
-      {
-        lat: 76.81063201166509,
-        lng: -79.01367187500001,
-      },
-    ],
-  },
-  {
-    id: 46783,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 77.2544833350111,
-        lng: -97.3828125,
-      },
-      {
-        lat: 77.53252931808642,
-        lng: -95.36132812500001,
-      },
-      {
-        lat: 77.80466871802093,
-        lng: -93.25195312500001,
-      },
-      {
-        lat: 77.90636874705403,
-        lng: -89.86816406250001,
-      },
-      {
-        lat: 76.75056438202877,
-        lng: -91.23046875,
-      },
-      {
-        lat: 76.52712494318085,
-        lng: -93.55957031250001,
-      },
-      {
-        lat: 76.50665533029196,
-        lng: -97.9541015625,
-      },
-    ],
-  },
-  {
-    id: 46796,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 77.88798797401533,
-        lng: -89.86816406250001,
-      },
-      {
-        lat: 77.9339995966618,
-        lng: -86.3525390625,
-      },
-      {
-        lat: 76.97029241341527,
-        lng: -84.81445312500001,
-      },
-      {
-        lat: 76.45527062298967,
-        lng: -88.1103515625,
-      },
-      {
-        lat: 76.76060363013111,
-        lng: -91.1865234375,
-      },
-    ],
-  },
-  {
-    id: 46809,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 77.94325843348183,
-        lng: -86.396484375,
-      },
-      {
-        lat: 78.5778458326293,
-        lng: -85.86914062500001,
-      },
-      {
-        lat: 78.60391365644422,
-        lng: -78.39843750000001,
-      },
-      {
-        lat: 78.09828549442663,
-        lng: -78.31054687500001,
-      },
-      {
-        lat: 76.82091061952818,
-        lng: -79.01367187500001,
-      },
-      {
-        lat: 76.96042676490073,
-        lng: -84.85839843750001,
-      },
-    ],
-  },
-  {
-    id: 46829,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 78.5692840588116,
-        lng: -85.86914062500001,
-      },
-      {
-        lat: 79.42424923202323,
-        lng: -81.91406250000001,
-      },
-      {
-        lat: 78.82757404244104,
-        lng: -75.41015625,
-      },
-      {
-        lat: 78.08928988471807,
-        lng: -75.23437500000001,
-      },
-      {
-        lat: 78.08026010612927,
-        lng: -78.35449218750001,
-      },
-      {
-        lat: 78.60400355353823,
-        lng: -78.39843750000001,
-      },
-    ],
-  },
-  {
-    id: 46844,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
+    color: '#009933',
     latlngs: [
       {
         lat: 80.54652700025507,
@@ -3610,17 +3136,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 46866,
+    id: 1923,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#009933',
     latlngs: [
       {
         lat: 81.49225300958996,
@@ -3659,9 +3184,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -3702,9 +3226,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -3737,9 +3260,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -3788,9 +3310,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -3821,101 +3342,14 @@ export const polygonsData = [
     ],
   },
   {
-    id: 46939,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 79.16299117929765,
-        lng: -70.40039062500001,
-      },
-      {
-        lat: 78.84453017916307,
-        lng: -75.41015625,
-      },
-      {
-        lat: 78.08925521402027,
-        lng: -75.19042968750001,
-      },
-      {
-        lat: 77.23526233317959,
-        lng: -71.89453125000001,
-      },
-      {
-        lat: 76.57839155685944,
-        lng: -65.61035156250001,
-      },
-      {
-        lat: 77.78611942150329,
-        lng: -61.96289062500001,
-      },
-      {
-        lat: 78.0346282736732,
-        lng: -63.89648437500001,
-      },
-      {
-        lat: 78.64723422368273,
-        lng: -62.49023437500001,
-      },
-    ],
-  },
-  {
-    id: 46952,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 78.09819022073869,
-        lng: -75.10253906250001,
-      },
-      {
-        lat: 78.09815557557489,
-        lng: -78.35449218750001,
-      },
-      {
-        lat: 76.8207701831952,
-        lng: -79.01367187500001,
-      },
-      {
-        lat: 75.70500760344105,
-        lng: -77.03613281250001,
-      },
-      {
-        lat: 75.62877469245211,
-        lng: -73.12500000000001,
-      },
-      {
-        lat: 77.23499014072316,
-        lng: -71.93847656250001,
-      },
-    ],
-  },
-  {
     id: 80610,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -3944,9 +3378,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -3975,9 +3408,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -4010,11 +3442,10 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Драйленды',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#660000',
     latlngs: [
       {
         lat: 75.70463428987692,
@@ -4055,134 +3486,86 @@ export const polygonsData = [
     ],
   },
   {
-    id: 84962,
+    id: 85166,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
       {
-        lat: 77.23494838342089,
-        lng: -71.93847656250001,
+        lat: 78.56914117793194,
+        lng: -40.38574218750001,
       },
       {
-        lat: 75.61774503760824,
-        lng: -73.16894531250001,
+        lat: 78.49926930555661,
+        lng: -43.505859375,
       },
       {
-        lat: 74.50831421558178,
-        lng: -67.45605468750001,
+        lat: 77.56107490105406,
+        lng: -43.76953125,
       },
       {
-        lat: 75.3201210180262,
-        lng: -65.25878906250001,
+        lat: 77.32225112343066,
+        lng: -40.95703125000001,
       },
       {
-        lat: 76.57812348011328,
-        lng: -65.61035156250001,
+        lat: 77.87881813552572,
+        lng: -38.49609375000001,
       },
     ],
   },
   {
-    id: 84980,
+    id: 2000,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Горный путь',
+      text: 'Разбойники',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: '-',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#333333',
     latlngs: [
       {
-        lat: 76.55759324079297,
-        lng: -65.56640625000001,
+        lat: 75.74822026283248,
+        lng: -48.55957031250001,
       },
       {
-        lat: 75.33135623566037,
-        lng: -65.30273437500001,
+        lat: 74.9367032566266,
+        lng: -45.966796875,
       },
       {
-        lat: 74.6019668081069,
-        lng: -61.78710937500001,
+        lat: 75.79135137857668,
+        lng: -39.15527343750001,
       },
       {
-        lat: 75.19708031119522,
-        lng: -56.953125,
+        lat: 76.40364125318139,
+        lng: -39.99023437500001,
       },
       {
-        lat: 75.6395669129117,
-        lng: -60.33691406250001,
+        lat: 76.84072877212634,
+        lng: -39.99023437500001,
       },
       {
-        lat: 76.28950512123907,
-        lng: -60.20507812500001,
+        lat: 76.74029289691664,
+        lng: -42.67089843750001,
       },
       {
-        lat: 77.3796722007574,
-        lng: -62.92968750000001,
+        lat: 77.1178960481708,
+        lng: -46.845703125,
+      },
+      {
+        lat: 76.36221560800855,
+        lng: -48.91113281250001,
       },
     ],
   },
-  {
-    id: 84999,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 78.01653403976235,
-        lng: -63.94042968750001,
-      },
-      {
-        lat: 77.79551221822568,
-        lng: -61.96289062500001,
-      },
-      {
-        lat: 77.38957277192071,
-        lng: -62.97363281250001,
-      },
-      {
-        lat: 77.35114162290897,
-        lng: -58.00781250000001,
-      },
-      {
-        lat: 78.1795431488478,
-        lng: -56.46972656250001,
-      },
-      {
-        lat: 78.31383403780859,
-        lng: -53.83300781250001,
-      },
-      {
-        lat: 78.81040909168317,
-        lng: -53.78906250000001,
-      },
-      {
-        lat: 79.1463972279422,
-        lng: -60.86425781250001,
-      },
-      {
-        lat: 78.63860519307822,
-        lng: -62.53417968750001,
-      },
-    ],
-  },
+
   {
     id: 85017,
     info: {
@@ -4190,9 +3573,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -4241,9 +3623,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -4276,9 +3657,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -4320,45 +3700,7 @@ export const polygonsData = [
       },
     ],
   },
-  {
-    id: 85073,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 79.2044431636091,
-        lng: -31.772460937500004,
-      },
-      {
-        lat: 80.43756327238778,
-        lng: -33.04687500000001,
-      },
-      {
-        lat: 80.40099852593376,
-        lng: -35.55175781250001,
-      },
-      {
-        lat: 80.39365378803937,
-        lng: -38.80371093750001,
-      },
-      {
-        lat: 79.4565369853284,
-        lng: -40.34179687500001,
-      },
-      {
-        lat: 78.97988446515534,
-        lng: -35.20019531250001,
-      },
-    ],
-  },
+
   {
     id: 85086,
     info: {
@@ -4366,9 +3708,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -4405,9 +3746,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -4442,17 +3782,615 @@ export const polygonsData = [
     ],
   },
   {
-    id: 85114,
+    id: 1936,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#CCCC33',
+    latlngs: [
+      {
+        lat: 78.35826625853576,
+        lng: -93.33984375000001,
+      },
+      {
+        lat: 77.8047736991997,
+        lng: -93.29589843750001,
+      },
+      {
+        lat: 77.25458062186999,
+        lng: -97.4267578125,
+      },
+      {
+        lat: 77.37994900490189,
+        lng: -100.63476562500001,
+      },
+      {
+        lat: 78.93759964870723,
+        lng: -95.93261718750001,
+      },
+    ],
+  },
+  {
+    id: 1937,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Лорд',
+      fortifications: '-',
+    },
+    color: '#CCCC33',
+    latlngs: [
+      {
+        lat: 77.25440612269851,
+        lng: -97.4267578125,
+      },
+      {
+        lat: 77.37982819056785,
+        lng: -100.63476562500001,
+      },
+      {
+        lat: 76.80069715207047,
+        lng: -102.34863281250001,
+      },
+      {
+        lat: 75.89875872542935,
+        lng: -102.17285156250001,
+      },
+      {
+        lat: 75.54115275431806,
+        lng: -101.6455078125,
+      },
+      {
+        lat: 75.67227880209553,
+        lng: -98.39355468750001,
+      },
+    ],
+  },
+  {
+    id: 1938,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Лорд',
+      fortifications: '-',
+    },
+    color: '#CCCC33',
+    latlngs: [
+      {
+        lat: 75.67209346026591,
+        lng: -98.43750000000001,
+      },
+      {
+        lat: 74.402207767678,
+        lng: -96.89941406250001,
+      },
+      {
+        lat: 73.6278657401233,
+        lng: -97.998046875,
+      },
+      {
+        lat: 74.0316990317496,
+        lng: -101.51367187500001,
+      },
+      {
+        lat: 74.7180571017442,
+        lng: -101.95312500000001,
+      },
+      {
+        lat: 75.54098148148606,
+        lng: -101.689453125,
+      },
+    ],
+  },
+  {
+    id: 1939,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Лорд',
+      fortifications: '-',
+    },
+    color: '#CCCC33',
+    latlngs: [
+      {
+        lat: 77.2544833350111,
+        lng: -97.3828125,
+      },
+      {
+        lat: 77.53252931808642,
+        lng: -95.36132812500001,
+      },
+      {
+        lat: 77.80466871802093,
+        lng: -93.25195312500001,
+      },
+      {
+        lat: 77.90636874705403,
+        lng: -89.86816406250001,
+      },
+      {
+        lat: 76.75056438202877,
+        lng: -91.23046875,
+      },
+      {
+        lat: 76.52712494318085,
+        lng: -93.55957031250001,
+      },
+      {
+        lat: 76.50665533029196,
+        lng: -97.9541015625,
+      },
+    ],
+  },
+  {
+    id: 1941,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 77.88798797401533,
+        lng: -89.86816406250001,
+      },
+      {
+        lat: 77.9339995966618,
+        lng: -86.3525390625,
+      },
+      {
+        lat: 76.97029241341527,
+        lng: -84.81445312500001,
+      },
+      {
+        lat: 76.45527062298967,
+        lng: -88.1103515625,
+      },
+      {
+        lat: 76.76060363013111,
+        lng: -91.1865234375,
+      },
+    ],
+  },
+  {
+    id: 1942,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 73.61537143120091,
+        lng: -94.70214843750001,
+      },
+      {
+        lat: 73.62785192919877,
+        lng: -97.998046875,
+      },
+      {
+        lat: 74.390268610363,
+        lng: -96.85546875000001,
+      },
+      {
+        lat: 74.82186456414874,
+        lng: -90.21972656250001,
+      },
+      {
+        lat: 73.21411412051886,
+        lng: -88.1103515625,
+      },
+      {
+        lat: 73.26476423798465,
+        lng: -91.8017578125,
+      },
+    ],
+  },
+  {
+    id: 1943,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 75.27534500269223,
+        lng: -84.19921875000001,
+      },
+      {
+        lat: 75.39764354723867,
+        lng: -88.98925781250001,
+      },
+      {
+        lat: 74.76428231630868,
+        lng: -90.17578125000001,
+      },
+      {
+        lat: 73.31535028393328,
+        lng: -88.06640625000001,
+      },
+      {
+        lat: 73.11229367419192,
+        lng: -85.86914062500001,
+      },
+      {
+        lat: 72.90683658862885,
+        lng: -82.7490234375,
+      },
+      {
+        lat: 73.40340164008363,
+        lng: -78.96972656250001,
+      },
+      {
+        lat: 73.81268499243093,
+        lng: -77.12402343750001,
+      },
+      {
+        lat: 75.16316044370426,
+        lng: -79.36523437500001,
+      },
+    ],
+  },
+  {
+    id: 1944,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 76.95029616267257,
+        lng: -84.85839843750001,
+      },
+      {
+        lat: 76.44487944773027,
+        lng: -88.02246093750001,
+      },
+      {
+        lat: 75.38676703412777,
+        lng: -89.03320312500001,
+      },
+      {
+        lat: 75.16340240878357,
+        lng: -79.45312500000001,
+      },
+      {
+        lat: 75.69403177301614,
+        lng: -77.12402343750001,
+      },
+      {
+        lat: 76.81063201166509,
+        lng: -79.01367187500001,
+      },
+    ],
+  },
+
+  {
+    id: 1945,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 77.94325843348183,
+        lng: -86.396484375,
+      },
+      {
+        lat: 78.5778458326293,
+        lng: -85.86914062500001,
+      },
+      {
+        lat: 78.60391365644422,
+        lng: -78.39843750000001,
+      },
+      {
+        lat: 78.09828549442663,
+        lng: -78.31054687500001,
+      },
+      {
+        lat: 76.82091061952818,
+        lng: -79.01367187500001,
+      },
+      {
+        lat: 76.96042676490073,
+        lng: -84.85839843750001,
+      },
+    ],
+  },
+  {
+    id: 1946,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 78.5692840588116,
+        lng: -85.86914062500001,
+      },
+      {
+        lat: 79.42424923202323,
+        lng: -81.91406250000001,
+      },
+      {
+        lat: 78.82757404244104,
+        lng: -75.41015625,
+      },
+      {
+        lat: 78.08928988471807,
+        lng: -75.23437500000001,
+      },
+      {
+        lat: 78.08026010612927,
+        lng: -78.35449218750001,
+      },
+      {
+        lat: 78.60400355353823,
+        lng: -78.39843750000001,
+      },
+    ],
+  },
+  {
+    id: 1947,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 79.16299117929765,
+        lng: -70.40039062500001,
+      },
+      {
+        lat: 78.84453017916307,
+        lng: -75.41015625,
+      },
+      {
+        lat: 78.08925521402027,
+        lng: -75.19042968750001,
+      },
+      {
+        lat: 77.23526233317959,
+        lng: -71.89453125000001,
+      },
+      {
+        lat: 76.57839155685944,
+        lng: -65.61035156250001,
+      },
+      {
+        lat: 77.78611942150329,
+        lng: -61.96289062500001,
+      },
+      {
+        lat: 78.0346282736732,
+        lng: -63.89648437500001,
+      },
+      {
+        lat: 78.64723422368273,
+        lng: -62.49023437500001,
+      },
+    ],
+  },
+  {
+    id: 1948,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 78.09819022073869,
+        lng: -75.10253906250001,
+      },
+      {
+        lat: 78.09815557557489,
+        lng: -78.35449218750001,
+      },
+      {
+        lat: 76.8207701831952,
+        lng: -79.01367187500001,
+      },
+      {
+        lat: 75.70500760344105,
+        lng: -77.03613281250001,
+      },
+      {
+        lat: 75.62877469245211,
+        lng: -73.12500000000001,
+      },
+      {
+        lat: 77.23499014072316,
+        lng: -71.93847656250001,
+      },
+    ],
+  },
+  {
+    id: 1949,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 77.23494838342089,
+        lng: -71.93847656250001,
+      },
+      {
+        lat: 75.61774503760824,
+        lng: -73.16894531250001,
+      },
+      {
+        lat: 74.50831421558178,
+        lng: -67.45605468750001,
+      },
+      {
+        lat: 75.3201210180262,
+        lng: -65.25878906250001,
+      },
+      {
+        lat: 76.57812348011328,
+        lng: -65.61035156250001,
+      },
+    ],
+  },
+  {
+    id: 1950,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 76.55759324079297,
+        lng: -65.56640625000001,
+      },
+      {
+        lat: 75.33135623566037,
+        lng: -65.30273437500001,
+      },
+      {
+        lat: 74.6019668081069,
+        lng: -61.78710937500001,
+      },
+      {
+        lat: 75.19708031119522,
+        lng: -56.953125,
+      },
+      {
+        lat: 75.6395669129117,
+        lng: -60.33691406250001,
+      },
+      {
+        lat: 76.28950512123907,
+        lng: -60.20507812500001,
+      },
+      {
+        lat: 77.3796722007574,
+        lng: -62.92968750000001,
+      },
+    ],
+  },
+  {
+    id: 1951,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
+    latlngs: [
+      {
+        lat: 78.01653403976235,
+        lng: -63.94042968750001,
+      },
+      {
+        lat: 77.79551221822568,
+        lng: -61.96289062500001,
+      },
+      {
+        lat: 77.38957277192071,
+        lng: -62.97363281250001,
+      },
+      {
+        lat: 77.35114162290897,
+        lng: -58.00781250000001,
+      },
+      {
+        lat: 78.1795431488478,
+        lng: -56.46972656250001,
+      },
+      {
+        lat: 78.31383403780859,
+        lng: -53.83300781250001,
+      },
+      {
+        lat: 78.81040909168317,
+        lng: -53.78906250000001,
+      },
+      {
+        lat: 79.1463972279422,
+        lng: -60.86425781250001,
+      },
+      {
+        lat: 78.63860519307822,
+        lng: -62.53417968750001,
+      },
+    ],
+  },
+  {
+    id: 1952,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Кворгилы',
+      fortifications: '-',
+    },
+    color: '#9900CC',
     latlngs: [
       {
         lat: 75.62876079400935,
@@ -4481,173 +4419,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 85127,
+    id: 1953,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Кворгилы',
+      fortifications: '-',
     },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 75.18579106910192,
-        lng: -56.90917968750001,
-      },
-      {
-        lat: 76.65935242476053,
-        lng: -55.45898437500001,
-      },
-      {
-        lat: 76.37254856932415,
-        lng: -48.91113281250001,
-      },
-      {
-        lat: 75.73733900297759,
-        lng: -48.60351562500001,
-      },
-      {
-        lat: 74.425916549834,
-        lng: -51.98730468750001,
-      },
-    ],
-  },
-  {
-    id: 85140,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 74.4256797613557,
-        lng: -52.03125,
-      },
-      {
-        lat: 75.18565326345549,
-        lng: -56.953125,
-      },
-      {
-        lat: 74.61337655419385,
-        lng: -61.78710937500001,
-      },
-      {
-        lat: 73.41595318785988,
-        lng: -59.63378906250001,
-      },
-      {
-        lat: 73.54083136450585,
-        lng: -57.91992187500001,
-      },
-      {
-        lat: 73.35306496693904,
-        lng: -56.46972656250001,
-      },
-      {
-        lat: 73.40342363218103,
-        lng: -53.83300781250001,
-      },
-    ],
-  },
-  {
-    id: 85153,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 74.61341184075545,
-        lng: -61.74316406250001,
-      },
-      {
-        lat: 75.31989219533543,
-        lng: -65.21484375000001,
-      },
-      {
-        lat: 74.50816091081786,
-        lng: -67.54394531250001,
-      },
-      {
-        lat: 73.25211967756321,
-        lng: -68.90625000000001,
-      },
-      {
-        lat: 72.84212848543314,
-        lng: -66.48925781250001,
-      },
-      {
-        lat: 72.91969714114558,
-        lng: -63.28125000000001,
-      },
-      {
-        lat: 73.4284755461729,
-        lng: -59.54589843750001,
-      },
-    ],
-  },
-  {
-    id: 85166,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 78.56914117793194,
-        lng: -40.38574218750001,
-      },
-      {
-        lat: 78.49926930555661,
-        lng: -43.505859375,
-      },
-      {
-        lat: 77.56107490105406,
-        lng: -43.76953125,
-      },
-      {
-        lat: 77.32225112343066,
-        lng: -40.95703125000001,
-      },
-      {
-        lat: 77.87881813552572,
-        lng: -38.49609375000001,
-      },
-    ],
-  },
-  {
-    id: 85182,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
+    color: '#9900CC',
     latlngs: [
       {
         lat: 78.13444712824096,
@@ -4684,189 +4465,40 @@ export const polygonsData = [
     ],
   },
   {
-    id: 85215,
+    id: 1954,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Кворгилы',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#9900CC',
     latlngs: [
       {
-        lat: 79.31885867938784,
-        lng: -38.54003906250001,
+        lat: 75.18579106910192,
+        lng: -56.90917968750001,
       },
       {
-        lat: 78.55173723485781,
-        lng: -40.38574218750001,
+        lat: 76.65935242476053,
+        lng: -55.45898437500001,
       },
       {
-        lat: 77.86049473722218,
-        lng: -38.49609375000001,
-      },
-      {
-        lat: 77.76769212738867,
-        lng: -35.81542968750001,
-      },
-      {
-        lat: 78.48176600181367,
-        lng: -29.619140625000004,
-      },
-      {
-        lat: 78.99653616391633,
-        lng: -27.729492187500004,
-      },
-      {
-        lat: 79.21250224765865,
-        lng: -31.816406250000004,
-      },
-      {
-        lat: 78.98814389979654,
-        lng: -35.20019531250001,
-      },
-    ],
-  },
-  {
-    id: 85231,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 79.11344332056433,
-        lng: -24.741210937500004,
-      },
-      {
-        lat: 79.86652372135563,
-        lng: -25.224609375000004,
-      },
-      {
-        lat: 80.12605807123067,
-        lng: -27.202148437500004,
-      },
-      {
-        lat: 80.61112784576137,
-        lng: -30.234375000000004,
-      },
-      {
-        lat: 80.44487010341835,
-        lng: -33.04687500000001,
-      },
-      {
-        lat: 79.21258609237555,
-        lng: -31.816406250000004,
-      },
-      {
-        lat: 79.01342313665057,
-        lng: -27.773437500000004,
-      },
-    ],
-  },
-  {
-    id: 85244,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 75.74822026283248,
-        lng: -48.55957031250001,
-      },
-      {
-        lat: 74.9367032566266,
-        lng: -45.966796875,
-      },
-      {
-        lat: 75.79135137857668,
-        lng: -39.15527343750001,
-      },
-      {
-        lat: 76.40364125318139,
-        lng: -39.99023437500001,
-      },
-      {
-        lat: 76.84072877212634,
-        lng: -39.99023437500001,
-      },
-      {
-        lat: 76.74029289691664,
-        lng: -42.67089843750001,
-      },
-      {
-        lat: 77.1178960481708,
-        lng: -46.845703125,
-      },
-      {
-        lat: 76.36221560800855,
+        lat: 76.37254856932415,
         lng: -48.91113281250001,
       },
-    ],
-  },
-  {
-    id: 85257,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
       {
-        lat: 75.73713206706272,
-        lng: -48.55957031250001,
+        lat: 75.73733900297759,
+        lng: -48.60351562500001,
       },
       {
-        lat: 75.10680742798513,
-        lng: -50.2294921875,
-      },
-      {
-        lat: 74.4493293530939,
-        lng: -52.03125,
-      },
-      {
-        lat: 73.40336565295407,
-        lng: -53.83300781250001,
-      },
-      {
-        lat: 72.95842557781432,
-        lng: -51.416015625,
-      },
-      {
-        lat: 72.68588576351746,
-        lng: -47.63671875000001,
-      },
-      {
-        lat: 73.54081549899827,
-        lng: -43.41796875000001,
-      },
-      {
-        lat: 74.92497970319643,
-        lng: -45.9228515625,
+        lat: 74.425916549834,
+        lng: -51.98730468750001,
       },
     ],
   },
+
   {
     id: 94884,
     info: {
@@ -4874,9 +4506,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -4913,9 +4544,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -4948,9 +4578,8 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Лорд',
+      fortifications: '-',
     },
     color: '#3388ff',
     latlngs: [
@@ -4977,17 +4606,147 @@ export const polygonsData = [
     ],
   },
   {
-    id: 94925,
+    id: 1955,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Драйленды',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#660000',
+    latlngs: [
+      {
+        lat: 74.4256797613557,
+        lng: -52.03125,
+      },
+      {
+        lat: 75.18565326345549,
+        lng: -56.953125,
+      },
+      {
+        lat: 74.61337655419385,
+        lng: -61.78710937500001,
+      },
+      {
+        lat: 73.41595318785988,
+        lng: -59.63378906250001,
+      },
+      {
+        lat: 73.54083136450585,
+        lng: -57.91992187500001,
+      },
+      {
+        lat: 73.35306496693904,
+        lng: -56.46972656250001,
+      },
+      {
+        lat: 73.40342363218103,
+        lng: -53.83300781250001,
+      },
+    ],
+  },
+  {
+    id: 1956,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Драйленды',
+      fortifications: '-',
+    },
+    color: '#660000',
+    latlngs: [
+      {
+        lat: 74.61341184075545,
+        lng: -61.74316406250001,
+      },
+      {
+        lat: 75.31989219533543,
+        lng: -65.21484375000001,
+      },
+      {
+        lat: 74.50816091081786,
+        lng: -67.54394531250001,
+      },
+      {
+        lat: 73.25211967756321,
+        lng: -68.90625000000001,
+      },
+      {
+        lat: 72.84212848543314,
+        lng: -66.48925781250001,
+      },
+      {
+        lat: 72.91969714114558,
+        lng: -63.28125000000001,
+      },
+      {
+        lat: 73.4284755461729,
+        lng: -59.54589843750001,
+      },
+    ],
+  },
+
+  {
+    id: 1957,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Драйленды',
+      fortifications: '-',
+    },
+    color: '#660000',
+    latlngs: [
+      {
+        lat: 75.73713206706272,
+        lng: -48.55957031250001,
+      },
+      {
+        lat: 75.10680742798513,
+        lng: -50.2294921875,
+      },
+      {
+        lat: 74.4493293530939,
+        lng: -52.03125,
+      },
+      {
+        lat: 73.40336565295407,
+        lng: -53.83300781250001,
+      },
+      {
+        lat: 72.95842557781432,
+        lng: -51.416015625,
+      },
+      {
+        lat: 72.68588576351746,
+        lng: -47.63671875000001,
+      },
+      {
+        lat: 73.54081549899827,
+        lng: -43.41796875000001,
+      },
+      {
+        lat: 74.92497970319643,
+        lng: -45.9228515625,
+      },
+    ],
+  },
+  {
+    id: 1958,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Драйленды',
+      fortifications: '-',
+    },
+    color: '#660000',
     latlngs: [
       {
         lat: 74.54337086637643,
@@ -5012,103 +4771,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 94938,
+    id: 1959,
     info: {
-      name: 'Название феода',
+      name: 'Солёное побережье',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Гаргалены',
+      fortifications: '-',
     },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 75.39775295469143,
-        lng: -42.40722656250001,
-      },
-      {
-        lat: 75.78044563131394,
-        lng: -39.2431640625,
-      },
-      {
-        lat: 75.45297990913704,
-        lng: -34.93652343750001,
-      },
-      {
-        lat: 74.31934683538614,
-        lng: -34.93652343750001,
-      },
-      {
-        lat: 74.2954855692531,
-        lng: -37.79296875000001,
-      },
-      {
-        lat: 74.54334101940705,
-        lng: -40.64941406250001,
-      },
-    ],
-  },
-  {
-    id: 94952,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 75.44196074410665,
-        lng: -34.98046875000001,
-      },
-      {
-        lat: 75.37567052891298,
-        lng: -29.750976562500004,
-      },
-      {
-        lat: 76.268613238617,
-        lng: -28.388671875000004,
-      },
-      {
-        lat: 76.12173178942484,
-        lng: -25.2685546875,
-      },
-      {
-        lat: 74.70642403602275,
-        lng: -29.047851562500004,
-      },
-      {
-        lat: 73.59079791512103,
-        lng: -29.970703125000004,
-      },
-      {
-        lat: 73.89822519397603,
-        lng: -33.31054687500001,
-      },
-      {
-        lat: 74.33107800555764,
-        lng: -34.93652343750001,
-      },
-    ],
-  },
-  {
-    id: 94965,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
+    color: '#6600FF',
     latlngs: [
       {
         lat: 74.69482482106609,
@@ -5141,138 +4813,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 94979,
+    id: 1955,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Гаргалены',
+      fortifications: '-',
     },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 76.89068673242029,
-        lng: -27.773437500000004,
-      },
-      {
-        lat: 77.16687251226033,
-        lng: -35.63964843750001,
-      },
-      {
-        lat: 76.83079545103274,
-        lng: -39.99023437500001,
-      },
-      {
-        lat: 76.40366922579108,
-        lng: -37.22167968750001,
-      },
-      {
-        lat: 76.02675808407466,
-        lng: -31.992187500000004,
-      },
-      {
-        lat: 76.26866308287069,
-        lng: -28.344726562500004,
-      },
-    ],
-  },
-  {
-    id: 94992,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 75.81294445208046,
-        lng: -39.19921875000001,
-      },
-      {
-        lat: 76.40359847143384,
-        lng: -39.94628906250001,
-      },
-      {
-        lat: 76.83073963700203,
-        lng: -39.99023437500001,
-      },
-      {
-        lat: 76.39323756183555,
-        lng: -37.17773437500001,
-      },
-      {
-        lat: 76.02670906920856,
-        lng: -31.992187500000004,
-      },
-      {
-        lat: 76.23733425601692,
-        lng: -28.388671875000004,
-      },
-      {
-        lat: 75.39790471208863,
-        lng: -29.750976562500004,
-      },
-      {
-        lat: 75.45317329890058,
-        lng: -34.98046875000001,
-      },
-    ],
-  },
-  {
-    id: 105351,
-    info: {
-      name: 'Солнечная дорога',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Мартеллы',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#FFCC00',
-    latlngs: [
-      {
-        lat: 76.90058518878449,
-        lng: 2.9443359375,
-      },
-      {
-        lat: 77.07815624820347,
-        lng: 7.822265625000001,
-      },
-      {
-        lat: 75.66066991188531,
-        lng: 8.129882812500002,
-      },
-      {
-        lat: 75.45311176606687,
-        lng: 6.8115234375,
-      },
-      {
-        lat: 75.7583684642985,
-        lng: 4.218750000000001,
-      },
-    ],
-  },
-  {
-    id: 105364,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
+    color: '#6600FF',
     latlngs: [
       {
         lat: 74.56669895644306,
@@ -5317,17 +4867,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105377,
+    id: 1956,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Гаргалены',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#6600FF',
     latlngs: [
       {
         lat: 73.89824072418838,
@@ -5360,17 +4909,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105390,
+    id: 1957,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Гаргалены',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#6600FF',
     latlngs: [
       {
         lat: 74.98215912601852,
@@ -5395,56 +4943,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105403,
+    id: 1958,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Гаргалены',
+      fortifications: '-',
     },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 76.18494699027863,
-        lng: -10.634765625,
-      },
-      {
-        lat: 76.36223376204237,
-        lng: -14.985351562500002,
-      },
-      {
-        lat: 76.1954250314322,
-        lng: -20.566406250000004,
-      },
-      {
-        lat: 75.2754357363522,
-        lng: -20.698242187500004,
-      },
-      {
-        lat: 75.0050414247875,
-        lng: -16.215820312500004,
-      },
-      {
-        lat: 75.56309710168856,
-        lng: -13.491210937500002,
-      },
-    ],
-  },
-  {
-    id: 105417,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
+    color: '#6600FF',
     latlngs: [
       {
         lat: 75.30866614173515,
@@ -5481,52 +4989,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105435,
+    id: 1959,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Гаргалены',
+      fortifications: '-',
     },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 77.15710028908765,
-        lng: -7.426757812500001,
-      },
-      {
-        lat: 77.11795846851146,
-        lng: -10.9423828125,
-      },
-      {
-        lat: 76.22697239690646,
-        lng: -10.72265625,
-      },
-      {
-        lat: 76.12192654088857,
-        lng: -2.5048828125000004,
-      },
-      {
-        lat: 76.86080564272065,
-        lng: -2.2412109375000004,
-      },
-    ],
-  },
-  {
-    id: 105451,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
+    color: '#6600FF',
     latlngs: [
       {
         lat: 75.86658920368352,
@@ -5551,17 +5023,257 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105469,
+    id: 1961,
+    info: {
+      name: 'Южный Дар Богов',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Вейты',
+      fortifications: '-',
+    },
+    color: '#339933',
+    latlngs: [
+      {
+        lat: 76.18494699027863,
+        lng: -10.634765625,
+      },
+      {
+        lat: 76.36223376204237,
+        lng: -14.985351562500002,
+      },
+      {
+        lat: 76.1954250314322,
+        lng: -20.566406250000004,
+      },
+      {
+        lat: 75.2754357363522,
+        lng: -20.698242187500004,
+      },
+      {
+        lat: 75.0050414247875,
+        lng: -16.215820312500004,
+      },
+      {
+        lat: 75.56309710168856,
+        lng: -13.491210937500002,
+      },
+    ],
+  },
+  {
+    id: 1962,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Гаргалены',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#6600FF',
+    latlngs: [
+      {
+        lat: 77.15710028908765,
+        lng: -7.426757812500001,
+      },
+      {
+        lat: 77.11795846851146,
+        lng: -10.9423828125,
+      },
+      {
+        lat: 76.22697239690646,
+        lng: -10.72265625,
+      },
+      {
+        lat: 76.12192654088857,
+        lng: -2.5048828125000004,
+      },
+      {
+        lat: 76.86080564272065,
+        lng: -2.2412109375000004,
+      },
+    ],
+  },
+
+  {
+    id: 1963,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Вейты',
+      fortifications: '-',
+    },
+    color: '#339933',
+    latlngs: [
+      {
+        lat: 75.39775295469143,
+        lng: -42.40722656250001,
+      },
+      {
+        lat: 75.78044563131394,
+        lng: -39.2431640625,
+      },
+      {
+        lat: 75.45297990913704,
+        lng: -34.93652343750001,
+      },
+      {
+        lat: 74.31934683538614,
+        lng: -34.93652343750001,
+      },
+      {
+        lat: 74.2954855692531,
+        lng: -37.79296875000001,
+      },
+      {
+        lat: 74.54334101940705,
+        lng: -40.64941406250001,
+      },
+    ],
+  },
+  {
+    id: 1964,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Вейты',
+      fortifications: '-',
+    },
+    color: '#339933',
+    latlngs: [
+      {
+        lat: 75.44196074410665,
+        lng: -34.98046875000001,
+      },
+      {
+        lat: 75.37567052891298,
+        lng: -29.750976562500004,
+      },
+      {
+        lat: 76.268613238617,
+        lng: -28.388671875000004,
+      },
+      {
+        lat: 76.12173178942484,
+        lng: -25.2685546875,
+      },
+      {
+        lat: 74.70642403602275,
+        lng: -29.047851562500004,
+      },
+      {
+        lat: 73.59079791512103,
+        lng: -29.970703125000004,
+      },
+      {
+        lat: 73.89822519397603,
+        lng: -33.31054687500001,
+      },
+      {
+        lat: 74.33107800555764,
+        lng: -34.93652343750001,
+      },
+    ],
+  },
+  {
+    id: 1965,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Вейты',
+      fortifications: '-',
+    },
+    color: '#339933',
+    latlngs: [
+      {
+        lat: 76.89068673242029,
+        lng: -27.773437500000004,
+      },
+      {
+        lat: 77.16687251226033,
+        lng: -35.63964843750001,
+      },
+      {
+        lat: 76.83079545103274,
+        lng: -39.99023437500001,
+      },
+      {
+        lat: 76.40366922579108,
+        lng: -37.22167968750001,
+      },
+      {
+        lat: 76.02675808407466,
+        lng: -31.992187500000004,
+      },
+      {
+        lat: 76.26866308287069,
+        lng: -28.344726562500004,
+      },
+    ],
+  },
+  {
+    id: 1966,
+    info: {
+      name: 'Название феода',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Вейты',
+      fortifications: '-',
+    },
+    color: '#339933',
+    latlngs: [
+      {
+        lat: 75.81294445208046,
+        lng: -39.19921875000001,
+      },
+      {
+        lat: 76.40359847143384,
+        lng: -39.94628906250001,
+      },
+      {
+        lat: 76.83073963700203,
+        lng: -39.99023437500001,
+      },
+      {
+        lat: 76.39323756183555,
+        lng: -37.17773437500001,
+      },
+      {
+        lat: 76.02670906920856,
+        lng: -31.992187500000004,
+      },
+      {
+        lat: 76.23733425601692,
+        lng: -28.388671875000004,
+      },
+      {
+        lat: 75.39790471208863,
+        lng: -29.750976562500004,
+      },
+      {
+        lat: 75.45317329890058,
+        lng: -34.98046875000001,
+      },
+    ],
+  },
+  {
+    id: 1967,
+    info: {
+      name: 'Западный Дар Богов',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Вейты',
+      fortifications: '-',
+    },
+    color: '#339933',
     latlngs: [
       {
         lat: 77.18635622170532,
@@ -5590,17 +5302,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105482,
+    id: 1968,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Вейты',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#339933',
     latlngs: [
       {
         lat: 77.87871084263881,
@@ -5633,17 +5344,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105497,
+    id: 1969,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Вейты',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#339933',
     latlngs: [
       {
         lat: 77.14747333554068,
@@ -5671,225 +5381,18 @@ export const polygonsData = [
       },
     ],
   },
+
   {
-    id: 105510,
+    id: 1960,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Вейты',
+      fortifications: '-',
     },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 78.3671603528527,
-        lng: -22.6318359375,
-      },
-      {
-        lat: 79.10502139386922,
-        lng: -24.741210937500004,
-      },
-      {
-        lat: 79.00487138156913,
-        lng: -27.729492187500004,
-      },
-      {
-        lat: 78.47299750433466,
-        lng: -29.619140625000004,
-      },
-      {
-        lat: 77.56112465465894,
-        lng: -24.433593750000004,
-      },
-      {
-        lat: 77.87889162326464,
-        lng: -21.796875000000004,
-      },
-    ],
-  },
-  {
-    id: 105526,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 79.49658420881323,
-        lng: -17.314453125000004,
-      },
-      {
-        lat: 79.50462148714018,
-        lng: -20.170898437500004,
-      },
-      {
-        lat: 79.88194987360338,
-        lng: -21.225585937500004,
-      },
-      {
-        lat: 80.19355230028998,
-        lng: -23.291015625000004,
-      },
-      {
-        lat: 79.87419601875318,
-        lng: -25.2685546875,
-      },
-      {
-        lat: 79.10504917630382,
-        lng: -24.78515625,
-      },
-      {
-        lat: 78.36724503525096,
-        lng: -22.6318359375,
-      },
-      {
-        lat: 78.61269997734402,
-        lng: -18.720703125000004,
-      },
-    ],
-  },
-  {
-    id: 105542,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 79.36763491352855,
-        lng: -12.1728515625,
-      },
-      {
-        lat: 79.40816907239486,
-        lng: -14.23828125,
-      },
-      {
-        lat: 79.31896376123782,
-        lng: -15.820312500000002,
-      },
-      {
-        lat: 79.50458068687415,
-        lng: -17.314453125000004,
-      },
-      {
-        lat: 78.61266128168891,
-        lng: -18.720703125000004,
-      },
-      {
-        lat: 78.3317008538254,
-        lng: -14.677734375000002,
-      },
-      {
-        lat: 78.36719987138088,
-        lng: -11.689453125000002,
-      },
-    ],
-  },
-  {
-    id: 105555,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 78.98817866155817,
-        lng: -5.712890625000001,
-      },
-      {
-        lat: 79.31890278794314,
-        lng: -7.031250000000001,
-      },
-      {
-        lat: 79.5843112785404,
-        lng: -9.184570312500002,
-      },
-      {
-        lat: 79.37571940883515,
-        lng: -12.216796875000002,
-      },
-      {
-        lat: 78.37600120529588,
-        lng: -11.645507812500002,
-      },
-      {
-        lat: 77.91574665001997,
-        lng: -3.6035156250000004,
-      },
-      {
-        lat: 78.6732200014528,
-        lng: -4.526367187500001,
-      },
-    ],
-  },
-  {
-    id: 105572,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 78.68183132771038,
-        lng: -4.482421875000001,
-      },
-      {
-        lat: 77.91569975879176,
-        lng: -3.5156250000000004,
-      },
-      {
-        lat: 77.8141095204523,
-        lng: -1.6259765625,
-      },
-      {
-        lat: 78.09835767096256,
-        lng: 1.2304687500000002,
-      },
-      {
-        lat: 78.77629805144207,
-        lng: 0.087890625,
-      },
-    ],
-  },
-  {
-    id: 105593,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
+    color: '#339933',
     latlngs: [
       {
         lat: 78.37595466462753,
@@ -5922,17 +5425,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105606,
+    id: 1971,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Вейты',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#339933',
     latlngs: [
       {
         lat: 78.36709119510981,
@@ -5961,17 +5463,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105619,
+    id: 1972,
     info: {
       name: 'Название феода',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Вейты',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#339933',
     latlngs: [
       {
         lat: 77.8140267808984,
@@ -6008,17 +5509,16 @@ export const polygonsData = [
     ],
   },
   {
-    id: 105632,
+    id: 1973,
     info: {
-      name: 'Название феода',
+      name: 'Восточный Дар Богов',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Вейты',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#339933',
     latlngs: [
       {
         lat: 77.11796158952069,
@@ -6047,150 +5547,310 @@ export const polygonsData = [
     ],
   },
   {
-    id: 134713,
+    id: 1974,
     info: {
-      name: 'Солнечные горы',
+      name: 'Серое побережье',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Мартеллы',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Джордейны',
+      fortifications: '-',
     },
-    color: '#FFCC00',
+    color: '#CC0000',
     latlngs: [
       {
-        lat: 76.9306401389715,
-        lng: 2.9003906250000004,
+        lat: 79.2044431636091,
+        lng: -31.772460937500004,
       },
       {
-        lat: 77.81403416838106,
-        lng: -1.7138671875000002,
+        lat: 80.43756327238778,
+        lng: -33.04687500000001,
       },
       {
-        lat: 78.09824507537809,
-        lng: 1.1865234375000002,
+        lat: 80.40099852593376,
+        lng: -35.55175781250001,
       },
       {
-        lat: 78.13445864193176,
-        lng: 5.844726562500001,
+        lat: 80.39365378803937,
+        lng: -38.80371093750001,
       },
       {
-        lat: 77.8603239901111,
-        lng: 8.833007812500002,
+        lat: 79.4565369853284,
+        lng: -40.34179687500001,
       },
       {
-        lat: 77.2351401565898,
-        lng: 9.140625000000002,
-      },
-      {
-        lat: 77.08866005724785,
-        lng: 7.822265625000001,
+        lat: 78.97988446515534,
+        lng: -35.20019531250001,
       },
     ],
   },
   {
-    id: 134727,
+    id: 1975,
     info: {
-      name: 'Название феода',
+      name: 'Торов Перекрёсток',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Джордейны',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#CC0000',
     latlngs: [
       {
-        lat: 78.08930866463783,
-        lng: 1.2304687500000002,
+        lat: 79.31885867938784,
+        lng: -38.54003906250001,
       },
       {
-        lat: 78.78487013797951,
-        lng: 0.087890625,
+        lat: 78.55173723485781,
+        lng: -40.38574218750001,
       },
       {
-        lat: 79.02167240616635,
-        lng: 3.3398437500000004,
+        lat: 77.86049473722218,
+        lng: -38.49609375000001,
       },
       {
-        lat: 79.40806228489345,
-        lng: 8.833007812500002,
+        lat: 77.76769212738867,
+        lng: -35.81542968750001,
       },
       {
-        lat: 78.63868930462301,
-        lng: 9.316406250000002,
+        lat: 78.48176600181367,
+        lng: -29.619140625000004,
       },
       {
-        lat: 78.13452916304767,
-        lng: 5.888671875,
+        lat: 78.99653616391633,
+        lng: -27.729492187500004,
+      },
+      {
+        lat: 79.21250224765865,
+        lng: -31.816406250000004,
+      },
+      {
+        lat: 78.98814389979654,
+        lng: -35.20019531250001,
       },
     ],
   },
   {
-    id: 134742,
+    id: 1976,
     info: {
-      name: 'Название феода',
+      name: 'Торов Мыс',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Джордейны',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#CC0000',
     latlngs: [
       {
-        lat: 77.86979295578976,
-        lng: 8.833007812500002,
+        lat: 79.11344332056433,
+        lng: -24.741210937500004,
       },
       {
-        lat: 78.33194009135909,
-        lng: 12.0849609375,
+        lat: 79.86652372135563,
+        lng: -25.224609375000004,
       },
       {
-        lat: 79.10505182224632,
-        lng: 11.689453125000002,
+        lat: 80.12605807123067,
+        lng: -27.202148437500004,
       },
       {
-        lat: 79.66349305398325,
-        lng: 13.447265625000002,
+        lat: 80.61112784576137,
+        lng: -30.234375000000004,
       },
       {
-        lat: 80.12601126001046,
-        lng: 12.963867187500002,
+        lat: 80.44487010341835,
+        lng: -33.04687500000001,
       },
       {
-        lat: 79.88200274856972,
-        lng: 9.316406250000002,
+        lat: 79.21258609237555,
+        lng: -31.816406250000004,
       },
       {
-        lat: 79.41626809576174,
-        lng: 8.833007812500002,
-      },
-      {
-        lat: 78.63886166242612,
-        lng: 9.272460937500002,
-      },
-      {
-        lat: 78.13484866170315,
-        lng: 5.888671875,
+        lat: 79.01342313665057,
+        lng: -27.773437500000004,
       },
     ],
   },
   {
-    id: 134757,
+    id: 1977,
     info: {
-      name: 'Название феода',
+      name: 'Торовы холмы',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      owner: 'Джордейны',
+      fortifications: '-',
     },
-    color: '#3388ff',
+    color: '#CC0000',
+    latlngs: [
+      {
+        lat: 78.3671603528527,
+        lng: -22.6318359375,
+      },
+      {
+        lat: 79.10502139386922,
+        lng: -24.741210937500004,
+      },
+      {
+        lat: 79.00487138156913,
+        lng: -27.729492187500004,
+      },
+      {
+        lat: 78.47299750433466,
+        lng: -29.619140625000004,
+      },
+      {
+        lat: 77.56112465465894,
+        lng: -24.433593750000004,
+      },
+      {
+        lat: 77.87889162326464,
+        lng: -21.796875000000004,
+      },
+    ],
+  },
+  {
+    id: 1978,
+    info: {
+      name: 'Тор',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Джордейны',
+      fortifications: '-',
+    },
+    color: '#CC0000',
+    latlngs: [
+      {
+        lat: 79.49658420881323,
+        lng: -17.314453125000004,
+      },
+      {
+        lat: 79.50462148714018,
+        lng: -20.170898437500004,
+      },
+      {
+        lat: 79.88194987360338,
+        lng: -21.225585937500004,
+      },
+      {
+        lat: 80.19355230028998,
+        lng: -23.291015625000004,
+      },
+      {
+        lat: 79.87419601875318,
+        lng: -25.2685546875,
+      },
+      {
+        lat: 79.10504917630382,
+        lng: -24.78515625,
+      },
+      {
+        lat: 78.36724503525096,
+        lng: -22.6318359375,
+      },
+      {
+        lat: 78.61269997734402,
+        lng: -18.720703125000004,
+      },
+    ],
+  },
+  {
+    id: 1979,
+    info: {
+      name: 'Торово побережье',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Джордейны',
+      fortifications: '-',
+    },
+    color: '#CC0000',
+    latlngs: [
+      {
+        lat: 79.36763491352855,
+        lng: -12.1728515625,
+      },
+      {
+        lat: 79.40816907239486,
+        lng: -14.23828125,
+      },
+      {
+        lat: 79.31896376123782,
+        lng: -15.820312500000002,
+      },
+      {
+        lat: 79.50458068687415,
+        lng: -17.314453125000004,
+      },
+      {
+        lat: 78.61266128168891,
+        lng: -18.720703125000004,
+      },
+      {
+        lat: 78.3317008538254,
+        lng: -14.677734375000002,
+      },
+      {
+        lat: 78.36719987138088,
+        lng: -11.689453125000002,
+      },
+    ],
+  },
+  {
+    id: 1984,
+    info: {
+      name: 'Призрачный Мыс',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Толанды',
+      fortifications: '-',
+    },
+    color: '#CC6600',
+    latlngs: [
+      {
+        lat: 78.98817866155817,
+        lng: -5.712890625000001,
+      },
+      {
+        lat: 79.31890278794314,
+        lng: -7.031250000000001,
+      },
+      {
+        lat: 79.5843112785404,
+        lng: -9.184570312500002,
+      },
+      {
+        lat: 79.37571940883515,
+        lng: -12.216796875000002,
+      },
+      {
+        lat: 78.37600120529588,
+        lng: -11.645507812500002,
+      },
+      {
+        lat: 77.91574665001997,
+        lng: -3.6035156250000004,
+      },
+      {
+        lat: 78.6732200014528,
+        lng: -4.526367187500001,
+      },
+    ],
+  },
+  {
+    id: 1985,
+    info: {
+      name: 'Призрачное побережье',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Толанды',
+      fortifications: '-',
+    },
+    color: '#CC6600',
     latlngs: [
       {
         lat: 78.79344392336203,
@@ -6235,15 +5895,204 @@ export const polygonsData = [
     ],
   },
   {
-    id: 134770,
+    id: 1986,
+    info: {
+      name: 'Призрачная Дорога',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Толанды',
+      fortifications: '-',
+    },
+    color: '#CC6600',
+    latlngs: [
+      {
+        lat: 77.86979295578976,
+        lng: 8.833007812500002,
+      },
+      {
+        lat: 78.33194009135909,
+        lng: 12.0849609375,
+      },
+      {
+        lat: 79.10505182224632,
+        lng: 11.689453125000002,
+      },
+      {
+        lat: 79.66349305398325,
+        lng: 13.447265625000002,
+      },
+      {
+        lat: 80.12601126001046,
+        lng: 12.963867187500002,
+      },
+      {
+        lat: 79.88200274856972,
+        lng: 9.316406250000002,
+      },
+      {
+        lat: 79.41626809576174,
+        lng: 8.833007812500002,
+      },
+      {
+        lat: 78.63886166242612,
+        lng: 9.272460937500002,
+      },
+      {
+        lat: 78.13484866170315,
+        lng: 5.888671875,
+      },
+    ],
+  },
+  {
+    id: 1987,
+    info: {
+      name: 'Призрачный Холм',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Толанды',
+      fortifications: '-',
+    },
+    color: '#CC6600',
+    latlngs: [
+      {
+        lat: 78.08930866463783,
+        lng: 1.2304687500000002,
+      },
+      {
+        lat: 78.78487013797951,
+        lng: 0.087890625,
+      },
+      {
+        lat: 79.02167240616635,
+        lng: 3.3398437500000004,
+      },
+      {
+        lat: 79.40806228489345,
+        lng: 8.833007812500002,
+      },
+      {
+        lat: 78.63868930462301,
+        lng: 9.316406250000002,
+      },
+      {
+        lat: 78.13452916304767,
+        lng: 5.888671875,
+      },
+    ],
+  },
+  {
+    id: 1988,
+    info: {
+      name: 'Призрачное побережье',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Толанды',
+      fortifications: '-',
+    },
+    color: '#CC6600',
+    latlngs: [
+      {
+        lat: 78.68183132771038,
+        lng: -4.482421875000001,
+      },
+      {
+        lat: 77.91569975879176,
+        lng: -3.5156250000000004,
+      },
+      {
+        lat: 77.8141095204523,
+        lng: -1.6259765625,
+      },
+      {
+        lat: 78.09835767096256,
+        lng: 1.2304687500000002,
+      },
+      {
+        lat: 78.77629805144207,
+        lng: 0.087890625,
+      },
+    ],
+  },
+  {
+    id: 1989,
+    info: {
+      name: 'Крапчатая Дорога',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Толанды',
+      fortifications: '-',
+    },
+    color: '#CC6600',
+    latlngs: [
+      {
+        lat: 77.86035048550752,
+        lng: 8.833007812500002,
+      },
+      {
+        lat: 77.23508448080038,
+        lng: 9.140625000000002,
+      },
+      {
+        lat: 77.35110483752372,
+        lng: 14.23828125,
+      },
+      {
+        lat: 78.09827250260437,
+        lng: 15.600585937500002,
+      },
+      {
+        lat: 78.32269218900385,
+        lng: 12.0849609375,
+      },
+    ],
+  },
+  {
+    id: 1995,
+    info: {
+      name: 'Солнечная дорога',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Мартеллы',
+      fortifications: '-',
+    },
+    color: '#FFCC00',
+    latlngs: [
+      {
+        lat: 76.90058518878449,
+        lng: 2.9443359375,
+      },
+      {
+        lat: 77.07815624820347,
+        lng: 7.822265625000001,
+      },
+      {
+        lat: 75.66066991188531,
+        lng: 8.129882812500002,
+      },
+      {
+        lat: 75.45311176606687,
+        lng: 6.8115234375,
+      },
+      {
+        lat: 75.7583684642985,
+        lng: 4.218750000000001,
+      },
+    ],
+  },
+  {
+    id: 1996,
     info: {
       name: 'Крапчатый лес',
       text: 'Описание',
       resources: '',
       population: '',
       owner: 'Мартеллы',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      fortifications: '-',
     },
     color: '#FFCC00',
     latlngs: [
@@ -6277,51 +6126,16 @@ export const polygonsData = [
       },
     ],
   },
+
   {
-    id: 134788,
-    info: {
-      name: 'Название феода',
-      text: 'Описание',
-      resources: '',
-      population: '',
-      owner: 'Лорд Жупел',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
-    },
-    color: '#3388ff',
-    latlngs: [
-      {
-        lat: 77.86035048550752,
-        lng: 8.833007812500002,
-      },
-      {
-        lat: 77.23508448080038,
-        lng: 9.140625000000002,
-      },
-      {
-        lat: 77.35110483752372,
-        lng: 14.23828125,
-      },
-      {
-        lat: 78.09827250260437,
-        lng: 15.600585937500002,
-      },
-      {
-        lat: 78.32269218900385,
-        lng: 12.0849609375,
-      },
-    ],
-  },
-  {
-    id: 134802,
+    id: 1997,
     info: {
       name: 'Солнечное побережье',
       text: 'Описание',
       resources: '',
       population: '',
       owner: 'Мартеллы',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      fortifications: '-',
     },
     color: '#FFCC00',
     latlngs: [
@@ -6364,15 +6178,14 @@ export const polygonsData = [
     ],
   },
   {
-    id: 134816,
+    id: 1998,
     info: {
       name: 'Солнечное копьё',
       text: 'Описание',
       resources: '',
       population: '',
       owner: 'Мартеллы',
-      fortifications:
-        'Замок: Стена 2 уровень, Донжон 3 уровень, Шахты - форт 1 уровень.',
+      fortifications: '-',
     },
     color: '#FFCC00',
     latlngs: [
@@ -6419,6 +6232,48 @@ export const polygonsData = [
       {
         lat: 75.68308577057037,
         lng: 14.677734375000002,
+      },
+    ],
+  },
+  {
+    id: 1999,
+    info: {
+      name: 'Солнечные горы',
+      text: 'Описание',
+      resources: '',
+      population: '',
+      owner: 'Мартеллы',
+      fortifications: '-',
+    },
+    color: '#FFCC00',
+    latlngs: [
+      {
+        lat: 76.9306401389715,
+        lng: 2.9003906250000004,
+      },
+      {
+        lat: 77.81403416838106,
+        lng: -1.7138671875000002,
+      },
+      {
+        lat: 78.09824507537809,
+        lng: 1.1865234375000002,
+      },
+      {
+        lat: 78.13445864193176,
+        lng: 5.844726562500001,
+      },
+      {
+        lat: 77.8603239901111,
+        lng: 8.833007812500002,
+      },
+      {
+        lat: 77.2351401565898,
+        lng: 9.140625000000002,
+      },
+      {
+        lat: 77.08866005724785,
+        lng: 7.822265625000001,
       },
     ],
   },
