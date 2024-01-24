@@ -82,7 +82,7 @@ const Header = () => {
                 href="/map"
                 className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
               >
-                <h2 className="text-red-500">Map</h2>
+                <h2>Map</h2>
               </Link>
             </li>
           </ul>
