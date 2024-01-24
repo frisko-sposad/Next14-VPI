@@ -4381,7 +4381,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1952,
+    id: 1912,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4419,7 +4419,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1953,
+    id: 1913,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4465,7 +4465,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1954,
+    id: 1914,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4606,7 +4606,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1955,
+    id: 1915,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4648,7 +4648,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1956,
+    id: 1916,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4691,7 +4691,7 @@ export const polygonsData = [
   },
 
   {
-    id: 1957,
+    id: 1917,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4737,7 +4737,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1958,
+    id: 1918,
     info: {
       name: 'Название феода',
       text: 'Описание',
@@ -4771,7 +4771,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1959,
+    id: 1919,
     info: {
       name: 'Солёное побережье',
       text: 'Описание',
@@ -4989,7 +4989,7 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1954,
+    id: 1959,
     info: {
       name: 'Лимонная Дорога',
       text: 'Описание',
