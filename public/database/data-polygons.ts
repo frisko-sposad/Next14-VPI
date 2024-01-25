@@ -3507,7 +3507,7 @@ export const polygonsData = [
       size: '',
       religion: 'Сомневающиеся',
     },
-    color: '#9900CC',
+    color: '#660000',
     latlngs: [
       {
         lat: 75.62876079400935,
@@ -3549,7 +3549,7 @@ export const polygonsData = [
       size: '',
       religion: 'Сомневающиеся',
     },
-    color: '#9900CC',
+    color: '#660000',
     latlngs: [
       {
         lat: 78.13444712824096,
@@ -3599,7 +3599,7 @@ export const polygonsData = [
       size: '',
       religion: 'Сомневающиеся',
     },
-    color: '#9900CC',
+    color: '#660000',
     latlngs: [
       {
         lat: 75.18579106910192,
@@ -4065,7 +4065,7 @@ export const polygonsData = [
       size: '',
       religion: 'Андаллы',
     },
-    color: '#9900CC',
+    color: '#CCCC33',
     latlngs: [
       {
         lat: 77.88798797401533,
@@ -4103,7 +4103,7 @@ export const polygonsData = [
       size: '',
       religion: 'Андаллы',
     },
-    color: '#9900CC',
+    color: '#CCCC33',
     latlngs: [
       {
         lat: 73.61537143120091,
@@ -4145,7 +4145,7 @@ export const polygonsData = [
       size: '',
       religion: 'Андаллы',
     },
-    color: '#9900CC',
+    color: '#CCCC33',
     latlngs: [
       {
         lat: 75.27534500269223,
@@ -4199,7 +4199,7 @@ export const polygonsData = [
       size: '',
       religion: 'Андаллы',
     },
-    color: '#9900CC',
+    color: '#CCCC33',
     latlngs: [
       {
         lat: 76.95029616267257,
@@ -4241,7 +4241,7 @@ export const polygonsData = [
       size: '',
       religion: 'Андаллы',
     },
-    color: '#9900CC',
+    color: '#CCCC33',
     latlngs: [
       {
         lat: 77.94325843348183,
@@ -4283,7 +4283,7 @@ export const polygonsData = [
       size: '',
       religion: 'Андаллы',
     },
-    color: '#9900CC',
+    color: '#CCCC33',
     latlngs: [
       {
         lat: 78.5692840588116,
@@ -4325,7 +4325,7 @@ export const polygonsData = [
       size: '',
       religion: 'Сомневающиеся',
     },
-    color: '#9900CC',
+    color: '#660000',
     latlngs: [
       {
         lat: 79.16299117929765,
@@ -4375,7 +4375,7 @@ export const polygonsData = [
       size: '',
       religion: 'Андаллы',
     },
-    color: '#9900CC',
+    color: '#CCCC33',
     latlngs: [
       {
         lat: 78.09819022073869,
@@ -4417,7 +4417,7 @@ export const polygonsData = [
       size: '',
       religion: 'Сомневающиеся',
     },
-    color: '#9900CC',
+    color: '#660000',
     latlngs: [
       {
         lat: 77.23494838342089,
@@ -4455,7 +4455,7 @@ export const polygonsData = [
       size: '',
       religion: 'Сомневающиеся',
     },
-    color: '#9900CC',
+    color: '#660000',
     latlngs: [
       {
         lat: 76.55759324079297,
@@ -4501,7 +4501,7 @@ export const polygonsData = [
       size: '',
       religion: 'Сомневающиеся',
     },
-    color: '#9900CC',
+    color: '#660000',
     latlngs: [
       {
         lat: 78.01653403976235,
