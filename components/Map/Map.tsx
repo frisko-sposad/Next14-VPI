@@ -11,6 +11,7 @@ import {
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 import IconCastle from '../../components/leflet/icons/castle.svg';
+import IconMine from '../../components/leflet/icons/kirka.svg';
 import { Icon } from 'leaflet';
 import { EditControl } from 'react-leaflet-draw';
 import { useState } from 'react';
@@ -20,6 +21,10 @@ import { castleData } from '@/public/database/data-icon';
 
 const markerIconCastle = new Icon({
   iconUrl: IconCastle,
+  iconSize: [38, 38], // set the size of the icon
+});
+const markerIcongMine = new Icon({
+  iconUrl: IconMine,
   iconSize: [38, 38], // set the size of the icon
 });
 
@@ -79,7 +84,23 @@ const polygonsBorder = polygonsData.map((el) => {
 });
 
 const polygonsBorderReligion = polygonsData.map((el) => {
-  const color = el.info.religion == 'Андаллы' ? `#CC0033` : `#FFFFCC`;
+  let color = `black`;
+
+  switch (el.info.religion) {
+    case 'Андаллы':
+      color = `#CC0033`;
+      break;
+    case 'Первые Люди':
+      color = `#FFFFCC`;
+      break;
+    case 'Сомневающиеся':
+      color = `#0099FF`;
+      break;
+
+    default:
+      color = `#000000`;
+      break;
+  }
   return (
     <Polygon key={el.id} pathOptions={{ color: color }} positions={el.latlngs}>
       <Popup>
@@ -181,13 +202,20 @@ const Map = () => {
           <LayersControl.Overlay name="Метки" checked>
             <LayerGroup>
               {markerIconcastleData}
-              {
-                <Marker position={[51.51, -0.06]} icon={markerIconCastle}>
-                  <Popup>
-                    Пиздец работает!!! <br /> Это земли Лорда Жупела!
-                  </Popup>
-                </Marker>
-              }
+
+              <Marker position={[51.51, -0.06]} icon={markerIconCastle}>
+                <Popup>
+                  Пиздец работает!!! <br /> Это земли Лорда Жупела!
+                </Popup>
+              </Marker>
+              <Marker
+                position={[82.72064678437275, -134.82421875000003]}
+                icon={markerIcongMine}
+              >
+                <Popup>
+                  Пиздец работает!!! <br /> Это земли Лорда Жупела!
+                </Popup>
+              </Marker>
             </LayerGroup>
           </LayersControl.Overlay>
         </LayersControl>

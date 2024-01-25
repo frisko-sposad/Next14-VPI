@@ -11,7 +11,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#336666',
     latlngs: [
@@ -65,7 +65,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#336666',
     latlngs: [
@@ -103,7 +103,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#336666',
     latlngs: [
@@ -157,7 +157,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#336666',
     latlngs: [
@@ -203,7 +203,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#336666',
     latlngs: [
@@ -241,7 +241,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#336666',
     latlngs: [
@@ -287,7 +287,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#3388ff',
     latlngs: [
@@ -349,7 +349,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#3388ff',
     latlngs: [
@@ -415,7 +415,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#3388ff',
     latlngs: [
@@ -465,7 +465,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#3388ff',
     latlngs: [
@@ -1781,7 +1781,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#660099',
     latlngs: [
@@ -1827,7 +1827,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#660099',
     latlngs: [
@@ -1919,7 +1919,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#660099',
     latlngs: [
@@ -1957,7 +1957,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#660099',
     latlngs: [
@@ -2263,7 +2263,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Сомневающиеся',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2313,7 +2313,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Сомневающиеся',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2367,7 +2367,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Сомневающиеся',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2409,7 +2409,7 @@ export const polygonsData = [
       relief: 'Андаллы',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Сомневающиеся',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2451,7 +2451,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Сомневающиеся',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2527,7 +2527,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#336666',
     latlngs: [
@@ -2829,7 +2829,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2867,7 +2867,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2909,7 +2909,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2955,7 +2955,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2993,7 +2993,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3027,7 +3027,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3065,7 +3065,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3099,7 +3099,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3137,7 +3137,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3183,7 +3183,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3229,7 +3229,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3271,7 +3271,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Светские',
+      religion: 'Сомневающиеся',
     },
     color: '#660000',
     latlngs: [
@@ -3325,7 +3325,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Светские',
+      religion: 'Сомневающиеся',
     },
     color: '#660000',
     latlngs: [
@@ -3371,7 +3371,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Светские',
+      religion: 'Сомневающиеся',
     },
     color: '#660000',
     latlngs: [
@@ -3417,7 +3417,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Светские',
+      religion: 'Сомневающиеся',
     },
     color: '#660000',
     latlngs: [
@@ -3467,7 +3467,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Светские',
+      religion: 'Сомневающиеся',
     },
     color: '#660000',
     latlngs: [
@@ -3505,7 +3505,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Сомневающиеся',
     },
     color: '#9900CC',
     latlngs: [
@@ -3547,7 +3547,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Сомневающиеся',
     },
     color: '#9900CC',
     latlngs: [
@@ -3597,7 +3597,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Сомневающиеся',
     },
     color: '#9900CC',
     latlngs: [
@@ -3635,7 +3635,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#6600FF',
     latlngs: [
@@ -3681,7 +3681,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#009933',
     latlngs: [
@@ -3719,7 +3719,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#009933',
     latlngs: [
@@ -3757,7 +3757,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#009933',
     latlngs: [
@@ -3799,7 +3799,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#009933',
     latlngs: [
@@ -3845,7 +3845,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#009933',
     latlngs: [
@@ -4323,7 +4323,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Сомневающиеся',
     },
     color: '#9900CC',
     latlngs: [
@@ -4415,7 +4415,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Сомневающиеся',
     },
     color: '#9900CC',
     latlngs: [
@@ -4453,7 +4453,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Сомневающиеся',
     },
     color: '#9900CC',
     latlngs: [
@@ -4499,7 +4499,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Сомневающиеся',
     },
     color: '#9900CC',
     latlngs: [
@@ -4553,7 +4553,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#6600FF',
     latlngs: [
@@ -4611,7 +4611,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#6600FF',
     latlngs: [
@@ -4657,7 +4657,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#6600FF',
     latlngs: [
@@ -4695,7 +4695,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#6600FF',
     latlngs: [
@@ -4745,7 +4745,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#6600FF',
     latlngs: [
@@ -4783,7 +4783,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -4829,7 +4829,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -4866,14 +4866,14 @@ export const polygonsData = [
       text: 'Спорные земли на границе с Аллирионами',
       resources: '',
       population: '',
-      owner: 'Дальты, вассалы Гаргаленов',
+      owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
-    color: '#6600FF',
+    color: '#339933',
     latlngs: [
       {
         lat: 77.15710028908765,
@@ -4909,7 +4909,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -4951,7 +4951,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -5001,7 +5001,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -5043,7 +5043,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -5093,7 +5093,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -5135,7 +5135,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -5181,7 +5181,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -5223,7 +5223,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -5265,7 +5265,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -5315,7 +5315,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#339933',
     latlngs: [
@@ -5357,7 +5357,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#CC0000',
     latlngs: [
@@ -5399,7 +5399,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#CC0000',
     latlngs: [
@@ -5449,7 +5449,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#CC0000',
     latlngs: [
@@ -5495,7 +5495,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#CC0000',
     latlngs: [
@@ -5537,7 +5537,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#CC0000',
     latlngs: [
@@ -5587,7 +5587,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: 'Андаллы',
+      religion: 'Первые Люди',
     },
     color: '#CC0000',
     latlngs: [
@@ -5633,7 +5633,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#CC6600',
     latlngs: [
@@ -5679,7 +5679,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#CC6600',
     latlngs: [
@@ -5737,7 +5737,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#CC6600',
     latlngs: [
@@ -5791,7 +5791,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#CC6600',
     latlngs: [
@@ -5833,7 +5833,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#CC6600',
     latlngs: [
@@ -5871,7 +5871,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Первые Люди',
     },
     color: '#CC6600',
     latlngs: [
