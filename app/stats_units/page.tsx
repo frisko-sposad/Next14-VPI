@@ -1,8 +1,6 @@
 'use client';
 import React, { useMemo } from 'react';
 import { unitsData } from '@/public/database/units-data';
-import { fortificationData } from '@/public/database/fortification-data';
-import { heroesData } from '@/public/database/heroes-data';
 import Header from '@/components/Header/header';
 import Table from '@/components/Table/Table';
 

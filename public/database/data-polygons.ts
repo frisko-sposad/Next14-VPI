@@ -1624,11 +1624,11 @@ export const polygonsData = [
   {
     id: 1201,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Виль',
+      text: 'Родовой замок Вилей',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Вили, вассалы Айронвудов',
       fortifications: '-',
     },
     color: '#660099',
@@ -1666,11 +1666,11 @@ export const polygonsData = [
   {
     id: 1202,
     info: {
-      name: 'Название феода',
+      name: 'Гадюкин лес',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Вили, вассалы Айронвудов',
       fortifications: '-',
     },
     color: '#660099',
@@ -1712,11 +1712,11 @@ export const polygonsData = [
   {
     id: 1203,
     info: {
-      name: 'Название феода',
+      name: 'Источники',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Айронвуды',
       fortifications: '-',
     },
     color: '#660099',
@@ -1750,11 +1750,11 @@ export const polygonsData = [
   {
     id: 1204,
     info: {
-      name: 'Название феода',
+      name: 'Костоломы',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Вили, вассалы Айронвудов',
       fortifications: '-',
     },
     color: '#660099',
@@ -1784,11 +1784,11 @@ export const polygonsData = [
   {
     id: 1205,
     info: {
-      name: 'Название феода',
+      name: 'Северный каменный путь',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Вили, вассалы Айронвудов',
       fortifications: '-',
     },
     color: '#660099',
@@ -1818,11 +1818,11 @@ export const polygonsData = [
   {
     id: 1206,
     info: {
-      name: 'Название феода',
+      name: 'Южный каменный путь',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Айронвуды',
       fortifications: '-',
     },
     color: '#660099',
@@ -1856,11 +1856,11 @@ export const polygonsData = [
   {
     id: 1207,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Айронвуд',
+      text: 'Родовой замок Айронвудов',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Айронвуды',
       fortifications: '-',
     },
     color: '#660099',
@@ -1898,11 +1898,11 @@ export const polygonsData = [
   {
     id: 1208,
     info: {
-      name: 'Название феода',
+      name: 'Зелёные холмы',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Айронвуды',
       fortifications: '-',
     },
     color: '#660099',
@@ -1948,11 +1948,11 @@ export const polygonsData = [
   {
     id: 1209,
     info: {
-      name: 'Название феода',
+      name: 'Гринбельт',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Айронвуды',
       fortifications: '-',
     },
     color: '#660099',
@@ -1982,11 +1982,11 @@ export const polygonsData = [
   {
     id: 1210,
     info: {
-      name: 'Название феода',
+      name: 'Сухой перекресток',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Айронвуды',
       fortifications: '-',
     },
     color: '#660099',
@@ -2020,11 +2020,11 @@ export const polygonsData = [
   {
     id: 1211,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Северный сухой путь',
+      text: 'Спорные земли на границе с Уллерами',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Айронвуды',
       fortifications: '-',
     },
     color: '#660099',
@@ -2062,11 +2062,11 @@ export const polygonsData = [
   {
     id: 1220,
     info: {
-      name: 'Название феода',
+      name: 'Красные горы',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Манвуди',
       fortifications: '-',
     },
     color: '#99FFFF',
@@ -2108,11 +2108,11 @@ export const polygonsData = [
   {
     id: 1221,
     info: {
-      name: 'Название феода',
+      name: 'Черные кряжи',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Манвуди',
       fortifications: '-',
     },
     color: '#99FFFF',
@@ -2158,11 +2158,11 @@ export const polygonsData = [
   {
     id: 1222,
     info: {
-      name: 'Название феода',
+      name: 'Широкий путь',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Манвуди',
       fortifications: '-',
     },
     color: '#99FFFF',
@@ -2196,11 +2196,11 @@ export const polygonsData = [
   {
     id: 1223,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Королевская гробница',
+      text: 'Родовой замок дома Манвуди',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Манвуди',
       fortifications: '-',
     },
     color: '#99FFFF',
@@ -2234,11 +2234,11 @@ export const polygonsData = [
   {
     id: 1224,
     info: {
-      name: 'Название феода',
+      name: 'Королевский пик',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Манвуди',
       fortifications: '-',
     },
     color: '#99FFFF',
@@ -2336,11 +2336,11 @@ export const polygonsData = [
   {
     id: 1301,
     info: {
-      name: 'Название феода',
+      name: 'Северное Поднебесье',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Фаулеры',
       fortifications: '-',
     },
     color: '#6666FF',
@@ -2374,11 +2374,11 @@ export const polygonsData = [
   {
     id: 1302,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Костяные горы',
+      text: 'Спорные с Айронвудом земли',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Фаулеры',
       fortifications: '-',
     },
     color: '#6666FF',
@@ -2412,11 +2412,11 @@ export const polygonsData = [
   {
     id: 1303,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Связная дорога',
+      text: 'Спорные земли на границе с Айронвудом',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Фаулеры',
       fortifications: '-',
     },
     color: '#6666FF',
@@ -2446,11 +2446,11 @@ export const polygonsData = [
   {
     id: 1304,
     info: {
-      name: 'Название феода',
+      name: 'Южное Поднебесье',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Фаулеры',
       fortifications: '-',
     },
     color: '#6666FF',
@@ -2488,11 +2488,11 @@ export const polygonsData = [
   {
     id: 1305,
     info: {
-      name: 'Название феода',
+      name: 'Широкое распутье',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Фаулеры',
       fortifications: '-',
     },
     color: '#6666FF',
@@ -2538,11 +2538,11 @@ export const polygonsData = [
   {
     id: 1306,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Ястребовы горы',
+      text: 'Спорные земли на границе с Айронвудом',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Фаулеры',
       fortifications: '-',
     },
     color: '#6666FF',
@@ -2974,7 +2974,7 @@ export const polygonsData = [
   {
     id: 1814,
     info: {
-      name: 'Название феода',
+      name: 'Коралловый берег',
       text: 'Описание',
       resources: '',
       population: '',
@@ -3024,7 +3024,7 @@ export const polygonsData = [
   {
     id: 1815,
     info: {
-      name: 'Название феода',
+      name: 'Морская дорога',
       text: 'Описание',
       resources: '',
       population: '',
@@ -3066,7 +3066,7 @@ export const polygonsData = [
   {
     id: 1816,
     info: {
-      name: 'Название феода',
+      name: 'Пустой пляж',
       text: 'Описание',
       resources: '',
       population: '',
@@ -3108,8 +3108,8 @@ export const polygonsData = [
   {
     id: 1817,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Адские врата',
+      text: 'Родовой замок Драйлендов',
       resources: '',
       population: '',
       owner: 'Драйленды',
@@ -3154,7 +3154,7 @@ export const polygonsData = [
   {
     id: 1818,
     info: {
-      name: 'Название феода',
+      name: 'Серные скалы',
       text: 'Описание',
       resources: '',
       population: '',
@@ -3188,11 +3188,11 @@ export const polygonsData = [
   {
     id: 1912,
     info: {
-      name: 'Название феода',
+      name: 'Западное Пекло',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3226,11 +3226,11 @@ export const polygonsData = [
   {
     id: 1913,
     info: {
-      name: 'Название феода',
+      name: 'Сухой путь',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3272,11 +3272,11 @@ export const polygonsData = [
   {
     id: 1914,
     info: {
-      name: 'Название феода',
+      name: 'Серноводный путь',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3348,11 +3348,11 @@ export const polygonsData = [
   {
     id: 1920,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Горный приют',
+      text: 'Захваченная у Дейнов крепость',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Блэкмонты',
       fortifications: '-',
     },
     color: '#009933',
@@ -3382,11 +3382,11 @@ export const polygonsData = [
   {
     id: 1921,
     info: {
-      name: 'Название феода',
+      name: 'Западный Блэкмонт',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Блэкмонты',
       fortifications: '-',
     },
     color: '#009933',
@@ -3416,11 +3416,11 @@ export const polygonsData = [
   {
     id: 1922,
     info: {
-      name: 'Название феода',
+      name: 'Восточный Блэкмонт',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Блэкмонты',
       fortifications: '-',
     },
     color: '#009933',
@@ -3454,11 +3454,11 @@ export const polygonsData = [
   {
     id: 1923,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Черный перевал',
+      text: 'Спорные земли с Фаулерами',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Блэкмонты',
       fortifications: '-',
     },
     color: '#009933',
@@ -3496,11 +3496,11 @@ export const polygonsData = [
   {
     id: 1924,
     info: {
-      name: 'Название феода',
+      name: 'Черное междуречье',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Блэкмонты',
       fortifications: '-',
     },
     color: '#009933',
@@ -3542,11 +3542,11 @@ export const polygonsData = [
   {
     id: 1936,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Звездопад',
+      text: 'Родовой замок Дейнв',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Дейны',
       fortifications: '-',
     },
     color: '#CCCC33',
@@ -3576,11 +3576,11 @@ export const polygonsData = [
   {
     id: 1937,
     info: {
-      name: 'Название феода',
+      name: 'Звёздный хребет',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Дейны',
       fortifications: '-',
     },
     color: '#CCCC33',
@@ -3614,11 +3614,11 @@ export const polygonsData = [
   {
     id: 1938,
     info: {
-      name: 'Название феода',
+      name: 'Звёздный пик',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Дейны',
       fortifications: '-',
     },
     color: '#CCCC33',
@@ -3652,11 +3652,11 @@ export const polygonsData = [
   {
     id: 1939,
     info: {
-      name: 'Название феода',
+      name: 'Звездный перевал',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Дейны',
       fortifications: '-',
     },
     color: '#CCCC33',
@@ -3694,11 +3694,11 @@ export const polygonsData = [
   {
     id: 1941,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Звёздное ущелье',
+      text: 'Спорные земли с Дейнами',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3728,11 +3728,11 @@ export const polygonsData = [
   {
     id: 1942,
     info: {
-      name: 'Название феода',
+      name: 'Звёздный отрог',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3766,11 +3766,11 @@ export const polygonsData = [
   {
     id: 1943,
     info: {
-      name: 'Название феода',
+      name: 'Прибрежные дюны',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3816,11 +3816,11 @@ export const polygonsData = [
   {
     id: 1944,
     info: {
-      name: 'Название феода',
+      name: 'Большой песчаник',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3854,11 +3854,11 @@ export const polygonsData = [
   {
     id: 1945,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Песчаник',
+      text: 'Родовой замок Кворгилов',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3892,11 +3892,11 @@ export const polygonsData = [
   {
     id: 1946,
     info: {
-      name: 'Название феода',
+      name: 'Малый песчаник',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3930,11 +3930,11 @@ export const polygonsData = [
   {
     id: 1947,
     info: {
-      name: 'Название феода',
+      name: 'Западный берег Серноводной',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -3976,11 +3976,11 @@ export const polygonsData = [
   {
     id: 1948,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Золотые пески',
+      text: 'Спорные земли Уллеров и Кворгилов',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -4014,11 +4014,11 @@ export const polygonsData = [
   {
     id: 1949,
     info: {
-      name: 'Название феода',
+      name: 'Край Оазисов',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -4048,11 +4048,11 @@ export const polygonsData = [
   {
     id: 1950,
     info: {
-      name: 'Название феода',
+      name: 'Западное Пекло',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -4090,11 +4090,11 @@ export const polygonsData = [
   {
     id: 1951,
     info: {
-      name: 'Название феода',
+      name: 'Восточный берег Серноводной',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Кворгилы',
+      owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
     },
     color: '#9900CC',
@@ -4194,8 +4194,8 @@ export const polygonsData = [
   {
     id: 1956,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Солёный берег',
+      text: 'Родовой замок Гаргалленов',
       resources: '',
       population: '',
       owner: 'Гаргалены',
@@ -4236,7 +4236,7 @@ export const polygonsData = [
   {
     id: 1957,
     info: {
-      name: 'Название феода',
+      name: 'Солёные утесы',
       text: 'Описание',
       resources: '',
       population: '',
@@ -4270,7 +4270,7 @@ export const polygonsData = [
   {
     id: 1958,
     info: {
-      name: 'Название феода',
+      name: 'Лимонный берег',
       text: 'Описание',
       resources: '',
       population: '',
@@ -4320,7 +4320,7 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Гаргалены',
+      owner: 'Дальты, вассалы Гаргаленов',
       fortifications: '-',
     },
     color: '#6600FF',
@@ -4350,11 +4350,11 @@ export const polygonsData = [
   {
     id: 1960,
     info: {
-      name: 'Название феода',
+      name: 'Западный берег реки Плеть',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Аллирионы',
       fortifications: '-',
     },
     color: '#339933',
@@ -4393,10 +4393,10 @@ export const polygonsData = [
     id: 1961,
     info: {
       name: 'Южный Дар Богов',
-      text: 'Описание',
+      text: 'Спорные земли на границе с Гаргаленами',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Аллирионы',
       fortifications: '-',
     },
     color: '#339933',
@@ -4430,11 +4430,11 @@ export const polygonsData = [
   {
     id: 1962,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Северный берег Зеленокровной',
+      text: 'Спорные земли на границе с Аллирионами',
       resources: '',
       population: '',
-      owner: 'Гаргалены',
+      owner: 'Дальты, вассалы Гаргаленов',
       fortifications: '-',
     },
     color: '#6600FF',
@@ -4464,11 +4464,11 @@ export const polygonsData = [
   {
     id: 1963,
     info: {
-      name: 'Название феода',
-      text: 'Описание',
+      name: 'Серное ущелье',
+      text: 'Спорные земли на границе с Драйлендами',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
     },
     color: '#339933',
@@ -4502,11 +4502,11 @@ export const polygonsData = [
   {
     id: 1964,
     info: {
-      name: 'Название феода',
+      name: 'Южные красные дюны',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
     },
     color: '#339933',
@@ -4548,11 +4548,11 @@ export const polygonsData = [
   {
     id: 1965,
     info: {
-      name: 'Название феода',
+      name: 'Северный Вейт',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
     },
     color: '#339933',
@@ -4586,11 +4586,11 @@ export const polygonsData = [
   {
     id: 1966,
     info: {
-      name: 'Название феода',
+      name: 'Южный Вейт',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
     },
     color: '#339933',
@@ -4636,7 +4636,7 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Аллирионы',
       fortifications: '-',
     },
     color: '#339933',
@@ -4670,11 +4670,11 @@ export const polygonsData = [
   {
     id: 1968,
     info: {
-      name: 'Название феода',
+      name: 'Леопардов перекресток',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
     },
     color: '#339933',
@@ -4712,11 +4712,11 @@ export const polygonsData = [
   {
     id: 1969,
     info: {
-      name: 'Название феода',
+      name: 'Северные красные дюны',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
     },
     color: '#339933',
@@ -4750,11 +4750,11 @@ export const polygonsData = [
   {
     id: 1971,
     info: {
-      name: 'Название феода',
+      name: 'Божьи горы',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Аллирионы',
       fortifications: '-',
     },
     color: '#339933',
@@ -4788,11 +4788,11 @@ export const polygonsData = [
   {
     id: 1972,
     info: {
-      name: 'Название феода',
+      name: 'Устье Зеленокровной',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Аллирионы',
       fortifications: '-',
     },
     color: '#339933',
@@ -4838,7 +4838,7 @@ export const polygonsData = [
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Вейты',
+      owner: 'Аллирионы',
       fortifications: '-',
     },
     color: '#339933',
