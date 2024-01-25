@@ -7,6 +7,10 @@ import Table from '@/components/Table/Table';
 const StatsTable = () => {
   const dataUnits = useMemo(() => unitsData, []);
 
+  const horseArmy = dataUnits[0].subRows;
+  const footArmy = dataUnits[1].subRows;
+  const shipArmy = dataUnits[2].subRows;
+
   const columnsUnits = useMemo(
     () => [
       {
@@ -105,7 +109,11 @@ const StatsTable = () => {
       <div className="flex justify-center">
         <div className="flex-col">
           <div className="pt-5">
-            <Table columns={columnsUnits} data={dataUnits} />
+            <Table columns={columnsUnits} data={horseArmy} />
+            <br />
+            <Table columns={columnsUnits} data={footArmy} />
+            <br />
+            <Table columns={columnsUnits} data={shipArmy} />
           </div>
         </div>
       </div>
