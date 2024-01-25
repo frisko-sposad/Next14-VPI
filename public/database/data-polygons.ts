@@ -8,6 +8,9 @@ export const polygonsData = [
       population: '',
       owner: 'Сванны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#336666',
     latlngs: [
@@ -58,6 +61,9 @@ export const polygonsData = [
       population: '',
       owner: 'Сванны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#336666',
     latlngs: [
@@ -92,6 +98,9 @@ export const polygonsData = [
       population: '',
       owner: 'Сванны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#336666',
     latlngs: [
@@ -142,6 +151,9 @@ export const polygonsData = [
       population: '',
       owner: 'Сванны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#336666',
     latlngs: [
@@ -184,6 +196,9 @@ export const polygonsData = [
       population: '',
       owner: 'Сванны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#336666',
     latlngs: [
@@ -218,6 +233,9 @@ export const polygonsData = [
       population: '',
       owner: 'Сванны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#336666',
     latlngs: [
@@ -260,6 +278,9 @@ export const polygonsData = [
       population: '',
       owner: 'Мертинсы, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#3388ff',
     latlngs: [
@@ -318,6 +339,9 @@ export const polygonsData = [
       population: '',
       owner: 'Мертинсы, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#3388ff',
     latlngs: [
@@ -380,6 +404,9 @@ export const polygonsData = [
       population: '',
       owner: 'Мертинсы, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#3388ff',
     latlngs: [
@@ -426,6 +453,9 @@ export const polygonsData = [
       population: '',
       owner: 'Мертинсы, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#3388ff',
     latlngs: [
@@ -480,6 +510,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гарднеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000066',
     latlngs: [
@@ -514,6 +547,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гарднеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000066',
     latlngs: [
@@ -548,6 +584,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гарднеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000066',
     latlngs: [
@@ -578,6 +617,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гарднеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000066',
     latlngs: [
@@ -620,6 +662,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гарднеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000066',
     latlngs: [
@@ -650,6 +695,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гарднеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000066',
     latlngs: [
@@ -692,6 +740,9 @@ export const polygonsData = [
       population: '',
       owner: 'Тарли, вассалы Гарднеров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -734,6 +785,9 @@ export const polygonsData = [
       population: '',
       owner: 'Тарли, вассалы Гарднеров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -776,6 +830,9 @@ export const polygonsData = [
       population: '',
       owner: 'Флоренты, вассалы Гарднеров, союзники Тарли по крови',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -814,6 +871,9 @@ export const polygonsData = [
       population: '',
       owner: 'Флоренты, вассалы Гарднеров, союзники Тарли по крови',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -868,6 +928,9 @@ export const polygonsData = [
       population: '',
       owner: 'Тарли, вассалы Гарднеров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -906,6 +969,9 @@ export const polygonsData = [
       population: '',
       owner: 'Тарли, Вассалы Гарднеров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -944,6 +1010,9 @@ export const polygonsData = [
       population: '',
       owner: 'Бисбери, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -986,6 +1055,9 @@ export const polygonsData = [
       population: '',
       owner: 'Маллендоры, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1020,6 +1092,9 @@ export const polygonsData = [
       population: '',
       owner: 'Бисбери, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1054,6 +1129,9 @@ export const polygonsData = [
       population: '',
       owner: 'Хайтауэры, вассалы Гарднеров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1104,6 +1182,9 @@ export const polygonsData = [
       population: '',
       owner: 'Хайтауэры, вассалы Гарднеров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1146,6 +1227,9 @@ export const polygonsData = [
       population: '',
       owner: 'Блэкбары, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1204,6 +1288,9 @@ export const polygonsData = [
       population: '',
       owner: 'Блэкбары, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1262,6 +1349,9 @@ export const polygonsData = [
       population: '',
       owner: 'Бульверы, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1316,6 +1406,9 @@ export const polygonsData = [
       population: '',
       owner: 'Бульверы, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1362,6 +1455,9 @@ export const polygonsData = [
       population: '',
       owner: 'Костейны, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1416,6 +1512,9 @@ export const polygonsData = [
       population: '',
       owner: 'Костейны, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1466,6 +1565,9 @@ export const polygonsData = [
       population: '',
       owner: 'Маллендоры, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1500,6 +1602,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кью, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1542,6 +1647,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кью, вассалы Хайтауэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1596,6 +1704,9 @@ export const polygonsData = [
       population: '',
       owner: 'Маллендоры, вассалы Хайтайэров',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -1630,6 +1741,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вили, вассалы Айронвудов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -1672,6 +1786,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вили, вассалы Айронвудов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -1718,6 +1835,9 @@ export const polygonsData = [
       population: '',
       owner: 'Айронвуды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -1756,6 +1876,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вили, вассалы Айронвудов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -1790,6 +1913,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вили, вассалы Айронвудов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -1824,6 +1950,9 @@ export const polygonsData = [
       population: '',
       owner: 'Айронвуды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -1862,6 +1991,9 @@ export const polygonsData = [
       population: '',
       owner: 'Айронвуды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -1904,6 +2036,9 @@ export const polygonsData = [
       population: '',
       owner: 'Айронвуды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -1954,6 +2089,9 @@ export const polygonsData = [
       population: '',
       owner: 'Айронвуды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -1988,6 +2126,9 @@ export const polygonsData = [
       population: '',
       owner: 'Айронвуды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -2026,6 +2167,9 @@ export const polygonsData = [
       population: '',
       owner: 'Айронвуды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660099',
     latlngs: [
@@ -2068,6 +2212,9 @@ export const polygonsData = [
       population: '',
       owner: 'Манвуди',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2114,6 +2261,9 @@ export const polygonsData = [
       population: '',
       owner: 'Манвуди',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2164,6 +2314,9 @@ export const polygonsData = [
       population: '',
       owner: 'Манвуди',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2202,6 +2355,9 @@ export const polygonsData = [
       population: '',
       owner: 'Манвуди',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2240,6 +2396,9 @@ export const polygonsData = [
       population: '',
       owner: 'Манвуди',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2274,6 +2433,9 @@ export const polygonsData = [
       population: '',
       owner: 'Лорд',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#663300',
     latlngs: [
@@ -2300,14 +2462,17 @@ export const polygonsData = [
     ],
   },
   {
-    id: 1231,
+    id: 1107,
     info: {
-      name: 'Название феода',
+      name: 'Западный Каменный шлем',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Сванны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#336666',
     latlngs: [
@@ -2342,6 +2507,9 @@ export const polygonsData = [
       population: '',
       owner: 'Фаулеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2380,6 +2548,9 @@ export const polygonsData = [
       population: '',
       owner: 'Фаулеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2418,6 +2589,9 @@ export const polygonsData = [
       population: '',
       owner: 'Фаулеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2452,6 +2626,9 @@ export const polygonsData = [
       population: '',
       owner: 'Фаулеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2494,6 +2671,9 @@ export const polygonsData = [
       population: '',
       owner: 'Фаулеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2544,6 +2724,9 @@ export const polygonsData = [
       population: '',
       owner: 'Фаулеры',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2582,6 +2765,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дондаррионы, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2616,6 +2802,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дондаррионы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2654,6 +2843,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дондаррионы, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2696,6 +2888,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дондаррионы, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2730,6 +2925,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дондаррионы, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2760,6 +2958,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дондаррионы, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2794,6 +2995,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кароны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2824,6 +3028,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кароны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2858,6 +3065,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кароны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2900,6 +3110,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кароны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2942,6 +3155,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кароны, вассалы Дюррандонов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2980,6 +3196,9 @@ export const polygonsData = [
       population: '',
       owner: 'Драйленды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660000',
     latlngs: [
@@ -3030,6 +3249,9 @@ export const polygonsData = [
       population: '',
       owner: 'Драйленды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660000',
     latlngs: [
@@ -3072,6 +3294,9 @@ export const polygonsData = [
       population: '',
       owner: 'Драйленды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660000',
     latlngs: [
@@ -3114,6 +3339,9 @@ export const polygonsData = [
       population: '',
       owner: 'Драйленды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660000',
     latlngs: [
@@ -3160,6 +3388,9 @@ export const polygonsData = [
       population: '',
       owner: 'Драйленды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#660000',
     latlngs: [
@@ -3194,6 +3425,9 @@ export const polygonsData = [
       population: '',
       owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3232,6 +3466,9 @@ export const polygonsData = [
       population: '',
       owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3278,6 +3515,9 @@ export const polygonsData = [
       population: '',
       owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3312,6 +3552,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гаргалены',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -3354,6 +3597,9 @@ export const polygonsData = [
       population: '',
       owner: 'Блэкмонты',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#009933',
     latlngs: [
@@ -3388,6 +3634,9 @@ export const polygonsData = [
       population: '',
       owner: 'Блэкмонты',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#009933',
     latlngs: [
@@ -3422,6 +3671,9 @@ export const polygonsData = [
       population: '',
       owner: 'Блэкмонты',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#009933',
     latlngs: [
@@ -3460,6 +3712,9 @@ export const polygonsData = [
       population: '',
       owner: 'Блэкмонты',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#009933',
     latlngs: [
@@ -3502,6 +3757,9 @@ export const polygonsData = [
       population: '',
       owner: 'Блэкмонты',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#009933',
     latlngs: [
@@ -3548,6 +3806,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CCCC33',
     latlngs: [
@@ -3582,6 +3843,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CCCC33',
     latlngs: [
@@ -3620,6 +3884,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CCCC33',
     latlngs: [
@@ -3658,6 +3925,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CCCC33',
     latlngs: [
@@ -3700,6 +3970,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3734,6 +4007,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3772,6 +4048,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3822,6 +4101,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3860,6 +4142,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3898,6 +4183,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3936,6 +4224,9 @@ export const polygonsData = [
       population: '',
       owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3982,6 +4273,9 @@ export const polygonsData = [
       population: '',
       owner: 'Кворгилы, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4020,6 +4314,9 @@ export const polygonsData = [
       population: '',
       owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4054,6 +4351,9 @@ export const polygonsData = [
       population: '',
       owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4096,6 +4396,9 @@ export const polygonsData = [
       population: '',
       owner: 'Уллеры, вассалы Драйлендов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4146,6 +4449,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гаргалены',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4200,6 +4506,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гаргалены',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4242,6 +4551,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гаргалены',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4276,6 +4588,9 @@ export const polygonsData = [
       population: '',
       owner: 'Гаргалены',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4322,6 +4637,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дальты, вассалы Гаргаленов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4356,6 +4674,9 @@ export const polygonsData = [
       population: '',
       owner: 'Аллирионы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4398,6 +4719,9 @@ export const polygonsData = [
       population: '',
       owner: 'Аллирионы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4436,6 +4760,9 @@ export const polygonsData = [
       population: '',
       owner: 'Дальты, вассалы Гаргаленов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4470,6 +4797,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4508,6 +4838,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4554,6 +4887,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4592,6 +4928,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4638,6 +4977,9 @@ export const polygonsData = [
       population: '',
       owner: 'Аллирионы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4676,6 +5018,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4718,6 +5063,9 @@ export const polygonsData = [
       population: '',
       owner: 'Вейты, вассалы Аллирионов',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4756,6 +5104,9 @@ export const polygonsData = [
       population: '',
       owner: 'Аллирионы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4794,6 +5145,9 @@ export const polygonsData = [
       population: '',
       owner: 'Аллирионы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4840,6 +5194,9 @@ export const polygonsData = [
       population: '',
       owner: 'Аллирионы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#339933',
     latlngs: [
@@ -4878,6 +5235,9 @@ export const polygonsData = [
       population: '',
       owner: 'Джордейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -4916,6 +5276,9 @@ export const polygonsData = [
       population: '',
       owner: 'Джордейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -4962,6 +5325,9 @@ export const polygonsData = [
       population: '',
       owner: 'Джордейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5004,6 +5370,9 @@ export const polygonsData = [
       population: '',
       owner: 'Джордейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5042,6 +5411,9 @@ export const polygonsData = [
       population: '',
       owner: 'Джордейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5088,6 +5460,9 @@ export const polygonsData = [
       population: '',
       owner: 'Джордейны',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5130,6 +5505,9 @@ export const polygonsData = [
       population: '',
       owner: 'Толанды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5172,6 +5550,9 @@ export const polygonsData = [
       population: '',
       owner: 'Толанды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5226,6 +5607,9 @@ export const polygonsData = [
       population: '',
       owner: 'Толанды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5276,6 +5660,9 @@ export const polygonsData = [
       population: '',
       owner: 'Толанды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5314,6 +5701,9 @@ export const polygonsData = [
       population: '',
       owner: 'Толанды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5348,6 +5738,9 @@ export const polygonsData = [
       population: '',
       owner: 'Толанды',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5382,6 +5775,9 @@ export const polygonsData = [
       population: '',
       owner: 'Мартеллы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -5416,6 +5812,9 @@ export const polygonsData = [
       population: '',
       owner: 'Мартеллы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -5458,6 +5857,9 @@ export const polygonsData = [
       population: '',
       owner: 'Мартеллы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -5508,6 +5910,9 @@ export const polygonsData = [
       population: '',
       owner: 'Мартеллы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -5566,6 +5971,9 @@ export const polygonsData = [
       population: '',
       owner: 'Мартеллы',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -5608,6 +6016,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5658,6 +6069,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5704,6 +6118,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5742,6 +6159,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5772,6 +6192,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5810,6 +6233,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5848,6 +6274,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5878,6 +6307,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5912,6 +6344,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5946,6 +6381,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -5976,6 +6414,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -6006,6 +6447,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -6040,6 +6484,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -6074,6 +6521,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -6120,6 +6570,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -6170,6 +6623,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -6208,6 +6664,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
@@ -6242,6 +6701,9 @@ export const polygonsData = [
       population: '',
       owner: 'Ничейные земли',
       fortifications: '-',
+      relief: '',
+      populationLimit: '',
+      size: '',
     },
     color: '#000000',
     latlngs: [
