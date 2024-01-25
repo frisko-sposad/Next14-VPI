@@ -11,6 +11,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#336666',
     latlngs: [
@@ -64,6 +65,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#336666',
     latlngs: [
@@ -101,6 +103,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#336666',
     latlngs: [
@@ -154,6 +157,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#336666',
     latlngs: [
@@ -199,6 +203,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#336666',
     latlngs: [
@@ -236,6 +241,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#336666',
     latlngs: [
@@ -281,6 +287,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#3388ff',
     latlngs: [
@@ -342,6 +349,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#3388ff',
     latlngs: [
@@ -407,6 +415,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#3388ff',
     latlngs: [
@@ -456,6 +465,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#3388ff',
     latlngs: [
@@ -513,6 +523,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000066',
     latlngs: [
@@ -550,6 +561,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000066',
     latlngs: [
@@ -587,6 +599,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000066',
     latlngs: [
@@ -620,6 +633,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000066',
     latlngs: [
@@ -665,6 +679,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000066',
     latlngs: [
@@ -698,6 +713,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000066',
     latlngs: [
@@ -743,6 +759,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -788,6 +805,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -833,6 +851,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -874,6 +893,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -931,6 +951,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -972,6 +993,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FF6633',
     latlngs: [
@@ -1013,6 +1035,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1058,6 +1081,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1095,6 +1119,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1132,6 +1157,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1185,6 +1211,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1230,6 +1257,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1291,6 +1319,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1352,6 +1381,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1409,6 +1439,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1458,6 +1489,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1515,6 +1547,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1568,6 +1601,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1605,6 +1639,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1650,6 +1685,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1707,6 +1743,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -1744,6 +1781,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -1789,6 +1827,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -1838,6 +1877,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -1879,6 +1919,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -1916,6 +1957,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -1953,6 +1995,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -1994,6 +2037,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -2039,6 +2083,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -2092,6 +2137,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -2129,6 +2175,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -2170,6 +2217,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660099',
     latlngs: [
@@ -2215,6 +2263,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2264,6 +2313,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2317,6 +2367,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2358,6 +2409,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2399,6 +2451,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#99FFFF',
     latlngs: [
@@ -2436,6 +2489,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#663300',
     latlngs: [
@@ -2473,6 +2527,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#336666',
     latlngs: [
@@ -2510,6 +2565,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2551,6 +2607,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2592,6 +2649,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2629,6 +2687,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2674,6 +2733,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2727,6 +2787,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6666FF',
     latlngs: [
@@ -2768,6 +2829,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2805,6 +2867,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2846,6 +2909,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2891,6 +2955,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2928,6 +2993,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2961,6 +3027,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2998,6 +3065,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3031,6 +3099,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3068,6 +3137,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3113,6 +3183,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3158,6 +3229,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -3199,6 +3271,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660000',
     latlngs: [
@@ -3252,6 +3325,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660000',
     latlngs: [
@@ -3297,6 +3371,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660000',
     latlngs: [
@@ -3342,6 +3417,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660000',
     latlngs: [
@@ -3391,6 +3467,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#660000',
     latlngs: [
@@ -3428,6 +3505,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3469,6 +3547,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3518,6 +3597,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -3555,6 +3635,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -3600,6 +3681,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#009933',
     latlngs: [
@@ -3637,6 +3719,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#009933',
     latlngs: [
@@ -3674,6 +3757,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#009933',
     latlngs: [
@@ -3715,6 +3799,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#009933',
     latlngs: [
@@ -3760,6 +3845,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#009933',
     latlngs: [
@@ -3809,6 +3895,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CCCC33',
     latlngs: [
@@ -3846,6 +3933,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CCCC33',
     latlngs: [
@@ -3887,6 +3975,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CCCC33',
     latlngs: [
@@ -3928,6 +4017,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CCCC33',
     latlngs: [
@@ -3973,6 +4063,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4010,6 +4101,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4051,6 +4143,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4104,6 +4197,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4145,6 +4239,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4186,6 +4281,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4227,6 +4323,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4276,6 +4373,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4317,6 +4415,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4354,6 +4453,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4399,6 +4499,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#9900CC',
     latlngs: [
@@ -4452,6 +4553,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4509,6 +4611,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4554,6 +4657,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4591,6 +4695,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4640,6 +4745,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4677,6 +4783,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -4722,6 +4829,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -4763,6 +4871,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#6600FF',
     latlngs: [
@@ -4800,6 +4909,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -4841,6 +4951,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -4890,6 +5001,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -4931,6 +5043,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -4980,6 +5093,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -5021,6 +5135,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -5066,6 +5181,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -5107,6 +5223,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -5148,6 +5265,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -5197,6 +5315,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#339933',
     latlngs: [
@@ -5238,6 +5357,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5279,6 +5399,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5328,6 +5449,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5373,6 +5495,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5414,6 +5537,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5463,6 +5587,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC0000',
     latlngs: [
@@ -5508,6 +5633,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5553,6 +5679,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5610,6 +5737,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5663,6 +5791,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5704,6 +5833,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5741,6 +5871,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#CC6600',
     latlngs: [
@@ -5778,6 +5909,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -5815,6 +5947,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -5860,6 +5993,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -5913,6 +6047,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -5974,6 +6109,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#FFCC00',
     latlngs: [
@@ -6019,6 +6155,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6072,6 +6209,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6121,6 +6259,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6162,6 +6301,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6195,6 +6335,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6236,6 +6377,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6277,6 +6419,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6310,6 +6453,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6347,6 +6491,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6384,6 +6529,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6417,6 +6563,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6450,6 +6597,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6487,6 +6635,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6524,6 +6673,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6573,6 +6723,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6626,6 +6777,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6667,6 +6819,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
@@ -6704,6 +6857,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
+      religion: '',
     },
     color: '#000000',
     latlngs: [
