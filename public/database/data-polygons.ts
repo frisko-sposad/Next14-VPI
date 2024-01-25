@@ -6109,7 +6109,7 @@ export const polygonsData = [
       relief: '',
       populationLimit: '',
       size: '',
-      religion: '',
+      religion: 'Андаллы',
     },
     color: '#FFCC00',
     latlngs: [

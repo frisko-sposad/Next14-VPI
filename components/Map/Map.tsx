@@ -78,6 +78,27 @@ const polygonsBorder = polygonsData.map((el) => {
   );
 });
 
+const polygonsBorderReligion = polygonsData.map((el) => {
+  const color = el.info.religion == 'Андаллы' ? `#CC0033` : `#FFFFCC`;
+  return (
+    <Polygon key={el.id} pathOptions={{ color: color }} positions={el.latlngs}>
+      <Popup>
+        <p>
+          <p>
+            id: {el.id}
+            <br />
+            <b>{el.info.name}</b>
+            <br />
+            Владелец: {el.info.owner}
+            <br />
+            <b>Религия: {el.info.religion}</b>
+          </p>
+        </p>
+      </Popup>
+    </Polygon>
+  );
+});
+
 const Map = () => {
   const [mapLayers, setMapLayers] = useState([] as any);
 
@@ -153,6 +174,9 @@ const Map = () => {
         <LayersControl position="topright" collapsed={false}>
           <LayersControl.Overlay name="Границы Феодов" checked>
             <LayerGroup>{polygonsBorder}</LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Религия">
+            <LayerGroup>{polygonsBorderReligion}</LayerGroup>
           </LayersControl.Overlay>
           <LayersControl.Overlay name="Метки" checked>
             <LayerGroup>
