@@ -17,6 +17,7 @@ const StatsTable = () => {
       resources: el.info.resources,
       population: el.info.population,
       owner: el.info.owner,
+      religion: el.info.religion,
     };
     return res;
   });
@@ -38,6 +39,10 @@ const StatsTable = () => {
       {
         Header: 'Население',
         accessor: 'population',
+      },
+      {
+        Header: 'Религия',
+        accessor: 'religion',
       },
       {
         Header: 'Описание',
