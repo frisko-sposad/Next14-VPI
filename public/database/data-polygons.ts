@@ -2427,11 +2427,11 @@ export const polygonsData = [
   {
     id: 1230,
     info: {
-      name: 'Название феода',
+      name: 'Восточная Медовая Роща',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Лорд',
+      owner: 'Бисбери, вассалы Хайтауэров',
       fortifications: '-',
       relief: '',
       populationLimit: '',
@@ -3419,7 +3419,7 @@ export const polygonsData = [
   {
     id: 1912,
     info: {
-      name: 'Западное Пекло',
+      name: 'Восточное Пекло',
       text: 'Описание',
       resources: '',
       population: '',
@@ -4443,11 +4443,11 @@ export const polygonsData = [
   {
     id: 1955,
     info: {
-      name: 'Название феода',
+      name: 'Лимонная Роща',
       text: 'Описание',
       resources: '',
       population: '',
-      owner: 'Гаргалены',
+      owner: 'Дальты, вассалы Гаргалленов',
       fortifications: '-',
       relief: '',
       populationLimit: '',
