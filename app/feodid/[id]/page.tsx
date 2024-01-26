@@ -4,28 +4,29 @@ import { polygonsData } from '@/public/database/data-polygons';
 import Header from '@/components/Header/header';
 import Table from '@/components/Table/Table';
 
-const StatsTable = () => {
+const StatsTable = ({ params }: { params: { id: number } }) => {
   const dataFeods = useMemo(() => polygonsData, []);
 
-  const data = dataFeods.map((el) => {
-    const res = {
-      id: el.id,
-      name: el.info.name,
-      text: el.info.text,
-      mines: el.info.resources.mines,
-      forest: el.info.resources.forest,
-      skins: el.info.resources.skins,
-      horses: el.info.resources.horses,
-      population: el.info.population,
-      owner: el.info.owner,
-      religion: el.info.religion,
-      populationLimit: el.info.populationLimit,
-      overlord: el.info.overlord,
-    };
-    console.log(el.info.resources);
+  const data = dataFeods
+    .filter((el) => el.id == params.id)
+    .map((el) => {
+      const res = {
+        id: el.id,
+        name: el.info.name,
+        text: el.info.text,
+        mines: el.info.resources.mines,
+        forest: el.info.resources.forest,
+        skins: el.info.resources.skins,
+        horses: el.info.resources.horses,
+        population: el.info.population,
+        owner: el.info.owner,
+        religion: el.info.religion,
+        populationLimit: el.info.populationLimit,
+        overlord: el.info.overlord,
+      };
 
-    return res;
-  });
+      return res;
+    });
 
   const columnsHeroes = useMemo(
     () => [

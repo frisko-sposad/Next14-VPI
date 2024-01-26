@@ -75,6 +75,8 @@ const polygonsBorder = polygonsData.map((el) => {
             <br />
             Владелец: {el.info.owner}
             <br />
+            Сюзерен: {el.info.overlord}
+            <br />
             Описание: {el.info.text}
           </p>
         </p>
