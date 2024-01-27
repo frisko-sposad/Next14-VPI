@@ -7,7 +7,7 @@ export const polygonsData = [
       overlord: 'Дюррандоны',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
-      owner: 'Сванны',
+      owner: 'Мертинсы',
       fortifications: '',
       relief: '',
       populationLimit: 1000,
@@ -4339,7 +4339,7 @@ export const polygonsData = [
     info: {
       name: 'Звёздное ущелье',
       text: 'описание',
-      overlord: 'Драйленды',
+      overlord: 'Дейны',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
       owner: 'Кворгилы',
@@ -4378,7 +4378,7 @@ export const polygonsData = [
     info: {
       name: 'Звёздный отрог',
       text: 'описание',
-      overlord: 'Драйленды',
+      overlord: 'Дейны',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
       owner: 'Кворгилы',
@@ -4421,7 +4421,7 @@ export const polygonsData = [
     info: {
       name: 'Прибрежные дюны',
       text: 'описание',
-      overlord: 'Драйленды',
+      overlord: 'Дейны',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
       owner: 'Кворгилы',
@@ -4476,7 +4476,7 @@ export const polygonsData = [
     info: {
       name: 'Большой песчаник',
       text: 'описание',
-      overlord: 'Драйленды',
+      overlord: 'Дейны',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
       owner: 'Кворгилы',
@@ -4519,7 +4519,7 @@ export const polygonsData = [
     info: {
       name: 'Песчаник',
       text: 'описание',
-      overlord: 'Драйленды',
+      overlord: 'Дейны',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
       owner: 'Кворгилы',
@@ -4562,7 +4562,7 @@ export const polygonsData = [
     info: {
       name: 'Малый песчаник',
       text: 'описание',
-      overlord: 'Драйленды',
+      overlord: 'Дейны',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
       owner: 'Кворгилы',
@@ -4656,7 +4656,7 @@ export const polygonsData = [
     info: {
       name: 'Золотые пески',
       text: 'описание',
-      overlord: 'Драйленды',
+      overlord: 'Дейны',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
       owner: 'Кворгилы',
@@ -5165,10 +5165,10 @@ export const polygonsData = [
     info: {
       name: 'Северный берег Зеленокровной',
       text: 'описание',
-      overlord: 'Аллирионы',
+      overlord: '',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
-      owner: 'Вейты',
+      owner: 'Аллирионы',
       fortifications: '',
       relief: '',
       populationLimit: 1000,
