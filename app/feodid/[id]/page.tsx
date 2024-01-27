@@ -21,7 +21,6 @@ const StatsTable = ({ params }: { params: { id: number } }) => {
         population: el.info.population,
         owner: el.info.owner,
         religion: el.info.religion,
-        populationLimit: el.info.populationLimit,
         overlord: el.info.overlord,
       };
 

@@ -8,21 +8,37 @@ const StatsTable = () => {
   const dataFeods = useMemo(() => polygonsData, []);
 
   const data = dataFeods.map((el) => {
+    const populationLimit =
+      el.info.resources.mines +
+      el.info.resources.forest +
+      el.info.resources.skins +
+      el.info.resources.horses;
     const res = {
       id: el.id,
       name: el.info.name,
       text: el.info.text,
-      mines: el.info.resources.mines,
-      forest: el.info.resources.forest,
-      skins: el.info.resources.skins,
-      horses: el.info.resources.horses,
-      population: el.info.population,
+      mines: `${el.info.resources.mines}/${el.info.limits.mines}`,
+      forest: `${el.info.resources.forest}/${el.info.limits.forest}`,
+      skins: `${el.info.resources.skins}/${el.info.limits.skins}`,
+      horses: `${el.info.resources.horses}/${el.info.limits.horses}`,
+      food: `${el.info.resources.food}/${el.info.limits.food}`,
       owner: el.info.owner,
       religion: el.info.religion,
-      populationLimit: el.info.populationLimit,
+      populationLimit: `${
+        el.info.resources.mines +
+        el.info.resources.forest +
+        el.info.resources.skins +
+        el.info.resources.horses +
+        el.info.resources.food
+      }/${
+        el.info.limits.mines +
+        el.info.limits.forest +
+        el.info.limits.skins +
+        el.info.limits.horses +
+        el.info.limits.food
+      }`,
       overlord: el.info.overlord,
     };
-    console.log(el.info.resources);
 
     return res;
   });
@@ -38,7 +54,7 @@ const StatsTable = () => {
         accessor: 'name',
       },
       {
-        Header: 'Лимит ресурсов',
+        Header: 'Работают / Лимит ресурсов',
         columns: [
           {
             Header: 'Шахты',
@@ -55,6 +71,10 @@ const StatsTable = () => {
           {
             Header: 'Лошади',
             accessor: 'horses',
+          },
+          {
+            Header: 'Снабжение',
+            accessor: 'food',
           },
           {
             Header: 'Население',
