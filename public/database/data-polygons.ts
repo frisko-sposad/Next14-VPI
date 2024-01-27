@@ -4840,7 +4840,7 @@ export const polygonsData = [
     info: {
       name: 'Лимонная Роща',
       text: 'описание',
-      overlord: 'Гаргаллены',
+      overlord: 'Дальты',
       resources: { mines: 100, forest: 100, skins: 100, horses: 100 },
       population: '',
       owner: 'Дальты',
