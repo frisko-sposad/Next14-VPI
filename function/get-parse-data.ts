@@ -8,7 +8,7 @@ export function getParseData(data: Record<string, RawData>) {
   const newData = {} as any;
 
   for (const player in data) {
-    const newDataFlank = [{}];
+    const newDataFlank: any = [{}];
 
     for (const flank in data[player]) {
       const newDataSquad = [];
@@ -41,9 +41,9 @@ export function getParseData(data: Record<string, RawData>) {
         }
       }
 
-      newDataFlank[Number(flank)] = newDataSquad;
+      newDataFlank[flank] = newDataSquad;
     }
-    newData[Number(player)] = newDataFlank;
+    newData[`${player}`] = newDataFlank;
   }
   // console.log({ newData, data });
 
