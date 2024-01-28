@@ -17,7 +17,7 @@
 
 
 .leaflet-draw-toolbar a {
-  background-image: url('./user-info/spritesheet.png') !important;
+  background-image: url('../components/leflet/spritesheet.png') !important;
   background-repeat: no-repeat;
   color: transparent !important;
 }
