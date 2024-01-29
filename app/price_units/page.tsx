@@ -34,12 +34,9 @@ const StatsTable = () => {
       },
       {
         Header: 'Лошадь',
-        accessor: 'horse',
+        accessor: 'horses',
       },
-      {
-        Header: 'Мораль',
-        accessor: 'morality',
-      },
+
       {
         Header: 'Жалование(в ход)',
         accessor: 'price',
