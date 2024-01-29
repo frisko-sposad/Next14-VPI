@@ -205,7 +205,10 @@ const Map = () => {
             <LayerGroup>
               {markerIconcastleData}
 
-              <Marker position={[51.51, -0.06]} icon={markerIconCastle}>
+              <Marker
+                position={[82.23058418566629, -51.3984375]}
+                icon={markerIconCastle}
+              >
                 <Popup>
                   Пиздец работает!!! <br /> Это земли Лорда Жупела!
                 </Popup>
