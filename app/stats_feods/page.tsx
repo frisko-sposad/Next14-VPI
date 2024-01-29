@@ -7,6 +7,34 @@ import Table from '@/components/Table/Table';
 const StatsTable = () => {
   const dataFeods = useMemo(() => polygonsData, []);
 
+  // пересчитать JSON феодов
+  // const test = dataFeods.map((el) => {
+  //   return {
+  //     id: el.id,
+  //     info: {
+  //       name: el.info.name,
+  //       text: el.info.text,
+  //       overlord: el.info.overlord,
+  //       resources: {
+  //         mines: Math.round(el.info.resources.mines * 0.33),
+  //         forest: Math.round(el.info.limits.forest * 0.33),
+  //         skins: Math.round(el.info.limits.skins * 0.33),
+  //         horses: Math.round(el.info.limits.horses * 0.33),
+  //         food: Math.round(el.info.limits.food * 0.33),
+  //       },
+  //       limits: el.info.limits,
+  //       owner: el.info.owner,
+  //       fortifications: el.info.fortifications,
+  //       relief: el.info.relief,
+  //       size: el.info.size,
+  //       religion: el.info.religion,
+  //     },
+  //     color: el.color,
+  //     latlngs: el.latlngs,
+  //   };
+  // });
+  // console.log(JSON.stringify(test));
+
   const data = dataFeods.map((el) => {
     const population =
       el.info.resources.mines +
