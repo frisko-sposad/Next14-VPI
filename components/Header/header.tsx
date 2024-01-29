@@ -55,6 +55,14 @@ const Header = () => {
             </li>
             <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
               <Link
+                href="/price_units"
+                className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+              >
+                <h2>Price</h2>
+              </Link>
+            </li>
+            <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+              <Link
                 href="/stats_feods"
                 className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
               >

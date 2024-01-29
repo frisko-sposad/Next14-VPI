@@ -22,6 +22,10 @@ export interface squadUnitOld {
   defenseSword: number;
   defenseSpear: number;
   ready: boolean;
+  iron: number;
+  tree: number;
+  skins: number;
+  horses: number;
 }
 
 export interface UnitData {
@@ -54,6 +58,11 @@ export const unitsData: UnitData[] = [
       //   defenseSword: 1,
       //   defenseSpear: 1,
       // ready: true,
+      //       //     iron: 11,
+      //     tree: 22,
+      //     skins: 33,
+      //     horses: 44
+      //
       // },
       {
         id: 1,
@@ -74,6 +83,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 28,
+        tree: 2,
+        skins: 2,
+        horses: 1,
       },
       {
         id: 2,
@@ -94,6 +107,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 8,
+        tree: 3,
+        skins: 4,
+        horses: 1,
       },
       {
         id: 3,
@@ -114,6 +131,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 2,
+        tree: 1,
+        skins: 0,
+        horses: 1,
       },
     ],
   },
@@ -140,6 +161,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 5,
+        tree: 6,
+        skins: 4,
+        horses: 0,
       },
       {
         id: 5,
@@ -160,6 +185,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1.5,
         ready: true,
+        iron: 8,
+        tree: 3,
+        skins: 4,
+        horses: 0,
       },
       {
         id: 6,
@@ -180,6 +209,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 2,
+        tree: 1,
+        skins: 0,
+        horses: 0,
       },
       {
         id: 7,
@@ -200,6 +233,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 1,
+        tree: 1,
+        skins: 1,
+        horses: 0,
       },
       {
         id: 8,
@@ -220,6 +257,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 0.7,
         defenseSpear: 1,
         ready: true,
+        iron: 10,
+        tree: 0,
+        skins: 3,
+        horses: 0,
       },
       {
         id: 9,
@@ -240,6 +281,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 0,
+        tree: 0,
+        skins: 0,
+        horses: 0,
       },
       {
         id: 10,
@@ -260,6 +305,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1.5,
         defenseSpear: 1,
         ready: true,
+        iron: 8,
+        tree: 4,
+        skins: 4,
+        horses: 0,
       },
       {
         id: 11,
@@ -280,6 +329,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1.5,
         defenseSpear: 1.5,
         ready: true,
+        iron: 28,
+        tree: 2,
+        skins: 2,
+        horses: 0,
       },
       {
         id: 12,
@@ -300,6 +353,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1.4,
         defenseSpear: 1,
         ready: true,
+        iron: 3,
+        tree: 0,
+        skins: 0,
+        horses: 0,
       },
       {
         id: 13,
@@ -320,6 +377,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 9,
+        tree: 4,
+        skins: 4,
+        horses: 0,
       },
       {
         id: 30,
@@ -340,6 +401,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1.5,
         defenseSpear: 1.5,
         ready: true,
+        iron: 28,
+        tree: 2,
+        skins: 2,
+        horses: 1,
       },
       {
         id: 31,
@@ -360,6 +425,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1.5,
         ready: true,
+        iron: 11,
+        tree: 22,
+        skins: 33,
+        horses: 44,
       },
       {
         id: 32,
@@ -380,6 +449,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 8,
+        tree: 3,
+        skins: 4,
+        horses: 1,
       },
     ],
   },
@@ -406,6 +479,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1.5,
         defenseSpear: 2,
         ready: true,
+        iron: 0,
+        tree: 0,
+        skins: 0,
+        horses: 0,
       },
       {
         id: 115,
@@ -426,6 +503,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1.2,
         defenseSpear: 1.5,
         ready: true,
+        iron: 0,
+        tree: 0,
+        skins: 0,
+        horses: 0,
       },
       {
         id: 116,
@@ -446,6 +527,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1.1,
         defenseSpear: 1.1,
         ready: true,
+        iron: 0,
+        tree: 0,
+        skins: 0,
+        horses: 0,
       },
       {
         id: 117,
@@ -466,6 +551,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1,
         defenseSpear: 1,
         ready: true,
+        iron: 0,
+        tree: 0,
+        skins: 0,
+        horses: 0,
       },
       {
         id: 118,
@@ -486,6 +575,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1.2,
         defenseSpear: 1,
         ready: true,
+        iron: 0,
+        tree: 0,
+        skins: 0,
+        horses: 0,
       },
       {
         id: 119,
@@ -506,6 +599,10 @@ export const unitsData: UnitData[] = [
         defenseSword: 1.2,
         defenseSpear: 1.2,
         ready: true,
+        iron: 0,
+        tree: 0,
+        skins: 0,
+        horses: 0,
       },
     ],
   },

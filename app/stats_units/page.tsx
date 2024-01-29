@@ -14,22 +14,6 @@ const StatsTable = () => {
   const columnsUnits = useMemo(
     () => [
       {
-        id: 'expander',
-        Header: '',
-        Cell: ({ row }: any) =>
-          row.canExpand ? (
-            <span
-              {...row.getToggleRowExpandedProps({
-                style: {
-                  paddingLeft: `${row.depth * 2}rem`,
-                },
-              })}
-            >
-              {row.isExpanded ? '-' : '+'}
-            </span>
-          ) : null,
-      },
-      {
         Header: 'id',
         accessor: 'id',
       },
