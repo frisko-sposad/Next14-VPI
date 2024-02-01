@@ -18,7 +18,6 @@ const StatsTable = ({ params }: { params: { id: number } }) => {
         forest: el.info.resources.forest,
         skins: el.info.resources.skins,
         horses: el.info.resources.horses,
-        population: el.info.population,
         owner: el.info.owner,
         religion: el.info.religion,
         overlord: el.info.overlord,
@@ -55,10 +54,6 @@ const StatsTable = ({ params }: { params: { id: number } }) => {
           {
             Header: 'Лошади',
             accessor: 'horses',
-          },
-          {
-            Header: 'Население',
-            accessor: 'populationLimit',
           },
         ],
       },
