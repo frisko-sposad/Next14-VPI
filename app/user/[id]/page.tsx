@@ -2,18 +2,14 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import Header from '@/components/Header/header';
 import Table from '@/components/Table/Table';
-import { useRouter } from 'next/router';
 
-const UserInfo = () => {
+const UserInfo = ({ params }: { params: { id: number } }) => {
   const [dataUsers, setDataUsers] = useState([] as any);
-  console.log(dataUsers);
 
-  const router = useRouter();
-  console.log(router.query.id);
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        `http://localhost:5000/user/${router.query.id}`,
+        `https://vpi-node-js.vercel.app/user/${params.id}`,
         {
           method: 'GET',
           headers: {
@@ -28,7 +24,7 @@ const UserInfo = () => {
       setDataUsers(data);
     };
     fetchData();
-  }, [router.query.id]);
+  }, [params.id]);
 
   const columnsUsers = useMemo(
     () => [
@@ -72,7 +68,7 @@ const UserInfo = () => {
               <option value="1">Id 1</option>
               <option value="2">Id 2</option>
               <option value="3">Id 3</option>
-              <option value="4">Id 4</option>
+              <option value="41">Id 41</option>
             </select>
           </div>
         </div>
