@@ -88,6 +88,19 @@ const StatsTable = () => {
         accessor: 'name',
       },
       {
+        Header: 'Шахты',
+        columns: [
+          {
+            Header: 'Рабочие',
+            accessor: 'mines_resources',
+          },
+          {
+            Header: 'Лимит',
+            accessor: 'mines_limits',
+          },
+        ],
+      },
+      {
         Header: 'Лес',
         columns: [
           {
