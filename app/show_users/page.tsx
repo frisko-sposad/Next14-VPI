@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 
 const UserInfo = () => {
   const [dataUsers, setDataUsers] = useState([] as any);
-  console.log(dataUsers);
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(`https://vpi-node-js.vercel.app/users`, {
