@@ -14,10 +14,10 @@ const StatsTable = ({ params }: { params: { id: number } }) => {
         id: el.id,
         name: el.info.name,
         text: el.info.text,
-        mines: el.info.resources.mines,
-        forest: el.info.resources.forest,
-        skins: el.info.resources.skins,
-        horses: el.info.resources.horses,
+        minesPeasent: el.info.peasent.mines,
+        forestPeasent: el.info.peasent.forest,
+        skinsPeasent: el.info.peasent.skins,
+        horsesPeasent: el.info.peasent.horses,
         owner: el.info.owner,
         religion: el.info.religion,
         overlord: el.info.overlord,
@@ -41,19 +41,19 @@ const StatsTable = ({ params }: { params: { id: number } }) => {
         columns: [
           {
             Header: 'Шахты',
-            accessor: 'mines',
+            accessor: 'minesPeasent',
           },
           {
             Header: 'Лес',
-            accessor: 'forest',
+            accessor: 'forestPeasent',
           },
           {
             Header: 'Скот',
-            accessor: 'skins',
+            accessor: 'skinsPeasent',
           },
           {
             Header: 'Лошади',
-            accessor: 'horses',
+            accessor: 'horsesPeasent',
           },
         ],
       },

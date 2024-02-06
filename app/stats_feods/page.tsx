@@ -23,8 +23,8 @@ const StatsTable = () => {
 
     return {
       ...el,
-      //   resources: {
-      //     mines: Math.round(el.info.resources.mines * 0.33),
+      //   Resources: {
+      //     mines: Math.round(el.info.Resources.mines * 0.33),
       //     forest: Math.round(el.info.limits.forest * 0.33),
       //     skins: Math.round(el.info.limits.skins * 0.33),
       //     horses: Math.round(el.info.limits.horses * 0.33),
@@ -40,12 +40,18 @@ const StatsTable = () => {
   // );
 
   const data = dataFeods.map((el) => {
-    const population =
-      el.info.resources.mines +
-      el.info.resources.forest +
-      el.info.resources.skins +
-      el.info.resources.horses +
-      el.info.resources.food;
+    const populationPeasent =
+      el.info.peasent.mines +
+      el.info.peasent.forest +
+      el.info.peasent.skins +
+      el.info.peasent.horses +
+      el.info.peasent.food;
+    const populationSlave =
+      el.info.slave.mines +
+      el.info.slave.forest +
+      el.info.slave.skins +
+      el.info.slave.horses +
+      el.info.slave.food;
     const populationLimit =
       el.info.limits.mines +
       el.info.limits.forest +
@@ -57,19 +63,25 @@ const StatsTable = () => {
       id: el.id,
       name: el.info.name,
       text: el.info.text,
-      mines_resources: el.info.resources.mines,
-      mines_limits: el.info.limits.mines,
-      forest_resources: el.info.resources.forest,
-      forest_limits: el.info.limits.forest,
-      skins_resources: el.info.resources.skins,
-      skins_limits: el.info.limits.skins,
-      horses_resources: el.info.resources.horses,
-      horses_limits: el.info.limits.horses,
-      food_resources: el.info.resources.food,
-      food_limits: el.info.limits.food,
+      minesPeasent: el.info.peasent.mines,
+      minesSlave: el.info.peasent.mines,
+      minesLimits: el.info.limits.mines,
+      forestPeasent: el.info.peasent.forest,
+      forestSlave: el.info.peasent.forest,
+      forestLimits: el.info.limits.forest,
+      skinsPeasent: el.info.peasent.skins,
+      skinsSlave: el.info.peasent.skins,
+      skinsLimits: el.info.limits.skins,
+      horsesPeasent: el.info.peasent.horses,
+      horsesSlave: el.info.peasent.horses,
+      horsesLimits: el.info.limits.horses,
+      foodPeasent: el.info.peasent.food,
+      foodSlave: el.info.peasent.food,
+      foodLimits: el.info.limits.food,
       owner: el.info.owner,
       religion: el.info.religion,
-      population,
+      populationPeasent,
+      populationSlave,
       populationLimit,
       overlord: el.info.overlord,
     };
@@ -91,12 +103,16 @@ const StatsTable = () => {
         Header: 'Шахты',
         columns: [
           {
-            Header: 'Рабочие',
-            accessor: 'mines_resources',
+            Header: 'Крестьяне',
+            accessor: 'minesPeasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'minesSlave',
           },
           {
             Header: 'Лимит',
-            accessor: 'mines_limits',
+            accessor: 'minesLimits',
           },
         ],
       },
@@ -104,12 +120,16 @@ const StatsTable = () => {
         Header: 'Лес',
         columns: [
           {
-            Header: 'Рабочие',
-            accessor: 'forest_resources',
+            Header: 'Крестьяне',
+            accessor: 'forestPeasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'forestSlave',
           },
           {
             Header: 'Лимит',
-            accessor: 'forest_limits',
+            accessor: 'forestLimits',
           },
         ],
       },
@@ -117,12 +137,16 @@ const StatsTable = () => {
         Header: 'Скот',
         columns: [
           {
-            Header: 'Рабочие',
-            accessor: 'skins_resources',
+            Header: 'Крестьяне',
+            accessor: 'skinsPeasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'skinsSlave',
           },
           {
             Header: 'Лимит',
-            accessor: 'skins_limits',
+            accessor: 'skinsLimits',
           },
         ],
       },
@@ -130,12 +154,16 @@ const StatsTable = () => {
         Header: 'Лошади',
         columns: [
           {
-            Header: 'Рабочие',
-            accessor: 'horses_resources',
+            Header: 'Крестьяне',
+            accessor: 'horsesPeasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'horsesSlave',
           },
           {
             Header: 'Лимит',
-            accessor: 'horses_limits',
+            accessor: 'horsesLimits',
           },
         ],
       },
@@ -143,12 +171,16 @@ const StatsTable = () => {
         Header: 'Снабжение',
         columns: [
           {
-            Header: 'Рабочие',
-            accessor: 'food_resources',
+            Header: 'Крестьяне',
+            accessor: 'foodPeasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'foodSlave',
           },
           {
             Header: 'Лимит',
-            accessor: 'food_limits',
+            accessor: 'foodLimits',
           },
         ],
       },
@@ -156,8 +188,12 @@ const StatsTable = () => {
         Header: 'Население',
         columns: [
           {
-            Header: 'Рабочие',
-            accessor: 'population',
+            Header: 'Крестьяне',
+            accessor: 'populationPeasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'populationSlave',
           },
           {
             Header: 'Лимит',
