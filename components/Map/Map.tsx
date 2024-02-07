@@ -77,7 +77,71 @@ const polygonsBorder = polygonsData.map((el) => {
             <br />
             Сюзерен: {el.info.overlord}
             <br />
-            Описание: {el.info.text}
+            <br />
+            Шахты:
+            <span className="text-orange-600">{el.info.slave.mines}</span>
+            &nbsp;|&nbsp;
+            <span className="text-sky-500">{el.info.peasent.mines}</span>
+            &nbsp;|&nbsp;
+            <span className="text-black-600">{el.info.limits.mines}</span>
+            <br />
+            Лес:
+            <span className="text-orange-600">{el.info.slave.forest}</span>
+            &nbsp;|&nbsp;
+            <span className="text-sky-500">{el.info.peasent.forest}</span>
+            &nbsp;|&nbsp;
+            <span className="text-black-600">{el.info.limits.forest}</span>
+            <br />
+            Скот:
+            <span className="text-orange-600">{el.info.slave.skins}</span>
+            &nbsp;|&nbsp;
+            <span className="text-sky-500">{el.info.peasent.skins}</span>
+            &nbsp;|&nbsp;
+            <span className="text-black-600">{el.info.limits.skins}</span>
+            <br />
+            Поля:
+            <span className="text-orange-600">{el.info.slave.food}</span>
+            &nbsp;|&nbsp;
+            <span className="text-sky-500">{el.info.peasent.food}</span>
+            &nbsp;|&nbsp;
+            <span className="text-black-600">{el.info.limits.food}</span>
+            <br />
+            <br />
+            Население:&nbsp;
+            <b>
+              {el.info.peasent.mines +
+                el.info.slave.mines +
+                el.info.peasent.forest +
+                el.info.slave.forest +
+                el.info.peasent.skins +
+                el.info.slave.skins +
+                el.info.peasent.food +
+                el.info.slave.food}
+            </b>
+            <br />
+            <span className="text-orange-600">
+              Рабы:&nbsp;
+              {el.info.slave.mines +
+                el.info.slave.forest +
+                el.info.slave.skins +
+                el.info.slave.food}
+            </span>
+            <br />
+            <span className="text-sky-500">
+              Крестьяне:&nbsp;
+              {el.info.peasent.mines +
+                el.info.peasent.forest +
+                el.info.peasent.skins +
+                el.info.peasent.food}
+            </span>
+            <br />
+            <span className="text-black-500">
+              Лимит:&nbsp;
+              {el.info.limits.mines +
+                el.info.limits.forest +
+                el.info.limits.skins +
+                el.info.limits.food}
+            </span>
           </p>
         </p>
       </Popup>
