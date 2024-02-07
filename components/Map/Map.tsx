@@ -84,6 +84,8 @@ const polygonsBorder = polygonsData.map((el) => {
             <span className="text-sky-500">{el.info.peasent.mines}</span>
             &nbsp;|&nbsp;
             <span className="text-black-600">{el.info.limits.mines}</span>
+            &nbsp;&nbsp;Добыча:
+            {el.info.slave.mines * 2 + el.info.peasent.mines} железа
             <br />
             Лес:
             <span className="text-orange-600">{el.info.slave.forest}</span>
@@ -91,6 +93,8 @@ const polygonsBorder = polygonsData.map((el) => {
             <span className="text-sky-500">{el.info.peasent.forest}</span>
             &nbsp;|&nbsp;
             <span className="text-black-600">{el.info.limits.forest}</span>
+            &nbsp;&nbsp;Добыча:
+            {el.info.slave.forest * 2 + el.info.peasent.forest} леса
             <br />
             Скот:
             <span className="text-orange-600">{el.info.slave.skins}</span>
@@ -98,6 +102,10 @@ const polygonsBorder = polygonsData.map((el) => {
             <span className="text-sky-500">{el.info.peasent.skins}</span>
             &nbsp;|&nbsp;
             <span className="text-black-600">{el.info.limits.skins}</span>
+            &nbsp;&nbsp;Добыча:
+            {el.info.slave.forest * 2 + el.info.peasent.forest}
+            &nbsp; шкур и {el.info.slave.forest * 2 + el.info.peasent.forest}
+            еды
             <br />
             Поля:
             <span className="text-orange-600">{el.info.slave.food}</span>
@@ -105,6 +113,8 @@ const polygonsBorder = polygonsData.map((el) => {
             <span className="text-sky-500">{el.info.peasent.food}</span>
             &nbsp;|&nbsp;
             <span className="text-black-600">{el.info.limits.food}</span>
+            &nbsp;&nbsp;Добыча:
+            {el.info.slave.food * 3 + el.info.peasent.food * 2} еды
             <br />
             <br />
             Население:&nbsp;
@@ -118,6 +128,28 @@ const polygonsBorder = polygonsData.map((el) => {
                 el.info.peasent.food +
                 el.info.slave.food}
             </b>
+            <br />
+            (Потребляет&nbsp;
+            {el.info.peasent.mines +
+              el.info.slave.mines +
+              el.info.peasent.forest +
+              el.info.slave.forest +
+              el.info.peasent.skins +
+              el.info.slave.skins +
+              el.info.peasent.food +
+              el.info.slave.food}
+            &nbsp; еды, излишки еды&nbsp;
+            {el.info.slave.food * 3 +
+              el.info.peasent.food * 2 -
+              (el.info.peasent.mines +
+                el.info.slave.mines +
+                el.info.peasent.forest +
+                el.info.slave.forest +
+                el.info.peasent.skins +
+                el.info.slave.skins +
+                el.info.peasent.food +
+                el.info.slave.food)}
+            )
             <br />
             <span className="text-orange-600">
               Рабы:&nbsp;

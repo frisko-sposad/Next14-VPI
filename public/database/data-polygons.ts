@@ -1450,7 +1450,7 @@ export const polygonsData = [
       fortifications: '',
       relief: '',
       size: '',
-      religion: 'Сомневающиеся',
+      religion: 'Первые Люди',
     },
     color: '#99FFFF',
     latlngs: [
@@ -1479,7 +1479,7 @@ export const polygonsData = [
       fortifications: '',
       relief: '',
       size: '',
-      religion: 'Сомневающиеся',
+      religion: 'Первые Люди',
     },
     color: '#99FFFF',
     latlngs: [
@@ -1509,7 +1509,7 @@ export const polygonsData = [
       fortifications: '',
       relief: '',
       size: '',
-      religion: 'Сомневающиеся',
+      religion: 'Первые Люди',
     },
     color: '#99FFFF',
     latlngs: [
@@ -1536,7 +1536,7 @@ export const polygonsData = [
       fortifications: '',
       relief: 'Андаллы',
       size: '',
-      religion: 'Сомневающиеся',
+      religion: 'Первые Люди',
     },
     color: '#99FFFF',
     latlngs: [
@@ -1563,7 +1563,7 @@ export const polygonsData = [
       fortifications: '',
       relief: '',
       size: '',
-      religion: 'Сомневающиеся',
+      religion: 'Первые Люди',
     },
     color: '#99FFFF',
     latlngs: [
