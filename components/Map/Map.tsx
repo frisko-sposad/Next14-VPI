@@ -60,6 +60,42 @@ const markerIconcastleData = castleData.map((el) => {
 });
 
 const polygonsBorder = polygonsData.map((el) => {
+  const peasents =
+    el.info.peasent.mines +
+    el.info.peasent.forest +
+    el.info.peasent.skins +
+    el.info.peasent.food;
+
+  const slave =
+    el.info.slave.mines +
+    el.info.slave.forest +
+    el.info.slave.skins +
+    el.info.slave.food;
+
+  const limits =
+    el.info.limits.mines +
+    el.info.limits.forest +
+    el.info.limits.skins +
+    el.info.limits.food;
+
+  const population = peasents + slave;
+
+  let tax = 0;
+
+  if (peasents >= limits) {
+    if (peasents >= limits * 2) {
+      if (peasents >= limits * 3) {
+        tax = limits * 8 + limits * 4 + limits * 2;
+      } else {
+        tax = limits * 8 + limits * 4 + (peasents - limits * 2) * 2;
+      }
+    } else {
+      tax = limits * 8 + (peasents - limits) * 4;
+    }
+  } else {
+    tax = peasents * 8;
+  }
+
   return (
     <Polygon
       key={el.id}
@@ -117,17 +153,12 @@ const polygonsBorder = polygonsData.map((el) => {
             {el.info.slave.food * 3 + el.info.peasent.food * 2} еды
             <br />
             <br />
+            Налоги:
+            <span className="text-black-600">{tax}</span>
+            <br />
+            <br />
             Население:&nbsp;
-            <b>
-              {el.info.peasent.mines +
-                el.info.slave.mines +
-                el.info.peasent.forest +
-                el.info.slave.forest +
-                el.info.peasent.skins +
-                el.info.slave.skins +
-                el.info.peasent.food +
-                el.info.slave.food}
-            </b>
+            <b>{population}</b>
             <br />
             (Потребляет&nbsp;
             {el.info.peasent.mines +
@@ -169,10 +200,7 @@ const polygonsBorder = polygonsData.map((el) => {
             <br />
             <span className="text-black-500">
               Лимит:&nbsp;
-              {el.info.limits.mines +
-                el.info.limits.forest +
-                el.info.limits.skins +
-                el.info.limits.food}
+              {limits}
             </span>
           </p>
         </p>
