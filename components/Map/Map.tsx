@@ -187,7 +187,11 @@ const polygonsBorder = polygonsData.map((el) => {
             (Потребляет&nbsp;
             {population}
             &nbsp; еды, излишки еды&nbsp;
-            {el.info.slave.food * 3 + el.info.peasent.food * 2 - population}
+            {el.info.slave.food * 3 +
+              el.info.peasent.food * 2 +
+              el.info.slave.skins +
+              el.info.peasent.skins -
+              population}
             )
             <br />
             <span className="text-green-600">
