@@ -18,6 +18,7 @@ import { useState } from 'react';
 import { polygonsData } from '../../public/database/data-polygons';
 import { LocationFinderDummy } from './LocationFinderDummy';
 import { castleData } from '@/public/database/data-icon';
+import { unitsData } from '@/public/database/units-data';
 
 const markerIconCastle = new Icon({
   iconUrl: IconCastle,
@@ -60,6 +61,29 @@ const markerIconcastleData = castleData.map((el) => {
 });
 
 const polygonsBorder = polygonsData.map((el) => {
+  let armySize = 0;
+  let armyPrice = 0;
+  const army = el.info.army?.map((army) => {
+    let name = '';
+    let price = 0;
+    armySize += army.number;
+    unitsData.map((subRows) => {
+      armyPrice += army.number * price;
+      subRows.subRows.map((unit) => {
+        unit.id == army.id && (name = unit.name);
+        unit.id == army.id && (price = unit.price);
+      });
+    });
+    return (
+      <span key={army.id}>
+        <br />
+        {army.number} {name} - {army.number * price} серебра
+      </span>
+    );
+  });
+
+  console.log(army);
+
   const peasents =
     el.info.peasent.mines +
     el.info.peasent.forest +
@@ -78,7 +102,7 @@ const polygonsBorder = polygonsData.map((el) => {
     el.info.limits.skins +
     el.info.limits.food;
 
-  const population = peasents + slave;
+  const population = peasents + slave + armySize;
 
   let tax = 0;
 
@@ -161,47 +185,35 @@ const polygonsBorder = polygonsData.map((el) => {
             <b>{population}</b>
             <br />
             (Потребляет&nbsp;
-            {el.info.peasent.mines +
-              el.info.slave.mines +
-              el.info.peasent.forest +
-              el.info.slave.forest +
-              el.info.peasent.skins +
-              el.info.slave.skins +
-              el.info.peasent.food +
-              el.info.slave.food}
+            {population}
             &nbsp; еды, излишки еды&nbsp;
-            {el.info.slave.food * 3 +
-              el.info.peasent.food * 2 -
-              (el.info.peasent.mines +
-                el.info.slave.mines +
-                el.info.peasent.forest +
-                el.info.slave.forest +
-                el.info.peasent.skins +
-                el.info.slave.skins +
-                el.info.peasent.food +
-                el.info.slave.food)}
+            {el.info.slave.food * 3 + el.info.peasent.food * 2 - population}
             )
+            <br />
+            <span className="text-green-600">
+              Солдаты:&nbsp;
+              {armySize}
+            </span>
             <br />
             <span className="text-orange-600">
               Рабы:&nbsp;
-              {el.info.slave.mines +
-                el.info.slave.forest +
-                el.info.slave.skins +
-                el.info.slave.food}
+              {slave}
             </span>
             <br />
             <span className="text-sky-500">
               Крестьяне:&nbsp;
-              {el.info.peasent.mines +
-                el.info.peasent.forest +
-                el.info.peasent.skins +
-                el.info.peasent.food}
+              {peasents}
             </span>
             <br />
             <span className="text-black-500">
               Лимит:&nbsp;
               {limits}
             </span>
+            <p>
+              <b>Армия:</b> {army}
+              <br />
+              <b>Жалование:</b> {armyPrice} серебра
+            </p>
           </p>
         </p>
       </Popup>
