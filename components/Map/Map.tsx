@@ -103,9 +103,9 @@ const polygonsBorder = polygonsData.map((el) => {
             &nbsp;|&nbsp;
             <span className="text-black-600">{el.info.limits.skins}</span>
             &nbsp;&nbsp;Добыча:
-            {el.info.slave.forest * 2 + el.info.peasent.forest}
-            &nbsp; шкур и {el.info.slave.forest * 2 + el.info.peasent.forest}
-            еды
+            {el.info.slave.skins * 2 + el.info.peasent.skins}
+            &nbsp;шкур и {el.info.slave.skins * 2 + el.info.peasent.skins}
+            &nbsp;еды
             <br />
             Поля:
             <span className="text-orange-600">{el.info.slave.food}</span>
