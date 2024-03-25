@@ -43,7 +43,7 @@ import Header from '@/components/Header/header';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 
-function HomePage() {
+function MapPage() {
   const Map = dynamic(
     () => import('@/components/Map/Map'), // replace '@components/map' with your component's location
     { ssr: false } // This line is important. It's what prevents server-side render
@@ -64,4 +64,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default MapPage;

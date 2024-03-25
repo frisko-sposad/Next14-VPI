@@ -102,7 +102,7 @@ const polygonsBorder = polygonsData.map((el) => {
     el.info.limits.skins +
     el.info.limits.food;
 
-  const population = peasents + slave + armySize;
+  const population = peasents + slave;
 
   let tax = 0;
 
