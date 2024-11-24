@@ -23,10 +23,10 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/show_users"
+                href="/users_show"
                 className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
               >
-                <h2 className="text-red-500">show_users</h2>
+                <h2 className="text-red-500">users_show</h2>
               </Link>
             </li>
             <li>
@@ -35,6 +35,14 @@ const Header = () => {
                 className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
               >
                 <h2 className="text-red-500">User info</h2>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/add_user"
+                className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+              >
+                <h2 className="text-red-500">Add User</h2>
               </Link>
             </li>
             <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>

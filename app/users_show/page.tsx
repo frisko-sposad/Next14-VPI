@@ -1,8 +1,7 @@
 'use client';
-import React, { useEffect, useMemo, useState } from 'react';
 import Header from '@/components/Header/header';
 import Table from '@/components/Table/Table';
-import { useRouter } from 'next/router';
+import { useEffect, useMemo, useState } from 'react';
 
 const UserInfo = () => {
   const [dataUsers, setDataUsers] = useState([] as any);
