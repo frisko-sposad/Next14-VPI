@@ -1,11 +1,12 @@
 'use client';
 import React, { useEffect, useMemo, useState } from 'react';
 import Header from '@/components/Header/header';
-import { log } from 'console';
+
+type ID = null | string;
 
 const UserInfo = ({ params }: { params: { id: number } }) => {
   const [responseText, setResponseText] = useState([] as any);
-  const [id, setId] = useState(null);
+  const [id, setId] = useState<ID>(null);
   const [login, setLogin] = useState('');
   const [role, setRole] = useState('player');
   const [info, setInfo] = useState('info');
