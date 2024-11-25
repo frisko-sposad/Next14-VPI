@@ -4325,7 +4325,7 @@ export const polygonsData = [
     center: { lat: 77.1868401460628, lng: -43.60107421875001 },
   },
   {
-    id: 2016,
+    id: 2018,
     user: 'user_id',
     info: {
       name: 'Горы',
