@@ -18,10 +18,76 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
         }
       );
 
-      console.log(response);
-
       const data = await response.json();
-      setDataUsers(data);
+
+      const dataFeod = data.map(
+        (el: {
+          mines_peasent: any;
+          forest_peasent: any;
+          skins_peasent: any;
+          horses_peasent: any;
+          food_peasent: any;
+          mines_slave: any;
+          forest_slave: any;
+          skins_slave: any;
+          horses_slave: any;
+          food_slave: any;
+          mines_limits: any;
+          forest_limits: any;
+          skins_limits: any;
+          horses_limits: any;
+          food_limits: any;
+          login: any;
+        }) => {
+          const population_Peasent =
+            el.mines_peasent +
+            el.forest_peasent +
+            el.skins_peasent +
+            el.horses_peasent +
+            el.food_peasent;
+          const population_Slave =
+            el.mines_slave +
+            el.forest_slave +
+            el.skins_slave +
+            el.horses_slave +
+            el.food_slave;
+          const population_Limits =
+            el.mines_limits +
+            el.forest_limits +
+            el.skins_limits +
+            el.horses_limits +
+            el.food_limits;
+          const login = el.login;
+
+          const res = {
+            ...el,
+            population_Peasent:
+              el.mines_peasent +
+              el.forest_peasent +
+              el.skins_peasent +
+              el.horses_peasent +
+              el.food_peasent,
+            population_Slave:
+              el.mines_slave +
+              el.forest_slave +
+              el.skins_slave +
+              el.horses_slave +
+              el.food_slave,
+            population_Limits:
+              el.mines_limits +
+              el.forest_limits +
+              el.skins_limits +
+              el.horses_limits +
+              el.food_limits,
+            login,
+          };
+
+          return res;
+        }
+      );
+
+      console.log({ dataFeod });
+      setDataUsers(dataFeod);
     };
     fetchData();
   }, [params.id]);
@@ -36,6 +102,108 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
         Header: 'Феод',
         accessor: 'locations_name',
       },
+      {
+        Header: 'Шахты',
+        columns: [
+          {
+            Header: 'Крестьяне',
+            accessor: 'mines_peasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'mines_slave',
+          },
+          {
+            Header: 'Лимит',
+            accessor: 'mines_limits',
+          },
+        ],
+      },
+      {
+        Header: 'Лес',
+        columns: [
+          {
+            Header: 'Крестьяне',
+            accessor: 'forest_peasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'forest_slave',
+          },
+          {
+            Header: 'Лимит',
+            accessor: 'forest_limits',
+          },
+        ],
+      },
+      {
+        Header: 'Скот',
+        columns: [
+          {
+            Header: 'Крестьяне',
+            accessor: 'skins_peasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'skins_slave',
+          },
+          {
+            Header: 'Лимит',
+            accessor: 'skins_limits',
+          },
+        ],
+      },
+      {
+        Header: 'Лошади',
+        columns: [
+          {
+            Header: 'Крестьяне',
+            accessor: 'horses_peasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'horses_slave',
+          },
+          {
+            Header: 'Лимит',
+            accessor: 'horses_limits',
+          },
+        ],
+      },
+      {
+        Header: 'Снабжение',
+        columns: [
+          {
+            Header: 'Крестьяне',
+            accessor: 'food_peasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'food_slave',
+          },
+          {
+            Header: 'Лимит',
+            accessor: 'food_limits',
+          },
+        ],
+      },
+      {
+        Header: 'Население',
+        columns: [
+          {
+            Header: 'Крестьяне',
+            accessor: 'population_Peasent',
+          },
+          {
+            Header: 'Рабы',
+            accessor: 'population_Slave',
+          },
+          {
+            Header: 'Лимит',
+            accessor: 'population_Limits',
+          },
+        ],
+      },
     ],
     []
   );
@@ -48,12 +216,6 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
           <div>Игрок: {dataUsers[0] && dataUsers[0].login}</div>
           <div className="pt-5">
             <Table columns={columnsUsers} data={dataUsers} />
-            <select name="ids" id="ids">
-              <option value="1">Id 1</option>
-              <option value="2">Id 2</option>
-              <option value="3">Id 3</option>
-              <option value="41">Id 41</option>
-            </select>
           </div>
         </div>
       </div>

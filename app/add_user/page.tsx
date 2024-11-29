@@ -33,30 +33,30 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
     setResponseText(data);
   };
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch(`https://vpi-node-js.vercel.app/add_user`, {
-        method: 'POST',
-        headers: {
-          // accept: 'application/json',
-          'Content-type': 'application/json',
-        },
-        body: JSON.stringify({
-          user_id: 68,
-          login,
-          pass: 'new_user66',
-          role,
-          info,
-        }),
-      });
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const response = await fetch(`https://vpi-node-js.vercel.app/add_user`, {
+  //       method: 'POST',
+  //       headers: {
+  //         // accept: 'application/json',
+  //         'Content-type': 'application/json',
+  //       },
+  //       body: JSON.stringify({
+  //         user_id: 68,
+  //         login,
+  //         pass: 'new_user66',
+  //         role,
+  //         info,
+  //       }),
+  //     });
 
-      console.log({ response });
+  //     console.log({ response });
 
-      const data = await response.json();
-      setResponseText(data);
-    };
-    fetchData();
-  }, []);
+  //     const data = await response.json();
+  //     setResponseText(data);
+  //   };
+  //   fetchData();
+  // }, []);
 
   return (
     <>

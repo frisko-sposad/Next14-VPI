@@ -14,7 +14,7 @@ import IconCastle from '../../components/leflet/icons/castle.svg';
 import IconMine from '../../components/leflet/icons/kirka.svg';
 import { Icon } from 'leaflet';
 import { EditControl } from 'react-leaflet-draw';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { polygonsData } from '../../public/database/data-polygons';
 import { LocationFinderDummy } from './LocationFinderDummy';
 import { castleData } from '@/public/database/data-icon';
@@ -262,7 +262,25 @@ const polygonsBorderReligion = polygonsData.map((el) => {
   );
 });
 
-const Map = () => {
+const Map = (params: any) => {
+  const [dataUsers, setDataUsers] = useState([] as any);
+  console.log(params.id);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch(`https://vpi-node-js.vercel.app/users`, {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      });
+
+      const data = await response.json();
+      data && setDataUsers(data);
+    };
+    fetchData();
+  }, []);
+
   const [mapLayers, setMapLayers] = useState([] as any);
 
   const _onCreate = (e: any) => {
@@ -358,7 +376,9 @@ const Map = () => {
                 icon={markerIcongMine}
               >
                 <Popup>
-                  Пиздец работает!!! <br /> Это земли Лорда Жупела!
+                  Пиздец работает!!! <br /> Это земли Лорда Жупела1!
+                  {dataUsers && dataUsers[0] && dataUsers[0].login}
+                  {params.id}
                 </Popup>
               </Marker>
             </LayerGroup>
