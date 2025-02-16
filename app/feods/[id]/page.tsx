@@ -1,6 +1,6 @@
 'use client';
 import Header from '@/components/Header/header';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 const tableValue = [
   'mines_peasent',
@@ -67,7 +67,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
     setCurrentFeod(dataFeod);
   }, [dataUsers, feodNumber]);
 
-  const fetchData = async () => {
+  const fetchData = useCallback(async () => {
     const response = await fetch(
       `https://vpi-node-js.vercel.app/feods/${params.id}`,
       {
@@ -144,11 +144,11 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
       }
     );
     setDataUsers(dataFeod);
-  };
+  }, [params.id]);
 
   useEffect(() => {
     fetchData();
-  }, [params.id, responseStatus]);
+  }, [fetchData, params.id, responseStatus]);
 
   // функция отправки формы
   const onSubmit = async () => {
