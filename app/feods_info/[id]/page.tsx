@@ -2,36 +2,7 @@
 import Header from '@/components/Header/header';
 import { useCallback, useEffect, useState } from 'react';
 
-const table1Value1 = [
-  ['mines_peasent', 'mines_slave', 'mines_limits'],
-  ['forest_peasent', 'forest_slave', 'forest_limits'],
-  ['skins_peasent', 'skins_slave', 'skins_limits'],
-  ['horses_peasent', 'horses_slave', 'horses_limits'],
-  ['food_peasent', 'food_slave', 'food_limits'],
-];
-
-const table2Value1 = [
-  ['mines_peasent', 'mines_slave', 'mines_limits'],
-  ['forest_peasent', 'forest_slave', 'forest_limits'],
-  ['skins_peasent', 'skins_slave', 'skins_limits'],
-  ['horses_peasent', 'horses_slave', 'horses_limits'],
-];
-const tableValue2 = [
-  ['population_work_peasent', 'population_work_slave'],
-  ['unused_peasents', 'unused_slaves'],
-  ['population_all_peasent', 'population_all_slave'],
-];
-const tableValue3 = [['population_all_peasent', 'population_all_slave']];
-const tableFood = [
-  [
-    'food_peasent',
-    'food_slave',
-    'population_all_peasent',
-    'population_all_slave',
-  ],
-];
-
-const tableInfo = [
+const tableInfoHeader = [
   { title: '', subTitle: ['Феод'] },
   { title: 'Шахты', subTitle: ['Крестьяне', 'Рабы', 'Лимит'] },
   { title: 'Лес', subTitle: ['Крестьяне', 'Рабы', 'Лимит'] },
@@ -40,19 +11,36 @@ const tableInfo = [
   { title: 'Снабжение', subTitle: ['Крестьяне', 'Рабы', 'Лимит'] },
   { title: 'Работают', subTitle: ['Крестьяне', 'Рабы'] },
   { title: 'Незанятые', subTitle: ['Крестьяне', 'Рабы'] },
-  { title: 'Всего', subTitle: ['Крестьяне', 'Рабы'] },
+  { title: 'Всего', subTitle: ['Крестьяне', 'Рабы', 'Лимит'] },
 ];
 
-const tableInfoResources = [
+const tableExtractionResourcesHeader = [
   { title: '', subTitle: ['Феод'] },
   { title: 'Металл', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
   { title: 'Дерево', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
   { title: 'Шкуры', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
   { title: 'Лошади', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
-  { title: 'Снабжение', subTitle: ['Крестьяне', 'Рабы'] },
+  {
+    title: 'Снабжение',
+    subTitle: ['Крестьяне 2х', 'Рабы 3х', 'Кр Скот', 'Р Скот', 'Всего'],
+  },
   { title: 'Пропитание', subTitle: ['Снабжение', 'Излишки'] },
-  { title: 'Собрано налогов', subTitle: ['Крестьяне х8', 'Рабы'] },
-  { title: '----', subTitle: [''] },
+  { title: 'Собрано налогов', subTitle: ['Крестьяне 8х', 'Рабы'] },
+];
+
+const tableResourceInfo = [
+  ['mines_peasent', 'mines_slave', 'mines_limits'],
+  ['forest_peasent', 'forest_slave', 'forest_limits'],
+  ['skins_peasent', 'skins_slave', 'skins_limits'],
+  ['horses_peasent', 'horses_slave', 'horses_limits'],
+  ['food_peasent', 'food_slave', 'food_limits'],
+];
+
+const tableResourceExtraction = [
+  ['mines_peasent', 'mines_slave', 'mines_limits'],
+  ['forest_peasent', 'forest_slave', 'forest_limits'],
+  ['skins_peasent', 'skins_slave', 'skins_limits'],
+  ['horses_peasent', 'horses_slave', 'horses_limits'],
 ];
 
 const UserInfo = ({ params }: { params: { id: number } }) => {
@@ -203,7 +191,8 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
           <table>
             <thead>
               <tr>
-                {tableInfo.map((titleEl) => (
+                {/* Создание заголовков 1 уровня */}
+                {tableInfoHeader.map((titleEl) => (
                   <th
                     key={titleEl.title}
                     colSpan={titleEl.subTitle.length}
@@ -214,7 +203,8 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 ))}
               </tr>
               <tr>
-                {tableInfo.map((titleEl) => (
+                {/* Создание заголовков 2 уровня */}
+                {tableInfoHeader.map((titleEl) => (
                   <>
                     {titleEl.subTitle.map((subtitleEl) => (
                       <th
@@ -240,7 +230,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                       <td className="border p-2 text-slate-500">
                         {row.locations_name}
                       </td>
-                      {table1Value1.map((tableValueEl) => (
+                      {tableResourceInfo.map((tableValueEl) => (
                         <>
                           <td
                             key={tableValueEl[0]}
@@ -265,22 +255,81 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                           </td>
                         </>
                       ))}
-                      {tableValue2.map((tableValueEl) => (
-                        <>
-                          <td
-                            key={tableValueEl[0]}
-                            className="border p-2 text-slate-500 text-right"
-                          >
-                            <div className="w-20">{row[tableValueEl[0]]}</div>
-                          </td>
-                          <td
-                            key={tableValueEl[1]}
-                            className="border p-2 text-slate-500 text-right"
-                          >
-                            <div className="w-20">{row[tableValueEl[1]]}</div>
-                          </td>
-                        </>
-                      ))}
+                      {/* Работают */}
+                      <>
+                        <td
+                          key={'population_work_peasent'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">
+                            {row['population_work_peasent']}
+                          </div>
+                        </td>
+                        <td
+                          key={'population_work_slave'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">
+                            {row['population_work_slave']}
+                          </div>
+                        </td>
+                      </>
+                      {/* Незатяные */}
+                      <>
+                        <td
+                          key={'unused_peasents'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">{row['unused_peasents']}</div>
+                        </td>
+                        <td
+                          key={'unused_slaves'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">{row['unused_slaves']}</div>
+                        </td>
+                      </>
+
+                      <>
+                        {/* Всего крестьян */}
+                        <td
+                          key={'allPeasents'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">
+                            {row['population_work_peasent'] +
+                              row['unused_peasents']}
+                          </div>
+                        </td>
+                        <td
+                          key={'allSlave'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          {/* Всего рабов */}
+                          <div className="w-20">
+                            {row['population_work_slave'] +
+                              row['unused_slaves']}
+                          </div>
+                        </td>
+                        <td
+                          key={'allLimits'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          {/* Общий лимит */}
+                          <div className="w-20">
+                            {row['population_work_peasent'] +
+                              row['unused_peasents'] +
+                              row['population_work_slave'] +
+                              row['unused_slaves']}
+                            {' / '}
+                            {row['mines_limits'] +
+                              row['forest_limits'] +
+                              row['skins_limits'] +
+                              row['horses_limits'] +
+                              row['food_limits']}
+                          </div>
+                        </td>
+                      </>
                     </tr>
                   ))}
                 </>
@@ -294,7 +343,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
           <div className="flex-col">
             <div className="text-slate-500">
               Доходы(рабы добывают в 2 раза больше ресурсов, но не платят
-              налоги, каждый крестьянин платит по 8 серебра налогов, при
+              налоги, каждый крестьянин платит по 8 серебра налогов, ???при
               перелимите 4 2 0):
             </div>
           </div>
@@ -303,7 +352,8 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
           <table>
             <thead>
               <tr>
-                {tableInfoResources.map((titleEl) => (
+                {/* Создание заголовков 1 уровня */}
+                {tableExtractionResourcesHeader.map((titleEl) => (
                   <th
                     key={titleEl.title}
                     colSpan={titleEl.subTitle.length}
@@ -314,7 +364,8 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 ))}
               </tr>
               <tr>
-                {tableInfoResources.map((titleEl) => (
+                {/* Создание заголовков 2 уровня */}
+                {tableExtractionResourcesHeader.map((titleEl) => (
                   <>
                     {titleEl.subTitle.map((subtitleEl) => (
                       <th
@@ -340,7 +391,8 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                       <td className="border p-2 text-slate-500">
                         {row.locations_name}
                       </td>
-                      {table2Value1.map((tableValueEl) => (
+                      {/* Добыча металла, леса, шкур, лошадей */}
+                      {tableResourceExtraction.map((tableValueEl) => (
                         <>
                           <td
                             key={tableValueEl[0]}
@@ -366,81 +418,101 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                           </td>
                         </>
                       ))}
-                      {/* Добывают Снабжение */}
-                      {tableFood.map((tableValueEl) => (
-                        <>
-                          <td
-                            key={tableValueEl[0]}
-                            className="border p-2 text-slate-500 text-right"
-                          >
-                            <div className="w-20">
-                              {row['food_peasent'] * 2}
-                            </div>
-                          </td>
-                          <td
-                            key={tableValueEl[1]}
-                            className="border p-2 text-slate-500 text-right"
-                          >
-                            <div className="w-20">{row['food_slave'] * 3}</div>
-                          </td>
-                        </>
-                      ))}
+                      {/* Добыча Снабжения */}
+                      <>
+                        <td
+                          key={'food_peasent'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">{row['food_peasent'] * 2}</div>
+                        </td>
+                        <td
+                          key={'food_slave'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">{row['food_slave'] * 3}</div>
+                        </td>
+                        <td
+                          key={'skins_peasent'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">{row['skins_peasent'] * 1}</div>
+                        </td>
+                        <td
+                          key={'skins_slave'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">{row['skins_slave'] * 1}</div>
+                        </td>
+                        <td
+                          key={'allFoods'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20 font-semibold">
+                            {row['food_peasent'] * 2 +
+                              row['food_slave'] * 3 +
+                              row['skins_peasent'] * 1 +
+                              row['skins_slave'] * 1}
+                          </div>
+                        </td>
+                      </>
+
                       {/* Съедают снабжения */}
-                      {tableValue3.map((tableValueEl) => (
-                        <>
-                          <td
-                            key={tableValueEl[0]}
-                            className="border p-2 text-slate-500 text-right"
-                          >
-                            {/* Тратят снабжения */}
-                            <div className="w-20">
-                              {row['population_all_peasent'] +
-                                row['population_all_slave']}
-                            </div>
-                          </td>
-                          <td
-                            key={tableValueEl[1]}
-                            className="border p-2 text-slate-500 text-right"
-                          >
-                            {/* Излишки Баланс снабжения после пропитания */}
-                            <div
-                              className={`w-20 ${
-                                row['food_peasent'] * 2 +
-                                  row['food_slave'] * 3 -
-                                  row['population_all_peasent'] -
-                                  row['population_all_slave'] <
-                                  0 && 'text-red-600'
-                              }`}
-                            >
-                              {row['food_peasent'] * 2 +
-                                row['food_slave'] * 3 -
+                      <>
+                        <td
+                          key={'foodCosts'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          {/* Тратят снабжения */}
+                          <div className="w-20">
+                            {row['population_all_peasent'] +
+                              row['population_all_slave']}
+                          </div>
+                        </td>
+                        <td
+                          key={'addedFoods'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          {/* Излишки Баланс снабжения после пропитания */}
+                          <div
+                            className={`w-20 ${
+                              row['food_peasent'] * 2 +
+                                row['food_slave'] * 3 +
+                                row['skins_peasent'] * 1 +
+                                row['skins_slave'] * 1 -
                                 row['population_all_peasent'] -
-                                row['population_all_slave']}
-                            </div>
-                          </td>
-                        </>
-                      ))}
+                                row['population_all_slave'] <
+                                0 && 'text-red-600'
+                            }`}
+                          >
+                            {row['food_peasent'] * 2 +
+                              row['food_slave'] * 3 +
+                              row['skins_peasent'] * 1 +
+                              row['skins_slave'] * 1 -
+                              row['population_all_peasent'] -
+                              row['population_all_slave']}
+                          </div>
+                        </td>
+                      </>
                       {/* Налоги */}
-                      {tableValue3.map((tableValueEl) => (
-                        <>
-                          <td
-                            key={tableValueEl[0]}
-                            className="border p-2 text-slate-500 text-right"
-                          >
-                            <div className="w-20">
-                              {row['population_all_peasent'] * 8}
-                            </div>
-                          </td>
-                          <td
-                            key={tableValueEl[1]}
-                            className="border p-2 text-slate-500 text-right"
-                          >
-                            <div className="w-20">
-                              {row['population_all_slave'] * 0}
-                            </div>
-                          </td>
-                        </>
-                      ))}
+                      <>
+                        <td
+                          key={'collectedPeasentsRent'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">
+                            {row['population_all_peasent'] * 8}
+                          </div>
+                        </td>
+                        <td
+                          key={'collectedSlaveRent'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div className="w-20">
+                            {row['population_all_slave'] * 0}
+                          </div>
+                        </td>
+                      </>
                     </tr>
                   ))}
                 </>

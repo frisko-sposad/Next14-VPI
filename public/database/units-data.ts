@@ -114,7 +114,7 @@ export const unitsData: UnitData[] = [
       },
       {
         id: 3,
-        name: 'Конный Лучник',
+        name: 'Конный Лучник???',
         horse: true,
         bow: true,
         weapon: Weapon.sword,
@@ -312,7 +312,7 @@ export const unitsData: UnitData[] = [
       },
       {
         id: 11,
-        name: 'Рыцарь',
+        name: 'Пеший Рыцарь???', // не надо кормить коня
         horse: false,
         bow: false,
         weapon: Weapon.sword,
@@ -321,7 +321,7 @@ export const unitsData: UnitData[] = [
         health: 400,
         morality: 50,
         size: 2,
-        price: 32,
+        price: 22,
         attackHorseman: 1,
         attackSwordsman: 1,
         attackSpearman: 1,
@@ -336,7 +336,7 @@ export const unitsData: UnitData[] = [
       },
       {
         id: 12,
-        name: 'Моряк',
+        name: 'Моряк ???',
         horse: false,
         bow: false,
         weapon: Weapon.sword,
@@ -360,7 +360,7 @@ export const unitsData: UnitData[] = [
       },
       {
         id: 13,
-        name: 'Арбалетчик',
+        name: 'Арбалетчик???',
         horse: false,
         bow: true,
         weapon: Weapon.sword,
@@ -432,7 +432,7 @@ export const unitsData: UnitData[] = [
       },
       {
         id: 32,
-        name: 'Спешенный Лучник',
+        name: 'Спешенный Лучник???',
         horse: false,
         bow: true,
         weapon: Weapon.sword,
@@ -441,7 +441,7 @@ export const unitsData: UnitData[] = [
         health: 200,
         morality: 20,
         size: 2,
-        price: 2,
+        price: 15,
         attackHorseman: 1,
         attackSwordsman: 1,
         attackSpearman: 1,
