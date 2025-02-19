@@ -55,7 +55,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/feods_info/2"
+                href="/user_feods_info/2"
                 className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
               >
                 <h2 className="text-red-500">Feods_info</h2>
