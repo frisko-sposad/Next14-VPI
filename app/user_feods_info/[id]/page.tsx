@@ -21,11 +21,14 @@ const tableExtractionResourcesHeader = [
   { title: 'Шкуры', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
   { title: 'Лошади', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
   {
-    title: 'Снабжение',
+    title: 'Производство снабжения',
     subTitle: ['Крестьяне 2х', 'Рабы 3х', 'Кр Скот', 'Р Скот', 'Всего'],
   },
-  { title: 'Пропитание', subTitle: ['Снабжение', 'Излишки'] },
-  { title: 'Собрано налогов', subTitle: ['Крестьяне 8х', 'Рабы'] },
+  { title: 'Пропитание', subTitle: ['Рабочие', 'Армия', 'Излишки'] },
+  {
+    title: 'Собрано налогов',
+    subTitle: ['Крестьяне 8х', 'Жалование', 'Доход'],
+  },
 ];
 
 const tableResourceInfo = [
@@ -192,9 +195,9 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
             <thead>
               <tr>
                 {/* Создание заголовков 1 уровня */}
-                {tableInfoHeader.map((titleEl) => (
+                {tableInfoHeader.map((titleEl, i) => (
                   <th
-                    key={titleEl.title}
+                    key={titleEl.title + i}
                     colSpan={titleEl.subTitle.length}
                     className="w-48 border p-2 text-slate-500"
                   >
@@ -206,9 +209,9 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 {/* Создание заголовков 2 уровня */}
                 {tableInfoHeader.map((titleEl) => (
                   <>
-                    {titleEl.subTitle.map((subtitleEl) => (
+                    {titleEl.subTitle.map((subtitleEl, i) => (
                       <th
-                        key={subtitleEl}
+                        key={subtitleEl + i}
                         colSpan={1}
                         className="border p-2 text-slate-500"
                       >
@@ -457,7 +460,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                         </td>
                       </>
 
-                      {/* Съедают снабжения */}
+                      {/* Пропитание */}
                       <>
                         <td
                           key={'foodCosts'}
@@ -468,6 +471,13 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                             {row['population_all_peasent'] +
                               row['population_all_slave']}
                           </div>
+                        </td>
+                        <td
+                          key={'army_number'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          {/* Тратят снабжения */}
+                          <div className="w-20">{row['army_number']}</div>
                         </td>
                         <td
                           key={'addedFoods'}
@@ -481,7 +491,8 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                                 row['skins_peasent'] * 1 +
                                 row['skins_slave'] * 1 -
                                 row['population_all_peasent'] -
-                                row['population_all_slave'] <
+                                row['population_all_slave'] -
+                                row['army_number'] <
                                 0 && 'text-red-600'
                             }`}
                           >
@@ -490,6 +501,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                               row['skins_peasent'] * 1 +
                               row['skins_slave'] * 1 -
                               row['population_all_peasent'] -
+                              row['army_number'] -
                               row['population_all_slave']}
                           </div>
                         </td>
@@ -508,8 +520,21 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                           key={'collectedSlaveRent'}
                           className="border p-2 text-slate-500 text-right"
                         >
-                          <div className="w-20">
-                            {row['population_all_slave'] * 0}
+                          <div className="w-20">{row['army_prise'] * -1}</div>
+                        </td>
+                        <td
+                          key={'profit'}
+                          className="border p-2 text-slate-500 text-right"
+                        >
+                          <div
+                            className={`w-20 ${
+                              row['population_all_peasent'] * 8 -
+                                row['army_prise'] <
+                                0 && 'text-red-600'
+                            }`}
+                          >
+                            {row['population_all_peasent'] * 8 -
+                              row['army_prise']}
                           </div>
                         </td>
                       </>
