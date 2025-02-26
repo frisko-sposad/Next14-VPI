@@ -227,9 +227,11 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                     className="w-28 border p-2 text-right"
                     title="Крестьяне добывают 1 ресурс, рабы 2 ресурса"
                   >
-                    {currentFeod &&
+                    {`${
+                      currentFeod &&
                       currentFeod[tableInfoHeaderEl.resourseNumber[0]] +
-                        currentFeod[tableInfoHeaderEl.resourseNumber[1]] * 2}
+                        currentFeod[tableInfoHeaderEl.resourseNumber[1]] * 2
+                    }`}
                   </td>
                   {/* Тип ресурсов */}
                   <td
