@@ -13,14 +13,14 @@ const Header = () => {
             className="mr-auto flex flex-col lg:flex-row"
             data-te-navbar-nav-ref
           >
-            <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            {/* <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
               <Link
                 href="/"
                 className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
               >
                 <h2 className="text-red-500">Home</h2>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/users_show"
@@ -51,6 +51,14 @@ const Header = () => {
                 className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
               >
                 <h2 className="text-red-500">Feods_edit</h2>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/user_feod_info/2"
+                className="block transition duration-150 ease-in-out hover:text-blue-500 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
+              >
+                <h2 className="text-red-500">Feod_info</h2>
               </Link>
             </li>
             <li>

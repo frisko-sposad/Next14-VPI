@@ -1,6 +1,6 @@
 'use client';
 import Header from '@/components/Header/header';
-import { useCallback, useEffect, useState } from 'react';
+import { Fragment, useCallback, useEffect, useState } from 'react';
 
 const tableInfoHeader = [
   { title: '', subTitle: ['Феод'] },
@@ -74,111 +74,13 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
     );
 
     const data = await response.json();
-    console.log({ data });
 
-    const dataFeod = data.map(
-      (el: {
-        mines_peasent: any;
-        forest_peasent: any;
-        skins_peasent: any;
-        horses_peasent: any;
-        food_peasent: any;
-        mines_slave: any;
-        forest_slave: any;
-        skins_slave: any;
-        horses_slave: any;
-        food_slave: any;
-        mines_limits: any;
-        forest_limits: any;
-        skins_limits: any;
-        horses_limits: any;
-        food_limits: any;
-        unused_peasents: any;
-        unused_slaves: any;
-        login: any;
-      }) => {
-        const login = el.login;
-
-        const res = {
-          ...el,
-          population_work_peasent:
-            el.mines_peasent +
-            el.forest_peasent +
-            el.skins_peasent +
-            el.horses_peasent +
-            el.food_peasent,
-          population_work_slave:
-            el.mines_slave +
-            el.forest_slave +
-            el.skins_slave +
-            el.horses_slave +
-            el.food_slave,
-          population_work_limits:
-            el.mines_limits +
-            el.forest_limits +
-            el.skins_limits +
-            el.horses_limits +
-            el.food_limits,
-          population_all_peasent:
-            el.mines_peasent +
-            el.forest_peasent +
-            el.skins_peasent +
-            el.horses_peasent +
-            el.food_peasent +
-            el.unused_peasents,
-          population_all_slave:
-            el.mines_slave +
-            el.forest_slave +
-            el.skins_slave +
-            el.horses_slave +
-            el.food_slave +
-            el.unused_slaves,
-          login,
-        };
-
-        return res;
-      }
-    );
-    setDataUsers(dataFeod);
+    setDataUsers(data);
   }, [params.id]);
 
   useEffect(() => {
     fetchData();
   }, [fetchData, params.id, responseStatus]);
-
-  // функция отправки формы
-  const onSubmit = async () => {
-    const response = await fetch(`https://vpi-node-js.vercel.app/update_feod`, {
-      method: 'PUT',
-      headers: {
-        'Content-type': 'application/json',
-      },
-      body: JSON.stringify({
-        locations_id: Number(currentFeod.locations_id),
-        locations_name: currentFeod.locations_name,
-        mines_peasent: Number(currentFeod.mines_peasent),
-        forest_peasent: Number(currentFeod.forest_peasent),
-        horses_peasent: Number(currentFeod.horses_peasent),
-        skins_peasent: Number(currentFeod.skins_peasent),
-        food_peasent: Number(currentFeod.food_peasent),
-        mines_slave: Number(currentFeod.mines_slave),
-        forest_slave: Number(currentFeod.forest_slave),
-        horses_slave: Number(currentFeod.horses_slave),
-        skins_slave: Number(currentFeod.skins_slave),
-        food_slave: Number(currentFeod.food_slave),
-        mines_limits: Number(currentFeod.mines_limits),
-        forest_limits: Number(currentFeod.forest_limits),
-        horses_limits: Number(currentFeod.horses_limits),
-        skins_limits: Number(currentFeod.skins_limits),
-        food_limits: Number(currentFeod.food_limits),
-        unused_peasents: Number(currentFeod.unused_peasents),
-        unused_slaves: Number(currentFeod.unused_slaves),
-      }),
-    });
-    const data = await response.json();
-    fetchData();
-    setResponseStatus(data);
-  };
 
   return (
     <>
@@ -207,18 +109,18 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
               </tr>
               <tr>
                 {/* Создание заголовков 2 уровня */}
-                {tableInfoHeader.map((titleEl) => (
-                  <>
+                {tableInfoHeader.map((titleEl, i) => (
+                  <Fragment key={titleEl.title + i}>
                     {titleEl.subTitle.map((subtitleEl, i) => (
                       <th
-                        key={subtitleEl + i}
+                        key={titleEl.title + subtitleEl}
                         colSpan={1}
                         className="border p-2 text-slate-500"
                       >
                         {subtitleEl}
                       </th>
                     ))}
-                  </>
+                  </Fragment>
                 ))}
               </tr>
             </thead>
@@ -233,22 +135,26 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                       <td className="border p-2 text-slate-500">
                         {row.locations_name}
                       </td>
-                      {tableResourceInfo.map((tableValueEl) => (
-                        <>
+                      {tableResourceInfo.map((tableValueEl, i) => (
+                        <Fragment
+                          key={
+                            tableValueEl[0] + tableValueEl[1] + tableValueEl[3]
+                          }
+                        >
                           <td
-                            key={tableValueEl[0]}
+                            key={row.locations_id + tableValueEl[0]}
                             className="border p-2 text-slate-500 text-right"
                           >
                             <div className="w-20">{row[tableValueEl[0]]}</div>
                           </td>
                           <td
-                            key={tableValueEl[1]}
+                            key={row.locations_id + tableValueEl[1]}
                             className="border p-2 text-slate-500 text-right"
                           >
                             <div className="w-20">{row[tableValueEl[1]]}</div>
                           </td>
                           <td
-                            key={tableValueEl[2]}
+                            key={row.locations_id + tableValueEl[2]}
                             className="border p-2 text-slate-500 text-right"
                           >
                             <div className="w-20 font-semibold">
@@ -256,25 +162,21 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                               {row[tableValueEl[2]]}
                             </div>
                           </td>
-                        </>
+                        </Fragment>
                       ))}
                       {/* Работают */}
                       <>
                         <td
-                          key={'population_work_peasent'}
+                          key={'work_peasent'}
                           className="border p-2 text-slate-500 text-right"
                         >
-                          <div className="w-20">
-                            {row['population_work_peasent']}
-                          </div>
+                          <div className="w-20">{row['work_peasent']}</div>
                         </td>
                         <td
-                          key={'population_work_slave'}
+                          key={'work_slave'}
                           className="border p-2 text-slate-500 text-right"
                         >
-                          <div className="w-20">
-                            {row['population_work_slave']}
-                          </div>
+                          <div className="w-20">{row['work_slave']}</div>
                         </td>
                       </>
                       {/* Незатяные */}
@@ -300,8 +202,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                           className="border p-2 text-slate-500 text-right"
                         >
                           <div className="w-20">
-                            {row['population_work_peasent'] +
-                              row['unused_peasents']}
+                            {row['work_peasent'] + row['unused_peasents']}
                           </div>
                         </td>
                         <td
@@ -310,8 +211,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                         >
                           {/* Всего рабов */}
                           <div className="w-20">
-                            {row['population_work_slave'] +
-                              row['unused_slaves']}
+                            {row['work_slave'] + row['unused_slaves']}
                           </div>
                         </td>
                         <td
@@ -320,9 +220,9 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                         >
                           {/* Общий лимит */}
                           <div className="w-20">
-                            {row['population_work_peasent'] +
+                            {row['work_peasent'] +
                               row['unused_peasents'] +
-                              row['population_work_slave'] +
+                              row['work_slave'] +
                               row['unused_slaves']}
                             {' / '}
                             {row['mines_limits'] +
@@ -368,18 +268,18 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
               </tr>
               <tr>
                 {/* Создание заголовков 2 уровня */}
-                {tableExtractionResourcesHeader.map((titleEl) => (
-                  <>
+                {tableExtractionResourcesHeader.map((titleEl, i) => (
+                  <Fragment key={titleEl.title + i}>
                     {titleEl.subTitle.map((subtitleEl) => (
                       <th
-                        key={subtitleEl}
+                        key={titleEl.title + subtitleEl}
                         colSpan={1}
                         className="border p-2 text-slate-500"
                       >
                         {subtitleEl}
                       </th>
                     ))}
-                  </>
+                  </Fragment>
                 ))}
               </tr>
             </thead>
@@ -396,15 +296,19 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                       </td>
                       {/* Добыча металла, леса, шкур, лошадей */}
                       {tableResourceExtraction.map((tableValueEl) => (
-                        <>
+                        <Fragment
+                          key={
+                            tableValueEl[0] + tableValueEl[1] + tableValueEl[2]
+                          }
+                        >
                           <td
-                            key={tableValueEl[0]}
+                            key={row.locations_id + tableValueEl[0]}
                             className="border p-2 text-slate-500 text-right"
                           >
                             <div className="w-20">{row[tableValueEl[0]]}</div>
                           </td>
                           <td
-                            key={tableValueEl[1]}
+                            key={row.locations_id + tableValueEl[1]}
                             className="border p-2 text-slate-500 text-right"
                           >
                             <div className="w-20">
@@ -412,14 +316,14 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                             </div>
                           </td>
                           <td
-                            key={tableValueEl[2]}
+                            key={row.locations_id + tableValueEl[2]}
                             className="border p-2 text-slate-500 text-right"
                           >
                             <div className="w-20 font-semibold">
                               {row[tableValueEl[0]] + row[tableValueEl[1]] * 2}
                             </div>
                           </td>
-                        </>
+                        </Fragment>
                       ))}
                       {/* Добыча Снабжения */}
                       <>
@@ -468,8 +372,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                         >
                           {/* Тратят снабжения */}
                           <div className="w-20">
-                            {row['population_all_peasent'] +
-                              row['population_all_slave']}
+                            {row['all_peasent'] + row['all_slave']}
                           </div>
                         </td>
                         <td
@@ -490,8 +393,8 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                                 row['food_slave'] * 3 +
                                 row['skins_peasent'] * 1 +
                                 row['skins_slave'] * 1 -
-                                row['population_all_peasent'] -
-                                row['population_all_slave'] -
+                                row['all_peasent'] -
+                                row['all_slave'] -
                                 row['army_number'] <
                                 0 && 'text-red-600'
                             }`}
@@ -500,9 +403,9 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                               row['food_slave'] * 3 +
                               row['skins_peasent'] * 1 +
                               row['skins_slave'] * 1 -
-                              row['population_all_peasent'] -
+                              row['all_peasent'] -
                               row['army_number'] -
-                              row['population_all_slave']}
+                              row['all_slave']}
                           </div>
                         </td>
                       </>
@@ -512,9 +415,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                           key={'collectedPeasentsRent'}
                           className="border p-2 text-slate-500 text-right"
                         >
-                          <div className="w-20">
-                            {row['population_all_peasent'] * 8}
-                          </div>
+                          <div className="w-20">{row['all_peasent'] * 8}</div>
                         </td>
                         <td
                           key={'collectedSlaveRent'}
@@ -528,13 +429,11 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                         >
                           <div
                             className={`w-20 ${
-                              row['population_all_peasent'] * 8 -
-                                row['army_prise'] <
-                                0 && 'text-red-600'
+                              row['all_peasent'] * 8 - row['army_prise'] < 0 &&
+                              'text-red-600'
                             }`}
                           >
-                            {row['population_all_peasent'] * 8 -
-                              row['army_prise']}
+                            {row['all_peasent'] * 8 - row['army_prise']}
                           </div>
                         </td>
                       </>
