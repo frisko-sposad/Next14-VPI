@@ -14,8 +14,8 @@ const tableInfoHeader = [
     resourseNumber: ['forest_peasent', 'forest_slave', 'forest_limits'],
   },
   {
-    workplace: 'Скотоферма',
-    type: 'шкур',
+    workplace: 'Свинарник',
+    type: 'шкур/еды',
     resourseNumber: ['skins_peasent', 'skins_slave', 'skins_limits'],
   },
   {
@@ -24,59 +24,11 @@ const tableInfoHeader = [
     resourseNumber: ['horses_peasent', 'horses_slave', 'horses_limits'],
   },
   {
-    workplace: 'Снабжение',
+    workplace: 'Ферма',
     type: 'еды',
     resourseNumber: ['food_peasent', 'food_slave', 'food_limits'],
   },
-
-  // {
-  //   title: ['Работают', '??'],
-  //   subTitle: ['Крестьяне', 'Рабы', 'Лимит', 'Добыча металла'],
-  //   resourseNumber: ['work_peasent', 'work_slave', 'work_limits'],
-  // },
-  // {
-  //   title: ['Незанятые', '???'],
-  //   subTitle: ['Крестьяне', 'Рабы', 'Лимит', 'Добыча металла'],
-  //   resourseNumber: ['unused_peasents', 'unused_slaves'],
-  // },
-  // {
-  //   title: ['Всего', '???'],
-  //   subTitle: ['Крестьяне', 'Рабы', 'Лимит', 'Добыча металла'],
-  //   resourseNumber: [''],
-  // },
 ];
-
-// const tableExtractionResourcesHeader = [
-//   { title: subTitle: ['Феод'] },
-//   { title: 'Металл', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
-//   { title: 'Дерево', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
-//   { title: 'Шкуры', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
-//   { title: 'Лошади', subTitle: ['Крестьяне', 'Рабы', 'Всего'] },
-//   {
-//     title: 'Производство снабжения',
-//     subTitle: ['Крестьяне 2х', 'Рабы 3х', 'Кр Скот', 'Р Скот', 'Всего'],
-//   },
-//   { title: 'Пропитание', subTitle: ['Рабочие', 'Армия', 'Излишки'] },
-//   {
-//     title: 'Собрано налогов',
-//     subTitle: ['Крестьяне 8х', 'Жалование', 'Доход'],
-//   },
-// ];
-
-// const tableResourceInfo = [
-//   ['mines_peasent', 'mines_slave', 'mines_limits'],
-//   ['forest_peasent', 'forest_slave', 'forest_limits'],
-//   ['skins_peasent', 'skins_slave', 'skins_limits'],
-//   ['horses_peasent', 'horses_slave', 'horses_limits'],
-//   ['food_peasent', 'food_slave', 'food_limits'],
-// ];
-
-// const tableResourceExtraction = [
-//   ['mines_peasent', 'mines_slave', 'mines_limits'],
-//   ['forest_peasent', 'forest_slave', 'forest_limits'],
-//   ['skins_peasent', 'skins_slave', 'skins_limits'],
-//   ['horses_peasent', 'horses_slave', 'horses_limits'],
-// ];
 
 const tableTitle = [
   'Место работы',
@@ -148,8 +100,35 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
           </ul>
         </div>
       </aside>
-      {/* Боковое меню */}
-      {/* Таблица */}
+      {/* Верхняя таблица ресурсов */}
+      <div className="flex justify-center text-sm text-slate-500">
+        <table>
+          <tbody>
+            <tr>
+              <th className="p-2 text-base">
+                {currentFeod && currentFeod.locations_name}:
+              </th>
+              <td className="p-2">
+                крестьяне: {currentFeod && currentFeod.all_peasent}
+              </td>
+              <td className="p-2">
+                рабы: {currentFeod && currentFeod.all_slave}
+              </td>
+              <td className="p-2">
+                всего рабочих:{' '}
+                {currentFeod && currentFeod.all_peasent_and_slave}
+              </td>
+              <td className="p-2">
+                солдаты: {currentFeod && currentFeod.army_number}
+              </td>
+              <td className="p-2"></td>
+              <td className="p-2"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      {/* Таблица Рабочих */}
       <div className="flex justify-center text-sm text-slate-500">
         <table>
           <thead>
@@ -157,9 +136,9 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
               <th
                 key={currentFeod && currentFeod.locations_name}
                 colSpan={10}
-                className="w-28 text-base  p-2 "
+                className="w-28  p-2"
               >
-                {currentFeod && currentFeod.locations_name}
+                Распределение рабочих
               </th>
             </tr>
           </thead>
@@ -245,6 +224,114 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 </tr>
               </Fragment>
             ))}
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td
+                key={'Незанятые'}
+                colSpan={1}
+                className="w-28 border p-2 text-right"
+              >
+                Незанятые
+              </td>
+              <td
+                key={'Незанятые Крестьяне'}
+                colSpan={1}
+                className="w-28 border p-2 text-right"
+              >
+                {currentFeod && currentFeod.unused_peasents}
+              </td>
+              <td
+                key={'Незанятые Рабы'}
+                colSpan={1}
+                className="w-28 border p-2 text-right"
+              >
+                {currentFeod && currentFeod.unused_slaves}
+              </td>
+              <td className="w-28 border p-2 text-right">-</td>
+              <td className="w-28 border p-2 text-right">-</td>
+              <td className="w-28 border p-2 text-right">-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br></br>
+      <div className="flex justify-center text-sm text-slate-500">
+        <table>
+          <thead>
+            <tr>
+              <th
+                key={currentFeod && currentFeod.locations_name}
+                colSpan={10}
+                className="w-28 p-2"
+              >
+                Снабжение и налоги
+              </th>
+            </tr>
+            <tr>
+              <th className="w-28 border  p-2"></th>
+              <th className="w-28 border  p-2">Крестьяне</th>
+              <th className="w-28 border  p-2">Рабы</th>
+              <th className="w-28 border  p-2">Солдаты</th>
+              <th className="w-28 border  p-2">Всего</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="w-48 border p-2 text-right">
+                Потребляют снабжения
+              </td>
+              <td className="w-28 border p-2 text-right">
+                {currentFeod && currentFeod.all_peasent}
+              </td>
+              <td className="w-28 border p-2 text-right">
+                {currentFeod && currentFeod.all_slave}
+              </td>
+              <td className="w-28 border p-2 text-right">
+                {currentFeod && currentFeod.army_number}
+              </td>
+              <td className="w-28 border p-2 text-right">
+                {currentFeod &&
+                  currentFeod.all_peasent +
+                    currentFeod.all_slave +
+                    Number(currentFeod.army_number)}
+              </td>
+            </tr>
+            <tr>
+              <td className="w-48 border p-2 text-right">Сбор налогов</td>
+              <td
+                className="w-28 border p-2 text-right "
+                title="Каждый крестьянин платит 8 серебра налогов"
+              >
+                {currentFeod && currentFeod.all_peasent * 8}
+              </td>
+              <td className="w-28 border p-2 text-right">-</td>
+              <td className="w-28 border p-2 text-right">-</td>
+              <td
+                className="w-28 border p-2 text-right"
+                title="Каждый крестьянин платит 8 серебра налогов"
+              >
+                {currentFeod && currentFeod.all_peasent * 8}
+              </td>
+            </tr>
+            <tr>
+              <td className="w-48 border p-2 text-right">Жалование</td>
+              <td className="w-28 border p-2 text-right">-</td>
+              <td className="w-28 border p-2 text-right">-</td>
+              <td
+                className="w-28 border p-2 text-right"
+                title="Детализация жалования на вкладке отрядов"
+              >
+                {currentFeod && currentFeod.army_prise}
+              </td>
+              <td
+                className="w-28 border p-2 text-right"
+                title="Детализация жалования на вкладке отрядов"
+              >
+                {currentFeod && currentFeod.army_prise}
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>

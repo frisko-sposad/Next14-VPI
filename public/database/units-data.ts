@@ -288,7 +288,7 @@ export const unitsData: UnitData[] = [
       },
       {
         id: 10,
-        name: 'Безупречный',
+        name: 'Безупречный??? Жалование 0',
         horse: false,
         bow: false,
         weapon: Weapon.spear,
