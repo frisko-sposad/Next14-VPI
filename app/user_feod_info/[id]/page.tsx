@@ -10,7 +10,7 @@ const tableInfoHeader = [
   },
   {
     workplace: 'Лес',
-    type: 'леса',
+    type: 'древесина',
     resourseNumber: ['forest_peasent', 'forest_slave', 'forest_limits'],
   },
   {
@@ -40,22 +40,51 @@ const tableTitle = [
 ];
 
 const UserInfo = ({ params }: { params: { id: number } }) => {
-  const [dataUsers, setDataUsers] = useState([] as any);
+  const [feodInfo, setFeodInfo] = useState([] as any);
+  const [feodInfoResources, setFeodInfoResources] = useState([] as any);
+  const [feodArmyPrice, setFeodArmyPrice] = useState([] as any);
   const [feodNumber, setFeodNumber] = useState(1);
   const [currentFeod, setCurrentFeod] = useState({} as any);
 
   // проверяем выбранный феод и записываем в feoInfo данные по выбранному феоду
   useEffect(() => {
-    let dataFeod = dataUsers.find(
+    let dataFeod = feodInfo.find(
+      (item: { locations_id: number }) => item.locations_id == feodNumber
+    );
+    let dataFeodResources = feodInfoResources.find(
+      (item: { locations_id: number }) => item.locations_id == feodNumber
+    );
+    let dataFeodArmyPrice = feodArmyPrice.find(
       (item: { locations_id: number }) => item.locations_id == feodNumber
     );
 
-    setCurrentFeod(dataFeod);
-  }, [dataUsers, feodNumber]);
+    setCurrentFeod({ ...dataFeod, ...dataFeodResources, ...dataFeodArmyPrice });
+  }, [feodArmyPrice, feodInfo, feodInfoResources, feodNumber]);
 
-  const fetchData = useCallback(async () => {
+  const fetchDataFeodInfo = useCallback(async () => {
     const response = await fetch(
-      `https://vpi-node-js.vercel.app/feods-info/${params.id}`,
+      `https://vpi-node-js.vercel.app/feods-info-worker/${params.id}`,
+      {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      }
+    );
+
+    const data = await response.json();
+    console.log({ data });
+    setFeodInfo(data);
+    setFeodNumber(data && data[0].locations_id);
+  }, [params.id]);
+
+  useEffect(() => {
+    fetchDataFeodInfo();
+  }, [fetchDataFeodInfo, params.id]);
+
+  const fetchDataFeodsResources = useCallback(async () => {
+    const response = await fetch(
+      `https://vpi-node-js.vercel.app/feods-resources/${params.id}`,
       {
         method: 'GET',
         headers: {
@@ -66,12 +95,32 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
 
     const data = await response.json();
 
-    setDataUsers(data);
+    setFeodInfoResources(data);
   }, [params.id]);
 
   useEffect(() => {
-    fetchData();
-  }, [fetchData, params.id]);
+    fetchDataFeodsResources();
+  }, [fetchDataFeodsResources, params.id]);
+
+  const fetchDataFeodsArmyPrice = useCallback(async () => {
+    const response = await fetch(
+      `https://vpi-node-js.vercel.app/feods-info-army-price/${params.id}`,
+      {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      }
+    );
+
+    const data = await response.json();
+
+    setFeodArmyPrice(data);
+  }, [params.id]);
+
+  useEffect(() => {
+    fetchDataFeodsArmyPrice();
+  }, [fetchDataFeodsArmyPrice, params.id]);
 
   console.log({ currentFeod }, { feodNumber });
 
@@ -86,8 +135,8 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800 text-slate-500">
           <ul className="space-y-2 font-medium">
-            <div>Владения игрока {dataUsers[0] && dataUsers[0].login}:</div>
-            {dataUsers.map((row: any) => (
+            <div>Владения игрока {feodInfo[0] && feodInfo[0].login}:</div>
+            {feodInfo.map((row: any) => (
               <li key={row.locations_name}>
                 <button
                   className="flex items-center p-1 text-slate-500"
@@ -119,10 +168,26 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 {currentFeod && currentFeod.all_peasent_and_slave}
               </td>
               <td className="p-2">
-                солдаты: {currentFeod && currentFeod.army_number}
+                солдаты:{' '}
+                {currentFeod && currentFeod.army_number
+                  ? currentFeod.army_number
+                  : 0}
               </td>
-              <td className="p-2"></td>
-              <td className="p-2"></td>
+              <td className="p-2 font-bold">
+                металл: {currentFeod && currentFeod.iron}
+              </td>
+              <td className="p-2 font-bold">
+                древесина: {currentFeod && currentFeod.forest}
+              </td>
+              <td className="p-2 font-bold">
+                шкуры: {currentFeod && currentFeod.skin}
+              </td>
+              <td className="p-2 font-bold">
+                лошади: {currentFeod && currentFeod.horse}
+              </td>
+              <td className="p-2 font-bold">
+                еда: {currentFeod && currentFeod.food}
+              </td>
             </tr>
           </tbody>
         </table>
@@ -227,6 +292,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
             <tr>
               <td></td>
             </tr>
+            {/* Незанятые рабочие */}
             <tr>
               <td
                 key={'Незанятые'}
@@ -250,6 +316,43 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 {currentFeod && currentFeod.unused_slaves}
               </td>
               <td className="w-28 border p-2 text-right">-</td>
+              <td className="w-28 border p-2 text-right">-</td>
+              <td className="w-28 border p-2 text-right">-</td>
+            </tr>
+            {/* Всего рабочих */}
+            <tr>
+              <td
+                key={'Незанятые'}
+                colSpan={1}
+                className="w-28 border p-2 text-right"
+              >
+                Всего
+              </td>
+              <td
+                key={'Незанятые Крестьяне'}
+                colSpan={1}
+                className="w-28 border p-2 text-right"
+              >
+                {currentFeod &&
+                  currentFeod.work_peasent + currentFeod.unused_peasents}
+              </td>
+              <td
+                key={'Всего крестьян'}
+                colSpan={1}
+                className="w-28 border p-2 text-right"
+              >
+                {currentFeod &&
+                  currentFeod.work_slave + currentFeod.unused_slaves}
+              </td>
+              <td
+                key={'Общий лимит'}
+                colSpan={1}
+                className="w-28 border p-2 text-right"
+              >
+                {currentFeod &&
+                  currentFeod.work_slave + currentFeod.unused_slaves}{' '}
+                / {currentFeod && currentFeod.work_limits}
+              </td>
               <td className="w-28 border p-2 text-right">-</td>
               <td className="w-28 border p-2 text-right">-</td>
             </tr>
@@ -289,13 +392,17 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 {currentFeod && currentFeod.all_slave}
               </td>
               <td className="w-28 border p-2 text-right">
-                {currentFeod && currentFeod.army_number}
+                {currentFeod && currentFeod.army_number
+                  ? currentFeod.army_number
+                  : 0}
               </td>
               <td className="w-28 border p-2 text-right">
                 {currentFeod &&
                   currentFeod.all_peasent +
                     currentFeod.all_slave +
-                    Number(currentFeod.army_number)}
+                    Number(
+                      currentFeod.army_number ? currentFeod.army_number : 0
+                    )}
               </td>
             </tr>
             <tr>
