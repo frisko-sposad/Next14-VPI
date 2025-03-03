@@ -43,8 +43,10 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
   const [feodInfo, setFeodInfo] = useState([] as any);
   const [feodInfoResources, setFeodInfoResources] = useState([] as any);
   const [feodArmyPrice, setFeodArmyPrice] = useState([] as any);
+  const [feodNavigation, setFeodNavigation] = useState([] as any);
   const [feodNumber, setFeodNumber] = useState(1);
   const [currentFeod, setCurrentFeod] = useState({} as any);
+  console.log({ currentFeod });
 
   // проверяем выбранный феод и записываем в feoInfo данные по выбранному феоду
   useEffect(() => {
@@ -57,9 +59,18 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
     let dataFeodArmyPrice = feodArmyPrice.find(
       (item: { locations_id: number }) => item.locations_id == feodNumber
     );
+    let dataFeodNavigation = feodNavigation.filter(
+      (item: { path_graph_location_id_from: number }) =>
+        item.path_graph_location_id_from == feodNumber
+    );
 
-    setCurrentFeod({ ...dataFeod, ...dataFeodResources, ...dataFeodArmyPrice });
-  }, [feodArmyPrice, feodInfo, feodInfoResources, feodNumber]);
+    setCurrentFeod({
+      ...dataFeod,
+      ...dataFeodResources,
+      ...dataFeodArmyPrice,
+      ...{ dataFeodNavigation },
+    });
+  }, [feodArmyPrice, feodInfo, feodInfoResources, feodNavigation, feodNumber]);
 
   const fetchDataFeodInfo = useCallback(async () => {
     const response = await fetch(
@@ -73,7 +84,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
     );
 
     const data = await response.json();
-    console.log({ data });
+
     setFeodInfo(data);
     setFeodNumber(data && data[0].locations_id);
   }, [params.id]);
@@ -122,7 +133,25 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
     fetchDataFeodsArmyPrice();
   }, [fetchDataFeodsArmyPrice, params.id]);
 
-  console.log({ currentFeod }, { feodNumber });
+  const fetchDataFeodsNavigation = useCallback(async () => {
+    const response = await fetch(
+      `https://vpi-node-js.vercel.app/feods-navigation/${params.id}`,
+      {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      }
+    );
+
+    const data = await response.json();
+
+    setFeodNavigation(data);
+  }, [params.id]);
+
+  useEffect(() => {
+    fetchDataFeodsNavigation();
+  }, [fetchDataFeodsNavigation, params.id]);
 
   return (
     <>
@@ -193,7 +222,6 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
         </table>
       </div>
 
-      {/* Таблица Рабочих */}
       <div className="flex justify-center text-sm text-slate-500">
         <table>
           <thead>
@@ -359,7 +387,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
           </tbody>
         </table>
       </div>
-      <br></br>
+      <br />
       <div className="flex justify-center text-sm text-slate-500">
         <table>
           <thead>
@@ -441,6 +469,23 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
             </tr>
           </tbody>
         </table>
+      </div>
+      <br />
+      {/* Таблица Границ */}
+      <div className="flex justify-center">
+        <div className="flex justify-center text-sm text-slate-500">
+          <table>
+            <tbody>
+              <div className="p-2 font-bold">Граничит с:</div>
+              {currentFeod.dataFeodNavigation &&
+                currentFeod.dataFeodNavigation.map((row: any) => (
+                  <tr className="p-2 border" key={row.locations_name}>
+                    <td className="p-2">{row.locations_name}</td>
+                  </tr>
+                ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </>
   );
