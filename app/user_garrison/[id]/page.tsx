@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 
 const Garrison = ({ params }: { params: { id: number } }) => {
   const [userGarnisone, setUserGarnisone] = useState([] as any);
@@ -68,7 +68,7 @@ const Garrison = ({ params }: { params: { id: number } }) => {
           </thead>
           <tbody>
             {userGarnisone.map((garrison: any, index: any, squadArr: any) => (
-              <>
+              <Fragment key={garrison + index}>
                 {(index == 0 ||
                   (index != 0 &&
                     squadArr[index].locations_id !=
@@ -76,7 +76,7 @@ const Garrison = ({ params }: { params: { id: number } }) => {
                   <tr>
                     <th
                       colSpan={4}
-                      key={'garrison.locations_name_subtitle' + index}
+                      key={garrison.locations_name_subtitle + index}
                       className="border p-2 text-slate-500 text-center"
                     >
                       {garrison.locations_name}
@@ -118,7 +118,7 @@ const Garrison = ({ params }: { params: { id: number } }) => {
                     </div>
                   </td>
                 </tr>
-              </>
+              </Fragment>
             ))}
           </tbody>
         </table>

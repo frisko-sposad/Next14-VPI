@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 
 const UserSquads = ({ params }: { params: { id: number } }) => {
   const [dataUsers, setDataUsers] = useState([] as any);
@@ -70,7 +70,7 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
           </thead>
           <tbody>
             {dataUsers.map((squad: any, index: any, squadArr: any) => (
-              <>
+              <Fragment key={squad + index}>
                 {(index == 0 ||
                   (index != 0 &&
                     squadArr[index].locations_id !=
@@ -78,14 +78,14 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
                   <tr>
                     <th
                       colSpan={4}
-                      key={'squad.locations_name_subtitle' + index}
+                      key={squad.locations_name_subtitle + index}
                       className="border p-2 text-slate-500 text-center"
                     >
                       {squad.locations_name}
                     </th>
                   </tr>
                 )}
-                <tr key={'squad' + index}>
+                <tr>
                   <td
                     key={'squad.locations_id' + index}
                     className="border p-2 text-slate-500 text-right"
@@ -120,7 +120,7 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
                     </div>
                   </td>
                 </tr>
-              </>
+              </Fragment>
             ))}
           </tbody>
         </table>
