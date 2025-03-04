@@ -1,4 +1,6 @@
 'use client';
+import Garrison from '@/app/user_garrison/[id]/page';
+import UserSquads from '@/app/user_squads/[id]/page';
 import Header from '@/components/Header/header';
 import { Fragment, useCallback, useEffect, useState } from 'react';
 
@@ -286,6 +288,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                     title="Работает крестьян и рабов / максимальный лимит"
                   >
                     {currentFeod &&
+                      currentFeod[tableInfoHeaderEl.resourseNumber[0]] &&
                       currentFeod[tableInfoHeaderEl.resourseNumber[0]] +
                         currentFeod[tableInfoHeaderEl.resourseNumber[1]]}
                     /
@@ -299,11 +302,10 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                     className="w-28 border p-2 text-right"
                     title="Крестьяне добывают 1 ресурс, рабы 2 ресурса"
                   >
-                    {`${
-                      currentFeod &&
+                    {currentFeod &&
+                      currentFeod[tableInfoHeaderEl.resourseNumber[0]] &&
                       currentFeod[tableInfoHeaderEl.resourseNumber[0]] +
-                        currentFeod[tableInfoHeaderEl.resourseNumber[1]] * 2
-                    }`}
+                        currentFeod[tableInfoHeaderEl.resourseNumber[1]] * 2}
                   </td>
                   {/* Тип ресурсов */}
                   <td
@@ -362,6 +364,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 className="w-28 border p-2 text-right"
               >
                 {currentFeod &&
+                  currentFeod.work_peasent &&
                   currentFeod.work_peasent + currentFeod.unused_peasents}
               </td>
               <td
@@ -370,6 +373,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 className="w-28 border p-2 text-right"
               >
                 {currentFeod &&
+                  currentFeod.work_slave &&
                   currentFeod.work_slave + currentFeod.unused_slaves}
               </td>
               <td
@@ -378,6 +382,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 className="w-28 border p-2 text-right"
               >
                 {currentFeod &&
+                  currentFeod.work_slave &&
                   currentFeod.work_slave + currentFeod.unused_slaves}{' '}
                 / {currentFeod && currentFeod.work_limits}
               </td>
@@ -422,10 +427,11 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
               <td className="w-28 border p-2 text-right">
                 {currentFeod && currentFeod.army_number
                   ? currentFeod.army_number
-                  : 0}
+                  : '-'}
               </td>
               <td className="w-28 border p-2 text-right">
                 {currentFeod &&
+                  currentFeod.all_peasent &&
                   currentFeod.all_peasent +
                     currentFeod.all_slave +
                     Number(
@@ -439,7 +445,9 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 className="w-28 border p-2 text-right "
                 title="Каждый крестьянин платит 8 серебра налогов"
               >
-                {currentFeod && currentFeod.all_peasent * 8}
+                {currentFeod &&
+                  currentFeod.all_peasent &&
+                  currentFeod.all_peasent * 8}
               </td>
               <td className="w-28 border p-2 text-right">-</td>
               <td className="w-28 border p-2 text-right">-</td>
@@ -447,7 +455,9 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
                 className="w-28 border p-2 text-right"
                 title="Каждый крестьянин платит 8 серебра налогов"
               >
-                {currentFeod && currentFeod.all_peasent * 8}
+                {currentFeod &&
+                  currentFeod.all_peasent &&
+                  currentFeod.all_peasent * 8}
               </td>
             </tr>
             <tr>
@@ -472,21 +482,31 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
       </div>
       <br />
       {/* Таблица Границ */}
-      <div className="flex justify-center">
-        <div className="flex justify-center text-sm text-slate-500">
-          <table>
-            <tbody>
-              <div className="p-2 font-bold">Граничит с:</div>
-              {currentFeod.dataFeodNavigation &&
-                currentFeod.dataFeodNavigation.map((row: any) => (
-                  <tr className="p-2 border" key={row.locations_name}>
-                    <td className="p-2">{row.locations_name}</td>
-                  </tr>
-                ))}
-            </tbody>
-          </table>
-        </div>
+      <div className="flex justify-center text-sm text-slate-500">
+        <table>
+          <tbody>
+            <tr className="p-2 border font-bold">
+              <td className="p-2">Граничит с:</td>
+            </tr>
+            {currentFeod.dataFeodNavigation &&
+              currentFeod.dataFeodNavigation.map((row: any) => (
+                <tr className="p-2 border" key={row.locations_name}>
+                  <td className="p-2">{row.locations_name}</td>
+                </tr>
+              ))}
+          </tbody>
+        </table>
       </div>
+      <Garrison
+        params={{
+          id: params.id,
+        }}
+      />
+      <UserSquads
+        params={{
+          id: params.id,
+        }}
+      />
     </>
   );
 };

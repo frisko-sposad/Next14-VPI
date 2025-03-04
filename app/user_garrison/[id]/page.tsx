@@ -1,13 +1,13 @@
 'use client';
 import { useEffect, useState } from 'react';
 
-const UserSquads = ({ params }: { params: { id: number } }) => {
-  const [dataUsers, setDataUsers] = useState([] as any);
+const Garrison = ({ params }: { params: { id: number } }) => {
+  const [userGarnisone, setUserGarnisone] = useState([] as any);
 
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        `https://vpi-node-js.vercel.app/units_squad/${params.id}`,
+        `https://vpi-node-js.vercel.app/feods-army/${params.id}`,
         {
           method: 'GET',
           headers: {
@@ -17,19 +17,17 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
       );
 
       const data = await response.json();
-      console.log({ data });
 
-      setDataUsers(data);
+      setUserGarnisone(data);
     };
     fetchData();
   }, [params.id]);
-  console.log({ dataUsers });
 
   return (
     <>
       <div className="flex justify-center text-base text-slate-500 text-sm font-bold">
         <div className="flex-col p-2">
-          <div>Отряды</div>
+          <div>Гарнизоны Феодов</div>
         </div>
       </div>
       <div className="flex justify-center text-sm">
@@ -43,13 +41,13 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
                 №
               </th>
               <th
-                key={'unit_name_title'}
+                key={'hero_garrison_name_title'}
                 className=" border p-2 text-slate-500"
               >
                 Командир
               </th>
               <th
-                key={'hero_name_title'}
+                key={'unit_name_title'}
                 className=" border p-2 text-slate-500"
               >
                 Тип Юнита
@@ -61,7 +59,7 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
                 Количество
               </th>
               <th
-                key={'squad.unit_price_title'}
+                key={'garrison.unit_price_title'}
                 className=" border p-2 text-slate-500"
               >
                 Жалование
@@ -69,7 +67,7 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
             </tr>
           </thead>
           <tbody>
-            {dataUsers.map((squad: any, index: any, squadArr: any) => (
+            {userGarnisone.map((garrison: any, index: any, squadArr: any) => (
               <>
                 {(index == 0 ||
                   (index != 0 &&
@@ -78,45 +76,45 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
                   <tr>
                     <th
                       colSpan={4}
-                      key={'squad.locations_name_subtitle' + index}
+                      key={'garrison.locations_name_subtitle' + index}
                       className="border p-2 text-slate-500 text-center"
                     >
-                      {squad.locations_name}
+                      {garrison.locations_name}
                     </th>
                   </tr>
                 )}
-                <tr key={'squad' + index}>
+                <tr key={'garrison' + index}>
                   <td
-                    key={'squad.locations_id' + index}
+                    key={'garrison.locations_id' + index}
                     className="border p-2 text-slate-500 text-right"
                   >
-                    <div className="w-10">{squad.locations_id}</div>
+                    <div className="w-10">{garrison.locations_id}</div>
                   </td>
 
                   <td
-                    key={'squad.hero_name' + index}
+                    key={'garrison.hero_name' + index}
                     className="border p-2 text-slate-500 text-right"
                   >
-                    <div className="w-40">{squad.hero_name}</div>
+                    <div className="w-40">{garrison.hero_name}</div>
                   </td>
                   <td
-                    key={'squad.unit_name' + index}
+                    key={'garrison.unit_name' + index}
                     className="border p-2 text-slate-500 text-right"
                   >
-                    <div className="w-40">{squad.unit_name}</div>
+                    <div className="w-40">{garrison.unit_name}</div>
                   </td>
                   <td
-                    key={'squad.number' + index}
+                    key={'garrison.locations_army_number' + index}
                     className="border p-2 text-slate-500 text-right"
                   >
-                    <div className="w-20">{squad.number}</div>
+                    <div className="w-20">{garrison.locations_army_number}</div>
                   </td>
                   <td
-                    key={'squad.unit_price' + index}
+                    key={'garrison.unit_price' + index}
                     className="border p-2 text-slate-500 text-right"
                   >
                     <div className="w-20">
-                      {squad.unit_price * squad.number}
+                      {garrison.unit_price * garrison.locations_army_number}
                     </div>
                   </td>
                 </tr>
@@ -129,4 +127,26 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
   );
 };
 
-export default UserSquads;
+export default Garrison;
+
+// C
+// :
+// 200
+// locations_id
+// :
+// 1
+// locations_name
+// :
+// "Винтерфелл"
+// login
+// :
+// "Darian"
+// unit_name
+// :
+// "Мечник"
+// unit_price
+// :
+// 13
+// user_id
+// :
+// 2
