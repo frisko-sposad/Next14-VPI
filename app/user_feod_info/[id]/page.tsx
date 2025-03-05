@@ -1,6 +1,7 @@
 'use client';
-import Garrison from '@/app/user_garrison/[id]/page';
-import UserSquads from '@/app/user_squads/[id]/page';
+import FeodNavigation from '@/app/components/feodnavigation';
+import Garrison from '@/app/components/garrison';
+import UserSquads from '@/app/components/usersquads';
 import Header from '@/components/Header/header';
 import { Fragment, useCallback, useEffect, useState } from 'react';
 
@@ -48,7 +49,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
   const [feodNavigation, setFeodNavigation] = useState([] as any);
   const [feodNumber, setFeodNumber] = useState(1);
   const [currentFeod, setCurrentFeod] = useState({} as any);
-  console.log({ currentFeod });
+  const [subPage, setSubPage] = useState('resourse' as any);
 
   // проверяем выбранный феод и записываем в feoInfo данные по выбранному феоду
   useEffect(() => {
@@ -158,6 +159,37 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
   return (
     <>
       <Header />
+      <nav
+        className="mx-auto flex  items-center justify-center p-2 "
+        aria-label="Global"
+      >
+        <div className="hidden lg:flex lg:gap-x-12">
+          <button
+            onClick={() => setSubPage('resourse')}
+            className="text-sm/6 font-semibold text-gray-900"
+          >
+            Рабочие и добыча
+          </button>
+          <button
+            onClick={() => setSubPage('finance')}
+            className="text-sm/6 font-semibold text-gray-900"
+          >
+            Снабжение и налоги
+          </button>
+          <button
+            onClick={() => setSubPage('squad')}
+            className="text-sm/6 font-semibold text-gray-900"
+          >
+            Гарнизон и отряды
+          </button>
+          <button
+            onClick={() => setSubPage('navigation')}
+            className="text-sm/6 font-semibold text-gray-900"
+          >
+            Соседние владения
+          </button>
+        </div>
+      </nav>
       {/* Боковое меню */}
       <aside
         id="cta-button-sidebar"
@@ -181,6 +213,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
         </div>
       </aside>
       {/* Верхняя таблица ресурсов */}
+
       <div className="flex justify-center text-sm text-slate-500">
         <table>
           <tbody>
@@ -224,289 +257,306 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
         </table>
       </div>
 
-      <div className="flex justify-center text-sm text-slate-500">
-        <table>
-          <thead>
-            <tr>
-              <th
-                key={currentFeod && currentFeod.locations_name}
-                colSpan={10}
-                className="w-28  p-2"
-              >
-                Распределение рабочих
-              </th>
-            </tr>
-          </thead>
-          <tbody className="border p-2">
-            <tr>
-              {tableTitle.map((tableTitleEl: any) => (
-                <Fragment key={tableTitleEl}>
-                  <th
-                    key={tableTitleEl + 'th'}
-                    colSpan={1}
-                    className="w-28 border p-2"
-                  >
-                    {tableTitleEl}
-                  </th>
+      {subPage == 'resourse' && (
+        <div className="flex justify-center text-sm text-slate-500">
+          <table>
+            <thead>
+              <tr>
+                <th
+                  key={currentFeod && currentFeod.locations_name}
+                  colSpan={10}
+                  className="w-28  p-2"
+                >
+                  Распределение рабочих
+                </th>
+              </tr>
+            </thead>
+            <tbody className="border p-2">
+              <tr>
+                {tableTitle.map((tableTitleEl: any) => (
+                  <Fragment key={tableTitleEl}>
+                    <th
+                      key={tableTitleEl + 'th'}
+                      colSpan={1}
+                      className="w-28 border p-2"
+                    >
+                      {tableTitleEl}
+                    </th>
+                  </Fragment>
+                ))}
+              </tr>
+              {tableInfoHeader.map((tableInfoHeaderEl: any) => (
+                <Fragment key={tableInfoHeaderEl.workplace + 'Fragment'}>
+                  <tr key={tableInfoHeaderEl.workplace + 'tr'}>
+                    {/* место работы */}
+                    <td
+                      key={tableInfoHeaderEl.workplace}
+                      colSpan={1}
+                      className="w-28 border p-2 text-right"
+                    >
+                      {tableInfoHeaderEl.workplace}
+                    </td>
+                    {/* сколько крестьян */}
+                    <td
+                      key={tableInfoHeaderEl.workplace + 'peasent'}
+                      colSpan={1}
+                      className="w-28 border p-2 text-right"
+                    >
+                      {currentFeod &&
+                        currentFeod[tableInfoHeaderEl.resourseNumber[0]]}
+                    </td>
+                    {/* сколько рабов */}
+                    <td
+                      key={tableInfoHeaderEl.workplace + 'slave'}
+                      colSpan={1}
+                      className="w-28 border p-2 text-right"
+                    >
+                      {currentFeod &&
+                        currentFeod[tableInfoHeaderEl.resourseNumber[1]]}
+                    </td>
+                    {/* лимит */}
+                    <td
+                      key={tableInfoHeaderEl.workplace + 'limits'}
+                      colSpan={1}
+                      className="w-28 border p-2 text-right"
+                      title="Работает крестьян и рабов / максимальный лимит"
+                    >
+                      {currentFeod &&
+                        currentFeod[tableInfoHeaderEl.resourseNumber[0]] &&
+                        currentFeod[tableInfoHeaderEl.resourseNumber[0]] +
+                          currentFeod[tableInfoHeaderEl.resourseNumber[1]]}
+                      /
+                      {currentFeod &&
+                        currentFeod[tableInfoHeaderEl.resourseNumber[2]]}
+                    </td>
+                    {/* Добыча ресурсов */}
+                    <td
+                      key={tableInfoHeaderEl.workplace + 'resource_production'}
+                      colSpan={1}
+                      className="w-28 border p-2 text-right"
+                      title="Крестьяне добывают 1 ресурс, рабы 2 ресурса"
+                    >
+                      {currentFeod &&
+                        currentFeod[tableInfoHeaderEl.resourseNumber[0]] &&
+                        currentFeod[tableInfoHeaderEl.resourseNumber[0]] +
+                          currentFeod[tableInfoHeaderEl.resourseNumber[1]] * 2}
+                    </td>
+                    {/* Тип ресурсов */}
+                    <td
+                      key={tableInfoHeaderEl.workplace + 'resource_type'}
+                      colSpan={1}
+                      className="w-28 border p-2 text-left"
+                      title="Крестьяне добывают 1 ресурс, рабы 2 ресурса"
+                    >
+                      {tableInfoHeaderEl.type}
+                    </td>
+                  </tr>
                 </Fragment>
               ))}
-            </tr>
-            {tableInfoHeader.map((tableInfoHeaderEl: any) => (
-              <Fragment key={tableInfoHeaderEl.workplace + 'Fragment'}>
-                <tr key={tableInfoHeaderEl.workplace + 'tr'}>
-                  {/* место работы */}
-                  <td
-                    key={tableInfoHeaderEl.workplace}
-                    colSpan={1}
-                    className="w-28 border p-2 text-right"
-                  >
-                    {tableInfoHeaderEl.workplace}
-                  </td>
-                  {/* сколько крестьян */}
-                  <td
-                    key={tableInfoHeaderEl.workplace + 'peasent'}
-                    colSpan={1}
-                    className="w-28 border p-2 text-right"
-                  >
-                    {currentFeod &&
-                      currentFeod[tableInfoHeaderEl.resourseNumber[0]]}
-                  </td>
-                  {/* сколько рабов */}
-                  <td
-                    key={tableInfoHeaderEl.workplace + 'slave'}
-                    colSpan={1}
-                    className="w-28 border p-2 text-right"
-                  >
-                    {currentFeod &&
-                      currentFeod[tableInfoHeaderEl.resourseNumber[1]]}
-                  </td>
-                  {/* лимит */}
-                  <td
-                    key={tableInfoHeaderEl.workplace + 'limits'}
-                    colSpan={1}
-                    className="w-28 border p-2 text-right"
-                    title="Работает крестьян и рабов / максимальный лимит"
-                  >
-                    {currentFeod &&
-                      currentFeod[tableInfoHeaderEl.resourseNumber[0]] &&
-                      currentFeod[tableInfoHeaderEl.resourseNumber[0]] +
-                        currentFeod[tableInfoHeaderEl.resourseNumber[1]]}
-                    /
-                    {currentFeod &&
-                      currentFeod[tableInfoHeaderEl.resourseNumber[2]]}
-                  </td>
-                  {/* Добыча ресурсов */}
-                  <td
-                    key={tableInfoHeaderEl.workplace + 'resource_production'}
-                    colSpan={1}
-                    className="w-28 border p-2 text-right"
-                    title="Крестьяне добывают 1 ресурс, рабы 2 ресурса"
-                  >
-                    {currentFeod &&
-                      currentFeod[tableInfoHeaderEl.resourseNumber[0]] &&
-                      currentFeod[tableInfoHeaderEl.resourseNumber[0]] +
-                        currentFeod[tableInfoHeaderEl.resourseNumber[1]] * 2}
-                  </td>
-                  {/* Тип ресурсов */}
-                  <td
-                    key={tableInfoHeaderEl.workplace + 'resource_type'}
-                    colSpan={1}
-                    className="w-28 border p-2 text-left"
-                    title="Крестьяне добывают 1 ресурс, рабы 2 ресурса"
-                  >
-                    {tableInfoHeaderEl.type}
-                  </td>
-                </tr>
-              </Fragment>
-            ))}
-            <tr>
-              <td></td>
-            </tr>
-            {/* Незанятые рабочие */}
-            <tr>
-              <td
-                key={'Незанятые'}
-                colSpan={1}
-                className="w-28 border p-2 text-right"
-              >
-                Незанятые
-              </td>
-              <td
-                key={'Незанятые Крестьяне'}
-                colSpan={1}
-                className="w-28 border p-2 text-right"
-              >
-                {currentFeod && currentFeod.unused_peasents}
-              </td>
-              <td
-                key={'Незанятые Рабы'}
-                colSpan={1}
-                className="w-28 border p-2 text-right"
-              >
-                {currentFeod && currentFeod.unused_slaves}
-              </td>
-              <td className="w-28 border p-2 text-right">-</td>
-              <td className="w-28 border p-2 text-right">-</td>
-              <td className="w-28 border p-2 text-right">-</td>
-            </tr>
-            {/* Всего рабочих */}
-            <tr>
-              <td
-                key={'Незанятые'}
-                colSpan={1}
-                className="w-28 border p-2 text-right"
-              >
-                Всего
-              </td>
-              <td
-                key={'Незанятые Крестьяне'}
-                colSpan={1}
-                className="w-28 border p-2 text-right"
-              >
-                {currentFeod &&
-                  currentFeod.work_peasent &&
-                  currentFeod.work_peasent + currentFeod.unused_peasents}
-              </td>
-              <td
-                key={'Всего крестьян'}
-                colSpan={1}
-                className="w-28 border p-2 text-right"
-              >
-                {currentFeod &&
-                  currentFeod.work_slave &&
-                  currentFeod.work_slave + currentFeod.unused_slaves}
-              </td>
-              <td
-                key={'Общий лимит'}
-                colSpan={1}
-                className="w-28 border p-2 text-right"
-              >
-                {currentFeod &&
-                  currentFeod.work_slave &&
-                  currentFeod.work_slave + currentFeod.unused_slaves}{' '}
-                / {currentFeod && currentFeod.work_limits}
-              </td>
-              <td className="w-28 border p-2 text-right">-</td>
-              <td className="w-28 border p-2 text-right">-</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <br />
-      <div className="flex justify-center text-sm text-slate-500">
-        <table>
-          <thead>
-            <tr>
-              <th
-                key={currentFeod && currentFeod.locations_name}
-                colSpan={10}
-                className="w-28 p-2"
-              >
-                Снабжение и налоги
-              </th>
-            </tr>
-            <tr>
-              <th className="w-28 border  p-2"></th>
-              <th className="w-28 border  p-2">Крестьяне</th>
-              <th className="w-28 border  p-2">Рабы</th>
-              <th className="w-28 border  p-2">Солдаты</th>
-              <th className="w-28 border  p-2">Всего</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="w-48 border p-2 text-right">
-                Потребляют снабжения
-              </td>
-              <td className="w-28 border p-2 text-right">
-                {currentFeod && currentFeod.all_peasent}
-              </td>
-              <td className="w-28 border p-2 text-right">
-                {currentFeod && currentFeod.all_slave}
-              </td>
-              <td className="w-28 border p-2 text-right">
-                {currentFeod && currentFeod.army_number
-                  ? currentFeod.army_number
-                  : '-'}
-              </td>
-              <td className="w-28 border p-2 text-right">
-                {currentFeod &&
-                  currentFeod.all_peasent &&
-                  currentFeod.all_peasent +
-                    currentFeod.all_slave +
-                    Number(
-                      currentFeod.army_number ? currentFeod.army_number : 0
-                    )}
-              </td>
-            </tr>
-            <tr>
-              <td className="w-48 border p-2 text-right">Сбор налогов</td>
-              <td
-                className="w-28 border p-2 text-right "
-                title="Каждый крестьянин платит 8 серебра налогов"
-              >
-                {currentFeod &&
-                  currentFeod.all_peasent &&
-                  currentFeod.all_peasent * 8}
-              </td>
-              <td className="w-28 border p-2 text-right">-</td>
-              <td className="w-28 border p-2 text-right">-</td>
-              <td
-                className="w-28 border p-2 text-right"
-                title="Каждый крестьянин платит 8 серебра налогов"
-              >
-                {currentFeod &&
-                  currentFeod.all_peasent &&
-                  currentFeod.all_peasent * 8}
-              </td>
-            </tr>
-            <tr>
-              <td className="w-48 border p-2 text-right">Жалование</td>
-              <td className="w-28 border p-2 text-right">-</td>
-              <td className="w-28 border p-2 text-right">-</td>
-              <td
-                className="w-28 border p-2 text-right"
-                title="Детализация жалования на вкладке отрядов"
-              >
-                {currentFeod && currentFeod.army_prise}
-              </td>
-              <td
-                className="w-28 border p-2 text-right"
-                title="Детализация жалования на вкладке отрядов"
-              >
-                {currentFeod && currentFeod.army_prise}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <br />
+              <tr>
+                <td></td>
+              </tr>
+              {/* Незанятые рабочие */}
+              <tr>
+                <td
+                  key={'Незанятые'}
+                  colSpan={1}
+                  className="w-28 border p-2 text-right"
+                >
+                  Незанятые
+                </td>
+                <td
+                  key={'Незанятые Крестьяне'}
+                  colSpan={1}
+                  className="w-28 border p-2 text-right"
+                >
+                  {currentFeod && currentFeod.unused_peasents}
+                </td>
+                <td
+                  key={'Незанятые Рабы'}
+                  colSpan={1}
+                  className="w-28 border p-2 text-right"
+                >
+                  {currentFeod && currentFeod.unused_slaves}
+                </td>
+                <td className="w-28 border p-2 text-right">-</td>
+                <td className="w-28 border p-2 text-right">-</td>
+                <td className="w-28 border p-2 text-right">-</td>
+              </tr>
+              {/* Всего рабочих */}
+              <tr>
+                <td
+                  key={'Незанятые'}
+                  colSpan={1}
+                  className="w-28 border p-2 text-right"
+                >
+                  Всего
+                </td>
+                <td
+                  key={'Незанятые Крестьяне'}
+                  colSpan={1}
+                  className="w-28 border p-2 text-right"
+                >
+                  {currentFeod &&
+                    currentFeod.work_peasent &&
+                    currentFeod.work_peasent + currentFeod.unused_peasents}
+                </td>
+                <td
+                  key={'Всего крестьян'}
+                  colSpan={1}
+                  className="w-28 border p-2 text-right"
+                >
+                  {currentFeod &&
+                    currentFeod.work_slave &&
+                    currentFeod.work_slave + currentFeod.unused_slaves}
+                </td>
+                <td
+                  key={'Общий лимит'}
+                  colSpan={1}
+                  className="w-28 border p-2 text-right"
+                >
+                  {currentFeod &&
+                    currentFeod.work_slave &&
+                    currentFeod.work_slave + currentFeod.unused_slaves}{' '}
+                  / {currentFeod && currentFeod.work_limits}
+                </td>
+                <td className="w-28 border p-2 text-right">-</td>
+                <td className="w-28 border p-2 text-right">-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      )}
+      {subPage == 'finance' && (
+        <div className="flex justify-center text-sm text-slate-500">
+          <table>
+            <thead>
+              <tr>
+                <th
+                  key={currentFeod && currentFeod.locations_name}
+                  colSpan={10}
+                  className="w-28 p-2"
+                >
+                  Снабжение и налоги
+                </th>
+              </tr>
+              <tr>
+                <th className="w-28 border  p-2"></th>
+                <th className="w-28 border  p-2">Крестьяне</th>
+                <th className="w-28 border  p-2">Рабы</th>
+                <th className="w-28 border  p-2">Солдаты</th>
+                <th className="w-28 border  p-2">Всего</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="w-48 border p-2 text-right">
+                  Потребляют снабжения
+                </td>
+                <td className="w-28 border p-2 text-right">
+                  {currentFeod && currentFeod.all_peasent}
+                </td>
+                <td className="w-28 border p-2 text-right">
+                  {currentFeod && currentFeod.all_slave}
+                </td>
+                <td className="w-28 border p-2 text-right">
+                  {currentFeod && currentFeod.army_number
+                    ? currentFeod.army_number
+                    : '-'}
+                </td>
+                <td className="w-28 border p-2 text-right">
+                  {currentFeod &&
+                    currentFeod.all_peasent &&
+                    currentFeod.all_peasent +
+                      currentFeod.all_slave +
+                      Number(
+                        currentFeod.army_number ? currentFeod.army_number : 0
+                      )}
+                </td>
+              </tr>
+              <tr>
+                <td className="w-48 border p-2 text-right">Сбор налогов</td>
+                <td
+                  className="w-28 border p-2 text-right "
+                  title="Каждый крестьянин платит 8 серебра налогов"
+                >
+                  {currentFeod &&
+                    currentFeod.all_peasent &&
+                    currentFeod.all_peasent * 8}
+                </td>
+                <td className="w-28 border p-2 text-right">-</td>
+                <td className="w-28 border p-2 text-right">-</td>
+                <td
+                  className="w-28 border p-2 text-right"
+                  title="Каждый крестьянин платит 8 серебра налогов"
+                >
+                  {currentFeod &&
+                    currentFeod.all_peasent &&
+                    currentFeod.all_peasent * 8}
+                </td>
+              </tr>
+              <tr>
+                <td className="w-48 border p-2 text-right">Жалование</td>
+                <td className="w-28 border p-2 text-right">-</td>
+                <td className="w-28 border p-2 text-right">-</td>
+                <td
+                  className="w-28 border p-2 text-right"
+                  title="Детализация жалования на вкладке отрядов"
+                >
+                  {currentFeod && currentFeod.army_prise}
+                </td>
+                <td
+                  className="w-28 border p-2 text-right"
+                  title="Детализация жалования на вкладке отрядов"
+                >
+                  {currentFeod && currentFeod.army_prise}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      )}
+
       {/* Таблица Границ */}
-      <div className="flex justify-center text-sm text-slate-500">
-        <table>
-          <tbody>
-            <tr className="p-2 border font-bold">
-              <td className="p-2">Граничит с:</td>
-            </tr>
-            {currentFeod.dataFeodNavigation &&
-              currentFeod.dataFeodNavigation.map((row: any) => (
-                <tr className="p-2 border" key={row.locations_name}>
-                  <td className="p-2">{row.locations_name}</td>
-                </tr>
-              ))}
-          </tbody>
-        </table>
-      </div>
-      <Garrison
-        params={{
-          id: params.id,
-        }}
-      />
-      <UserSquads
-        params={{
-          id: params.id,
-        }}
-      />
+
+      {subPage == 'navigation' && (
+        <div className="flex justify-center text-sm text-slate-500">
+          <table>
+            <tbody>
+              <tr className="p-2 border font-bold">
+                <td className="p-2">Граничит с:</td>
+              </tr>
+              {currentFeod.dataFeodNavigation &&
+                currentFeod.dataFeodNavigation.map((row: any) => (
+                  <tr className="p-2 border" key={row.locations_name}>
+                    <td className="p-2">{row.locations_name}</td>
+                  </tr>
+                ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+      {subPage == 'squad' && (
+        <>
+          <Garrison
+            params={{
+              id: params.id,
+            }}
+          />
+          <br></br>
+          <UserSquads
+            params={{
+              id: params.id,
+            }}
+          />
+          <FeodNavigation
+            params={{
+              id: params.id,
+            }}
+            feodNumber={feodNumber}
+          />
+        </>
+      )}
     </>
   );
 };
