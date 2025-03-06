@@ -1,8 +1,23 @@
 'use client';
 import { Fragment, useEffect, useState } from 'react';
 
-const UserSquads = ({ params }: { params: { id: number } }) => {
-  const [dataUsers, setDataUsers] = useState([] as any);
+const UserSquads = ({
+  params,
+  feodNumber,
+}: {
+  params: { id: number };
+  feodNumber: Number;
+}) => {
+  const [allUserSquad, setAllUserSquad] = useState([] as any);
+  const [feodSquad, setFeodSquad] = useState([] as any);
+
+  useEffect(() => {
+    let dataUserSquad = allUserSquad.filter(
+      (item: { locations_id: number }) => item.locations_id == feodNumber
+    );
+
+    setFeodSquad(dataUserSquad);
+  }, [allUserSquad, feodNumber]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -18,7 +33,7 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
 
       const data = await response.json();
 
-      setDataUsers(data);
+      setAllUserSquad(data);
     };
     fetchData();
   }, [params.id]);
@@ -67,7 +82,7 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
             </tr>
           </thead>
           <tbody>
-            {dataUsers.map((squad: any, index: any, squadArr: any) => (
+            {feodSquad.map((squad: any, index: any, squadArr: any) => (
               <Fragment key={squad + index}>
                 {(index == 0 ||
                   (index != 0 &&

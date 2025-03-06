@@ -1,8 +1,22 @@
 'use client';
 import { Fragment, useEffect, useState } from 'react';
 
-const Garrison = ({ params }: { params: { id: number } }) => {
-  const [userGarnisone, setUserGarnisone] = useState([] as any);
+const Garrison = ({
+  params,
+  feodNumber,
+}: {
+  params: { id: number };
+  feodNumber: Number;
+}) => {
+  const [allUserGarrison, setAllUserGarrison] = useState([] as any);
+  const [userGarrison, setUserGarrison] = useState([] as any);
+
+  useEffect(() => {
+    let dataUserGarrison = allUserGarrison.filter(
+      (item: { locations_id: number }) => item.locations_id == feodNumber
+    );
+    setUserGarrison(dataUserGarrison);
+  }, [allUserGarrison, feodNumber]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -18,7 +32,7 @@ const Garrison = ({ params }: { params: { id: number } }) => {
 
       const data = await response.json();
 
-      setUserGarnisone(data);
+      setAllUserGarrison(data);
     };
     fetchData();
   }, [params.id]);
@@ -27,7 +41,7 @@ const Garrison = ({ params }: { params: { id: number } }) => {
     <>
       <div className="flex justify-center text-base text-slate-500 text-sm font-bold">
         <div className="flex-col p-2">
-          <div>Гарнизоны Феодов</div>
+          <div>Гарнизон</div>
         </div>
       </div>
       <div className="flex justify-center text-sm">
@@ -67,7 +81,7 @@ const Garrison = ({ params }: { params: { id: number } }) => {
             </tr>
           </thead>
           <tbody>
-            {userGarnisone.map((garrison: any, index: any, squadArr: any) => (
+            {userGarrison.map((garrison: any, index: any, squadArr: any) => (
               <Fragment key={garrison + index}>
                 {(index == 0 ||
                   (index != 0 &&

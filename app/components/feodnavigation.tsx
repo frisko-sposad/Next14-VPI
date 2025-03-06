@@ -10,7 +10,6 @@ const FeodNavigation = ({
 }) => {
   const [allfeodNavigation, setAllFeodNavigation] = useState([] as any);
   const [feodNavigation, setFeodNavigation] = useState([] as any);
-  console.log({ allfeodNavigation, feodNavigation });
 
   useEffect(() => {
     let dataFeodNavigation = allfeodNavigation.filter(
@@ -49,8 +48,8 @@ const FeodNavigation = ({
             <tr className="p-2 border font-bold">
               <td className="p-2">Граничит с:</td>
             </tr>
-            {feodNavigation.dataFeodNavigation &&
-              feodNavigation.dataFeodNavigation.map((row: any) => (
+            {feodNavigation &&
+              feodNavigation.map((row: any) => (
                 <tr className="p-2 border" key={row.locations_name}>
                   <td className="p-2">{row.locations_name}</td>
                 </tr>

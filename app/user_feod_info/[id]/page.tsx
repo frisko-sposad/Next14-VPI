@@ -1,52 +1,16 @@
 'use client';
 import FeodNavigation from '@/app/components/feodnavigation';
+import FeodResources from '@/app/components/feodresources';
+import FeodWorker from '@/app/components/feodwarker';
 import Garrison from '@/app/components/garrison';
 import UserSquads from '@/app/components/usersquads';
 import Header from '@/components/Header/header';
-import { Fragment, useCallback, useEffect, useState } from 'react';
-
-const tableInfoHeader = [
-  {
-    workplace: 'Шахты',
-    type: 'металла',
-    resourseNumber: ['mines_peasent', 'mines_slave', 'mines_limits'],
-  },
-  {
-    workplace: 'Лес',
-    type: 'древесина',
-    resourseNumber: ['forest_peasent', 'forest_slave', 'forest_limits'],
-  },
-  {
-    workplace: 'Свинарник',
-    type: 'шкур/еды',
-    resourseNumber: ['skins_peasent', 'skins_slave', 'skins_limits'],
-  },
-  {
-    workplace: 'Конюшни',
-    type: 'лошадей',
-    resourseNumber: ['horses_peasent', 'horses_slave', 'horses_limits'],
-  },
-  {
-    workplace: 'Ферма',
-    type: 'еды',
-    resourseNumber: ['food_peasent', 'food_slave', 'food_limits'],
-  },
-];
-
-const tableTitle = [
-  'Место работы',
-  'Крестьяне',
-  'Рабы',
-  'Лимит',
-  'Добыча ресурсов',
-  'Тип Ресурса',
-];
+import { useCallback, useEffect, useState } from 'react';
 
 const UserInfo = ({ params }: { params: { id: number } }) => {
   const [feodInfo, setFeodInfo] = useState([] as any);
   const [feodInfoResources, setFeodInfoResources] = useState([] as any);
   const [feodArmyPrice, setFeodArmyPrice] = useState([] as any);
-  const [feodNavigation, setFeodNavigation] = useState([] as any);
   const [feodNumber, setFeodNumber] = useState(1);
   const [currentFeod, setCurrentFeod] = useState({} as any);
   const [subPage, setSubPage] = useState('resourse' as any);
@@ -62,18 +26,13 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
     let dataFeodArmyPrice = feodArmyPrice.find(
       (item: { locations_id: number }) => item.locations_id == feodNumber
     );
-    let dataFeodNavigation = feodNavigation.filter(
-      (item: { path_graph_location_id_from: number }) =>
-        item.path_graph_location_id_from == feodNumber
-    );
 
     setCurrentFeod({
       ...dataFeod,
       ...dataFeodResources,
       ...dataFeodArmyPrice,
-      ...{ dataFeodNavigation },
     });
-  }, [feodArmyPrice, feodInfo, feodInfoResources, feodNavigation, feodNumber]);
+  }, [feodArmyPrice, feodInfo, feodInfoResources, feodNumber]);
 
   const fetchDataFeodInfo = useCallback(async () => {
     const response = await fetch(
@@ -136,26 +95,6 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
     fetchDataFeodsArmyPrice();
   }, [fetchDataFeodsArmyPrice, params.id]);
 
-  const fetchDataFeodsNavigation = useCallback(async () => {
-    const response = await fetch(
-      `https://vpi-node-js.vercel.app/feods-navigation/${params.id}`,
-      {
-        method: 'GET',
-        headers: {
-          accept: 'application/json',
-        },
-      }
-    );
-
-    const data = await response.json();
-
-    setFeodNavigation(data);
-  }, [params.id]);
-
-  useEffect(() => {
-    fetchDataFeodsNavigation();
-  }, [fetchDataFeodsNavigation, params.id]);
-
   return (
     <>
       <Header />
@@ -214,218 +153,20 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
       </aside>
       {/* Верхняя таблица ресурсов */}
 
-      <div className="flex justify-center text-sm text-slate-500">
-        <table>
-          <tbody>
-            <tr>
-              <th className="p-2 text-base">
-                {currentFeod && currentFeod.locations_name}:
-              </th>
-              <td className="p-2">
-                крестьяне: {currentFeod && currentFeod.all_peasent}
-              </td>
-              <td className="p-2">
-                рабы: {currentFeod && currentFeod.all_slave}
-              </td>
-              <td className="p-2">
-                всего рабочих:{' '}
-                {currentFeod && currentFeod.all_peasent_and_slave}
-              </td>
-              <td className="p-2">
-                солдаты:{' '}
-                {currentFeod && currentFeod.army_number
-                  ? currentFeod.army_number
-                  : 0}
-              </td>
-              <td className="p-2 font-bold">
-                металл: {currentFeod && currentFeod.iron}
-              </td>
-              <td className="p-2 font-bold">
-                древесина: {currentFeod && currentFeod.forest}
-              </td>
-              <td className="p-2 font-bold">
-                шкуры: {currentFeod && currentFeod.skin}
-              </td>
-              <td className="p-2 font-bold">
-                лошади: {currentFeod && currentFeod.horse}
-              </td>
-              <td className="p-2 font-bold">
-                еда: {currentFeod && currentFeod.food}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <FeodResources
+        params={{
+          id: params.id,
+        }}
+        feodNumber={feodNumber}
+      />
 
       {subPage == 'resourse' && (
-        <div className="flex justify-center text-sm text-slate-500">
-          <table>
-            <thead>
-              <tr>
-                <th
-                  key={currentFeod && currentFeod.locations_name}
-                  colSpan={10}
-                  className="w-28  p-2"
-                >
-                  Распределение рабочих
-                </th>
-              </tr>
-            </thead>
-            <tbody className="border p-2">
-              <tr>
-                {tableTitle.map((tableTitleEl: any) => (
-                  <Fragment key={tableTitleEl}>
-                    <th
-                      key={tableTitleEl + 'th'}
-                      colSpan={1}
-                      className="w-28 border p-2"
-                    >
-                      {tableTitleEl}
-                    </th>
-                  </Fragment>
-                ))}
-              </tr>
-              {tableInfoHeader.map((tableInfoHeaderEl: any) => (
-                <Fragment key={tableInfoHeaderEl.workplace + 'Fragment'}>
-                  <tr key={tableInfoHeaderEl.workplace + 'tr'}>
-                    {/* место работы */}
-                    <td
-                      key={tableInfoHeaderEl.workplace}
-                      colSpan={1}
-                      className="w-28 border p-2 text-right"
-                    >
-                      {tableInfoHeaderEl.workplace}
-                    </td>
-                    {/* сколько крестьян */}
-                    <td
-                      key={tableInfoHeaderEl.workplace + 'peasent'}
-                      colSpan={1}
-                      className="w-28 border p-2 text-right"
-                    >
-                      {currentFeod &&
-                        currentFeod[tableInfoHeaderEl.resourseNumber[0]]}
-                    </td>
-                    {/* сколько рабов */}
-                    <td
-                      key={tableInfoHeaderEl.workplace + 'slave'}
-                      colSpan={1}
-                      className="w-28 border p-2 text-right"
-                    >
-                      {currentFeod &&
-                        currentFeod[tableInfoHeaderEl.resourseNumber[1]]}
-                    </td>
-                    {/* лимит */}
-                    <td
-                      key={tableInfoHeaderEl.workplace + 'limits'}
-                      colSpan={1}
-                      className="w-28 border p-2 text-right"
-                      title="Работает крестьян и рабов / максимальный лимит"
-                    >
-                      {currentFeod &&
-                        currentFeod[tableInfoHeaderEl.resourseNumber[0]] &&
-                        currentFeod[tableInfoHeaderEl.resourseNumber[0]] +
-                          currentFeod[tableInfoHeaderEl.resourseNumber[1]]}
-                      /
-                      {currentFeod &&
-                        currentFeod[tableInfoHeaderEl.resourseNumber[2]]}
-                    </td>
-                    {/* Добыча ресурсов */}
-                    <td
-                      key={tableInfoHeaderEl.workplace + 'resource_production'}
-                      colSpan={1}
-                      className="w-28 border p-2 text-right"
-                      title="Крестьяне добывают 1 ресурс, рабы 2 ресурса"
-                    >
-                      {currentFeod &&
-                        currentFeod[tableInfoHeaderEl.resourseNumber[0]] &&
-                        currentFeod[tableInfoHeaderEl.resourseNumber[0]] +
-                          currentFeod[tableInfoHeaderEl.resourseNumber[1]] * 2}
-                    </td>
-                    {/* Тип ресурсов */}
-                    <td
-                      key={tableInfoHeaderEl.workplace + 'resource_type'}
-                      colSpan={1}
-                      className="w-28 border p-2 text-left"
-                      title="Крестьяне добывают 1 ресурс, рабы 2 ресурса"
-                    >
-                      {tableInfoHeaderEl.type}
-                    </td>
-                  </tr>
-                </Fragment>
-              ))}
-              <tr>
-                <td></td>
-              </tr>
-              {/* Незанятые рабочие */}
-              <tr>
-                <td
-                  key={'Незанятые'}
-                  colSpan={1}
-                  className="w-28 border p-2 text-right"
-                >
-                  Незанятые
-                </td>
-                <td
-                  key={'Незанятые Крестьяне'}
-                  colSpan={1}
-                  className="w-28 border p-2 text-right"
-                >
-                  {currentFeod && currentFeod.unused_peasents}
-                </td>
-                <td
-                  key={'Незанятые Рабы'}
-                  colSpan={1}
-                  className="w-28 border p-2 text-right"
-                >
-                  {currentFeod && currentFeod.unused_slaves}
-                </td>
-                <td className="w-28 border p-2 text-right">-</td>
-                <td className="w-28 border p-2 text-right">-</td>
-                <td className="w-28 border p-2 text-right">-</td>
-              </tr>
-              {/* Всего рабочих */}
-              <tr>
-                <td
-                  key={'Незанятые'}
-                  colSpan={1}
-                  className="w-28 border p-2 text-right"
-                >
-                  Всего
-                </td>
-                <td
-                  key={'Незанятые Крестьяне'}
-                  colSpan={1}
-                  className="w-28 border p-2 text-right"
-                >
-                  {currentFeod &&
-                    currentFeod.work_peasent &&
-                    currentFeod.work_peasent + currentFeod.unused_peasents}
-                </td>
-                <td
-                  key={'Всего крестьян'}
-                  colSpan={1}
-                  className="w-28 border p-2 text-right"
-                >
-                  {currentFeod &&
-                    currentFeod.work_slave &&
-                    currentFeod.work_slave + currentFeod.unused_slaves}
-                </td>
-                <td
-                  key={'Общий лимит'}
-                  colSpan={1}
-                  className="w-28 border p-2 text-right"
-                >
-                  {currentFeod &&
-                    currentFeod.work_slave &&
-                    currentFeod.work_slave + currentFeod.unused_slaves}{' '}
-                  / {currentFeod && currentFeod.work_limits}
-                </td>
-                <td className="w-28 border p-2 text-right">-</td>
-                <td className="w-28 border p-2 text-right">-</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <FeodWorker
+          params={{
+            id: params.id,
+          }}
+          feodNumber={feodNumber}
+        />
       )}
       {subPage == 'finance' && (
         <div className="flex justify-center text-sm text-slate-500">
@@ -518,22 +259,14 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
       )}
 
       {/* Таблица Границ */}
-
       {subPage == 'navigation' && (
         <div className="flex justify-center text-sm text-slate-500">
-          <table>
-            <tbody>
-              <tr className="p-2 border font-bold">
-                <td className="p-2">Граничит с:</td>
-              </tr>
-              {currentFeod.dataFeodNavigation &&
-                currentFeod.dataFeodNavigation.map((row: any) => (
-                  <tr className="p-2 border" key={row.locations_name}>
-                    <td className="p-2">{row.locations_name}</td>
-                  </tr>
-                ))}
-            </tbody>
-          </table>
+          <FeodNavigation
+            params={{
+              id: params.id,
+            }}
+            feodNumber={feodNumber}
+          />
         </div>
       )}
       {subPage == 'squad' && (
@@ -542,14 +275,10 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
             params={{
               id: params.id,
             }}
+            feodNumber={feodNumber}
           />
           <br></br>
           <UserSquads
-            params={{
-              id: params.id,
-            }}
-          />
-          <FeodNavigation
             params={{
               id: params.id,
             }}
