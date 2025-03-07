@@ -10,6 +10,7 @@ const FeodResources = ({
 }) => {
   const [allfeodResources, setAllFeodResources] = useState([] as any);
   const [feodResources, setFeodResources] = useState([] as any);
+  console.log({ feodResources });
 
   useEffect(() => {
     let dataFeodResources = allfeodResources.find(

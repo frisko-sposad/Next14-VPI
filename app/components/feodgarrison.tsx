@@ -1,7 +1,7 @@
 'use client';
 import { Fragment, useEffect, useState } from 'react';
 
-const Garrison = ({
+const FeodGarrison = ({
   params,
   feodNumber,
 }: {
@@ -141,4 +141,4 @@ const Garrison = ({
   );
 };
 
-export default Garrison;
+export default FeodGarrison;
