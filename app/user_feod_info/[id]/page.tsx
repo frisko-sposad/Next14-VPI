@@ -1,7 +1,7 @@
 'use client';
 import FeodFinance from '@/app/components/feodfinance';
 import FeodGarrison from '@/app/components/feodgarrison';
-import FeodLeftMenu from '@/app/components/Feodleftmenu';
+import FeodLeftMenu from '@/app/components/feodleftmenu';
 import FeodNavigation from '@/app/components/feodnavigation';
 import FeodResources from '@/app/components/feodresources';
 import FeodWorker from '@/app/components/feodwarker';
