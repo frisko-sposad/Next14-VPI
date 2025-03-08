@@ -47,7 +47,6 @@ const FeodWorker = ({
 }) => {
   const [allWorkers, setAllWorkers] = useState([] as any);
   const [feodWorkers, setFeodWorkers] = useState([] as any);
-  console.log({ feodWorkers });
 
   useEffect(() => {
     let dataFeodWorkers = allWorkers.find(

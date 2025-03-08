@@ -3,6 +3,7 @@ import FeodFinance from '@/app/components/feodfinance';
 import FeodGarrison from '@/app/components/feodgarrison';
 import FeodLeftMenu from '@/app/components/feodleftmenu';
 import FeodNavigation from '@/app/components/feodnavigation';
+import FeodNonUserSquad from '@/app/components/feodnonusersquad';
 import FeodResources from '@/app/components/feodresources';
 import FeodWorker from '@/app/components/feodwarker';
 import UserSquads from '@/app/components/usersquads';
@@ -104,6 +105,13 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
           />
           <br></br>
           <UserSquads
+            params={{
+              id: params.id,
+            }}
+            feodNumber={feodNumber}
+          />
+          <br></br>
+          <FeodNonUserSquad
             params={{
               id: params.id,
             }}
