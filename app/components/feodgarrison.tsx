@@ -10,6 +10,7 @@ const FeodGarrison = ({
 }) => {
   const [allUserGarrison, setAllUserGarrison] = useState([] as any);
   const [userGarrison, setUserGarrison] = useState([] as any);
+  console.log({ userGarrison });
 
   useEffect(() => {
     let dataUserGarrison = allUserGarrison.filter(
