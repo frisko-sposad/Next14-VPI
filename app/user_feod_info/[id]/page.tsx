@@ -25,25 +25,33 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
         <div className="hidden lg:flex lg:gap-x-12">
           <button
             onClick={() => setSubPage('resourse')}
-            className="text-sm/6 font-semibold text-gray-900"
+            className={`text-sm/6 text-gray-900 ${
+              subPage == 'resourse' && 'font-semibold'
+            } `}
           >
             Рабочие и добыча
           </button>
           <button
             onClick={() => setSubPage('finance')}
-            className="text-sm/6 font-semibold text-gray-900"
+            className={`text-sm/6 text-gray-900 ${
+              subPage == 'finance' && 'font-semibold'
+            } `}
           >
             Снабжение и налоги
           </button>
           <button
             onClick={() => setSubPage('squad')}
-            className="text-sm/6 font-semibold text-gray-900"
+            className={`text-sm/6 text-gray-900 ${
+              subPage == 'squad' && 'font-semibold'
+            } `}
           >
             Гарнизон и отряды
           </button>
           <button
             onClick={() => setSubPage('navigation')}
-            className="text-sm/6 font-semibold text-gray-900"
+            className={`text-sm/6 text-gray-900 ${
+              subPage == 'navigation' && 'font-semibold'
+            } `}
           >
             Соседние владения
           </button>

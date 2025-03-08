@@ -90,7 +90,7 @@ const UserSquads = ({
                       squadArr[index - 1].locations_id)) && (
                   <tr>
                     <th
-                      colSpan={4}
+                      colSpan={5}
                       key={squad.locations_name_subtitle + index}
                       className="border p-2 text-slate-500 text-center"
                     >
