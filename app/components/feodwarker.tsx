@@ -13,7 +13,7 @@ const tableTitle = [
 const tableInfoHeader = [
   {
     workplace: 'Шахты',
-    type: 'металла',
+    type: 'металл',
     resourseNumber: ['mines_peasent', 'mines_slave', 'mines_limits'],
   },
   {
@@ -23,17 +23,17 @@ const tableInfoHeader = [
   },
   {
     workplace: 'Свинарник',
-    type: 'шкур/еды',
+    type: 'шкуры/еда',
     resourseNumber: ['skins_peasent', 'skins_slave', 'skins_limits'],
   },
   {
     workplace: 'Конюшни',
-    type: 'лошадей',
+    type: 'лошади',
     resourseNumber: ['horses_peasent', 'horses_slave', 'horses_limits'],
   },
   {
     workplace: 'Ферма',
-    type: 'еды',
+    type: 'еда',
     resourseNumber: ['food_peasent', 'food_slave', 'food_limits'],
   },
 ];

@@ -41,7 +41,7 @@ const UserSquads = ({
   return (
     <>
       <div className="flex justify-center text-base text-slate-500 text-sm font-bold">
-        <div className="flex-col p-2">
+        <div className="flex-col p-2 text-base">
           <div>Отряды</div>
         </div>
       </div>
@@ -50,31 +50,25 @@ const UserSquads = ({
           <thead>
             <tr>
               <th
-                key={'locations_id_title'}
+                key={'feodSquad_locations_id_title'}
                 className=" border p-2 text-slate-500"
               >
                 №
               </th>
               <th
-                key={'unit_name_title'}
-                className=" border p-2 text-slate-500"
-              >
-                Командир
-              </th>
-              <th
-                key={'hero_name_title'}
+                key={'feodSquad_hero_name_title'}
                 className=" border p-2 text-slate-500"
               >
                 Тип Юнита
               </th>
               <th
-                key={'locations_army_number_title'}
+                key={'feodSquad_locations_army_number_title'}
                 className=" border p-2 text-slate-500"
               >
                 Количество
               </th>
               <th
-                key={'squad.unit_price_title'}
+                key={'feodSquad_unit_price_title'}
                 className=" border p-2 text-slate-500"
               >
                 Жалование
@@ -86,15 +80,15 @@ const UserSquads = ({
               <Fragment key={squad + index}>
                 {(index == 0 ||
                   (index != 0 &&
-                    squadArr[index].locations_id !=
-                      squadArr[index - 1].locations_id)) && (
+                    squadArr[index].hero_name !=
+                      squadArr[index - 1].hero_name)) && (
                   <tr>
                     <th
-                      colSpan={5}
+                      colSpan={6}
                       key={squad.locations_name_subtitle + index}
                       className="border p-2 text-slate-500 text-center"
                     >
-                      {squad.locations_name}
+                      {squad.hero_name} ( {squad.house_name} )
                     </th>
                   </tr>
                 )}
@@ -105,30 +99,23 @@ const UserSquads = ({
                   >
                     <div className="w-10">{squad.locations_id}</div>
                   </td>
-
-                  <td
-                    key={'squad.hero_name' + index}
-                    className="border p-2 text-slate-500 text-right"
-                  >
-                    <div className="w-40">{squad.hero_name}</div>
-                  </td>
                   <td
                     key={'squad.unit_name' + index}
                     className="border p-2 text-slate-500 text-right"
                   >
-                    <div className="w-40">{squad.unit_name}</div>
+                    <div className="w-32">{squad.unit_name}</div>
                   </td>
                   <td
                     key={'squad.number' + index}
                     className="border p-2 text-slate-500 text-right"
                   >
-                    <div className="w-20">{squad.number}</div>
+                    <div className="w-32">{squad.number}</div>
                   </td>
                   <td
                     key={'squad.unit_price' + index}
                     className="border p-2 text-slate-500 text-right"
                   >
-                    <div className="w-20">
+                    <div className="w-32">
                       {squad.unit_price * squad.number}
                     </div>
                   </td>
