@@ -1,12 +1,11 @@
 'use client';
 import FeodFinance from '@/app/components/feodfinance';
-import FeodGarrison from '@/app/components/feodgarrison';
 import FeodLeftMenu from '@/app/components/feodleftmenu';
 import FeodNavigation from '@/app/components/feodnavigation';
 import FeodNonUserSquad from '@/app/components/feodnonusersquad';
 import FeodResources from '@/app/components/feodresources';
 import FeodWorker from '@/app/components/feodwarker';
-import UserSquads from '@/app/components/usersquads';
+import FeodSquads from '@/app/components/feodsquads';
 import Header from '@/components/Header/header';
 import { useState } from 'react';
 
@@ -105,18 +104,19 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
       {/* Таблица Войск */}
       {subPage == 'squad' && (
         <>
-          <FeodGarrison
+          <FeodSquads
             params={{
               id: params.id,
             }}
             feodNumber={feodNumber}
+            squadType={1}
           />
-          <br></br>
-          <UserSquads
+          <FeodSquads
             params={{
               id: params.id,
             }}
             feodNumber={feodNumber}
+            squadType={2}
           />
           <br></br>
           <FeodNonUserSquad

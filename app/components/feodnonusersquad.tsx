@@ -10,7 +10,6 @@ const FeodNonUserSquad = ({
 }) => {
   const [allNonUserSquads, setAllNonUserSquads] = useState([] as any);
   const [nonUserSquads, setUserNonUserSquads] = useState([] as any);
-  console.log({ nonUserSquads });
 
   useEffect(() => {
     let dataUserNonUserSquad = allNonUserSquads.filter(
@@ -42,19 +41,13 @@ const FeodNonUserSquad = ({
     <>
       <div className="flex justify-center text-base text-slate-500 text-sm font-bold">
         <div className="flex-col p-2 text-base">
-          <div>Отряды других игроков</div>
+          <div>Чужие отряды</div>
         </div>
       </div>
       <div className="flex justify-center text-sm">
         <table>
           <thead>
             <tr>
-              <th
-                key={'nonUserSquad_locations_id_title'}
-                className=" border p-2 text-slate-500"
-              >
-                №
-              </th>
               <th
                 key={'nonUserSquad_unit_name_title'}
                 className=" border p-2 text-slate-500"
@@ -81,25 +74,19 @@ const FeodNonUserSquad = ({
                 <Fragment key={nonUserSquad + index}>
                   {(index == 0 ||
                     (index != 0 &&
-                      squadArr[index].hero_name !=
-                        squadArr[index - 1].hero_name)) && (
+                      squadArr[index].house_name !=
+                        squadArr[index - 1].house_name)) && (
                     <tr>
                       <th
                         colSpan={6}
                         key={nonUserSquad.locations_name_subtitle + index}
                         className="border p-2 text-slate-500 text-center"
                       >
-                        {nonUserSquad.hero_name} ( {nonUserSquad.house_name} )
+                        {nonUserSquad.house_name}
                       </th>
                     </tr>
                   )}
                   <tr key={'nonUserSquad' + index}>
-                    <td
-                      key={'nonUserSquad.locations_id' + index}
-                      className="border p-2 text-slate-500 text-right"
-                    >
-                      <div className="w-10">{nonUserSquad.locations_id}</div>
-                    </td>
                     <td
                       key={'nonUserSquad.unit_name' + index}
                       className="border p-2 text-slate-500 text-right"
