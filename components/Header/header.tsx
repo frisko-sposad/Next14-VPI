@@ -125,6 +125,14 @@ const Header = () => {
                   <h2>Feods Edit</h2>
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/select"
+                  className="block transition text-red-500 hover:text-blue-500 lg:p-2"
+                >
+                  <h2>select</h2>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
