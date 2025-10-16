@@ -8,8 +8,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
   const [responseText, setResponseText] = useState([] as any);
   const [id, setId] = useState<ID>(null);
   const [login, setLogin] = useState('');
-  const [role, setRole] = useState('player');
-  const [info, setInfo] = useState('info');
+  const [house, setHouse] = useState('player');
 
   const postUser = async () => {
     const response = await fetch(`https://vpi-node-js.vercel.app/add_user`, {
@@ -21,9 +20,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
       body: JSON.stringify({
         user_id: id,
         login,
-        pass: 'new_user66',
-        role,
-        info,
+        house,
       }),
     });
 
@@ -45,7 +42,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
   //         user_id: 68,
   //         login,
   //         pass: 'new_user66',
-  //         role,
+  //         house,
   //         info,
   //       }),
   //     });
@@ -64,7 +61,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
 
       <div className="flex justify-center">
         <div className="flex justify-center flex-nowrap">
-          <label className="flex justify-center shrink-0 m-2">ID</label>
+          <label className="flex justify-center shrink-0 m-2">user_id</label>
           <input
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             name="id"
@@ -84,23 +81,13 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
           />
         </div>
         <div className="flex justify-center flex-nowrap">
-          <label className="flex justify-center shrink-0 m-2">Role</label>
+          <label className="flex justify-center shrink-0 m-2">House</label>
           <input
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            name="login"
+            name="house"
             type="text"
             placeholder="player"
-            onChange={(event) => setRole(event.target.value)}
-          />
-        </div>
-        <div className="flex justify-center flex-nowrap">
-          <label className="flex justify-center shrink-0 m-2">Info</label>
-          <input
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            name="login"
-            type="text"
-            placeholder="info"
-            onChange={(event) => setInfo(event.target.value)}
+            onChange={(event) => setHouse(event.target.value)}
           />
         </div>
         <div className="flex justify-center flex-nowrap">

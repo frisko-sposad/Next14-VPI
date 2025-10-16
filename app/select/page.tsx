@@ -19,9 +19,9 @@ const UserInfo = ({ params }: { params: { locationsId: number } }) => {
         'Content-type': 'application/json',
       },
       body: JSON.stringify({
-        locations_locationsId: locationsId,
+        locations_id: locationsId,
         locations_name: locationsName,
-        locations_user_locationsId: locationsUserId,
+        locations_user_id: locationsUserId,
       }),
     });
 
