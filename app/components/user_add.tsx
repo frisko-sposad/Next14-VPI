@@ -1,16 +1,17 @@
 'use client';
-import React, { useEffect, useMemo, useState } from 'react';
 import Header from '@/components/Header/header';
+import { useState } from 'react';
 
 type ID = null | string;
 
-const UserInfo = ({ params }: { params: { id: number } }) => {
+const UserAdd = () => {
   const [responseText, setResponseText] = useState([] as any);
   const [id, setId] = useState<ID>(null);
   const [login, setLogin] = useState('');
-  const [house, setHouse] = useState('player');
+  const [pageCode, setPageCode] = useState('player');
 
   const postUser = async () => {
+    // const response = await fetch(`http://localhost:5000/add_user`, {
     const response = await fetch(`https://vpi-node-js.vercel.app/add_user`, {
       method: 'POST',
       headers: {
@@ -20,7 +21,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
       body: JSON.stringify({
         user_id: id,
         login,
-        house,
+        page_code: pageCode,
       }),
     });
 
@@ -30,35 +31,8 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
     setResponseText(data);
   };
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const response = await fetch(`https://vpi-node-js.vercel.app/add_user`, {
-  //       method: 'POST',
-  //       headers: {
-  //         // accept: 'application/json',
-  //         'Content-type': 'application/json',
-  //       },
-  //       body: JSON.stringify({
-  //         user_id: 68,
-  //         login,
-  //         pass: 'new_user66',
-  //         house,
-  //         info,
-  //       }),
-  //     });
-
-  //     console.log({ response });
-
-  //     const data = await response.json();
-  //     setResponseText(data);
-  //   };
-  //   fetchData();
-  // }, []);
-
   return (
     <>
-      <Header />
-
       <div className="flex justify-center">
         <div className="flex justify-center flex-nowrap">
           <label className="flex justify-center shrink-0 m-2">user_id</label>
@@ -81,13 +55,13 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
           />
         </div>
         <div className="flex justify-center flex-nowrap">
-          <label className="flex justify-center shrink-0 m-2">House</label>
+          <label className="flex justify-center shrink-0 m-2">Page_Code</label>
           <input
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            name="house"
+            name="Page Code"
             type="text"
-            placeholder="player"
-            onChange={(event) => setHouse(event.target.value)}
+            placeholder="Page Code"
+            onChange={(event) => setPageCode(event.target.value)}
           />
         </div>
         <div className="flex justify-center flex-nowrap">
@@ -98,10 +72,14 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
             Create User
           </button>
         </div>
-        <div>Ответ сервера: {responseText}</div>
+        <div className="flex justify-center flex-nowrap">
+          <label className="flex justify-center shrink-0 m-2">
+            Ответ сервера: {responseText}
+          </label>
+        </div>
       </div>
     </>
   );
 };
 
-export default UserInfo;
+export default UserAdd;

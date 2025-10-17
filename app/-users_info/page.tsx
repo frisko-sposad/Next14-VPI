@@ -3,7 +3,7 @@ import Header from '@/components/Header/header';
 import Table from '@/components/Table/Table';
 import { useEffect, useMemo, useState } from 'react';
 
-const UserInfo = () => {
+const UsersInfo = () => {
   const [dataUsers, setDataUsers] = useState([] as any);
 
   useEffect(() => {
@@ -47,7 +47,6 @@ const UserInfo = () => {
 
   return (
     <>
-      <Header />
       <div className="flex justify-center">
         <div className="flex-col">
           <div>Игрок: {dataUsers[0] && dataUsers[0].login}</div>
@@ -60,4 +59,4 @@ const UserInfo = () => {
   );
 };
 
-export default UserInfo;
+export default UsersInfo;

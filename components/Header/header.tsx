@@ -103,10 +103,10 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/add_user"
+                  href="/users_admin"
                   className="block transition text-red-500 hover:text-blue-500 lg:p-2"
                 >
-                  <h2>Add User</h2>
+                  <h2>users_admin</h2>
                 </Link>
               </li>
               <li>
