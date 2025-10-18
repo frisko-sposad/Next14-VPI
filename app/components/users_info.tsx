@@ -13,6 +13,7 @@ const UsersInfo = () => {
           accept: 'application/json',
         },
       });
+      console.log(response);
 
       const data = await response.json();
       data && setDataUsers(data);
