@@ -1,5 +1,4 @@
 'use client';
-import Header from '@/components/Header/header';
 import { useState } from 'react';
 
 type ID = null | string;

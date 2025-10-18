@@ -14,8 +14,6 @@ const UsersInfo = () => {
         },
       });
 
-      console.log(response);
-
       const data = await response.json();
       data && setDataUsers(data);
     };
