@@ -84,7 +84,7 @@ const StatsTable = () => {
         ],
       },
     ],
-    []
+    [],
   );
 
   return (

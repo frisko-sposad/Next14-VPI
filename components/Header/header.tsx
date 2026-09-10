@@ -14,44 +14,36 @@ const Header = () => {
               className="mr-auto flex flex-col lg:flex-row"
               data-te-navbar-nav-ref
             >
-              <li>
+              {/* <li>
                 <Link
                   href="/user_feod_info/174802"
                   className="block transition text-green-500 hover:text-blue-500 lg:p-2"
                 >
                   <h2>Феоды</h2>
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link
                   href="/feods_info/174802"
                   className="block transition text-green-500 hover:text-blue-500 lg:p-2"
                 >
                   <h2>Рабочие Феодов</h2>
                 </Link>
-              </li>
-              <li>
-                <Link
-                  href="/battle-calculator"
-                  className="block transition hover:text-blue-500 lg:p-2"
-                >
-                  <h2>Battle calculator</h2>
-                </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/stats_units"
-                  className="block transition text-gray-300 hover:text-blue-500 lg:p-2"
+                  className="block transition hover:text-blue-500 lg:p-2"
                 >
-                  <h2>Units</h2>
+                  <h2>Units Stats</h2>
                 </Link>
               </li>
               <li>
                 <Link
                   href="/price_units"
-                  className="block transition text-gray-300 hover:text-blue-500 lg:p-2"
+                  className="block transition hover:text-blue-500 lg:p-2"
                 >
-                  <h2>Price</h2>
+                  <h2>Units Price</h2>
                 </Link>
               </li>
               <li>
@@ -65,7 +57,7 @@ const Header = () => {
               <li>
                 <Link
                   href="/stats_heroes"
-                  className="block transition text-gray-300 hover:text-blue-500 lg:p-2"
+                  className="block transition hover:text-blue-500 lg:p-2"
                 >
                   <h2>Heroes</h2>
                 </Link>
@@ -73,30 +65,38 @@ const Header = () => {
               <li>
                 <Link
                   href="/stats_fortifications"
-                  className="block transition text-gray-300 hover:text-blue-500 lg:p-2"
+                  className="block transition hover:text-blue-500 lg:p-2"
                 >
                   <h2>Fortifications</h2>
                 </Link>
               </li>
               <li>
                 <Link
+                  href="/battle-calculator"
+                  className="block transition hover:text-blue-500 lg:p-2"
+                >
+                  <h2>Battle calculator</h2>
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/map"
-                  className="block transition text-gray-300 hover:text-blue-500 lg:p-2"
+                  className="block transition hover:text-blue-500 lg:p-2"
                 >
                   <h2>Map</h2>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/user_map/55"
                   className="block transition text-gray-300 hover:text-blue-500 lg:p-2"
                 >
                   <h2>User Map</h2>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
-          <div>
+          {/* <div>
             <ul
               className="mr-auto flex flex-col lg:flex-row"
               data-te-navbar-nav-ref
@@ -134,7 +134,7 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </nav>
     </>

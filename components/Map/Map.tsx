@@ -140,44 +140,44 @@ const polygonsBorder = polygonsData.map((el) => {
             <br />
             <br />
             Шахты:
-            <span className="text-orange-600">{el.info.slave.mines}</span>
+            {/* <span className="text-orange-600">{el.info.slave.mines}</span>
             &nbsp;|&nbsp;
             <span className="text-sky-500">{el.info.peasent.mines}</span>
-            &nbsp;|&nbsp;
+            &nbsp;|&nbsp; */}
             <span className="text-black-600">{el.info.limits.mines}</span>
-            &nbsp;&nbsp;Добыча:
-            {el.info.slave.mines * 2 + el.info.peasent.mines} железа
+            {/* &nbsp;&nbsp;Добыча:
+            {el.info.slave.mines * 2 + el.info.peasent.mines} железа */}
             <br />
             Лес:
-            <span className="text-orange-600">{el.info.slave.forest}</span>
+            {/* <span className="text-orange-600">{el.info.slave.forest}</span>
             &nbsp;|&nbsp;
             <span className="text-sky-500">{el.info.peasent.forest}</span>
-            &nbsp;|&nbsp;
+            &nbsp;|&nbsp; */}
             <span className="text-black-600">{el.info.limits.forest}</span>
-            &nbsp;&nbsp;Добыча:
-            {el.info.slave.forest * 2 + el.info.peasent.forest} леса
+            {/* &nbsp;&nbsp;Добыча:
+            {el.info.slave.forest * 2 + el.info.peasent.forest} леса */}
             <br />
             Скот:
-            <span className="text-orange-600">{el.info.slave.skins}</span>
+            {/* <span className="text-orange-600">{el.info.slave.skins}</span>
             &nbsp;|&nbsp;
             <span className="text-sky-500">{el.info.peasent.skins}</span>
-            &nbsp;|&nbsp;
+            &nbsp;|&nbsp; */}
             <span className="text-black-600">{el.info.limits.skins}</span>
-            &nbsp;&nbsp;Добыча:
+            {/* &nbsp;&nbsp;Добыча:
             {el.info.slave.skins * 2 + el.info.peasent.skins}
             &nbsp;шкур и {el.info.slave.skins * 2 + el.info.peasent.skins}
-            &nbsp;еды
+            &nbsp;еды */}
             <br />
             Поля:
-            <span className="text-orange-600">{el.info.slave.food}</span>
+            {/* <span className="text-orange-600">{el.info.slave.food}</span>
             &nbsp;|&nbsp;
             <span className="text-sky-500">{el.info.peasent.food}</span>
-            &nbsp;|&nbsp;
+            &nbsp;|&nbsp; */}
             <span className="text-black-600">{el.info.limits.food}</span>
-            &nbsp;&nbsp;Добыча:
-            {el.info.slave.food * 3 + el.info.peasent.food * 2} еды
+            {/* &nbsp;&nbsp;Добыча:
+            {el.info.slave.food * 3 + el.info.peasent.food * 2} еды */}
             <br />
-            <br />
+            {/* <br />
             Налоги:
             <span className="text-black-600">{tax}</span>
             <br />
@@ -194,8 +194,8 @@ const polygonsBorder = polygonsData.map((el) => {
               el.info.peasent.skins -
               population}
             )
-            <br />
-            <span className="text-green-600">
+            <br /> */}
+            {/* <span className="text-green-600">
               Солдаты:&nbsp;
               {armySize}
             </span>
@@ -218,7 +218,7 @@ const polygonsBorder = polygonsData.map((el) => {
               <b>Армия:</b> {army}
               <br />
               <b>Жалование:</b> {armyPrice} серебра
-            </p>
+            </p> */}
           </p>
         </p>
       </Popup>
