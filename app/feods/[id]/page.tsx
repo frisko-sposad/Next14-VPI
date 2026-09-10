@@ -1,4 +1,5 @@
 'use client';
+import host_api from '@/app/host_api';
 import Header from '@/components/Header/header';
 import { useCallback, useEffect, useState } from 'react';
 
@@ -68,15 +69,12 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
   }, [dataUsers, feodNumber]);
 
   const fetchData = useCallback(async () => {
-    const response = await fetch(
-      `https://vpi-node-js.vercel.app/feods/${params.id}`,
-      {
-        method: 'GET',
-        headers: {
-          accept: 'application/json',
-        },
-      }
-    );
+    const response = await fetch(`${host_api}/feods/${params.id}`, {
+      method: 'GET',
+      headers: {
+        accept: 'application/json',
+      },
+    });
 
     const data = await response.json();
 
@@ -152,7 +150,7 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
 
   // функция отправки формы
   const onSubmit = async () => {
-    const response = await fetch(`https://vpi-node-js.vercel.app/update_feod`, {
+    const response = await fetch(`${host_api}/update_feod`, {
       method: 'PUT',
       headers: {
         'Content-type': 'application/json',

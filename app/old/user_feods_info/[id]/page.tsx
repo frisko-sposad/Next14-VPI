@@ -1,4 +1,5 @@
 'use client';
+import host_api from '@/app/host_api';
 import Header from '@/components/Header/header';
 import { Fragment, useCallback, useEffect, useState } from 'react';
 
@@ -63,15 +64,12 @@ const UserInfo = ({ params }: { params: { id: number } }) => {
   }, [dataUsers, feodNumber]);
 
   const fetchData = useCallback(async () => {
-    const response = await fetch(
-      `https://vpi-node-js.vercel.app/feods-info/${params.id}`,
-      {
-        method: 'GET',
-        headers: {
-          accept: 'application/json',
-        },
-      }
-    );
+    const response = await fetch(`${host_api}/feods-info/${params.id}`, {
+      method: 'GET',
+      headers: {
+        accept: 'application/json',
+      },
+    });
 
     const data = await response.json();
 

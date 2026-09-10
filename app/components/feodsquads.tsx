@@ -1,5 +1,6 @@
 'use client';
 import { Fragment, useEffect, useState } from 'react';
+import host_api from '../host_api';
 
 const UserSquads = ({
   params,
@@ -46,15 +47,12 @@ const UserSquads = ({
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(
-        `https://vpi-node-js.vercel.app/user_squads/${params.id}`,
-        {
-          method: 'GET',
-          headers: {
-            accept: 'application/json',
-          },
-        }
-      );
+      const response = await fetch(`${host_api}/user_squads/${params.id}`, {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      });
 
       const data = await response.json();
       setUserSquads(data);
@@ -72,15 +70,12 @@ const UserSquads = ({
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(
-        `https://vpi-node-js.vercel.app/units_groups/${params.id}`,
-        {
-          method: 'GET',
-          headers: {
-            accept: 'application/json',
-          },
-        }
-      );
+      const response = await fetch(`${host_api}/units_groups/${params.id}`, {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      });
 
       const data = await response.json();
 
@@ -92,7 +87,7 @@ const UserSquads = ({
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        `https://vpi-node-js.vercel.app/squad_heroes/${params.id}?squad_type=2`,
+        `${host_api}/squad_heroes/${params.id}?squad_type=2`,
         {
           method: 'GET',
           headers: {

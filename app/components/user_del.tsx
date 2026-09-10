@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import host_api from '../host_api';
 
 type ID = null | string;
 
@@ -10,7 +11,7 @@ const UserDel = () => {
   const postUser = async () => {
     const response = await fetch(
       // const response = await fetch(`http://localhost:5000/delete_users/${id}`, {
-      `https://vpi-node-js.vercel.app/delete_users/${id}`,
+      `${host_api}/delete_users/${id}`,
       {
         method: 'DELETE',
         headers: {

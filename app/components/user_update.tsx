@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import host_api from '../host_api';
 
 type ID = null | string;
 
@@ -12,22 +13,18 @@ const UserUpdate = () => {
   const updateUser = async () => {
     console.log({ id, login, pageCode });
 
-    const response = await fetch(
-      // `http://localhost:5000/update_users/${id}`, {
-      `https://vpi-node-js.vercel.app/update_users/${id}`,
-      {
-        method: 'PUT',
-        headers: {
-          // accept: 'application/json',
-          'Content-type': 'application/json',
-        },
-        body: JSON.stringify({
-          user_id: id,
-          login,
-          page_code: pageCode,
-        }),
-      }
-    );
+    const response = await fetch(`${host_api}/update_users/${id}`, {
+      method: 'PUT',
+      headers: {
+        // accept: 'application/json',
+        'Content-type': 'application/json',
+      },
+      body: JSON.stringify({
+        user_id: id,
+        login,
+        page_code: pageCode,
+      }),
+    });
 
     console.log({ response });
 

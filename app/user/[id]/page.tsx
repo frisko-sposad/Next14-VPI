@@ -2,21 +2,19 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import Header from '@/components/Header/header';
 import Table from '@/components/Table/Table';
+import host_api from '@/app/host_api';
 
 const UserInfo = ({ params }: { params: { id: number } }) => {
   const [dataUsers, setDataUsers] = useState([] as any);
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(
-        `https://vpi-node-js.vercel.app/user/${params.id}`,
-        {
-          method: 'GET',
-          headers: {
-            accept: 'application/json',
-          },
-        }
-      );
+      const response = await fetch(`${host_api}/user/${params.id}`, {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      });
 
       console.log(response);
 

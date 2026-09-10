@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import host_api from '../host_api';
 
 const FeodLeftMenu = ({
   params,
@@ -14,15 +15,12 @@ const FeodLeftMenu = ({
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(
-        `https://vpi-node-js.vercel.app/feods-info-worker/${params.id}`,
-        {
-          method: 'GET',
-          headers: {
-            accept: 'application/json',
-          },
-        }
-      );
+      const response = await fetch(`${host_api}/user-feod-list/${params.id}`, {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      });
 
       const data = await response.json();
 

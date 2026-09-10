@@ -1,5 +1,6 @@
 'use client';
 import { useCallback, useEffect, useState } from 'react';
+import host_api from '../host_api';
 
 const FeodFinance = ({
   params,
@@ -14,11 +15,11 @@ const FeodFinance = ({
 
   useEffect(() => {
     let dataFeod = feodInfo.find(
-      (item: { locations_id: number }) => item.locations_id == feodNumber
+      (item: { locations_id: number }) => item.locations_id == feodNumber,
     );
 
     let dataFeodArmyPrice = feodArmyPrice.find(
-      (item: { locations_id: number }) => item.locations_id == feodNumber
+      (item: { locations_id: number }) => item.locations_id == feodNumber,
     );
 
     setCurrentFeod({
@@ -28,15 +29,12 @@ const FeodFinance = ({
   }, [feodArmyPrice, feodInfo, feodNumber]);
 
   const fetchDataFeodInfo = useCallback(async () => {
-    const response = await fetch(
-      `https://vpi-node-js.vercel.app/feods-info-worker/${params.id}`,
-      {
-        method: 'GET',
-        headers: {
-          accept: 'application/json',
-        },
-      }
-    );
+    const response = await fetch(`${host_api}/feods-info-worker/${params.id}`, {
+      method: 'GET',
+      headers: {
+        accept: 'application/json',
+      },
+    });
 
     const data = await response.json();
 
@@ -49,13 +47,13 @@ const FeodFinance = ({
 
   const fetchDataFeodsArmyPrice = useCallback(async () => {
     const response = await fetch(
-      `https://vpi-node-js.vercel.app/feods-info-army-price/${params.id}`,
+      `${host_api}/feods-info-army-price/${params.id}`,
       {
         method: 'GET',
         headers: {
           accept: 'application/json',
         },
-      }
+      },
     );
 
     const data = await response.json();

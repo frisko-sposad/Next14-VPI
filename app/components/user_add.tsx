@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import host_api from '../host_api';
 
 type ID = null | string;
 
@@ -11,7 +12,7 @@ const UserAdd = () => {
 
   const postUser = async () => {
     // const response = await fetch(`http://localhost:5000/add_user`, {
-    const response = await fetch(`https://vpi-node-js.vercel.app/add_user`, {
+    const response = await fetch(`${host_api}/add_user`, {
       method: 'POST',
       headers: {
         // accept: 'application/json',

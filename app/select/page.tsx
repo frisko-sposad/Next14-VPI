@@ -1,6 +1,7 @@
 'use client';
 import React, { useEffect, useMemo, useState } from 'react';
 import Header from '@/components/Header/header';
+import host_api from '../host_api';
 
 type ID = null | string;
 
@@ -12,7 +13,7 @@ const UserInfo = ({ params }: { params: { locationsId: number } }) => {
 
   const postUser = async () => {
     setResponseText('knopka_najata');
-    const response = await fetch(`https://vpi-node-js.vercel.app/select`, {
+    const response = await fetch(`${host_api}/select`, {
       method: 'POST',
       headers: {
         // accept: 'application/json',

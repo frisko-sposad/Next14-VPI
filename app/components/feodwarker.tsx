@@ -1,5 +1,6 @@
 'use client';
 import { Fragment, useEffect, useState } from 'react';
+import host_api from '../host_api';
 
 const tableTitle = [
   'Место работы',
@@ -58,7 +59,7 @@ const FeodWorker = ({
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        `https://vpi-node-js.vercel.app/feods-info-worker/${params.id}`,
+        `${host_api}/feods-info-worker/${params.id}`,
         {
           method: 'GET',
           headers: {

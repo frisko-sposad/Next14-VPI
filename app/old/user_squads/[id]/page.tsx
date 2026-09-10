@@ -1,4 +1,5 @@
 'use client';
+import host_api from '@/app/host_api';
 import { Fragment, useEffect, useState } from 'react';
 
 const UserSquads = ({ params }: { params: { id: number } }) => {
@@ -6,15 +7,12 @@ const UserSquads = ({ params }: { params: { id: number } }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(
-        `https://vpi-node-js.vercel.app/units_squad/${params.id}`,
-        {
-          method: 'GET',
-          headers: {
-            accept: 'application/json',
-          },
-        }
-      );
+      const response = await fetch(`${host_api}/units_squad/${params.id}`, {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      });
 
       const data = await response.json();
       console.log({ data });

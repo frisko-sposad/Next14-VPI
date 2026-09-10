@@ -1,5 +1,6 @@
 'use client';
 import { Fragment, useEffect, useState } from 'react';
+import host_api from '../host_api';
 
 const FeodNonUserSquad = ({
   params,
@@ -21,7 +22,7 @@ const FeodNonUserSquad = ({
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        `https://vpi-node-js.vercel.app/units_non_user_squad/${params.id}`,
+        `${host_api}/units_non_user_squad/${params.id}`,
         {
           method: 'GET',
           headers: {

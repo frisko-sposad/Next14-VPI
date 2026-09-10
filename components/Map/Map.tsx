@@ -19,6 +19,7 @@ import { polygonsData } from '../../public/database/data-polygons';
 import { LocationFinderDummy } from './LocationFinderDummy';
 import { castleData } from '@/public/database/data-icon';
 import { unitsData } from '@/public/database/units-data';
+import host_api from '@/app/host_api';
 
 const markerIconCastle = new Icon({
   iconUrl: IconCastle,
@@ -268,7 +269,7 @@ const Map = (params: any) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(`https://vpi-node-js.vercel.app/users`, {
+      const response = await fetch(`${host_api}/users`, {
         method: 'GET',
         headers: {
           accept: 'application/json',
@@ -306,8 +307,10 @@ const Map = (params: any) => {
     Object.values(layers).map(({ _leaflet_id, editing }) => {
       setMapLayers((layers: any) =>
         layers.map((l: any) =>
-          l.id == _leaflet_id ? { ...l, latlngs: { ...editing.latlngs[0] } } : l
-        )
+          l.id == _leaflet_id
+            ? { ...l, latlngs: { ...editing.latlngs[0] } }
+            : l,
+        ),
       );
     });
   };
@@ -317,7 +320,7 @@ const Map = (params: any) => {
       e.layers._layers;
     Object.values(layers).map(({ _leaflet_id }) => {
       setMapLayers((layers: any[]) =>
-        layers.filter((l: { id: any }) => l.id != _leaflet_id)
+        layers.filter((l: { id: any }) => l.id != _leaflet_id),
       );
     });
   };
@@ -350,7 +353,8 @@ const Map = (params: any) => {
           maxZoom={5}
           minZoom={3}
           attribution="Stamen Watercolor"
-          url="https://map-dorn.netlify.app//map/{z}-{x}-{y}.jpg"
+          // url="https://map-dorn.netlify.app//map/{z}-{x}-{y}.jpg"
+          url="https://frisko-sposad.github.io/Map_Dorn//map/{z}-{x}-{y}.jpg"
         />
         <LayersControl position="topright" collapsed={false}>
           <LayersControl.Overlay name="Границы Феодов" checked>

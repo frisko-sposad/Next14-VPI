@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import host_api from '../host_api';
 
 const FeodNavigation = ({
   params,
@@ -23,7 +24,7 @@ const FeodNavigation = ({
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        `https://vpi-node-js.vercel.app/feods-navigation/${params.id}`,
+        `${host_api}/feods-navigation/${params.id}`,
         {
           method: 'GET',
           headers: {

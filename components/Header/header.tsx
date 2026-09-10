@@ -16,10 +16,18 @@ const Header = () => {
             >
               <li>
                 <Link
-                  href="/user_feod_info/2"
+                  href="/user_feod_info/174802"
                   className="block transition text-green-500 hover:text-blue-500 lg:p-2"
                 >
                   <h2>Феоды</h2>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/feods_info/174802"
+                  className="block transition text-green-500 hover:text-blue-500 lg:p-2"
+                >
+                  <h2>Рабочие Феодов</h2>
                 </Link>
               </li>
               <li>
@@ -107,14 +115,6 @@ const Header = () => {
                   className="block transition text-red-500 hover:text-blue-500 lg:p-2"
                 >
                   <h2>users_admin</h2>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/users_show"
-                  className="block transition text-red-500 hover:text-blue-500 lg:p-2"
-                >
-                  <h2>Show Users</h2>
                 </Link>
               </li>
               <li>

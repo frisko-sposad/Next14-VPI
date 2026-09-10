@@ -1,13 +1,14 @@
 'use client';
 import Table from '@/components/Table/Table';
 import { useEffect, useMemo, useState } from 'react';
+import host_api from '../host_api';
 
 const UsersInfo = () => {
   const [dataUsers, setDataUsers] = useState([] as any);
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(`https://vpi-node-js.vercel.app/users`, {
+      const response = await fetch(`${host_api}/users`, {
         method: 'GET',
         headers: {
           accept: 'application/json',

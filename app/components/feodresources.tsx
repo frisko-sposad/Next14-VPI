@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import host_api from '../host_api';
 
 const FeodResources = ({
   params,
@@ -20,15 +21,12 @@ const FeodResources = ({
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(
-        `https://vpi-node-js.vercel.app/feods-resources/${params.id}`,
-        {
-          method: 'GET',
-          headers: {
-            accept: 'application/json',
-          },
-        }
-      );
+      const response = await fetch(`${host_api}/feods-resources/${params.id}`, {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+        },
+      });
 
       const data = await response.json();
 
