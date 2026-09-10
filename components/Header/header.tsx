@@ -48,12 +48,20 @@ const Header = () => {
               </li>
               <li>
                 <Link
+                  href="/stats_feods_limits"
+                  className="block transition hover:text-blue-500 lg:p-2"
+                >
+                  <h2>Feods</h2>
+                </Link>
+              </li>
+              {/* <li>
+                <Link
                   href="/stats_feods"
                   className="block transition text-gray-300 hover:text-blue-500 lg:p-2"
                 >
                   <h2>Feods</h2>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/stats_heroes"

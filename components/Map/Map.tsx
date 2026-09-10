@@ -352,7 +352,7 @@ const Map = (params: any) => {
           noWrap={true}
           maxZoom={5}
           minZoom={3}
-          attribution="Stamen Watercolor"
+          attribution="--"
           // url="https://map-dorn.netlify.app//map/{z}-{x}-{y}.jpg"
           url="https://frisko-sposad.github.io/Map_Dorn//map/{z}-{x}-{y}.jpg"
         />
