@@ -138,6 +138,8 @@ const polygonsBorder = polygonsData.map((el) => {
             <br />
             Сюзерен: {el.info.overlord}
             <br />
+            Религия: {el.info.religion}
+            <br />
             <br />
             Шахты:
             {/* <span className="text-orange-600">{el.info.slave.mines}</span>
