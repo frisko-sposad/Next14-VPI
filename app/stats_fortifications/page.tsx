@@ -36,11 +36,11 @@ const StatsTable = () => {
         accessor: 'fortificationName',
       },
       {
-        Header: 'attackBonus',
+        Header: 'Бонус Атаки',
         accessor: 'attackBonus',
       },
       {
-        Header: 'healthBonus',
+        Header: 'Бонус ХП',
         accessor: 'healthBonus',
       },
       {
@@ -78,7 +78,7 @@ const StatsTable = () => {
         ],
       },
     ],
-    []
+    [],
   );
 
   return (

@@ -97,7 +97,7 @@ const StatsTable = () => {
             <br />
             <Table columns={columnsUnits} data={footArmy} />
             <br />
-            <Table columns={columnsUnits} data={shipArmy} />
+            {/* <Table columns={columnsUnits} data={shipArmy} /> */}
           </div>
         </div>
       </div>
