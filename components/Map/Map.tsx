@@ -328,7 +328,7 @@ const Map = (params: any) => {
   return (
     <>
       <MapContainer
-        className="w-1/2"
+        className="w-1/2 z-10"
         center={[78, -45]}
         zoom={4}
         scrollWheelZoom={true}
@@ -363,7 +363,7 @@ const Map = (params: any) => {
           <LayersControl.Overlay name="Религия">
             <LayerGroup>{polygonsBorderReligion}</LayerGroup>
           </LayersControl.Overlay>
-          <LayersControl.Overlay name="Метки" checked>
+          {/* <LayersControl.Overlay name="Метки" checked>
             <LayerGroup>
               {markerIconcastleData}
 
@@ -386,10 +386,11 @@ const Map = (params: any) => {
                 </Popup>
               </Marker>
             </LayerGroup>
-          </LayersControl.Overlay>
+          </LayersControl.Overlay> */}
         </LayersControl>
         <LocationFinderDummy />
       </MapContainer>
+
       <div>
         <pre className="text-left">
           {JSON.stringify(mapLayers) != '[]'

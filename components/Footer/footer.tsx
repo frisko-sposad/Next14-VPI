@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <a href="/" target="_blank" rel="noopener noreferrer">
+        <div className="fixed z-50 bottom-0 right-0 bg-gray-400 text-white px-8 py-2">
           Made by the old Gods
-        </a>
+        </div>
       </footer>
     </div>
   );
