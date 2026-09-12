@@ -83,8 +83,6 @@ const polygonsBorder = polygonsData.map((el) => {
     );
   });
 
-  console.log(army);
-
   const peasents =
     el.info.peasent.mines +
     el.info.peasent.forest +
@@ -267,22 +265,21 @@ const polygonsBorderReligion = polygonsData.map((el) => {
 
 const Map = (params: any) => {
   const [dataUsers, setDataUsers] = useState([] as any);
-  console.log(params.id);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch(`${host_api}/users`, {
-        method: 'GET',
-        headers: {
-          accept: 'application/json',
-        },
-      });
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const response = await fetch(`${host_api}/users`, {
+  //       method: 'GET',
+  //       headers: {
+  //         accept: 'application/json',
+  //       },
+  //     });
 
-      const data = await response.json();
-      data && setDataUsers(data);
-    };
-    fetchData();
-  }, []);
+  //     const data = await response.json();
+  //     data && setDataUsers(data);
+  //   };
+  //   fetchData();
+  // }, []);
 
   const [mapLayers, setMapLayers] = useState([] as any);
 

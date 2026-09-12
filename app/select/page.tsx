@@ -26,8 +26,6 @@ const UserInfo = ({ params }: { params: { locationsId: number } }) => {
       }),
     });
 
-    console.log({ response });
-
     const data = await response.json();
     setResponseText(data);
   };

@@ -11,8 +11,6 @@ const UserUpdate = () => {
   const [pageCode, setPageCode] = useState('player');
 
   const updateUser = async () => {
-    console.log({ id, login, pageCode });
-
     const response = await fetch(`${host_api}/update_users/${id}`, {
       method: 'PUT',
       headers: {
@@ -25,8 +23,6 @@ const UserUpdate = () => {
         page_code: pageCode,
       }),
     });
-
-    console.log({ response });
 
     const data = await response.json();
     setResponseText(data);

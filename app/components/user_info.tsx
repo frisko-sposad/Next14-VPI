@@ -15,8 +15,6 @@ const UserInfo = ({ params }: { params: { userId: Number } }) => {
         },
       });
 
-      console.log(response);
-
       const data = await response.json();
       data && setDataUsers(data);
     };
@@ -38,7 +36,7 @@ const UserInfo = ({ params }: { params: { userId: Number } }) => {
         accessor: 'page_code',
       },
     ],
-    []
+    [],
   );
 
   return (

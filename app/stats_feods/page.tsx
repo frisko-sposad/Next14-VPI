@@ -12,14 +12,13 @@ const StatsTable = () => {
     // const test2 = el.latlngs.forEach((el) => {
     //   res = { lat: el.lat, lng: el.lng };
     // }, 0);
-    // console.log(test2);
+
     let lat = 0;
     let lng = 0;
     for (let i = 0; i < el.latlngs.length; i++) {
       lat += el.latlngs[i].lat;
       lng += el.latlngs[i].lng;
     }
-    // console.log({ lat: lat / el.latlngs.length, lng: lng / el.latlngs.length });
 
     return {
       ...el,
@@ -32,7 +31,6 @@ const StatsTable = () => {
       center: { lat: lat / el.latlngs.length, lng: lng / el.latlngs.length },
     };
   });
-  console.log(JSON.stringify(test));
 
   // const sumWithInitial = array1.reduce(
   //   (accumulator, currentValue) => accumulator + currentValue,
@@ -248,7 +246,7 @@ const StatsTable = () => {
         accessor: 'owner',
       },
     ],
-    []
+    [],
   );
 
   return (

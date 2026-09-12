@@ -12,8 +12,6 @@ type FormData = {
 };
 
 export const Login = ({ isLogined, getLogin }: HomeProps) => {
-  console.log({ isLogined });
-
   const {
     register,
     setValue,
@@ -24,18 +22,21 @@ export const Login = ({ isLogined, getLogin }: HomeProps) => {
 
   const onSubmit = handleSubmit((data) => {
     reset();
-    console.log(data);
   });
   // login and password will have correct type
 
   return (
     <div>
-      <div className="text-gray-500 font-bold mb-2 text-center">{isLogined ? <p>login</p> : <p>not login</p>}</div>
+      <div className="text-gray-500 font-bold mb-2 text-center">
+        {isLogined ? <p>login</p> : <p>not login</p>}
+      </div>
 
       <form className="w-full max-w-sm" onSubmit={onSubmit}>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">Login</label>
+            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+              Login
+            </label>
           </div>
           <div className="md:w-2/3">
             <input
@@ -55,7 +56,9 @@ export const Login = ({ isLogined, getLogin }: HomeProps) => {
         </div>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">Password</label>
+            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+              Password
+            </label>
           </div>
           <div className="md:w-2/3">
             <input

@@ -30,28 +30,13 @@ const Header = () => {
                   <h2>Рабочие Феодов</h2>
                 </Link>
               </li> */}
-              <li>
-                <Link
-                  href="/stats_units"
-                  className="block transition hover:text-blue-500 lg:p-2"
-                >
-                  <h2>Units Stats</h2>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/price_units"
-                  className="block transition hover:text-blue-500 lg:p-2"
-                >
-                  <h2>Units Price</h2>
-                </Link>
-              </li>
+
               <li>
                 <Link
                   href="/stats_feods_limits"
                   className="block transition hover:text-blue-500 lg:p-2"
                 >
-                  <h2>Feods</h2>
+                  <h2>Феоды</h2>
                 </Link>
               </li>
               {/* <li>
@@ -67,7 +52,7 @@ const Header = () => {
                   href="/stats_heroes"
                   className="block transition hover:text-blue-500 lg:p-2"
                 >
-                  <h2>Heroes</h2>
+                  <h2>Персонажи</h2>
                 </Link>
               </li>
               <li>
@@ -75,23 +60,23 @@ const Header = () => {
                   href="/stats_fortifications"
                   className="block transition hover:text-blue-500 lg:p-2"
                 >
-                  <h2>Fortifications</h2>
+                  <h2>Укрепления</h2>
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/battle-calculator"
+                  href="/stats_units"
                   className="block transition hover:text-blue-500 lg:p-2"
                 >
-                  <h2>Battle calculator</h2>
+                  <h2>Параметры юнитов</h2>
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/map"
+                  href="/price_units"
                   className="block transition hover:text-blue-500 lg:p-2"
                 >
-                  <h2>Map</h2>
+                  <h2>Цены юнитов</h2>
                 </Link>
               </li>
               {/* <li>
@@ -102,6 +87,29 @@ const Header = () => {
                   <h2>User Map</h2>
                 </Link>
               </li> */}
+            </ul>
+          </div>
+          <div>
+            <ul
+              className="mr-auto flex flex-col lg:flex-row"
+              data-te-navbar-nav-ref
+            >
+              <li>
+                <Link
+                  href="/battle-calculator"
+                  className="block transition hover:text-blue-500 lg:p-2"
+                >
+                  <h2>Калькулятор</h2>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/map"
+                  className="block transition hover:text-blue-500 lg:p-2"
+                >
+                  <h2>Карта</h2>
+                </Link>
+              </li>
             </ul>
           </div>
           {/* <div>

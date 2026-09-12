@@ -21,10 +21,8 @@ const UserDel = () => {
         body: JSON.stringify({
           user_id: id,
         }),
-      }
+      },
     );
-
-    console.log({ response });
 
     const data = await response.json();
     setResponseText(data);

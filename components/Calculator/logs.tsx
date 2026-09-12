@@ -30,8 +30,6 @@ export interface LogData {
 type Data = Record<string, LogData[]>;
 
 export function Logs({ logsData }: Data): JSX.Element {
-  // console.log(logsData);
-
   const logs = logsData?.map((round: LogData, index: number) => {
     const {
       round: roundNumber,
@@ -66,7 +64,11 @@ export function Logs({ logsData }: Data): JSX.Element {
             {ready1 ? '(+)' : '(-)'}
           </span>
         )}
-        {number1 ? <span className="pr-2">{number1}</span> : <span className="pr-2">Не задано</span>}
+        {number1 ? (
+          <span className="pr-2">{number1}</span>
+        ) : (
+          <span className="pr-2">Не задано</span>
+        )}
         <span className="pr-2"> x </span>
         {number2 !== 0 && (
           <span className="pr-2">
@@ -74,7 +76,11 @@ export function Logs({ logsData }: Data): JSX.Element {
             {ready2 ? '(+)' : '(-)'}
           </span>
         )}
-        {number2 ? <span className="pr-2">{number2}</span> : <span className="pr-2">Не задано</span>}
+        {number2 ? (
+          <span className="pr-2">{number2}</span>
+        ) : (
+          <span className="pr-2">Не задано</span>
+        )}
 
         {number1 !== 0 && number2 !== 0 && (
           <>

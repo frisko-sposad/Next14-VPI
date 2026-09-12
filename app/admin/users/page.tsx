@@ -16,7 +16,7 @@ const Users = () => {
       });
 
       const data = await response.json();
-      console.log(data);
+
       setDataUsers(data);
     };
     fetchData();
@@ -45,7 +45,7 @@ const Users = () => {
         accessor: 'info',
       },
     ],
-    []
+    [],
   );
 
   return (

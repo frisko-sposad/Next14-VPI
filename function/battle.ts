@@ -100,7 +100,7 @@ export function battle(unitData: ParseData): {
     place1: Flank,
     place2: Flank,
     direction1: Direction,
-    direction2: Direction
+    direction2: Direction,
   ) {
     const flankName1 = `${flankData1[row1]?.squadFlank}`;
     const flankName2 = `${flankData2[row2]?.squadFlank}`;
@@ -116,7 +116,7 @@ export function battle(unitData: ParseData): {
         direction1,
         direction2,
         place1,
-        place2
+        place2,
       );
 
       const { flankRow1, flankRow2, alive1, alive2, ready1, ready2 } = result;
@@ -131,13 +131,13 @@ export function battle(unitData: ParseData): {
       unitData.player2[place2][row2].squadUnit.squadAlive = alive2;
       unitData.player1[place1][row1].squadUnit.squadLosses = Number(
         (unitData.player1[place1][row1].squadUnit.squadNumber - alive1).toFixed(
-          2
-        )
+          2,
+        ),
       );
       unitData.player2[place2][row2].squadUnit.squadLosses = Number(
         (unitData.player2[place2][row2].squadUnit.squadNumber - alive2).toFixed(
-          2
-        )
+          2,
+        ),
       );
 
       logsData.push({
@@ -170,7 +170,7 @@ export function battle(unitData: ParseData): {
               Flank.center,
               Flank.center,
               Direction.inOrder,
-              Direction.inOrder
+              Direction.inOrder,
             );
           flankRows1.center = centerFlank1;
           flankRows2.center = centerFlank2;
@@ -190,7 +190,7 @@ export function battle(unitData: ParseData): {
               Flank.defence,
               Flank.center,
               Direction.inOrder,
-              Direction.inOrder
+              Direction.inOrder,
             );
           flankRows1.defence = defenceFlank1;
           flankRows2.center = centerFlank2;
@@ -213,7 +213,7 @@ export function battle(unitData: ParseData): {
               Flank.center,
               Flank.defence,
               Direction.inOrder,
-              Direction.inOrder
+              Direction.inOrder,
             );
           flankRows1.center = centerFlank1;
           flankRows2.defence = defenceFlank2;
@@ -239,7 +239,7 @@ export function battle(unitData: ParseData): {
             Flank.right,
             Flank.right,
             Direction.inOrder,
-            Direction.inOrder
+            Direction.inOrder,
           );
           flankRows1.right = rightFlank1;
           flankRows2.right = rightFlank2;
@@ -259,7 +259,7 @@ export function battle(unitData: ParseData): {
               Flank.defence,
               Flank.right,
               Direction.inReverse,
-              Direction.inOrder
+              Direction.inOrder,
             );
           flankRows1.defenceReverse = defenceFlank1;
           flankRows2.right = rightFlank2;
@@ -282,7 +282,7 @@ export function battle(unitData: ParseData): {
               Flank.right,
               Flank.defence,
               Direction.inOrder,
-              Direction.inReverse
+              Direction.inReverse,
             );
           flankRows1.right = rightFlank1;
           flankRows2.defenceReverse = defenceFlank2;
@@ -307,7 +307,7 @@ export function battle(unitData: ParseData): {
             Flank.left,
             Flank.left,
             Direction.inOrder,
-            Direction.inOrder
+            Direction.inOrder,
           );
           flankRows1.left = leftFlank1;
           flankRows2.left = leftFlank2;
@@ -327,7 +327,7 @@ export function battle(unitData: ParseData): {
               Flank.defence,
               Flank.left,
               Direction.inReverse,
-              Direction.inOrder
+              Direction.inOrder,
             );
           flankRows1.defenceReverse = defenceFlank1;
           flankRows2.left = leftFlank2;
@@ -350,7 +350,7 @@ export function battle(unitData: ParseData): {
               Flank.left,
               Flank.defence,
               Direction.inOrder,
-              Direction.inReverse
+              Direction.inReverse,
             );
           flankRows1.left = leftFlank1;
           flankRows2.defenceReverse = defenceFlank2;
@@ -363,7 +363,6 @@ export function battle(unitData: ParseData): {
         break;
     }
   }
-  // console.log(unitData);
 
   return { logsData, unitData };
   // setLogData(logsData);
