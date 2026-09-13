@@ -171,7 +171,7 @@ export const heroesData: Hero[] = [
   },
   {
     id: 112,
-    heroName: 'Франклин Фаулер',
+    heroName: 'Феррис Фаулер',
     attackBonus: 0,
     healthBonus: 0,
     moralityBonus: 0,
@@ -181,5 +181,18 @@ export const heroesData: Hero[] = [
     defenseHorseman: 1.3,
     defenseSword: 1.3,
     defenseSpear: 1.3,
+  },
+  {
+    id: 999,
+    heroName: 'Тирион Клиган',
+    attackBonus: 0,
+    healthBonus: 300,
+    moralityBonus: 0,
+    attackHorseman: 1,
+    attackSwordsman: 1,
+    attackSpearman: 1,
+    defenseHorseman: 1,
+    defenseSword: 1,
+    defenseSpear: 1,
   },
 ];
