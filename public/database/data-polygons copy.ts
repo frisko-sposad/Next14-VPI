@@ -3956,7 +3956,7 @@ export const polygonsData = [
     id: 2001,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Исток Быстроводной',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -3986,7 +3986,7 @@ export const polygonsData = [
     id: 2002,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Горные пороги',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4015,7 +4015,7 @@ export const polygonsData = [
     id: 2003,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Горное побережье',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4042,7 +4042,7 @@ export const polygonsData = [
     id: 2004,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Горные склоны',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4067,7 +4067,7 @@ export const polygonsData = [
     id: 2005,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Горные пики',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4094,7 +4094,7 @@ export const polygonsData = [
     id: 2006,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Опасное ущелье',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4121,7 +4121,7 @@ export const polygonsData = [
     id: 2007,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Горная поляна',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4146,7 +4146,7 @@ export const polygonsData = [
     id: 2008,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Крутой склон',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4172,7 +4172,7 @@ export const polygonsData = [
     id: 2009,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Крутые утёсы',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4198,7 +4198,7 @@ export const polygonsData = [
     id: 2010,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Горный перевал',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4223,7 +4223,7 @@ export const polygonsData = [
     id: 2011,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Козьи тропы',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4248,7 +4248,7 @@ export const polygonsData = [
     id: 2012,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Опасные глыбы',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
@@ -4274,7 +4274,7 @@ export const polygonsData = [
     id: 2013,
     user: 'user_id',
     info: {
-      name: 'Горы',
+      name: 'Последняя тропа',
       text: 'Безлюдные места',
       overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
