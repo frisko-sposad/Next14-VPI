@@ -219,6 +219,7 @@ const polygonsBorder = polygonsData.map((el) => {
               <br />
               <b>Жалование:</b> {armyPrice} серебра
             </p> */}
+            <p>Игрок: {el.user}</p>
           </p>
         </p>
       </Popup>
