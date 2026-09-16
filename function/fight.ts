@@ -226,6 +226,7 @@ export function fight(
 }
 
 let status = 'То что не должно выводиться';
+let status_victory = '';
 
 function getIsFight(
   number1: number,
@@ -249,7 +250,7 @@ function getIsFight(
 ) {
   const allMorality1 = morality1 + moralityBonus1;
   const allMorality2 = morality2 + moralityBonus2;
-
+  status_victory = '';
   status = 'Идёт бой';
   let isFight = true;
   if (number1 === 0 || number2 === 0) {
@@ -259,35 +260,91 @@ function getIsFight(
       direction1 === Direction.inOrder ? row1++ : row1--;
       direction2 === Direction.inOrder ? row2++ : row2--;
     } else {
+      if (
+        number1 == 0 &&
+        flankName1 == 'defence' &&
+        direction1 === Direction.inOrder &&
+        row1 == 4
+      ) {
+        status_victory = ` Победа игрока 2 в битве! центр`;
+      }
+      if (
+        number1 === 0 &&
+        flankName1 == 'defence' &&
+        direction1 == Direction.inReverse &&
+        row1 == 0
+      ) {
+        status_victory = `Победа игрока 2 в битве! реверс`;
+      }
+      if (
+        number2 == 0 &&
+        flankName2 == 'defence' &&
+        direction2 === Direction.inOrder &&
+        row2 == 4
+      ) {
+        status_victory = ` Победа игрока 1 в битве! центр`;
+      }
+      if (
+        number2 === 0 &&
+        flankName2 == 'defence' &&
+        direction2 == Direction.inReverse &&
+        row2 == 0
+      ) {
+        status_victory = `Победа игрока 1 в битве! реверс`;
+      }
+
+      // Войска не обнаружены
       if (number1 === 0) {
-        status = 'Войск игрока 1 не обнаружено.';
+        status = `Войск игрока 1 не обнаружено.` + status_victory;
         direction1 === Direction.inOrder ? row1++ : row1--;
       }
       if (number2 === 0) {
-        status = 'Войск игрока 2 не обнаружено.';
+        status = 'Войск игрока 2 не обнаружено.' + status_victory;
         direction2 === Direction.inOrder ? row2++ : row2--;
-      }
-
-      if (row1 >= 4) {
-        status = status + ' Победа игрока 2!';
-      }
-      if (row2 >= 4) {
-        status = status + ' Победа игрока 1!';
       }
     }
   } else {
+    if (
+      flankName1 == 'defence' &&
+      direction1 === Direction.inOrder &&
+      row1 == 4
+    ) {
+      status_victory = ` Победа игрока 2 в битве! центр`;
+    }
+    if (
+      flankName1 == 'defence' &&
+      direction1 == Direction.inReverse &&
+      row1 == 0
+    ) {
+      status_victory = `Победа игрока 2 в битве! реверс`;
+    }
+    if (
+      flankName2 == 'defence' &&
+      direction2 === Direction.inOrder &&
+      row2 == 4
+    ) {
+      status_victory = ` Победа игрока 1 в битве! центр`;
+    }
+    if (
+      flankName2 == 'defence' &&
+      direction2 == Direction.inReverse &&
+      row2 == 0
+    ) {
+      status_victory = `Победа игрока 1 в битве! реверс`;
+    }
+
     const superior1 = alive1 * allMorality1 <= (number2 * allMorality1) / 10;
     const superior2 = alive2 * allMorality2 <= (number1 * allMorality2) / 10;
 
     if (superior1 || superior2) {
       isFight = false;
       if (superior1) {
-        status = 'Численный перевес у Ирока 2.';
+        status = 'Численный перевес у Ирока 2.' + status_victory;
         direction1 === Direction.inOrder ? row1++ : row1--;
         ready1 = false;
       }
       if (superior2) {
-        status = 'Численный перевес у Ирока 1.';
+        status = 'Численный перевес у Ирока 1.' + status_victory;
         direction2 === Direction.inOrder ? row2++ : row2--;
         ready2 = false;
       }
@@ -296,13 +353,13 @@ function getIsFight(
       const moral2 = alive2 <= (number2 * (100 - allMorality2)) / 100;
 
       if (moral1 && !moral2) {
-        status = `${name1} игрока 1 отступают.`;
+        status = `${name1} игрока 1 отступают.` + status_victory;
         direction1 === Direction.inOrder ? row1++ : row1--;
         isFight = false;
         ready1 = false;
       }
       if (moral2 && !moral1) {
-        status = `${name2} игрока 2 отступают.`;
+        status = `${name2} игрока 2 отступают.` + status_victory;
         direction2 === Direction.inOrder ? row2++ : row2--;
         isFight = false;
         ready2 = false;
@@ -318,18 +375,20 @@ function getIsFight(
       }
     }
 
-    if (direction1 === Direction.inOrder && row1 >= 4) {
-      status = status + ' Победа игрока 2 inOrder!';
-    }
-    if (direction2 === Direction.inOrder && row2 >= 4) {
-      status = status + ' Победа игрока 1 inOrder!';
-    }
-    if (direction1 === Direction.inReverse && row1 <= 0) {
-      status = status + ' Победа игрока 2 inReverse!';
-    }
-    if (direction2 === Direction.inReverse && row2 <= 0) {
-      status = status + ' Победа игрока 1 inReverse!';
-    }
+    // if (direction1 === Direction.inOrder && row1 >= 4) {
+    //   status = status + ' Победа на игрока 2 inOrder!';
+    // }
+    // if (direction2 === Direction.inOrder && row2 >= 4) {
+    //   status = status + ' Победа игрока 1 inOrder!';
+    // }
+    // if (direction1 === Direction.inReverse && row2 <= 0) {
+    //   status =
+    //     status + `${row1} Победа игрока 2 при фланговой атаке inReverse!`;
+    // }
+    // if (direction2 === Direction.inReverse && row2 <= 0) {
+    //   status =
+    //     status + `${row1} Победа игрока 1 при фланговой атаке  inReverse!`;
+    // }
   }
 
   if (row1 == 5 && row2 == 5) {

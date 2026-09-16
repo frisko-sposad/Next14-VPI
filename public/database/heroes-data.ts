@@ -339,14 +339,6 @@ export const heroesData: Hero[] = [
     defenseSword: 1.6,
     defenseSpear: 1,
   },
-  //   Гарольд Дальт 46 лет
-  // Мораль 5, бонус в атаке по всадникам +0.5
-
-  // Ивар Дальт 29 лет
-  // Мораль 5, бонус к атаке по копейщикам + 0.5
-
-  // Хазер Дальт 28 лет
-  // Мораль 5, бонус в атаке по мечникам +0.5
   {
     id: 125,
     heroName: ' Гарольд Дальт',
@@ -381,6 +373,45 @@ export const heroesData: Hero[] = [
     moralityBonus: 10,
     attackHorseman: 1,
     attackSwordsman: 1.5,
+    attackSpearman: 1,
+    defenseHorseman: 1,
+    defenseSword: 1,
+    defenseSpear: 1,
+  },
+  {
+    id: 125,
+    heroName: 'Дагос Манвуди',
+    attackBonus: 0,
+    healthBonus: 0,
+    moralityBonus: 0,
+    attackHorseman: 1,
+    attackSwordsman: 1,
+    attackSpearman: 1,
+    defenseHorseman: 1,
+    defenseSword: 1,
+    defenseSpear: 1,
+  },
+  {
+    id: 126,
+    heroName: 'Лорак Манвуди',
+    attackBonus: 0,
+    healthBonus: 0,
+    moralityBonus: 0,
+    attackHorseman: 1,
+    attackSwordsman: 1,
+    attackSpearman: 1,
+    defenseHorseman: 1,
+    defenseSword: 1,
+    defenseSpear: 1,
+  },
+  {
+    id: 127,
+    heroName: 'Дагон Манвуди',
+    attackBonus: 0,
+    healthBonus: 0,
+    moralityBonus: 0,
+    attackHorseman: 1,
+    attackSwordsman: 1,
     attackSpearman: 1,
     defenseHorseman: 1,
     defenseSword: 1,
