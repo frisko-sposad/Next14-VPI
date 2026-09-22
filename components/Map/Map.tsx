@@ -12,7 +12,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 import IconCastle from '../../components/leflet/icons/castle.svg';
 import IconMine from '../../components/leflet/icons/kirka.svg';
-import { Icon } from 'leaflet';
+import L, { Icon } from 'leaflet';
 import { EditControl } from 'react-leaflet-draw';
 import { useEffect, useState } from 'react';
 import { polygonsData } from '../../public/database/data-polygons';
@@ -28,6 +28,21 @@ const markerIconCastle = new Icon({
 const markerIcongMine = new Icon({
   iconUrl: IconMine,
   iconSize: [38, 38], // set the size of the icon
+});
+
+const markerNumber = polygonsData.map((el) => {
+  return (
+    <>
+      <Marker
+        key={`qqq+${el.id}`}
+        position={[el.center.lat, el.center.lng]}
+        icon={L.divIcon({
+          html: `${el.id}`,
+          className: 'text-white text-base',
+        })}
+      ></Marker>
+    </>
+  );
 });
 
 const markerIconcastleData = castleData.map((el) => {
@@ -62,63 +77,6 @@ const markerIconcastleData = castleData.map((el) => {
 });
 
 const polygonsBorder = polygonsData.map((el) => {
-  let armySize = 0;
-  let armyPrice = 0;
-  const army = el.info.army?.map((army) => {
-    let name = '';
-    let price = 0;
-    armySize += army.number;
-    unitsData.map((subRows) => {
-      armyPrice += army.number * price;
-      subRows.subRows.map((unit) => {
-        unit.id == army.id && (name = unit.name);
-        unit.id == army.id && (price = unit.price);
-      });
-    });
-    return (
-      <span key={army.id}>
-        <br />
-        {army.number} {name} - {army.number * price} серебра
-      </span>
-    );
-  });
-
-  const peasents =
-    el.info.peasent.mines +
-    el.info.peasent.forest +
-    el.info.peasent.skins +
-    el.info.peasent.food;
-
-  const slave =
-    el.info.slave.mines +
-    el.info.slave.forest +
-    el.info.slave.skins +
-    el.info.slave.food;
-
-  const limits =
-    el.info.limits.mines +
-    el.info.limits.forest +
-    el.info.limits.skins +
-    el.info.limits.food;
-
-  const population = peasents + slave;
-
-  let tax = 0;
-
-  if (peasents >= limits) {
-    if (peasents >= limits * 2) {
-      if (peasents >= limits * 3) {
-        tax = limits * 8 + limits * 4 + limits * 2;
-      } else {
-        tax = limits * 8 + limits * 4 + (peasents - limits * 2) * 2;
-      }
-    } else {
-      tax = limits * 8 + (peasents - limits) * 4;
-    }
-  } else {
-    tax = peasents * 8;
-  }
-
   return (
     <Polygon
       key={el.id}
@@ -177,48 +135,6 @@ const polygonsBorder = polygonsData.map((el) => {
             {/* &nbsp;&nbsp;Добыча:
             {el.info.slave.food * 3 + el.info.peasent.food * 2} еды */}
             <br />
-            {/* <br />
-            Налоги:
-            <span className="text-black-600">{tax}</span>
-            <br />
-            <br />
-            Население:&nbsp;
-            <b>{population}</b>
-            <br />
-            (Потребляет&nbsp;
-            {population}
-            &nbsp; еды, излишки еды&nbsp;
-            {el.info.slave.food * 3 +
-              el.info.peasent.food * 2 +
-              el.info.slave.skins +
-              el.info.peasent.skins -
-              population}
-            )
-            <br /> */}
-            {/* <span className="text-green-600">
-              Солдаты:&nbsp;
-              {armySize}
-            </span>
-            <br />
-            <span className="text-orange-600">
-              Рабы:&nbsp;
-              {slave}
-            </span>
-            <br />
-            <span className="text-sky-500">
-              Крестьяне:&nbsp;
-              {peasents}
-            </span>
-            <br />
-            <span className="text-black-500">
-              Лимит:&nbsp;
-              {limits}
-            </span>
-            <p>
-              <b>Армия:</b> {army}
-              <br />
-              <b>Жалование:</b> {armyPrice} серебра
-            </p> */}
             <p>Игрок: {el.user}</p>
           </p>
         </p>
@@ -362,6 +278,38 @@ const Map = (params: any) => {
           </LayersControl.Overlay>
           <LayersControl.Overlay name="Религия">
             <LayerGroup>{polygonsBorderReligion}</LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Метки" checked>
+            <LayerGroup>
+              {/* <Marker
+                key={'12323424'}
+                position={[74.24, -85.58]}
+                icon={L.divIcon({
+                  html: '1943',
+                  className: 'text-white text-base',
+                })}
+              ></Marker> */}
+              {markerNumber}
+
+              {/* <Marker
+                position={[82.23058418566629, -51.3984375]}
+                icon={markerIconCastle}
+              >
+                <Popup>
+                  Пиздец работает!!! <br /> Это земли Лорда Жупела!
+                </Popup>
+              </Marker>
+              <Marker
+                position={[82.72064678437275, -134.82421875000003]}
+                icon={markerIcongMine}
+              >
+                <Popup>
+                  Пиздец работает!!! <br /> Это земли Лорда Жупела1!
+                  {dataUsers && dataUsers[0] && dataUsers[0].login}
+                  {params.id}
+                </Popup>
+              </Marker> */}
+            </LayerGroup>
           </LayersControl.Overlay>
           {/* <LayersControl.Overlay name="Метки" checked>
             <LayerGroup>
