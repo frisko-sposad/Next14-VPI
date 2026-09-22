@@ -7,7 +7,7 @@ import Table from '@/components/Table/Table';
 const StatsTable = () => {
   const dataUnits = useMemo(() => unitsData, []);
 
-  const horseArmy = dataUnits[0].subRows;
+  const horseArmy = dataUnits[0].subRows.slice(1);
   const footArmy = dataUnits[1].subRows;
 
   const columnsUnits = useMemo(
@@ -42,7 +42,7 @@ const StatsTable = () => {
         accessor: 'price',
       },
     ],
-    []
+    [],
   );
 
   return (
