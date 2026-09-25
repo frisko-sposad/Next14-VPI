@@ -461,7 +461,7 @@ export const unitsData: UnitData[] = [
         weapon: Weapon.spear,
         attack: 50,
         distanceAttack: 0,
-        health: 1,
+        health: 20,
         morality: 100,
         size: 2,
         price: 5,
