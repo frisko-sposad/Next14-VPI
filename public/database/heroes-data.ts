@@ -411,10 +411,10 @@ export const heroesData: Hero[] = [
     healthBonus: 0,
     moralityBonus: 0,
     attackHorseman: 1,
-    attackSwordsman: 1.8,
+    attackSwordsman: 1,
     attackSpearman: 1,
     defenseHorseman: 1,
-    defenseSword: 1,
+    defenseSword: 1.8,
     defenseSpear: 1,
   },
   {
