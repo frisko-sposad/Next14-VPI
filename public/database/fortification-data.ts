@@ -61,7 +61,7 @@ export const fortificationData: Fortification[] = [
     defenseSpear: 1.3,
   },
   {
-    id: 1003,
+    id: 1004,
     fortificationName: 'Каменная стена 2 ур',
     attackBonus: 6,
     healthBonus: 15,
@@ -73,7 +73,7 @@ export const fortificationData: Fortification[] = [
     defenseSpear: 1.4,
   },
   {
-    id: 1004,
+    id: 1005,
     fortificationName: 'Каменная стена 3 ур',
     attackBonus: 9,
     healthBonus: 20,

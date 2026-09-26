@@ -392,7 +392,7 @@ export const heroesData: Hero[] = [
     defenseSpear: 1,
   },
   {
-    id: 125,
+    id: 128,
     heroName: 'Дагос Манвуди',
     attackBonus: 20,
     healthBonus: 0,
@@ -405,7 +405,7 @@ export const heroesData: Hero[] = [
     defenseSpear: 1,
   },
   {
-    id: 126,
+    id: 129,
     heroName: 'Лорак Манвуди',
     attackBonus: 0,
     healthBonus: 0,
@@ -418,7 +418,7 @@ export const heroesData: Hero[] = [
     defenseSpear: 1,
   },
   {
-    id: 127,
+    id: 130,
     heroName: 'Дагон Манвуди',
     attackBonus: 0,
     healthBonus: 0,
@@ -431,7 +431,7 @@ export const heroesData: Hero[] = [
     defenseSpear: 1,
   },
   {
-    id: 128,
+    id: 131,
     heroName: 'Эйрин Аллерион',
     attackBonus: 12,
     healthBonus: 0,
@@ -444,7 +444,7 @@ export const heroesData: Hero[] = [
     defenseSpear: 1,
   },
   {
-    id: 129,
+    id: 132,
     heroName: 'Элис Аллериони',
     attackBonus: 0,
     healthBonus: 0,
@@ -457,7 +457,7 @@ export const heroesData: Hero[] = [
     defenseSpear: 1.4,
   },
   {
-    id: 130,
+    id: 133,
     heroName: 'Эдмунд Аллерион',
     attackBonus: 0,
     healthBonus: 0,
