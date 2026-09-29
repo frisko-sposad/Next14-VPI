@@ -7,6 +7,7 @@ import {
   Popup,
   TileLayer,
   LayerGroup,
+  Polyline,
 } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
@@ -279,7 +280,123 @@ const Map = (params: any) => {
           <LayersControl.Overlay name="Религия">
             <LayerGroup>{polygonsBorderReligion}</LayerGroup>
           </LayersControl.Overlay>
+          <LayersControl.Overlay name="Проходимость" checked>
+            <LayerGroup>
+              <Polyline
+                positions={[
+                  [78.13748568974525, 5.888671875],
+                  [78.11941318750105, 1.3183593750000002],
+                  [77.86353098267988, -1.5820312500000002],
+                  [77.95553481700777, -3.251953125],
+                  [78.42298667601625, -11.425781250000002],
+                  [78.35225313516021, -14.677734375000002],
+                  [78.63265470679414, -18.457031250000004],
+                  [78.3699763775012, -22.587890625000004],
+                ]}
+                color="white"
+                weight="8"
+              />
+              <Polyline
+                positions={[
+                  [78.47540010926681, -46.40625000000001],
+                  [78.01003413796171, -47.98815625000001],
+                  [77.14092265283308, -46.75781250000001],
+                ]}
+                color="white"
+                weight="8"
+              />
+              <Polyline
+                positions={[
+                  [77.90003913686702, -38.3203125],
+                  [77.78905023268321, -35.85937500000001],
+                  [77.17998344253564, -35.41914062500001],
+                  [76.90418813495607, -39.55078125],
+                ]}
+                color="white"
+                weight="8"
+              />
+              <Polyline
+                positions={[
+                  [75.84941981593269, -38.935546875],
+                  [74.98709026348278, -45.87890625],
+                  [75.7632560143881, -48.25195312500001],
+                ]}
+                color="white"
+                weight="8"
+              />
+              <Polyline
+                positions={[
+                  [82.30908465018838, -49.13085937500001],
+                  [81.5576414533338, -53.52539062500001],
+                  [81.8367091526856, -55.28320312500001],
+                ]}
+                color="white"
+                weight="8"
+              />
+              <Polyline
+                positions={[
+                  [80.59082225800114, -85.34179687500001],
+                  [80.35822446580782, -79.98046875000001],
+                  [79.93739552219746, -78.83789062500001],
+                ]}
+                color="white"
+                weight="8"
+              />
+              <Polyline
+                positions={[
+                  [78.59761730580594, -85.693359375],
+                  [78.01003413796171, -86.22070312500001],
+                ]}
+                color="white"
+                weight="8"
+              />
+              <Polyline
+                positions={[
+                  [78.40498242516747, -93.25195312500001],
+                  [77.86315369061599, -93.33984375000001],
+                ]}
+                color="white"
+                weight="8"
+              />
+              <Polyline
+                positions={[
+                  [76.5205748048426, -97.55859375000001],
+                  [75.74163490223901, -98.78906250000001],
+                ]}
+                color="white"
+                weight="8"
+              />
+              <Polyline
+                positions={[
+                  [76.47955833575611, -88.06640625000001],
+                  [75.52364791714949, -88.94531250000001],
+                ]}
+                color="white"
+                weight="8"
+              />
+            </LayerGroup>
+          </LayersControl.Overlay>
           <LayersControl.Overlay name="Метки" checked>
+            <LayerGroup>
+              {/* <Marker
+                position={[82.23058418566629, -51.3984375]}
+                icon={markerIconCastle}
+              >
+                <Popup>
+                  Пиздец работает!!! <br /> Это земли Лорда Жупела!
+                </Popup>
+              </Marker>
+              <Marker
+                position={[82.72064678437275, -134.82421875000003]}
+                icon={markerIcongMine}
+              >
+                <Popup>
+                  Пиздец работает!!! <br /> Это земли Лорда Жупела1!
+                  {dataUsers && dataUsers[0] && dataUsers[0].login}
+                  {params.id}
+                </Popup>
+              </Marker>
+            </LayerGroup>
             <LayerGroup>
               {/* <Marker
                 key={'12323424'}
@@ -289,7 +406,6 @@ const Map = (params: any) => {
                   className: 'text-white text-base',
                 })}
               ></Marker> */}
-              {markerNumber}
 
               {/* <Marker
                 position={[82.23058418566629, -51.3984375]}
