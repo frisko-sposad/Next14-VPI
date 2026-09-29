@@ -294,7 +294,7 @@ const Map = (params: any) => {
                   [78.3699763775012, -22.587890625000004],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
               <Polyline
                 positions={[
@@ -303,7 +303,7 @@ const Map = (params: any) => {
                   [77.14092265283308, -46.75781250000001],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
               <Polyline
                 positions={[
@@ -313,7 +313,7 @@ const Map = (params: any) => {
                   [76.90418813495607, -39.55078125],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
               <Polyline
                 positions={[
@@ -322,7 +322,7 @@ const Map = (params: any) => {
                   [75.7632560143881, -48.25195312500001],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
               <Polyline
                 positions={[
@@ -331,7 +331,7 @@ const Map = (params: any) => {
                   [81.8367091526856, -55.28320312500001],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
               <Polyline
                 positions={[
@@ -340,7 +340,7 @@ const Map = (params: any) => {
                   [79.93739552219746, -78.83789062500001],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
               <Polyline
                 positions={[
@@ -348,7 +348,7 @@ const Map = (params: any) => {
                   [78.01003413796171, -86.22070312500001],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
               <Polyline
                 positions={[
@@ -356,7 +356,7 @@ const Map = (params: any) => {
                   [77.86315369061599, -93.33984375000001],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
               <Polyline
                 positions={[
@@ -364,7 +364,7 @@ const Map = (params: any) => {
                   [75.74163490223901, -98.78906250000001],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
               <Polyline
                 positions={[
@@ -372,7 +372,7 @@ const Map = (params: any) => {
                   [75.52364791714949, -88.94531250000001],
                 ]}
                 color="white"
-                weight="8"
+                weight={Number('8')}
               />
             </LayerGroup>
           </LayersControl.Overlay>
