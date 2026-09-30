@@ -3569,7 +3569,7 @@ export const polygonsData = [
     info: {
       name: 'Торов Перекрёсток',
       text: 'Описание',
-      overlord: 'Толанды',
+      overlord: 'Уль Ветродув',
       slave: { mines: 100, forest: 0, skins: 10, horses: 0, food: 165 },
       peasent: { mines: 50, forest: 0, skins: 0, horses: 5, food: 165 },
       limits: { mines: 400, forest: 0, skins: 90, horses: 10, food: 500 },
@@ -3580,7 +3580,7 @@ export const polygonsData = [
       size: '',
       religion: 'Первые Люди',
     },
-    color: '#CC6600',
+    color: '#ffffff',
     latlngs: [
       { lat: 79.31885867938784, lng: -38.54003906250001 },
       { lat: 78.55173723485781, lng: -40.38574218750001 },
