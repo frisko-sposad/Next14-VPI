@@ -378,6 +378,7 @@ const Map = (params: any) => {
           </LayersControl.Overlay>
           <LayersControl.Overlay name="Метки" checked>
             <LayerGroup>
+              {markerNumber}
               {/* <Marker
                 position={[82.23058418566629, -51.3984375]}
                 icon={markerIconCastle}
