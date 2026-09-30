@@ -3574,7 +3574,7 @@ export const polygonsData = [
       peasent: { mines: 50, forest: 0, skins: 0, horses: 5, food: 165 },
       limits: { mines: 400, forest: 0, skins: 90, horses: 10, food: 500 },
       player: 174817,
-      owner: 'Джордейны',
+      owner: 'Уль Ветродув',
       fortifications: '',
       relief: '',
       size: '',
