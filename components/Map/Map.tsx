@@ -405,7 +405,7 @@ const Map = (params: any) => {
           <LayersControl.Overlay name="Цифры" checked>
             <LayerGroup>{markerNumber}</LayerGroup>
           </LayersControl.Overlay>
-          <LayersControl.Overlay name="Битвы" checked>
+          <LayersControl.Overlay name="Битвы">
             <LayerGroup>{markerBattle}</LayerGroup>
             {/* <LayerGroup> */}
             {/* <Marker
