@@ -456,7 +456,7 @@ export const battleData = [
     battle: true,
     id: 1206,
     name: 'Южный каменный путь',
-    battle_name: 'Ход 1: Победа Вилей',
+    battle_name: 'Ход 1: Победа Айронвуда',
     text1: 'Йормунд Айронвуд х Эдрик Виль ',
     text2: '',
     center: { lat: 81.1752143727869, lng: -54.32373046875001 },
