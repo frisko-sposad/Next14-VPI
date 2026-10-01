@@ -305,6 +305,7 @@ function getIsFight(
     }
   } else {
     if (
+      number1 === 0 &&
       flankName1 == 'defence' &&
       direction1 === Direction.inOrder &&
       row1 == 4
@@ -320,6 +321,7 @@ function getIsFight(
       status_victory = `Победа игрока 2 в битве! реверс3`;
     }
     if (
+      number2 === 0 &&
       flankName2 == 'defence' &&
       direction2 === Direction.inOrder &&
       row2 == 4
