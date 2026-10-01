@@ -13,9 +13,11 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 import IconCastle from '../../components/leflet/icons/castle.svg';
 import IconMine from '../../components/leflet/icons/kirka.svg';
+import IconBattle from '../../components/leflet/icons/battle.svg';
 import L, { Icon } from 'leaflet';
 import { EditControl } from 'react-leaflet-draw';
 import { useEffect, useState } from 'react';
+import { battleData } from '../../public/database/data-battle';
 import { polygonsData } from '../../public/database/data-polygons';
 import { LocationFinderDummy } from './LocationFinderDummy';
 import { castleData } from '@/public/database/data-icon';
@@ -29,6 +31,10 @@ const markerIconCastle = new Icon({
 const markerIcongMine = new Icon({
   iconUrl: IconMine,
   iconSize: [38, 38], // set the size of the icon
+});
+const iconBattle = new Icon({
+  iconUrl: IconBattle,
+  iconSize: [42, 42], // set the size of the icon
 });
 
 const markerNumber = polygonsData.map((el) => {
@@ -44,6 +50,26 @@ const markerNumber = polygonsData.map((el) => {
       ></Marker>
     </>
   );
+});
+
+const markerBattle = battleData.map((el) => {
+  if (el.battle)
+    return (
+      <>
+        <Marker
+          key={`www+${el.id}`}
+          position={[el.center.lat, el.center.lng]}
+          icon={iconBattle}
+        >
+          <Popup>
+            <p>{el.name}</p>
+            <p>{el.battle_name}</p>
+            <p>{el.text1}</p>
+            <p>{el.text2}</p>
+          </Popup>
+        </Marker>
+      </>
+    );
 });
 
 const markerIconcastleData = castleData.map((el) => {
@@ -376,37 +402,20 @@ const Map = (params: any) => {
               />
             </LayerGroup>
           </LayersControl.Overlay>
-          <LayersControl.Overlay name="Метки" checked>
-            <LayerGroup>
-              {markerNumber}
-              {/* <Marker
-                position={[82.23058418566629, -51.3984375]}
-                icon={markerIconCastle}
-              >
-                <Popup>
-                  Пиздец работает!!! <br /> Это земли Лорда Жупела!
-                </Popup>
-              </Marker>
-              <Marker
-                position={[82.72064678437275, -134.82421875000003]}
-                icon={markerIcongMine}
-              >
-                <Popup>
-                  Пиздец работает!!! <br /> Это земли Лорда Жупела1!
-                  {dataUsers && dataUsers[0] && dataUsers[0].login}
-                  {params.id}
-                </Popup>
-              </Marker>
-            </LayerGroup>
-            <LayerGroup>
-              {/* <Marker
+          <LayersControl.Overlay name="Цифры" checked>
+            <LayerGroup>{markerNumber}</LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Битвы" checked>
+            <LayerGroup>{markerBattle}</LayerGroup>
+            {/* <LayerGroup> */}
+            {/* <Marker
                 key={'12323424'}
                 position={[74.24, -85.58]}
                 icon={L.divIcon({
                   html: '1943',
                   className: 'text-white text-base',
                 })}
-              ></Marker> */}
+              ></Marker>
 
               {/* <Marker
                 position={[82.23058418566629, -51.3984375]}
@@ -426,7 +435,7 @@ const Map = (params: any) => {
                   {params.id}
                 </Popup>
               </Marker> */}
-            </LayerGroup>
+            {/* </LayerGroup> */}
           </LayersControl.Overlay>
           {/* <LayersControl.Overlay name="Метки" checked>
             <LayerGroup>
