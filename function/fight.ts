@@ -274,7 +274,7 @@ function getIsFight(
         direction1 == Direction.inReverse &&
         row1 == 0
       ) {
-        status_victory = `Победа игрока 2 в битве! реверс`;
+        status_victory = `Победа игрока 2 в битве! реверс1`;
       }
       if (
         number2 == 0 &&
@@ -290,7 +290,7 @@ function getIsFight(
         direction2 == Direction.inReverse &&
         row2 == 0
       ) {
-        status_victory = `Победа игрока 1 в битве! реверс`;
+        status_victory = `Победа игрока 1 в битве! реверс2`;
       }
 
       // Войска не обнаружены
@@ -312,11 +312,12 @@ function getIsFight(
       status_victory = ` Победа игрока 2 в битве! центр`;
     }
     if (
+      number1 === 0 &&
       flankName1 == 'defence' &&
       direction1 == Direction.inReverse &&
       row1 == 0
     ) {
-      status_victory = `Победа игрока 2 в битве! реверс`;
+      status_victory = `Победа игрока 2 в битве! реверс3`;
     }
     if (
       flankName2 == 'defence' &&
@@ -326,11 +327,12 @@ function getIsFight(
       status_victory = ` Победа игрока 1 в битве! центр`;
     }
     if (
+      number2 === 0 &&
       flankName2 == 'defence' &&
       direction2 == Direction.inReverse &&
       row2 == 0
     ) {
-      status_victory = `Победа игрока 1 в битве! реверс`;
+      status_victory = `Победа игрока 1 в битве! реверс4`;
     }
 
     const superior1 = alive1 * allMorality1 <= (number2 * allMorality1) / 10;
