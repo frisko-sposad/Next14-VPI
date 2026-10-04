@@ -5,7 +5,6 @@ export const polygonsData = [
     info: {
       name: 'Нефрит',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 0, forest: 50, skins: 0, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 50, skins: 80, horses: 5, food: 200 },
       limits: { mines: 0, forest: 200, skins: 140, horses: 10, food: 1000 },
@@ -15,6 +14,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#3388ff',
     latlngs: [
@@ -37,7 +37,6 @@ export const polygonsData = [
     info: {
       name: 'Лесное побережье',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 50, forest: 100, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 25, forest: 50, skins: 20, horses: 5, food: 300 },
       limits: { mines: 200, forest: 600, skins: 180, horses: 20, food: 1000 },
@@ -47,6 +46,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#336666',
     latlngs: [
@@ -68,7 +68,6 @@ export const polygonsData = [
     info: {
       name: 'Лесная дорога',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 0, forest: 100, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 75, skins: 50, horses: 5, food: 300 },
       limits: { mines: 0, forest: 400, skins: 140, horses: 20, food: 1000 },
@@ -78,6 +77,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#336666',
     latlngs: [
@@ -95,7 +95,6 @@ export const polygonsData = [
     info: {
       name: 'Лебединый лес',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 50, forest: 100, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 25, forest: 50, skins: 20, horses: 5, food: 300 },
       limits: { mines: 200, forest: 600, skins: 190, horses: 20, food: 1000 },
@@ -105,6 +104,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#336666',
     latlngs: [
@@ -126,7 +126,6 @@ export const polygonsData = [
     info: {
       name: 'Истоки Слейн',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 60, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 30, forest: 0, skins: 5, horses: 3, food: 200 },
       limits: { mines: 800, forest: 0, skins: 90, horses: 10, food: 500 },
@@ -136,6 +135,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#336666',
     latlngs: [
@@ -155,7 +155,6 @@ export const polygonsData = [
     info: {
       name: 'Каменный шлем',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 60, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 30, forest: 0, skins: 30, horses: 5, food: 400 },
       limits: { mines: 600, forest: 0, skins: 180, horses: 20, food: 1500 },
@@ -165,6 +164,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#336666',
     latlngs: [
@@ -182,7 +182,6 @@ export const polygonsData = [
     info: {
       name: 'Красный дозор',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 60, forest: 0, skins: 0, horses: 0, food: 165 },
       peasent: { mines: 30, forest: 0, skins: 10, horses: 3, food: 165 },
       limits: { mines: 600, forest: 0, skins: 90, horses: 10, food: 500 },
@@ -192,6 +191,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#336666',
     latlngs: [
@@ -211,7 +211,6 @@ export const polygonsData = [
     info: {
       name: 'Западный Каменный шлем',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 50, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 25, forest: 0, skins: 10, horses: 3, food: 300 },
       limits: { mines: 200, forest: 0, skins: 80, horses: 10, food: 1500 },
@@ -221,6 +220,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#336666',
     latlngs: [
@@ -238,7 +238,6 @@ export const polygonsData = [
     info: {
       name: 'Скорбящий городок',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 0, forest: 120, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 100, skins: 50, horses: 10, food: 400 },
       limits: { mines: 0, forest: 800, skins: 180, horses: 30, food: 1000 },
@@ -248,6 +247,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#3388ff',
     latlngs: [
@@ -271,7 +271,6 @@ export const polygonsData = [
     info: {
       name: 'Мыс Гнева',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 0, forest: 120, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 100, skins: 60, horses: 10, food: 400 },
       limits: { mines: 0, forest: 1000, skins: 250, horses: 30, food: 1500 },
@@ -281,6 +280,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#3388ff',
     latlngs: [
@@ -305,7 +305,6 @@ export const polygonsData = [
     info: {
       name: 'Туманный лес',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 0, forest: 120, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 100, skins: 50, horses: 10, food: 400 },
       limits: { mines: 0, forest: 800, skins: 180, horses: 30, food: 1000 },
@@ -315,6 +314,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#3388ff',
     latlngs: [
@@ -335,7 +335,6 @@ export const polygonsData = [
     info: {
       name: 'Дождливый лес',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 0, forest: 120, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 100, skins: 50, horses: 10, food: 400 },
       limits: { mines: 0, forest: 800, skins: 180, horses: 30, food: 1000 },
@@ -345,6 +344,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#3388ff',
     latlngs: [
@@ -367,7 +367,6 @@ export const polygonsData = [
     info: {
       name: 'Конные луга',
       text: 'Описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 100, skins: 100, horses: 10, food: 600 },
       limits: { mines: 0, forest: 250, skins: 250, horses: 20, food: 3000 },
@@ -377,6 +376,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#000066',
     latlngs: [
@@ -394,7 +394,6 @@ export const polygonsData = [
     info: {
       name: 'Плодородье',
       text: 'Описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 100, skins: 100, horses: 10, food: 550 },
       limits: { mines: 0, forest: 250, skins: 250, horses: 30, food: 3000 },
@@ -404,6 +403,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#000066',
     latlngs: [
@@ -421,7 +421,6 @@ export const polygonsData = [
     info: {
       name: 'Пшеничное поле',
       text: 'Описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 80, skins: 80, horses: 10, food: 450 },
       limits: { mines: 0, forest: 300, skins: 200, horses: 30, food: 2500 },
@@ -431,6 +430,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#000066',
     latlngs: [
@@ -447,7 +447,6 @@ export const polygonsData = [
     info: {
       name: 'Южный Хайгарден',
       text: 'Описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 130, skins: 80, horses: 15, food: 700 },
       limits: { mines: 0, forest: 400, skins: 200, horses: 50, food: 4500 },
@@ -457,6 +456,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#000066',
     latlngs: [
@@ -476,7 +476,6 @@ export const polygonsData = [
     info: {
       name: 'Северный Хайгарден',
       text: 'Описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 130, skins: 60, horses: 15, food: 400 },
       limits: { mines: 0, forest: 400, skins: 150, horses: 50, food: 4500 },
@@ -486,6 +485,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#000066',
     latlngs: [
@@ -502,7 +502,6 @@ export const polygonsData = [
     info: {
       name: 'Лес севернее Мандера',
       text: 'Описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 200, skins: 60, horses: 7, food: 495 },
       limits: { mines: 0, forest: 1000, skins: 150, horses: 20, food: 1500 },
@@ -512,6 +511,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#000066',
     latlngs: [
@@ -531,7 +531,6 @@ export const polygonsData = [
     info: {
       name: 'Ясноводная крепость',
       text: 'описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 50, forest: 300, skins: 100, horses: 10, food: 700 },
       limits: { mines: 200, forest: 600, skins: 300, horses: 40, food: 3000 },
@@ -541,6 +540,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#FF6633',
     latlngs: [
@@ -563,7 +563,6 @@ export const polygonsData = [
     info: {
       name: 'Ясноводная роща',
       text: 'описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 300, skins: 50, horses: 10, food: 500 },
       limits: { mines: 0, forest: 400, skins: 170, horses: 30, food: 3000 },
@@ -573,6 +572,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#FF6633',
     latlngs: [
@@ -591,7 +591,6 @@ export const polygonsData = [
     info: {
       name: 'Лесная марка',
       text: 'описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 300, skins: 70, horses: 10, food: 400 },
       limits: { mines: 0, forest: 400, skins: 180, horses: 20, food: 1500 },
@@ -601,6 +600,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#FF6633',
     latlngs: [
@@ -620,7 +620,6 @@ export const polygonsData = [
     info: {
       name: 'Рогов Холм',
       text: 'описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 300, forest: 100, skins: 50, horses: 5, food: 400 },
       limits: { mines: 600, forest: 200, skins: 100, horses: 10, food: 750 },
@@ -630,6 +629,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#FF6633',
     latlngs: [
@@ -649,7 +649,6 @@ export const polygonsData = [
     info: {
       name: 'Марочная дорога',
       text: 'описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 300, forest: 150, skins: 30, horses: 5, food: 500 },
       limits: { mines: 600, forest: 400, skins: 100, horses: 10, food: 2000 },
@@ -659,6 +658,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#FF6633',
     latlngs: [
@@ -677,7 +677,6 @@ export const polygonsData = [
     info: {
       name: 'Марочное Ущелье Тарли',
       text: 'описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 200, forest: 0, skins: 0, horses: 5, food: 400 },
       limits: { mines: 400, forest: 0, skins: 70, horses: 10, food: 250 },
@@ -687,6 +686,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#FF6633',
     latlngs: [
@@ -705,7 +705,6 @@ export const polygonsData = [
     info: {
       name: 'Перекресток Бисбери',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 75, horses: 10, food: 600 },
       limits: { mines: 0, forest: 0, skins: 250, horses: 30, food: 3000 },
@@ -715,6 +714,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -734,7 +734,6 @@ export const polygonsData = [
     info: {
       name: 'Северный берег Медовички',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 75, horses: 10, food: 600 },
       limits: { mines: 0, forest: 0, skins: 250, horses: 30, food: 3000 },
@@ -744,6 +743,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -765,7 +765,6 @@ export const polygonsData = [
     info: {
       name: 'Южный берег Медовички',
       text: 'описание',
-      overlord: 'Гарднеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 75, horses: 10, food: 600 },
       limits: { mines: 0, forest: 0, skins: 250, horses: 30, food: 3000 },
@@ -775,6 +774,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Гарднеры',
     },
     color: '#663300',
     latlngs: [
@@ -794,7 +794,6 @@ export const polygonsData = [
     info: {
       name: 'Черная полоса',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 400, forest: 0, skins: 20, horses: 0, food: 250 },
       limits: { mines: 1000, forest: 0, skins: 120, horses: 0, food: 750 },
@@ -804,6 +803,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -827,7 +827,6 @@ export const polygonsData = [
     info: {
       name: 'Бандалон',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 100, forest: 0, skins: 30, horses: 10, food: 500 },
       limits: { mines: 400, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -837,6 +836,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -860,7 +860,6 @@ export const polygonsData = [
     info: {
       name: 'Черный венец',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 30, horses: 10, food: 500 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -870,6 +869,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -892,7 +892,6 @@ export const polygonsData = [
     info: {
       name: 'Бычьи пастбища',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 100, forest: 0, skins: 50, horses: 12, food: 500 },
       limits: { mines: 200, forest: 0, skins: 250, horses: 30, food: 2500 },
@@ -902,6 +901,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -922,7 +922,6 @@ export const polygonsData = [
     info: {
       name: 'Три Башни',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 30, horses: 10, food: 500 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -932,6 +931,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -954,7 +954,6 @@ export const polygonsData = [
     info: {
       name: 'Чернорозье',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 30, horses: 10, food: 500 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -964,6 +963,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -985,7 +985,6 @@ export const polygonsData = [
     info: {
       name: 'Солнечные поля',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 75, forest: 100, skins: 50, horses: 15, food: 600 },
       limits: { mines: 200, forest: 400, skins: 200, horses: 30, food: 3000 },
@@ -995,6 +994,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -1014,7 +1014,6 @@ export const polygonsData = [
     info: {
       name: 'Солнечный дом',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 30, horses: 10, food: 550 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2500 },
@@ -1024,6 +1023,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -1046,7 +1046,6 @@ export const polygonsData = [
     info: {
       name: 'Северное Нагорье',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 100, forest: 0, skins: 75, horses: 10, food: 550 },
       limits: { mines: 200, forest: 0, skins: 250, horses: 30, food: 3000 },
@@ -1056,6 +1055,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -1073,7 +1073,6 @@ export const polygonsData = [
     info: {
       name: 'Бабочкино поле',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 75, forest: 100, skins: 50, horses: 10, food: 500 },
       limits: { mines: 200, forest: 400, skins: 200, horses: 20, food: 2500 },
@@ -1083,6 +1082,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -1100,7 +1100,6 @@ export const polygonsData = [
     info: {
       name: 'Южное Нагорье',
       text: 'описание',
-      overlord: 'Хайтайэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 75, forest: 50, skins: 30, horses: 10, food: 400 },
       limits: { mines: 200, forest: 200, skins: 150, horses: 20, food: 2000 },
@@ -1110,6 +1109,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтайэры',
     },
     color: '#663300',
     latlngs: [
@@ -1127,7 +1127,6 @@ export const polygonsData = [
     info: {
       name: 'Восточная Медовая Роща',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 30, horses: 10, food: 400 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 1500 },
@@ -1137,6 +1136,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -1154,7 +1154,6 @@ export const polygonsData = [
     info: {
       name: 'Медовая роща',
       text: 'описание',
-      overlord: 'Хайтауэры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 100, forest: 50, skins: 50, horses: 10, food: 600 },
       limits: { mines: 200, forest: 100, skins: 200, horses: 30, food: 2000 },
@@ -1164,6 +1163,7 @@ export const polygonsData = [
       relief: 'Андаллы',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Хайтауэры',
     },
     color: '#663300',
     latlngs: [
@@ -1181,20 +1181,16 @@ export const polygonsData = [
     info: {
       name: 'Виль',
       text: 'описание',
-      overlord: 'Айронвуды',
       slave: { mines: 100, forest: 50, skins: 0, horses: 0, food: 150 },
       peasent: { mines: 0, forest: 0, skins: 10, horses: 5, food: 400 },
       limits: { mines: 200, forest: 100, skins: 80, horses: 10, food: 500 },
       player: 174806,
-      army: [
-        { id: 7, number: 200 },
-        { id: 6, number: 100 },
-      ],
       owner: 'Вили',
       fortifications: '',
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Айронвуды',
     },
     color: '#FFCC33',
     latlngs: [
@@ -1214,7 +1210,6 @@ export const polygonsData = [
     info: {
       name: 'Гадюкин лес',
       text: 'описание',
-      overlord: 'Айронвуды',
       slave: { mines: 100, forest: 50, skins: 0, horses: 0, food: 150 },
       peasent: { mines: 0, forest: 0, skins: 20, horses: 5, food: 200 },
       limits: { mines: 200, forest: 100, skins: 80, horses: 10, food: 500 },
@@ -1224,6 +1219,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Айронвуды',
     },
     color: '#FFCC33',
     latlngs: [
@@ -1244,7 +1240,6 @@ export const polygonsData = [
     info: {
       name: 'Северный каменный путь',
       text: 'описание',
-      overlord: 'Вили',
       slave: { mines: 50, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 0, food: 200 },
       limits: { mines: 200, forest: 0, skins: 70, horses: 10, food: 500 },
@@ -1254,6 +1249,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Вили',
     },
     color: '#FFCC33',
     latlngs: [
@@ -1271,7 +1267,6 @@ export const polygonsData = [
     info: {
       name: 'Костоломы',
       text: 'описание',
-      overlord: 'Айронвуды',
       slave: { mines: 150, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 50, forest: 0, skins: 0, horses: 0, food: 150 },
       limits: { mines: 600, forest: 0, skins: 80, horses: 10, food: 200 },
@@ -1281,6 +1276,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Айронвуды',
     },
     color: '#FFCC33',
     latlngs: [
@@ -1298,7 +1294,6 @@ export const polygonsData = [
     info: {
       name: 'Источники',
       text: 'Описание',
-      overlord: 'Айронвуды',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 200, forest: 50, skins: 20, horses: 0, food: 570 },
       limits: { mines: 300, forest: 600, skins: 120, horses: 10, food: 250 },
@@ -1308,6 +1303,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Айронвуды',
     },
     color: '#660099',
     latlngs: [
@@ -1326,7 +1322,6 @@ export const polygonsData = [
     info: {
       name: 'Южный каменный путь',
       text: 'Описание',
-      overlord: 'Айронвуды',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 200, forest: 0, skins: 10, horses: 0, food: 450 },
       limits: { mines: 300, forest: 0, skins: 180, horses: 20, food: 1500 },
@@ -1336,6 +1331,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Айронвуды',
     },
     color: '#660099',
     latlngs: [
@@ -1354,7 +1350,6 @@ export const polygonsData = [
     info: {
       name: 'Айронвуд',
       text: 'Родовой замок',
-      overlord: 'Айронвуды',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 250, skins: 50, horses: 10, food: 500 },
       limits: { mines: 0, forest: 800, skins: 230, horses: 20, food: 1500 },
@@ -1364,6 +1359,7 @@ export const polygonsData = [
       size: '',
       religion: 'Андаллы',
     },
+    overlord: 'Айронвуды',
     color: '#660099',
     latlngs: [
       { lat: 80.51052278780584, lng: -46.09863281250001 },
@@ -1382,7 +1378,6 @@ export const polygonsData = [
     info: {
       name: 'Зелёные холмы',
       text: 'Описание',
-      overlord: 'Айронвуды',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 100, forest: 70, skins: 20, horses: 2, food: 400 },
       limits: { mines: 200, forest: 200, skins: 90, horses: 10, food: 500 },
@@ -1392,6 +1387,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Айронвуды',
     },
     color: '#660099',
     latlngs: [
@@ -1413,7 +1409,6 @@ export const polygonsData = [
     info: {
       name: 'Гринбельт',
       text: 'Описание',
-      overlord: 'Айронвуды',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 10, skins: 20, horses: 10, food: 415 },
       limits: { mines: 0, forest: 50, skins: 100, horses: 20, food: 1000 },
@@ -1423,6 +1418,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Айронвуды',
     },
     color: '#660099',
     latlngs: [
@@ -1440,7 +1436,6 @@ export const polygonsData = [
     info: {
       name: 'Сухой перекресток',
       text: 'Описание',
-      overlord: 'Айронвуды',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 50, forest: 0, skins: 10, horses: 3, food: 390 },
       limits: { mines: 100, forest: 0, skins: 210, horses: 20, food: 2000 },
@@ -1450,6 +1445,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Айронвуды',
     },
     color: '#660099',
     latlngs: [
@@ -1468,7 +1464,6 @@ export const polygonsData = [
     info: {
       name: 'Северный сухой путь',
       text: 'Спорные земли',
-      overlord: 'Айронвуды',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 50, forest: 0, skins: 7, horses: 5, food: 365 },
       limits: { mines: 100, forest: 0, skins: 60, horses: 10, food: 500 },
@@ -1478,6 +1473,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Айронвуды',
     },
     color: '#660099',
     latlngs: [
@@ -1497,7 +1493,6 @@ export const polygonsData = [
     info: {
       name: 'Красные горы',
       text: 'Описание',
-      overlord: 'Манвуди',
       slave: { mines: 200, forest: 25, skins: 0, horses: 0, food: 150 },
       peasent: { mines: 100, forest: 0, skins: 30, horses: 0, food: 50 },
       limits: { mines: 1500, forest: 100, skins: 100, horses: 0, food: 1000 },
@@ -1507,8 +1502,9 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Вили',
     },
-    color: '#99FFFF',
+    color: '#FFCC33',
     latlngs: [
       { lat: 83.30845036740205, lng: -51.1083984375 },
       { lat: 82.31488297855745, lng: -57.96386718750001 },
@@ -1527,7 +1523,6 @@ export const polygonsData = [
     info: {
       name: 'Черные кряжи',
       text: 'Описание',
-      overlord: 'Фаулеры',
       slave: { mines: 150, forest: 25, skins: 0, horses: 0, food: 75 },
       peasent: { mines: 50, forest: 0, skins: 30, horses: 0, food: 50 },
       limits: { mines: 1000, forest: 100, skins: 100, horses: 0, food: 750 },
@@ -1537,6 +1532,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Фаулеры',
     },
     color: '#6666FF',
     latlngs: [
@@ -1558,7 +1554,6 @@ export const polygonsData = [
     info: {
       name: 'Широкий путь',
       text: 'Описание',
-      overlord: 'Манвуди',
       slave: { mines: 100, forest: 0, skins: 0, horses: 0, food: 75 },
       peasent: { mines: 50, forest: 0, skins: 20, horses: 5, food: 50 },
       limits: { mines: 600, forest: 0, skins: 80, horses: 15, food: 750 },
@@ -1568,8 +1563,9 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Фаулеры',
     },
-    color: '#99FFFF',
+    color: '#6666FF',
     latlngs: [
       { lat: 82.62003133616952, lng: -77.51953125000001 },
       { lat: 82.81500375386919, lng: -72.29003906250001 },
@@ -1586,7 +1582,6 @@ export const polygonsData = [
     info: {
       name: 'Королевская гробница',
       text: 'Родовой замок',
-      overlord: 'Манвуди',
       slave: { mines: 75, forest: 50, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 25, forest: 0, skins: 40, horses: 5, food: 100 },
       limits: { mines: 400, forest: 200, skins: 150, horses: 15, food: 1500 },
@@ -1596,8 +1591,9 @@ export const polygonsData = [
       relief: 'Андаллы',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Фаулеры',
     },
-    color: '#99FFFF',
+    color: '#6666FF',
     latlngs: [
       { lat: 82.10632421439223, lng: -73.56445312500001 },
       { lat: 82.45448076738819, lng: -72.07031250000001 },
@@ -1614,7 +1610,6 @@ export const polygonsData = [
     info: {
       name: 'Королевский пик',
       text: 'Описание',
-      overlord: 'Манвуди',
       slave: { mines: 100, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 50, forest: 0, skins: 20, horses: 0, food: 50 },
       limits: { mines: 600, forest: 0, skins: 80, horses: 20, food: 1000 },
@@ -1624,8 +1619,9 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Фаулеры',
     },
-    color: '#99FFFF',
+    color: '#6666FF',
     latlngs: [
       { lat: 82.74306965904769, lng: -66.31347656250001 },
       { lat: 82.40819633726566, lng: -67.98339843750001 },
@@ -1641,7 +1637,6 @@ export const polygonsData = [
     info: {
       name: 'Северное Поднебесье',
       text: 'Описание',
-      overlord: 'Фаулеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 300, forest: 100, skins: 40, horses: 6, food: 450 },
       limits: { mines: 1000, forest: 200, skins: 60, horses: 20, food: 1000 },
@@ -1651,6 +1646,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Фаулеры',
     },
     color: '#6666FF',
     latlngs: [
@@ -1669,7 +1665,6 @@ export const polygonsData = [
     info: {
       name: 'Костяные горы',
       text: 'Спорные земли',
-      overlord: 'Вили',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 132, forest: 0, skins: 7, horses: 5, food: 200 },
       limits: { mines: 600, forest: 10, skins: 30, horses: 20, food: 1500 },
@@ -1679,6 +1674,7 @@ export const polygonsData = [
       relief: 'Андаллы',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Вили',
     },
     color: '#FFCC33',
     latlngs: [
@@ -1697,7 +1693,6 @@ export const polygonsData = [
     info: {
       name: 'Связная дорога',
       text: 'Спорные земли',
-      overlord: 'Фаулеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 50, forest: 20, skins: 15, horses: 3, food: 450 },
       limits: { mines: 400, forest: 100, skins: 50, horses: 20, food: 1500 },
@@ -1707,6 +1702,7 @@ export const polygonsData = [
       relief: 'Андаллы',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Фаулеры',
     },
     color: '#6666FF',
     latlngs: [
@@ -1724,7 +1720,6 @@ export const polygonsData = [
     info: {
       name: 'Южное Поднебесье',
       text: 'Описание',
-      overlord: 'Фаулеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 30, forest: 0, skins: 13, horses: 4, food: 430 },
       limits: { mines: 200, forest: 0, skins: 50, horses: 10, food: 1000 },
@@ -1734,6 +1729,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Фаулеры',
     },
     color: '#6666FF',
     latlngs: [
@@ -1753,7 +1749,6 @@ export const polygonsData = [
     info: {
       name: 'Широкое распутье',
       text: 'Описание',
-      overlord: 'Фаулеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 5, forest: 0, skins: 20, horses: 10, food: 760 },
       limits: { mines: 50, forest: 0, skins: 50, horses: 20, food: 2000 },
@@ -1763,6 +1758,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Фаулеры',
     },
     color: '#6666FF',
     latlngs: [
@@ -1784,7 +1780,6 @@ export const polygonsData = [
     info: {
       name: 'Ястребовы горы',
       text: 'Спорные земли',
-      overlord: 'Фаулеры',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 70, forest: 50, skins: 11, horses: 2, food: 433 },
       limits: { mines: 400, forest: 100, skins: 80, horses: 10, food: 750 },
@@ -1794,6 +1789,7 @@ export const polygonsData = [
       relief: 'Андаллы',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Фаулеры',
     },
     color: '#6666FF',
     latlngs: [
@@ -1812,7 +1808,6 @@ export const polygonsData = [
     info: {
       name: 'Каменный перевал',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 100, forest: 50, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 50, forest: 25, skins: 20, horses: 0, food: 150 },
       limits: { mines: 600, forest: 200, skins: 70, horses: 0, food: 750 },
@@ -1822,6 +1817,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -1839,7 +1835,6 @@ export const polygonsData = [
     info: {
       name: 'Каменный кряж',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 50, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 50, forest: 0, skins: 15, horses: 3, food: 150 },
       limits: { mines: 400, forest: 0, skins: 50, horses: 10, food: 750 },
@@ -1849,6 +1844,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -1867,7 +1863,6 @@ export const polygonsData = [
     info: {
       name: 'Черный Приют',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 125, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 50, forest: 0, skins: 30, horses: 10, food: 200 },
       limits: { mines: 1000, forest: 0, skins: 160, horses: 20, food: 3000 },
@@ -1877,6 +1872,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -1896,7 +1892,6 @@ export const polygonsData = [
     info: {
       name: 'Олений пик',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 100, forest: 50, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 50, forest: 25, skins: 50, horses: 5, food: 150 },
       limits: { mines: 400, forest: 200, skins: 200, horses: 20, food: 2500 },
@@ -1906,6 +1901,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -1923,7 +1919,6 @@ export const polygonsData = [
     info: {
       name: 'Оленья гора',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 50, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 25, forest: 0, skins: 50, horses: 10, food: 150 },
       limits: { mines: 200, forest: 0, skins: 200, horses: 20, food: 2000 },
@@ -1933,6 +1928,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -1949,7 +1945,6 @@ export const polygonsData = [
     info: {
       name: 'Черная марка',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 50, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 25, forest: 0, skins: 30, horses: 5, food: 150 },
       limits: { mines: 200, forest: 0, skins: 100, horses: 10, food: 2000 },
@@ -1959,6 +1954,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -1976,7 +1972,6 @@ export const polygonsData = [
     info: {
       name: 'Колосья',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 20, skins: 200, horses: 20, food: 100 },
       limits: { mines: 0, forest: 100, skins: 500, horses: 50, food: 2000 },
@@ -1986,6 +1981,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2002,7 +1998,6 @@ export const polygonsData = [
     info: {
       name: 'Ночная марка',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 100, forest: 0, skins: 0, horses: 0, food: 200 },
       peasent: { mines: 50, forest: 100, skins: 20, horses: 5, food: 200 },
       limits: { mines: 400, forest: 400, skins: 200, horses: 20, food: 1000 },
@@ -2012,6 +2007,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2029,7 +2025,6 @@ export const polygonsData = [
     info: {
       name: 'Ночной лес',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 100, skins: 100, horses: 15, food: 200 },
       limits: { mines: 0, forest: 400, skins: 300, horses: 40, food: 1500 },
@@ -2039,6 +2034,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2058,7 +2054,6 @@ export const polygonsData = [
     info: {
       name: 'Ночная песнь',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 100, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 50, forest: 0, skins: 70, horses: 10, food: 200 },
       limits: { mines: 400, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -2068,6 +2063,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2087,7 +2083,6 @@ export const polygonsData = [
     info: {
       name: 'Ночная дорога',
       text: 'описание',
-      overlord: 'Дюррандоны',
       slave: { mines: 100, forest: 0, skins: 0, horses: 0, food: 150 },
       peasent: { mines: 50, forest: 100, skins: 20, horses: 10, food: 150 },
       limits: { mines: 400, forest: 400, skins: 100, horses: 20, food: 500 },
@@ -2097,6 +2092,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дюррандоны',
     },
     color: '#FFFFCC',
     latlngs: [
@@ -2115,7 +2111,6 @@ export const polygonsData = [
     info: {
       name: 'Арбор',
       text: 'Описание',
-      overlord: 'Редвины',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 20, forest: 50, skins: 20, horses: 5, food: 200 },
       limits: { mines: 50, forest: 100, skins: 50, horses: 20, food: 600 },
@@ -2125,6 +2120,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Редвины',
     },
     color: '#444444',
     latlngs: [
@@ -2142,7 +2138,6 @@ export const polygonsData = [
     info: {
       name: 'Арбор',
       text: 'Описание',
-      overlord: 'Редвины',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 20, forest: 50, skins: 20, horses: 5, food: 200 },
       limits: { mines: 50, forest: 100, skins: 50, horses: 20, food: 600 },
@@ -2152,6 +2147,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Редвины',
     },
     color: '#444444',
     latlngs: [
@@ -2171,7 +2167,6 @@ export const polygonsData = [
     info: {
       name: 'Арбор',
       text: 'Описание',
-      overlord: 'Редвины',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 20, forest: 50, skins: 20, horses: 5, food: 200 },
       limits: { mines: 50, forest: 100, skins: 50, horses: 20, food: 600 },
@@ -2181,6 +2176,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Редвины',
     },
     color: '#444444',
     latlngs: [
@@ -2199,7 +2195,6 @@ export const polygonsData = [
     info: {
       name: 'Коралловый берег',
       text: 'Описание',
-      overlord: 'Драйленды',
       slave: { mines: 0, forest: 0, skins: 30, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2500 },
@@ -2209,6 +2204,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2230,7 +2226,6 @@ export const polygonsData = [
     info: {
       name: 'Морская дорога',
       text: 'Описание',
-      overlord: 'Драйленды',
       slave: { mines: 0, forest: 50, skins: 30, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 100, skins: 150, horses: 20, food: 2000 },
@@ -2240,6 +2235,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2259,7 +2255,6 @@ export const polygonsData = [
     info: {
       name: 'Пустой пляж',
       text: 'Описание',
-      overlord: 'Драйленды',
       slave: { mines: 0, forest: 0, skins: 30, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -2269,6 +2264,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2288,7 +2284,6 @@ export const polygonsData = [
     info: {
       name: 'Адовы врата',
       text: 'Родовой замок',
-      overlord: 'Драйленды',
       slave: { mines: 100, forest: 100, skins: 20, horses: 0, food: 200 },
       peasent: { mines: 50, forest: 50, skins: 20, horses: 0, food: 100 },
       limits: { mines: 500, forest: 400, skins: 210, horses: 20, food: 2000 },
@@ -2298,6 +2293,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2318,7 +2314,6 @@ export const polygonsData = [
     info: {
       name: 'Серные скалы',
       text: 'Описание',
-      overlord: 'Драйленды',
       slave: { mines: 50, forest: 0, skins: 0, horses: 0, food: 50 },
       peasent: { mines: 50, forest: 0, skins: 10, horses: 5, food: 50 },
       limits: { mines: 300, forest: 0, skins: 50, horses: 10, food: 250 },
@@ -2328,6 +2323,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2345,7 +2341,6 @@ export const polygonsData = [
     info: {
       name: 'Восточное Пекло',
       text: 'описание',
-      overlord: 'Драйленды',
       slave: { mines: 0, forest: 50, skins: 20, horses: 0, food: 150 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 300, skins: 80, horses: 20, food: 2000 },
@@ -2355,6 +2350,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2373,7 +2369,6 @@ export const polygonsData = [
     info: {
       name: 'Сухой путь',
       text: 'описание',
-      overlord: 'Драйленды',
       slave: { mines: 100, forest: 0, skins: 20, horses: 0, food: 150 },
       peasent: { mines: 50, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 400, forest: 0, skins: 80, horses: 20, food: 2500 },
@@ -2383,6 +2378,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2403,7 +2399,6 @@ export const polygonsData = [
     info: {
       name: 'Серноводный путь',
       text: 'описание',
-      overlord: 'Драйленды',
       slave: { mines: 100, forest: 0, skins: 20, horses: 0, food: 150 },
       peasent: { mines: 50, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 300, forest: 0, skins: 80, horses: 20, food: 750 },
@@ -2413,6 +2408,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2430,7 +2426,6 @@ export const polygonsData = [
     info: {
       name: 'Западный берег Серноводной',
       text: 'описание',
-      overlord: 'Драйленды',
       slave: { mines: 0, forest: 100, skins: 0, horses: 0, food: 150 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 15, food: 100 },
       limits: { mines: 0, forest: 600, skins: 80, horses: 30, food: 3000 },
@@ -2440,6 +2435,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2460,7 +2456,6 @@ export const polygonsData = [
     info: {
       name: 'Край Оазисов',
       text: 'описание',
-      overlord: 'Драйленды',
       slave: { mines: 0, forest: 0, skins: 20, horses: 0, food: 150 },
       peasent: { mines: 0, forest: 0, skins: 66, horses: 10, food: 100 },
       limits: { mines: 0, forest: 0, skins: 80, horses: 20, food: 2000 },
@@ -2470,6 +2465,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2487,7 +2483,6 @@ export const polygonsData = [
     info: {
       name: 'Западное Пекло',
       text: 'описание',
-      overlord: 'Драйленды',
       slave: { mines: 0, forest: 50, skins: 20, horses: 0, food: 150 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 300, skins: 80, horses: 20, food: 2000 },
@@ -2497,6 +2492,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2516,7 +2512,6 @@ export const polygonsData = [
     info: {
       name: 'Восточный берег Серноводной',
       text: 'описание',
-      overlord: 'Драйленды',
       slave: { mines: 0, forest: 50, skins: 20, horses: 0, food: 150 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 300, skins: 80, horses: 20, food: 2000 },
@@ -2526,6 +2521,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: 'Драйленды',
     },
     color: '#660000',
     latlngs: [
@@ -2547,7 +2543,6 @@ export const polygonsData = [
     info: {
       name: 'Солёное побережье',
       text: 'Описание',
-      overlord: 'Дальты',
       slave: { mines: 0, forest: 0, skins: 30, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -2557,6 +2552,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дальты',
     },
     color: '#6600FF',
     latlngs: [
@@ -2576,7 +2572,6 @@ export const polygonsData = [
     info: {
       name: 'Горный приют',
       text: 'Захваченная крепость',
-      overlord: 'Блэкмонты',
       slave: { mines: 100, forest: 100, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 0, skins: 20, horses: 5, food: 150 },
       limits: { mines: 400, forest: 400, skins: 100, horses: 10, food: 1500 },
@@ -2586,6 +2581,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Блэкмонты',
     },
     color: '#009933',
     latlngs: [
@@ -2603,7 +2599,6 @@ export const polygonsData = [
     info: {
       name: 'Западный Блэкмонт',
       text: 'Описание',
-      overlord: 'Блэкмонты',
       slave: { mines: 100, forest: 100, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 0, skins: 20, horses: 5, food: 150 },
       limits: { mines: 400, forest: 400, skins: 100, horses: 10, food: 1500 },
@@ -2613,6 +2608,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Блэкмонты',
     },
     color: '#009933',
     latlngs: [
@@ -2630,7 +2626,6 @@ export const polygonsData = [
     info: {
       name: 'Восточный Блэкмонт',
       text: 'Описание',
-      overlord: 'Блэкмонты',
       slave: { mines: 100, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 0, skins: 20, horses: 5, food: 150 },
       limits: { mines: 500, forest: 0, skins: 100, horses: 10, food: 1500 },
@@ -2640,6 +2635,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Блэкмонты',
     },
     color: '#009933',
     latlngs: [
@@ -2658,7 +2654,6 @@ export const polygonsData = [
     info: {
       name: 'Черный перевал',
       text: 'Спорные земли',
-      overlord: 'Блэкмонты',
       slave: { mines: 100, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 0, skins: 20, horses: 5, food: 150 },
       limits: { mines: 500, forest: 0, skins: 100, horses: 10, food: 1500 },
@@ -2668,6 +2663,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Блэкмонты',
     },
     color: '#009933',
     latlngs: [
@@ -2687,7 +2683,6 @@ export const polygonsData = [
     info: {
       name: 'Черное междуречье',
       text: 'Описание',
-      overlord: 'Блэкмонты',
       slave: { mines: 100, forest: 0, skins: 0, horses: 0, food: 100 },
       peasent: { mines: 0, forest: 0, skins: 20, horses: 5, food: 150 },
       limits: { mines: 500, forest: 0, skins: 100, horses: 30, food: 1500 },
@@ -2697,6 +2692,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Блэкмонты',
     },
     color: '#009933',
     latlngs: [
@@ -2717,7 +2713,6 @@ export const polygonsData = [
     info: {
       name: 'Звездопад',
       text: 'Родовой замок',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 250, forest: 25, skins: 0, horses: 0, food: 495 },
       limits: { mines: 1000, forest: 200, skins: 30, horses: 20, food: 1500 },
@@ -2727,6 +2722,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -2744,7 +2740,6 @@ export const polygonsData = [
     info: {
       name: 'Звёздный хребет',
       text: 'Описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 130, forest: 0, skins: 0, horses: 1, food: 250 },
       limits: { mines: 400, forest: 0, skins: 30, horses: 10, food: 500 },
@@ -2754,6 +2749,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -2772,7 +2768,6 @@ export const polygonsData = [
     info: {
       name: 'Звёздный пик',
       text: 'Описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 170, forest: 0, skins: 0, horses: 1, food: 315 },
       limits: { mines: 600, forest: 0, skins: 20, horses: 10, food: 500 },
@@ -2782,6 +2777,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -2800,7 +2796,6 @@ export const polygonsData = [
     info: {
       name: 'Звездный перевал',
       text: 'Описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 150, forest: 20, skins: 0, horses: 1, food: 300 },
       limits: { mines: 600, forest: 100, skins: 20, horses: 10, food: 500 },
@@ -2810,6 +2805,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#000000',
     latlngs: [
@@ -2829,7 +2825,6 @@ export const polygonsData = [
     info: {
       name: 'Звёздное ущелье',
       text: 'описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 130, forest: 15, skins: 0, horses: 1, food: 250 },
       limits: { mines: 600, forest: 100, skins: 10, horses: 10, food: 300 },
@@ -2839,6 +2834,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -2856,7 +2852,6 @@ export const polygonsData = [
     info: {
       name: 'Звёздный отрог',
       text: 'описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 70, forest: 0, skins: 35, horses: 1, food: 265 },
       limits: { mines: 200, forest: 0, skins: 70, horses: 10, food: 500 },
@@ -2866,6 +2861,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -2884,7 +2880,6 @@ export const polygonsData = [
     info: {
       name: 'Прибрежные дюны',
       text: 'описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 20, forest: 0, skins: 30, horses: 3, food: 430 },
       limits: { mines: 200, forest: 0, skins: 120, horses: 20, food: 1000 },
@@ -2894,6 +2889,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -2915,7 +2911,6 @@ export const polygonsData = [
     info: {
       name: 'Большой песчаник',
       text: 'описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 15, forest: 0, skins: 20, horses: 5, food: 265 },
       limits: { mines: 200, forest: 0, skins: 70, horses: 20, food: 500 },
@@ -2925,6 +2920,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -2943,7 +2939,6 @@ export const polygonsData = [
     info: {
       name: 'Песчаник',
       text: 'описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 100, forest: 30, skins: 15, horses: 2, food: 274 },
       limits: { mines: 200, forest: 100, skins: 80, horses: 10, food: 500 },
@@ -2953,6 +2948,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -2971,7 +2967,6 @@ export const polygonsData = [
     info: {
       name: 'Малый песчаник',
       text: 'описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 15, forest: 10, skins: 21, horses: 2, food: 210 },
       limits: { mines: 200, forest: 100, skins: 70, horses: 10, food: 450 },
@@ -2981,6 +2976,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -2999,7 +2995,6 @@ export const polygonsData = [
     info: {
       name: 'Золотые пески',
       text: 'описание',
-      overlord: 'Дейны',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 20, forest: 0, skins: 27, horses: 5, food: 248 },
       limits: { mines: 200, forest: 0, skins: 100, horses: 20, food: 750 },
@@ -3009,6 +3004,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -3027,7 +3023,6 @@ export const polygonsData = [
     info: {
       name: 'Лимонная Роща',
       text: 'описание',
-      overlord: 'Дальты',
       slave: { mines: 0, forest: 600, skins: 30, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 0, skins: 10, horses: 10, food: 100 },
       limits: { mines: 0, forest: 1000, skins: 250, horses: 20, food: 2500 },
@@ -3037,6 +3032,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дальты',
     },
     color: '#6600FF',
     latlngs: [
@@ -3059,7 +3055,6 @@ export const polygonsData = [
     info: {
       name: 'Солёный берег',
       text: 'Родовой замок',
-      overlord: 'Дальты',
       slave: { mines: 0, forest: 0, skins: 30, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -3069,6 +3064,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дальты',
     },
     color: '#6600FF',
     latlngs: [
@@ -3088,7 +3084,6 @@ export const polygonsData = [
     info: {
       name: 'Солёные утесы',
       text: 'Описание',
-      overlord: 'Дальты',
       slave: { mines: 0, forest: 0, skins: 30, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -3098,6 +3093,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дальты',
     },
     color: '#6600FF',
     latlngs: [
@@ -3115,7 +3111,6 @@ export const polygonsData = [
     info: {
       name: 'Лимонный берег',
       text: 'Описание',
-      overlord: 'Дальты',
       slave: { mines: 0, forest: 0, skins: 30, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -3125,6 +3120,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дальты',
     },
     color: '#6600FF',
     latlngs: [
@@ -3145,7 +3141,6 @@ export const polygonsData = [
     info: {
       name: 'Лимонная Дорога',
       text: 'описание',
-      overlord: 'Дальты',
       slave: { mines: 0, forest: 0, skins: 30, horses: 0, food: 200 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 10, food: 100 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 2000 },
@@ -3155,6 +3150,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Дальты',
     },
     color: '#6600FF',
     latlngs: [
@@ -3172,7 +3168,6 @@ export const polygonsData = [
     info: {
       name: 'Западный берег реки Плеть',
       text: 'Описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 200, forest: 50, skins: 66, horses: 2, food: 410 },
       limits: { mines: 400, forest: 100, skins: 150, horses: 10, food: 1000 },
@@ -3182,6 +3177,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3201,7 +3197,6 @@ export const polygonsData = [
     info: {
       name: 'Южный Дар Богов',
       text: 'Спорные земли',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 120, horses: 5, food: 370 },
       limits: { mines: 0, forest: 0, skins: 300, horses: 30, food: 3000 },
@@ -3211,6 +3206,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3229,7 +3225,6 @@ export const polygonsData = [
     info: {
       name: 'Северный берег Зеленокровной',
       text: 'описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 70, horses: 4, food: 390 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 1500 },
@@ -3239,6 +3234,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3256,7 +3252,6 @@ export const polygonsData = [
     info: {
       name: 'Серное ущелье',
       text: 'описание',
-      overlord: 'Дальты',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 165 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 0, food: 165 },
       limits: { mines: 0, forest: 0, skins: 0, horses: 0, food: 500 },
@@ -3266,6 +3261,7 @@ export const polygonsData = [
       size: '',
       religion: 'Первые Люди',
     },
+    overlord: 'Дальты',
     color: '#6600FF',
     latlngs: [
       { lat: 75.39775295469143, lng: -42.40722656250001 },
@@ -3283,7 +3279,6 @@ export const polygonsData = [
     info: {
       name: 'Южные красные дюны',
       text: 'описание',
-      overlord: 'Дальты',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 165 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 0, food: 165 },
       limits: { mines: 0, forest: 0, skins: 0, horses: 0, food: 500 },
@@ -3293,6 +3288,7 @@ export const polygonsData = [
       size: '',
       religion: 'Первые Люди',
     },
+    overlord: 'Дальты',
     color: '#6600FF',
     latlngs: [
       { lat: 75.44196074410665, lng: -34.98046875000001 },
@@ -3312,7 +3308,6 @@ export const polygonsData = [
     info: {
       name: 'Северный Вейт',
       text: 'описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 150, forest: 25, skins: 75, horses: 5, food: 390 },
       limits: { mines: 300, forest: 100, skins: 190, horses: 20, food: 1500 },
@@ -3322,6 +3317,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3340,7 +3336,6 @@ export const polygonsData = [
     info: {
       name: 'Южный Вейт',
       text: 'описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 20, skins: 60, horses: 4, food: 310 },
       limits: { mines: 0, forest: 100, skins: 160, horses: 20, food: 1500 },
@@ -3350,6 +3345,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3370,7 +3366,6 @@ export const polygonsData = [
     info: {
       name: 'Западный Дар Богов',
       text: 'Описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 40, horses: 3, food: 360 },
       limits: { mines: 0, forest: 50, skins: 160, horses: 20, food: 1500 },
@@ -3380,6 +3375,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3398,7 +3394,6 @@ export const polygonsData = [
     info: {
       name: 'Леопардов перекресток',
       text: 'описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 50, horses: 3, food: 310 },
       limits: { mines: 0, forest: 0, skins: 200, horses: 10, food: 1000 },
@@ -3408,6 +3403,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3427,7 +3423,6 @@ export const polygonsData = [
     info: {
       name: 'Северные красные дюны',
       text: 'описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 120, forest: 0, skins: 10, horses: 2, food: 290 },
       limits: { mines: 400, forest: 0, skins: 90, horses: 10, food: 500 },
@@ -3437,6 +3432,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3455,7 +3451,6 @@ export const polygonsData = [
     info: {
       name: 'Божьи горы',
       text: 'Описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 100, forest: 30, skins: 5, horses: 0, food: 395 },
       limits: { mines: 600, forest: 100, skins: 95, horses: 10, food: 250 },
@@ -3465,6 +3460,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3483,7 +3479,6 @@ export const polygonsData = [
     info: {
       name: 'Устье Зеленокровной',
       text: 'Описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 140, forest: 25, skins: 30, horses: 5, food: 580 },
       limits: { mines: 300, forest: 100, skins: 340, horses: 30, food: 3000 },
@@ -3493,6 +3488,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3513,7 +3509,6 @@ export const polygonsData = [
     info: {
       name: 'Восточный Дар Богов',
       text: 'Описание',
-      overlord: 'Аллирионы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 66, horses: 4, food: 410 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 10, food: 1500 },
@@ -3523,6 +3518,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Аллирионы',
     },
     color: '#339933',
     latlngs: [
@@ -3541,7 +3537,6 @@ export const polygonsData = [
     info: {
       name: 'Серое побережье',
       text: 'Описание',
-      overlord: 'Айронвуды',
       slave: { mines: 0, forest: 0, skins: 20, horses: 0, food: 165 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 4, food: 165 },
       limits: { mines: 0, forest: 0, skins: 50, horses: 10, food: 500 },
@@ -3551,6 +3546,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Айронвуды',
     },
     color: '#660099',
     latlngs: [
@@ -3569,7 +3565,6 @@ export const polygonsData = [
     info: {
       name: 'Торов Перекрёсток',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 100, forest: 0, skins: 10, horses: 0, food: 165 },
       peasent: { mines: 50, forest: 0, skins: 0, horses: 5, food: 165 },
       limits: { mines: 400, forest: 0, skins: 90, horses: 10, food: 500 },
@@ -3579,6 +3574,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3599,7 +3595,6 @@ export const polygonsData = [
     info: {
       name: 'Торов Мыс',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 0, forest: 0, skins: 30, horses: 0, food: 330 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 4, food: 330 },
       limits: { mines: 0, forest: 0, skins: 100, horses: 10, food: 1000 },
@@ -3609,6 +3604,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3628,7 +3624,6 @@ export const polygonsData = [
     info: {
       name: 'Торовы холмы',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 0, forest: 0, skins: 30, horses: 0, food: 165 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 3, food: 165 },
       limits: { mines: 0, forest: 0, skins: 50, horses: 10, food: 500 },
@@ -3638,6 +3633,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3656,7 +3652,6 @@ export const polygonsData = [
     info: {
       name: 'Тор',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 50, forest: 0, skins: 20, horses: 0, food: 330 },
       peasent: { mines: 100, forest: 0, skins: 0, horses: 7, food: 330 },
       limits: { mines: 400, forest: 0, skins: 140, horses: 10, food: 1000 },
@@ -3666,6 +3661,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3686,7 +3682,6 @@ export const polygonsData = [
     info: {
       name: 'Торово побережье',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 0, forest: 0, skins: 20, horses: 0, food: 165 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 3, food: 165 },
       limits: { mines: 0, forest: 0, skins: 50, horses: 10, food: 500 },
@@ -3696,6 +3691,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3715,7 +3711,6 @@ export const polygonsData = [
     info: {
       name: 'Призрачный Мыс',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 100, forest: 0, skins: 15, horses: 0, food: 495 },
       peasent: { mines: 50, forest: 0, skins: 0, horses: 0, food: 495 },
       limits: { mines: 300, forest: 0, skins: 250, horses: 20, food: 1500 },
@@ -3725,6 +3720,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3744,7 +3740,6 @@ export const polygonsData = [
     info: {
       name: 'Призрачнный Залив',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 0, forest: 50, skins: 14, horses: 0, food: 165 },
       peasent: { mines: 0, forest: 50, skins: 0, horses: 0, food: 165 },
       limits: { mines: 0, forest: 200, skins: 70, horses: 10, food: 500 },
@@ -3754,6 +3749,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3776,7 +3772,6 @@ export const polygonsData = [
     info: {
       name: 'Призрачная Дорога',
       text: 'Описание',
-      overlord: 'Мартеллы',
       slave: { mines: 0, forest: 50, skins: 0, horses: 198, food: 83 },
       peasent: { mines: 0, forest: 50, skins: 0, horses: 198, food: 83 },
       limits: { mines: 0, forest: 100, skins: 30, horses: 10, food: 250 },
@@ -3786,6 +3781,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Мартеллы',
     },
     color: '#FFCC00',
     latlngs: [
@@ -3807,7 +3803,6 @@ export const polygonsData = [
     info: {
       name: 'Призрачный Холм',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 100, forest: 100, skins: 20, horses: 0, food: 495 },
       peasent: { mines: 50, forest: 50, skins: 20, horses: 0, food: 495 },
       limits: { mines: 300, forest: 600, skins: 210, horses: 0, food: 1500 },
@@ -3817,6 +3812,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3835,7 +3831,6 @@ export const polygonsData = [
     info: {
       name: 'Призрачное побережье',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 100, forest: 0, skins: 30, horses: 0, food: 83 },
       peasent: { mines: 50, forest: 0, skins: 0, horses: 0, food: 83 },
       limits: { mines: 300, forest: 0, skins: 30, horses: 10, food: 250 },
@@ -3845,6 +3840,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3862,7 +3858,6 @@ export const polygonsData = [
     info: {
       name: 'Крапчатая Дорога',
       text: 'Описание',
-      overlord: 'Мартеллы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 198, food: 83 },
       peasent: { mines: 0, forest: 0, skins: 0, horses: 198, food: 83 },
       limits: { mines: 0, forest: 0, skins: 30, horses: 10, food: 250 },
@@ -3872,6 +3867,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
+      overlord: 'Мартеллы',
     },
     color: '#FFCC00',
     latlngs: [
@@ -3889,7 +3885,6 @@ export const polygonsData = [
     info: {
       name: 'Солнечная дорога',
       text: 'Описание',
-      overlord: 'Мартеллы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 120, horses: 7, food: 510 },
       limits: { mines: 0, forest: 0, skins: 200, horses: 20, food: 1500 },
@@ -3899,6 +3894,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Мартеллы',
     },
     color: '#FFCC00',
     latlngs: [
@@ -3916,7 +3912,6 @@ export const polygonsData = [
     info: {
       name: 'Крапчатый лес',
       text: 'Описание',
-      overlord: 'Мартеллы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 400, skins: 20, horses: 5, food: 550 },
       limits: { mines: 0, forest: 600, skins: 160, horses: 10, food: 1000 },
@@ -3926,6 +3921,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Мартеллы',
     },
     color: '#FFCC00',
     latlngs: [
@@ -3945,7 +3941,6 @@ export const polygonsData = [
     info: {
       name: 'Солнечное побережье',
       text: 'Описание',
-      overlord: 'Мартеллы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 70, horses: 6, food: 480 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 10, food: 1000 },
@@ -3955,6 +3950,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Мартеллы',
     },
     color: '#FFCC00',
     latlngs: [
@@ -3976,7 +3972,6 @@ export const polygonsData = [
     info: {
       name: 'Солнечное копьё',
       text: 'Описание',
-      overlord: 'Мартеллы',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 0, forest: 0, skins: 80, horses: 8, food: 700 },
       limits: { mines: 0, forest: 0, skins: 150, horses: 20, food: 1500 },
@@ -3986,6 +3981,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Мартеллы',
     },
     color: '#FFCC00',
     latlngs: [
@@ -4009,7 +4005,6 @@ export const polygonsData = [
     info: {
       name: 'Солнечные горы',
       text: 'Описание',
-      overlord: 'Толанды',
       slave: { mines: 0, forest: 0, skins: 0, horses: 0, food: 0 },
       peasent: { mines: 300, forest: 0, skins: 0, horses: 2, food: 530 },
       limits: { mines: 600, forest: 0, skins: 110, horses: 10, food: 500 },
@@ -4019,6 +4014,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Андаллы',
+      overlord: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -4038,7 +4034,6 @@ export const polygonsData = [
     info: {
       name: 'Исток Быстроводной',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4048,6 +4043,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Ничейные земли',
     color: '#000000',
     latlngs: [
       { lat: 82.48338533676421, lng: -94.13085937500001 },
@@ -4068,7 +4064,6 @@ export const polygonsData = [
     info: {
       name: 'Горные пороги',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4078,6 +4073,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Ничейные земли',
     color: '#000000',
     latlngs: [
       { lat: 82.68748567531878, lng: -90.26367187500001 },
@@ -4097,7 +4093,6 @@ export const polygonsData = [
     info: {
       name: 'Горное побережье',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4107,6 +4102,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Ничейные земли',
     color: '#000000',
     latlngs: [
       { lat: 78.59504313648334, lng: -108.19335937500001 },
@@ -4124,7 +4120,6 @@ export const polygonsData = [
     info: {
       name: 'Горные склоны',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4134,6 +4129,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Ничейные земли',
     color: '#000000',
     latlngs: [
       { lat: 78.12547125605835, lng: -100.54687500000001 },
@@ -4149,7 +4145,6 @@ export const polygonsData = [
     info: {
       name: 'Горные пики',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4159,6 +4154,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Ничейные земли',
     color: '#000000',
     latlngs: [
       { lat: 79.72646096887206, lng: -105.24902343750001 },
@@ -4176,7 +4172,6 @@ export const polygonsData = [
     info: {
       name: 'Опасное ущелье',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4186,6 +4181,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Ничейные земли',
     color: '#000000',
     latlngs: [
       { lat: 79.68717287687342, lng: -88.02246093750001 },
@@ -4203,7 +4199,6 @@ export const polygonsData = [
     info: {
       name: 'Горная поляна',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4213,6 +4208,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Ничейные земли',
     color: '#000000',
     latlngs: [
       { lat: 82.53478647757255, lng: -103.31542968750001 },
@@ -4228,7 +4224,6 @@ export const polygonsData = [
     info: {
       name: 'Крутой склон',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4238,6 +4233,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Ничейные земли',
     color: '#000000',
     latlngs: [
       { lat: 75.70480366480659, lng: -98.525390625 },
@@ -4254,7 +4250,6 @@ export const polygonsData = [
     info: {
       name: 'Крутые утёсы',
       text: 'Безлюдные места',
-      overlord: 'Фаулеры',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4264,6 +4259,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Фаулеры',
     color: '#6666FF',
     latlngs: [
       { lat: 79.42436228141644, lng: -81.91406250000001 },
@@ -4280,7 +4276,6 @@ export const polygonsData = [
     info: {
       name: 'Горный перевал',
       text: 'Безлюдные места',
-      overlord: 'Дейны',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4290,6 +4285,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Дейны',
     color: '#CCCC33',
     latlngs: [
       { lat: 76.03724733055768, lng: -93.91113281250001 },
@@ -4305,7 +4301,6 @@ export const polygonsData = [
     info: {
       name: 'Козьи тропы',
       text: 'Безлюдные места',
-      overlord: 'Дейны',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4315,6 +4310,7 @@ export const polygonsData = [
       size: '',
       religion: '',
     },
+    overlord: 'Дейны',
     color: '#CCCC33',
     latlngs: [
       { lat: 75.07280438721183, lng: -97.60253906250001 },
@@ -4330,7 +4326,6 @@ export const polygonsData = [
     info: {
       name: 'Опасные глыбы',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4339,8 +4334,9 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: '',
+      overlord: 'Дейны',
     },
-    color: '#000000',
+    color: '#CCCC33',
     latlngs: [
       { lat: 76.75999446438833, lng: -91.1865234375 },
       { lat: 76.45474275246977, lng: -88.1103515625 },
@@ -4356,7 +4352,6 @@ export const polygonsData = [
     info: {
       name: 'Последняя тропа',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4365,6 +4360,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: '',
+      overlord: 'Ничейные земли',
     },
     color: '#000000',
     latlngs: [
@@ -4382,7 +4378,6 @@ export const polygonsData = [
     info: {
       name: 'Горный путь',
       text: 'Опасная дорога',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4391,6 +4386,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: '',
+      overlord: 'Ничейные земли',
     },
     color: '#000000',
     latlngs: [
@@ -4411,7 +4407,6 @@ export const polygonsData = [
     info: {
       name: 'Серая Крепость',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4420,6 +4415,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: '',
+      overlord: 'Ничейные земли',
     },
     color: '#000000',
     latlngs: [
@@ -4441,7 +4437,6 @@ export const polygonsData = [
     info: {
       name: 'Горная равнина',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4450,6 +4445,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: '',
+      overlord: 'Ничейные земли',
     },
     color: '#000000',
     latlngs: [
@@ -4468,7 +4464,6 @@ export const polygonsData = [
     info: {
       name: 'Горные вершины',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4477,6 +4472,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: '',
+      overlord: 'Ничейные земли',
     },
     color: '#000000',
     latlngs: [
@@ -4494,7 +4490,6 @@ export const polygonsData = [
     info: {
       name: 'Горные водопады',
       text: 'Безлюдные места',
-      overlord: 'Ничейные земли',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4503,6 +4498,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: '',
+      overlord: 'Ничейные земли',
     },
     color: '#000000',
     latlngs: [
@@ -4520,7 +4516,6 @@ export const polygonsData = [
     info: {
       name: 'Лис',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4529,6 +4524,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4554,7 +4550,6 @@ export const polygonsData = [
     info: {
       name: 'Тирош',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4563,6 +4558,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4585,7 +4581,6 @@ export const polygonsData = [
     info: {
       name: 'Мир',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4594,6 +4589,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4613,7 +4609,6 @@ export const polygonsData = [
     info: {
       name: 'Летние Острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4622,6 +4617,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4644,7 +4640,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4653,6 +4648,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4675,7 +4671,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4684,6 +4679,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4706,7 +4702,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4715,6 +4710,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4741,7 +4737,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4750,6 +4745,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4774,7 +4770,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4783,6 +4778,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4804,7 +4800,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4813,6 +4808,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4837,7 +4833,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4846,6 +4841,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4866,7 +4862,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4875,6 +4870,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4898,7 +4894,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4907,6 +4902,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4929,7 +4925,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4938,6 +4933,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4958,7 +4954,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4967,6 +4962,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -4986,7 +4982,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -4995,6 +4990,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -5016,7 +5012,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -5025,6 +5020,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -5047,7 +5043,6 @@ export const polygonsData = [
     info: {
       name: 'Летние острова',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -5056,6 +5051,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
@@ -5075,7 +5071,6 @@ export const polygonsData = [
     info: {
       name: 'Лесное побережье',
       text: 'Описание',
-      overlord: '---',
       slave: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       peasent: { mines: 1, forest: 33, skins: 33, horses: 33, food: 330 },
       limits: { mines: 100, forest: 100, skins: 100, horses: 100, food: 1000 },
@@ -5084,6 +5079,7 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Сомневающиеся',
+      overlord: '---',
     },
     color: '#ffffff',
     latlngs: [
