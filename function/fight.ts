@@ -146,21 +146,45 @@ function getDistanceAttackBonus(
   let remainsSizeArcher = fightSize;
   let archerNumber = 0;
   let bonus = 0;
-  for (let row = currentRow + 1; row < 5; row++) {
-    if (flank[row].squadUnit.bow) {
-      const { squadNumber, size, distanceAttack } = flank[row].squadUnit;
-      if (squadNumber > remainsSizeArcher / size) {
-        remainsSizeArcher = Math.round(remainsSizeArcher / size);
-        archerNumber = remainsSizeArcher;
-        bonus = bonus + archerNumber * distanceAttack;
-        break;
-      } else {
-        remainsSizeArcher = (remainsSizeArcher / size - squadNumber) * size;
-        archerNumber = squadNumber;
-        bonus = bonus + archerNumber * distanceAttack;
+
+  // console.log(flank[0].squadFlank + currentRow);
+
+  if (flank[0].squadFlank == 'defence') {
+    for (let row = currentRow - 1; row > 0; row--) {
+      if (flank[row].squadUnit.bow) {
+        console.log(flank[0].squadFlank + '--- ' + currentRow);
+        const { squadNumber, size, distanceAttack } = flank[row].squadUnit;
+
+        if (squadNumber > remainsSizeArcher / size) {
+          remainsSizeArcher = Math.round(remainsSizeArcher / size);
+          archerNumber = remainsSizeArcher;
+          bonus = bonus + archerNumber * distanceAttack;
+          break;
+        } else {
+          remainsSizeArcher = (remainsSizeArcher / size - squadNumber) * size;
+          archerNumber = squadNumber;
+          bonus = bonus + archerNumber * distanceAttack;
+        }
+      }
+    }
+  } else {
+    for (let row = currentRow + 1; row < 5; row++) {
+      if (flank[row].squadUnit.bow) {
+        const { squadNumber, size, distanceAttack } = flank[row].squadUnit;
+        if (squadNumber > remainsSizeArcher / size) {
+          remainsSizeArcher = Math.round(remainsSizeArcher / size);
+          archerNumber = remainsSizeArcher;
+          bonus = bonus + archerNumber * distanceAttack;
+          break;
+        } else {
+          remainsSizeArcher = (remainsSizeArcher / size - squadNumber) * size;
+          archerNumber = squadNumber;
+          bonus = bonus + archerNumber * distanceAttack;
+        }
       }
     }
   }
+
   return bonus;
 }
 
