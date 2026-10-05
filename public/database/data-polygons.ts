@@ -3548,7 +3548,7 @@ export const polygonsData = [
       religion: 'Первые Люди',
       overlord: 'Айронвуды',
     },
-    color: '#FFFFFF',
+    color: '#000000',
     latlngs: [
       { lat: 79.2044431636091, lng: -31.772460937500004 },
       { lat: 80.43756327238778, lng: -33.04687500000001 },
