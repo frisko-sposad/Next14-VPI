@@ -121,18 +121,23 @@ function getLosses(
   distanceAttackBonus2: number,
 ) {
   // расчёт потерь с 2 знаками после запятой
-  const lossesPlayer1 =
+  console.log({ fightSize });
+
+  let lossesPlayer1 =
     Math.floor(
       (((attack2 * fightSize) / unit1.size + distanceAttackBonus2) /
         unit1.health) *
         100,
     ) / 100;
-  const lossesPlayer2 =
+  let lossesPlayer2 =
     Math.floor(
       (((attack1 * fightSize) / unit2.size + distanceAttackBonus1) /
         unit2.health) *
         100,
     ) / 100;
+
+  lossesPlayer1 = lossesPlayer1 > fightSize / 2 ? fightSize / 2 : lossesPlayer1;
+  lossesPlayer2 = lossesPlayer2 > fightSize / 2 ? fightSize / 2 : lossesPlayer2;
 
   return { lossesPlayer1, lossesPlayer2 };
 }
