@@ -1704,7 +1704,7 @@ export const polygonsData = [
       religion: 'Андаллы',
       overlord: 'Айронвуды',
     },
-    color: '#000000',
+    color: '#660099',
     latlngs: [
       { lat: 79.71082154175451, lng: -62.40234375000001 },
       { lat: 80.06561937869411, lng: -67.41210937500001 },
