@@ -121,7 +121,6 @@ function getLosses(
   distanceAttackBonus2: number,
 ) {
   // расчёт потерь с 2 знаками после запятой
-  console.log({ fightSize });
 
   let lossesPlayer1 =
     Math.floor(
@@ -129,6 +128,7 @@ function getLosses(
         unit1.health) *
         100,
     ) / 100;
+
   let lossesPlayer2 =
     Math.floor(
       (((attack1 * fightSize) / unit2.size + distanceAttackBonus1) /
@@ -143,7 +143,8 @@ function getLosses(
 }
 
 function getDistanceAttackBonus(
-  flank: [FlankRow],
+  flankDef: [FlankRow],
+  flankAttack: [FlankRow],
   currentRow: number,
   fightSize: number,
 ) {
@@ -154,11 +155,14 @@ function getDistanceAttackBonus(
 
   // console.log(flank[0].squadFlank + currentRow);
 
-  if (flank[0].squadFlank == 'defence') {
+  if (
+    flankDef[0].squadFlank == 'defence' &&
+    flankAttack[0].squadFlank !== 'center'
+  ) {
     for (let row = currentRow - 1; row > 0; row--) {
-      if (flank[row].squadUnit.bow) {
-        console.log(flank[0].squadFlank + '--- ' + currentRow);
-        const { squadNumber, size, distanceAttack } = flank[row].squadUnit;
+      if (flankDef[row].squadUnit.bow) {
+        // console.log(flankDef[0].squadFlank + '--- ' + currentRow);
+        const { squadNumber, size, distanceAttack } = flankDef[row].squadUnit;
 
         if (squadNumber > remainsSizeArcher / size) {
           remainsSizeArcher = Math.round(remainsSizeArcher / size);
@@ -174,8 +178,9 @@ function getDistanceAttackBonus(
     }
   } else {
     for (let row = currentRow + 1; row < 5; row++) {
-      if (flank[row].squadUnit.bow) {
-        const { squadNumber, size, distanceAttack } = flank[row].squadUnit;
+      if (flankDef[row].squadUnit.bow) {
+        // console.log(flankDef[0].squadFlank + '--- ' + currentRow);
+        const { squadNumber, size, distanceAttack } = flankDef[row].squadUnit;
         if (squadNumber > remainsSizeArcher / size) {
           remainsSizeArcher = Math.round(remainsSizeArcher / size);
           archerNumber = remainsSizeArcher;
@@ -218,8 +223,19 @@ export function fight(
   // const squadNumber2 = Number(currentUnitsFlank2 ? currentUnitsFlank2 : squad2.squadNumber);
 
   const fightSize = getFightSize(number1, number2, squad1, squad2);
-  const distanceAttackBonus1 = getDistanceAttackBonus(flank1, row1, fightSize);
-  const distanceAttackBonus2 = getDistanceAttackBonus(flank2, row2, fightSize);
+
+  const distanceAttackBonus1 = getDistanceAttackBonus(
+    flank1,
+    flank2,
+    row1,
+    fightSize,
+  );
+  const distanceAttackBonus2 = getDistanceAttackBonus(
+    flank2,
+    flank1,
+    row2,
+    fightSize,
+  );
 
   const { attack1, attack2 } = getAttackBonus(
     squad1,
