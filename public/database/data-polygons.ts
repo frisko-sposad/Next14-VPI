@@ -1502,9 +1502,9 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Первые Люди',
-      overlord: 'Вили',
+      overlord: 'Фаулеры',
     },
-    color: '#FFCC33',
+    color: '#6666FF',
     latlngs: [
       { lat: 83.30845036740205, lng: -51.1083984375 },
       { lat: 82.31488297855745, lng: -57.96386718750001 },
@@ -1674,9 +1674,9 @@ export const polygonsData = [
       relief: 'Андаллы',
       size: '',
       religion: 'Андаллы',
-      overlord: 'Вили',
+      overlord: 'Фаулеры',
     },
-    color: '#FFCC33',
+    color: '#6666FF',
     latlngs: [
       { lat: 81.53760928269017, lng: -69.69726562500001 },
       { lat: 81.34140772220249, lng: -66.13769531250001 },
