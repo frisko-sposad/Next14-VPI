@@ -4386,9 +4386,9 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: '',
-      overlord: 'Ничейные земли',
+      overlord: 'Драйленды',
     },
-    color: '#000000',
+    color: '#660000',
     latlngs: [
       { lat: 75.74822026283248, lng: -48.55957031250001 },
       { lat: 74.9367032566266, lng: -45.966796875 },
