@@ -4180,9 +4180,9 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: '',
+      overlord: 'Блэкмонты',
     },
-    overlord: 'Ничейные земли',
-    color: '#000000',
+    color: '#009933',
     latlngs: [
       { lat: 79.68717287687342, lng: -88.02246093750001 },
       { lat: 79.43231812798743, lng: -81.95800781250001 },
