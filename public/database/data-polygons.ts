@@ -4012,7 +4012,7 @@ export const polygonsData = [
       fortifications: '',
       relief: '',
       size: '',
-      religion: 'Семеро',
+      religion: 'Старые боги',
       overlord: 'Мартеллы',
       owner: 'Толанды',
     },
