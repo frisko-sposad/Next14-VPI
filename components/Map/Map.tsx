@@ -119,8 +119,8 @@ const polygonsBorder = polygonsData.map((el) => {
             <br />
             Владелец: {el.info.owner}
             <br />
-            Сюзерен: {el.info.overlord}
-            <br />
+            {/* Сюзерен: {el.info.overlord}
+            <br /> */}
             Религия: {el.info.religion}
             <br />
             <br />
@@ -174,13 +174,13 @@ const polygonsBorderReligion = polygonsData.map((el) => {
   let color = `black`;
 
   switch (el.info.religion) {
-    case 'Андаллы':
+    case 'Семеро':
       color = `#CC0033`;
       break;
-    case 'Первые Люди':
+    case 'Старые боги':
       color = `#FFFFCC`;
       break;
-    case 'Сомневающиеся':
+    case 'Многобожие':
       color = `#0099FF`;
       break;
 
