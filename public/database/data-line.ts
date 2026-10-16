@@ -11,7 +11,7 @@ export const dataImpassablePlaces = [
       [78.3699763775012, -22.587890625000004],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -20,7 +20,7 @@ export const dataImpassablePlaces = [
       [77.14092265283308, -46.75781250000001],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -30,7 +30,7 @@ export const dataImpassablePlaces = [
       [76.90418813495607, -39.55078125],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -39,7 +39,7 @@ export const dataImpassablePlaces = [
       [75.7632560143881, -48.25195312500001],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -48,7 +48,7 @@ export const dataImpassablePlaces = [
       [81.8367091526856, -55.28320312500001],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -57,7 +57,7 @@ export const dataImpassablePlaces = [
       [79.93739552219746, -78.83789062500001],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -65,7 +65,7 @@ export const dataImpassablePlaces = [
       [78.01003413796171, -86.22070312500001],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -73,7 +73,7 @@ export const dataImpassablePlaces = [
       [77.86315369061599, -93.33984375000001],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -81,7 +81,7 @@ export const dataImpassablePlaces = [
       [75.74163490223901, -98.78906250000001],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -89,7 +89,7 @@ export const dataImpassablePlaces = [
       [75.52364791714949, -88.94531250000001],
     ],
     color: 'white',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -99,7 +99,7 @@ export const dataImpassablePlaces = [
       [76.21646047692002, -29.96043270309149],
     ],
     color: 'cyan',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -107,7 +107,7 @@ export const dataImpassablePlaces = [
       [76.87063181645887, -39.89305022849189],
     ],
     color: 'cyan',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -115,7 +115,7 @@ export const dataImpassablePlaces = [
       [80.65314526399926, -51.23205607607285],
     ],
     color: 'cyan',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -123,7 +123,7 @@ export const dataImpassablePlaces = [
       [80.58152318153722, -70.6577947761922],
     ],
     color: 'cyan',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -131,7 +131,7 @@ export const dataImpassablePlaces = [
       [81.04436420938171, -79.184023979412],
     ],
     color: 'cyan',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -141,7 +141,7 @@ export const dataImpassablePlaces = [
       [76.3207492891313, -12.995882211924457],
     ],
     color: 'cyan',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -149,7 +149,7 @@ export const dataImpassablePlaces = [
       [75.63973051025751, -60.109891004974095],
     ],
     color: 'cyan',
-    weight: 8,
+    weight: '8',
   },
   {
     positions: [
@@ -161,7 +161,7 @@ export const dataImpassablePlaces = [
       [79.9119692189191, -60.109891004974095],
     ],
     color: 'cyan',
-    weight: 8,
+    weight: '8',
   },
 ];
 
