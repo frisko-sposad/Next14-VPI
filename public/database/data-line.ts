@@ -180,8 +180,6 @@ export const dataTradeRoutes = [
       [76.14226493848929, 9.44825016427852],
       [76.51762068217873, 18.105484514964136],
     ],
-    color: 'yellow',
-    weight: 4,
   },
   {
     positions: [
@@ -189,8 +187,6 @@ export const dataTradeRoutes = [
       [78.05317360803028, 16.479499692796388],
       [78.65607866627187, 18.764656124404315],
     ],
-    color: 'yellow',
-    weight: 4,
   },
   {
     positions: [
@@ -203,8 +199,6 @@ export const dataTradeRoutes = [
       [76.43536519129692, -31.68456663493969],
       [77.12837359551067, -24.87304265610841],
     ],
-    color: 'yellow',
-    weight: 4,
   },
   {
     positions: [
@@ -223,8 +217,6 @@ export const dataTradeRoutes = [
       [75.81249173395426, -35.11555474113954],
       [76.03691731035124, -32.03958433971025],
     ],
-    color: 'yellow',
-    weight: 4,
   },
   {
     positions: [
@@ -245,16 +237,12 @@ export const dataTradeRoutes = [
       [76.59784448873123, -58.403316593030176],
       [76.35118793046475, -60.117183916736124],
     ],
-    color: 'yellow',
-    weight: 4,
   },
   {
     positions: [
       [79.41627285561772, -42.714836566009915],
       [78.61, -32.73],
     ],
-    color: 'yellow',
-    weight: 4,
   },
   {
     positions: [
@@ -271,8 +259,6 @@ export const dataTradeRoutes = [
       [80.8373812660028, -73.91601037583273],
       [80.37116386786356, -69.16991624864706],
     ],
-    color: 'yellow',
-    weight: 4,
   },
   {
     positions: [
@@ -281,8 +267,6 @@ export const dataTradeRoutes = [
       [81.85449882098806, -69.03808107250333],
       [82.87477479479892, -74.88280809950048],
     ],
-    color: 'yellow',
-    weight: 4,
   },
   {
     positions: [
@@ -296,8 +280,6 @@ export const dataTradeRoutes = [
       [83.67655751683084, -44.8242128582201],
       [83.80116079836773, -41.92382200271772],
     ],
-    color: 'yellow',
-    weight: 4,
   },
   {
     positions: [
@@ -307,7 +289,5 @@ export const dataTradeRoutes = [
       [82.36704496963775, -101.38267022955093],
       [82.63653952938985, -98.13093009089711],
     ],
-    color: 'yellow',
-    weight: 4,
   },
 ];

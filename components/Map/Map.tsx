@@ -92,8 +92,10 @@ const tradeRoutes = dataTradeRoutes.map((el) => {
     <>
       <Polyline
         positions={el.positions}
-        color={el.color}
-        weight={Number(el.weight)}
+        color={'yellow'}
+        weight={Number(6)}
+        dashArray={'1, 12'} // Длина штрихов и пробелов
+        dashOffset={'0, 5'}
       />
     </>
   );
@@ -336,7 +338,7 @@ const Map = (params: any) => {
           <LayersControl.Overlay name="Проходимость" checked>
             <LayerGroup>{impassablePlaces}</LayerGroup>
           </LayersControl.Overlay>
-          <LayersControl.Overlay name="Торговля">
+          <LayersControl.Overlay name="Торговля" checked>
             <LayerGroup>{tradeRoutes}</LayerGroup>
           </LayersControl.Overlay>
           <LayersControl.Overlay name="Цифры" checked>
