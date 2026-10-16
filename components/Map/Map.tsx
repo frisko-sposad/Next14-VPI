@@ -75,17 +75,6 @@ const markerBattle = battleData.map((el) => {
       </>
     );
 });
-const impassablePlaces = dataImpassablePlaces.map((el) => {
-  return (
-    <>
-      <Polyline
-        positions={el.positions}
-        color={el.color}
-        weight={Number(el.weight)}
-      />
-    </>
-  );
-});
 
 const tradeRoutes = dataTradeRoutes.map((el) => {
   return (
@@ -93,9 +82,21 @@ const tradeRoutes = dataTradeRoutes.map((el) => {
       <Polyline
         positions={el.positions}
         color={'yellow'}
-        weight={Number(6)}
+        weight={Number('6')}
         dashArray={'1, 12'} // Длина штрихов и пробелов
         dashOffset={'0, 5'}
+      />
+    </>
+  );
+});
+
+const impassablePlaces = dataImpassablePlaces.map((el) => {
+  return (
+    <>
+      <Polyline
+        positions={el.positions}
+        color={el.color}
+        weight={Number(el.weight)}
       />
     </>
   );
