@@ -1,3 +1,5 @@
+import { LatLngExpression } from 'leaflet';
+
 export const dataImpassablePlaces = [
   {
     positions: [
@@ -163,7 +165,7 @@ export const dataImpassablePlaces = [
     color: 'cyan',
     weight: '8',
   },
-];
+] as any;
 
 export const dataTradeRoutes = [
   {
@@ -290,4 +292,4 @@ export const dataTradeRoutes = [
       [82.63653952938985, -98.13093009089711],
     ],
   },
-];
+] as any;

@@ -76,31 +76,39 @@ const markerBattle = battleData.map((el) => {
     );
 });
 
-const tradeRoutes = dataTradeRoutes.map((el) => {
-  return (
-    <>
-      <Polyline
-        positions={el.positions}
-        color={'yellow'}
-        weight={Number('6')}
-        dashArray={'1, 12'} // Длина штрихов и пробелов
-        dashOffset={'0, 5'}
-      />
-    </>
-  );
-});
+const tradeRoutes = dataTradeRoutes.map(
+  (el: { positions: L.LatLngExpression[] | L.LatLngExpression[][] }) => {
+    return (
+      <>
+        <Polyline
+          positions={el.positions}
+          color={'yellow'}
+          weight={Number('6')}
+          dashArray={'1, 12'} // Длина штрихов и пробелов
+          dashOffset={'0, 5'}
+        />
+      </>
+    );
+  },
+);
 
-const impassablePlaces = dataImpassablePlaces.map((el) => {
-  return (
-    <>
-      <Polyline
-        positions={el.positions}
-        color={el.color}
-        weight={Number(el.weight)}
-      />
-    </>
-  );
-});
+const impassablePlaces = dataImpassablePlaces.map(
+  (el: {
+    positions: L.LatLngExpression[] | L.LatLngExpression[][];
+    color: string | undefined;
+    weight: any;
+  }) => {
+    return (
+      <>
+        <Polyline
+          positions={el.positions}
+          color={el.color}
+          weight={Number(el.weight)}
+        />
+      </>
+    );
+  },
+);
 
 const markerIconcastleData = castleData.map((el) => {
   return (
