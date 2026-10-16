@@ -23,6 +23,10 @@ import { LocationFinderDummy } from './LocationFinderDummy';
 import { castleData } from '@/public/database/data-icon';
 import { unitsData } from '@/public/database/units-data';
 import host_api from '@/app/host_api';
+import {
+  dataImpassablePlaces,
+  dataTradeRoutes,
+} from '@/public/database/data-line';
 
 const markerIconCastle = new Icon({
   iconUrl: IconCastle,
@@ -70,6 +74,29 @@ const markerBattle = battleData.map((el) => {
         </Marker>
       </>
     );
+});
+const impassablePlaces = dataImpassablePlaces.map((el) => {
+  return (
+    <>
+      <Polyline
+        positions={el.positions}
+        color={el.color}
+        weight={Number(el.weight)}
+      />
+    </>
+  );
+});
+
+const tradeRoutes = dataTradeRoutes.map((el) => {
+  return (
+    <>
+      <Polyline
+        positions={el.positions}
+        color={el.color}
+        weight={Number(el.weight)}
+      />
+    </>
+  );
 });
 
 const markerIconcastleData = castleData.map((el) => {
@@ -307,172 +334,10 @@ const Map = (params: any) => {
             <LayerGroup>{polygonsBorderReligion}</LayerGroup>
           </LayersControl.Overlay>
           <LayersControl.Overlay name="Проходимость" checked>
-            <LayerGroup>
-              <Polyline
-                positions={[
-                  [78.13748568974525, 5.888671875],
-                  [78.11941318750105, 1.3183593750000002],
-                  [77.86353098267988, -1.5820312500000002],
-                  [77.95553481700777, -3.251953125],
-                  [78.42298667601625, -11.425781250000002],
-                  [78.35225313516021, -14.677734375000002],
-                  [78.63265470679414, -18.457031250000004],
-                  [78.3699763775012, -22.587890625000004],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [78.47540010926681, -46.40625000000001],
-                  [78.01003413796171, -47.98815625000001],
-                  [77.14092265283308, -46.75781250000001],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [77.90003913686702, -38.3203125],
-                  [77.78905023268321, -35.85937500000001],
-                  [77.17998344253564, -35.41914062500001],
-                  [76.90418813495607, -39.55078125],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [75.84941981593269, -38.935546875],
-                  [74.98709026348278, -45.87890625],
-                  [75.7632560143881, -48.25195312500001],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [82.30908465018838, -49.13085937500001],
-                  [81.5576414533338, -53.52539062500001],
-                  [81.8367091526856, -55.28320312500001],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [80.59082225800114, -85.34179687500001],
-                  [80.35822446580782, -79.98046875000001],
-                  [79.93739552219746, -78.83789062500001],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [78.59761730580594, -85.693359375],
-                  [78.01003413796171, -86.22070312500001],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [78.40498242516747, -93.25195312500001],
-                  [77.86315369061599, -93.33984375000001],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [76.5205748048426, -97.55859375000001],
-                  [75.74163490223901, -98.78906250000001],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [76.47955833575611, -88.06640625000001],
-                  [75.52364791714949, -88.94531250000001],
-                ]}
-                color="white"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [76.36223944983759, -16.95134072292108],
-                  [76.19551054107042, -22.84059182205228],
-                  [76.2582668546705, -28.20244730036575],
-                  [76.21646047692002, -29.96043270309149],
-                ]}
-                color="cyan"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [76.21646047692002, -34.00379912936069],
-                  [76.87063181645887, -39.89305022849189],
-                ]}
-                color="cyan"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [80.83684609776985, -48.9466750525294],
-                  [80.65314526399926, -51.23205607607285],
-                ]}
-                color="cyan"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [80.55272230086625, -55.011724691933196],
-                  [80.58152318153722, -70.6577947761922],
-                ]}
-                color="cyan"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [81.04436420938171, -76.107549524642],
-                  [81.04436420938171, -79.184023979412],
-                ]}
-                color="cyan"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [75.30917941583148, 5.81456159724091],
-                  [75.96299699853354, -0.7778836629806031],
-                  [76.2999548223939, -10.534702648108427],
-                  [76.3207492891313, -12.995882211924457],
-                ]}
-                color="cyan"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [74.46169533419865, -51.935258882299436],
-                  [75.63973051025751, -60.109891004974095],
-                ]}
-                color="cyan"
-                weight={Number('8')}
-              />
-              <Polyline
-                positions={[
-                  [77.32188785715293, -63.09846618960784],
-                  [77.83217655583081, -62.13157421810869],
-                  [78.07060400982336, -63.889559620834426],
-                  [79.11267275387702, -61.25258151674582],
-                  [79.59946400551023, -59.31879757374754],
-                  [79.9119692189191, -60.109891004974095],
-                ]}
-                color="cyan"
-                weight={Number('8')}
-              />
-            </LayerGroup>
+            <LayerGroup>{impassablePlaces}</LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Торговля">
+            <LayerGroup>{tradeRoutes}</LayerGroup>
           </LayersControl.Overlay>
           <LayersControl.Overlay name="Цифры" checked>
             <LayerGroup>{markerNumber}</LayerGroup>
