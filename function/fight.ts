@@ -388,12 +388,12 @@ function getIsFight(
     if (superior1 || superior2) {
       isFight = false;
       if (superior1) {
-        status = 'Численный перевес у Ирока 2.' + status_victory;
+        status = 'Численный перевес у Игрока 2.' + status_victory;
         direction1 === Direction.inOrder ? row1++ : row1--;
         ready1 = false;
       }
       if (superior2) {
-        status = 'Численный перевес у Ирока 1.' + status_victory;
+        status = 'Численный перевес у Игрока 1.' + status_victory;
         direction2 === Direction.inOrder ? row2++ : row2--;
         ready2 = false;
       }
