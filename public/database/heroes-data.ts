@@ -484,7 +484,7 @@ export const heroesData: Hero[] = [
   },
   {
     id: 135,
-    heroName: 'Сантагар Ар Ной',
+    heroName: 'Саладор Ар Ной',
     attackBonus: 0,
     healthBonus: 0,
     moralityBonus: 0,
