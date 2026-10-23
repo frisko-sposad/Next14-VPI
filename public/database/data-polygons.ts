@@ -3781,7 +3781,7 @@ export const polygonsData = [
       size: '',
       religion: 'Старые боги',
       overlord: 'Толанды',
-      owner: 'Мартеллы',
+      owner: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3867,7 +3867,7 @@ export const polygonsData = [
       size: '',
       religion: 'Старые боги',
       overlord: 'Толанды',
-      owner: 'Мартеллы',
+      owner: 'Толанды',
     },
     color: '#CC6600',
     latlngs: [
@@ -3893,10 +3893,10 @@ export const polygonsData = [
       relief: '',
       size: '',
       religion: 'Семеро',
-      overlord: 'Аллирионы',
+      overlord: 'Мартеллы',
       owner: 'Мартеллы',
     },
-    color: '#339933',
+    color: '#FFCC00',
     latlngs: [
       { lat: 76.90058518878449, lng: 2.9443359375 },
       { lat: 77.07815624820347, lng: 7.822265625000001 },
