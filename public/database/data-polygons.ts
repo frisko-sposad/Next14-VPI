@@ -2920,9 +2920,9 @@ export const polygonsData = [
       size: '',
       religion: 'Семеро',
       overlord: 'Дейны',
-      owner: 'Кворгилы',
+      owner: 'Драйленды',
     },
-    color: '#CCCC33',
+    color: '#660000',
     latlngs: [
       { lat: 76.95029616267257, lng: -84.85839843750001 },
       { lat: 76.44487944773027, lng: -88.02246093750001 },
@@ -4232,7 +4232,7 @@ export const polygonsData = [
       size: '',
       religion: '',
       overlord: 'Дейны',
-      owner: 'Ничейные земли',
+      owner: 'Дейны',
     },
     color: '#CCCC33',
     latlngs: [
@@ -4258,9 +4258,9 @@ export const polygonsData = [
       size: '',
       religion: '',
       overlord: 'Фаулеры',
-      owner: 'Ничейные земли',
+      owner: 'Дейны',
     },
-    color: '#000000',
+    color: '#CCCC33',
     latlngs: [
       { lat: 79.42436228141644, lng: -81.91406250000001 },
       { lat: 79.67939801396614, lng: -88.06640625000001 },
