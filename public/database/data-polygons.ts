@@ -2581,9 +2581,9 @@ export const polygonsData = [
       size: '',
       religion: 'Семеро',
       overlord: 'Блэкмонты',
-      owner: 'Блэкмонты',
+      owner: 'Дейны',
     },
-    color: '#009933',
+    color: '#CCCC33',
     latlngs: [
       { lat: 79.695009561253, lng: -88.06640625000001 },
       { lat: 78.35855156848896, lng: -93.38378906250001 },
