@@ -165,6 +165,15 @@ export const dataImpassablePlaces = [
     color: 'cyan',
     weight: '8',
   },
+  {
+    positions: [
+      [79.88896051405581, -94.52535895088522],
+      [80.07245583052244, -91.66854127827179],
+      [80.64634011590651, -91.00927566151485],
+    ],
+    color: 'cyan',
+    weight: '8',
+  },
 ] as any;
 
 export const dataTradeRoutes = [
