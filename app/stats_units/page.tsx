@@ -14,10 +14,6 @@ const StatsTable = () => {
   const columnsUnits = useMemo(
     () => [
       {
-        Header: 'id',
-        accessor: 'id',
-      },
-      {
         Header: 'Тип Юнита',
         accessor: 'name',
       },
