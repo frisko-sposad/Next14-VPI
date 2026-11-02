@@ -382,8 +382,8 @@ function getIsFight(
       status_victory = `Победа игрока 1 в битве! реверс4`;
     }
 
-    const superior1 = alive1 * allMorality1 <= (number2 * allMorality1) / 10;
-    const superior2 = alive2 * allMorality2 <= (number1 * allMorality2) / 10;
+    const superior1 = alive1 <= alive2 / 10;
+    const superior2 = alive2 <= alive1 / 10;
 
     if (superior1 || superior2) {
       isFight = false;
