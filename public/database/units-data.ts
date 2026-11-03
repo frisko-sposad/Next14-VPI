@@ -464,7 +464,7 @@ export const unitsData: UnitData[] = [
         health: 300,
         morality: 30,
         size: 2,
-        price: 24,
+        price: 20,
         attackHorseman: 1,
         attackSwordsman: 1,
         attackSpearman: 1.5,
