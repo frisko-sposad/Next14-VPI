@@ -10,6 +10,11 @@ export interface Fortification {
   defenseHorseman: number;
   defenseSword: number;
   defenseSpear: number;
+  bonusTaxes: number;
+  bonusPopulation: number;
+  bonusSlave: number;
+  price: number;
+  tree: number;
 }
 
 export const fortificationData: Fortification[] = [
@@ -25,6 +30,11 @@ export const fortificationData: Fortification[] = [
     defenseHorseman: 1,
     defenseSword: 1,
     defenseSpear: 1,
+    bonusTaxes: 0,
+    bonusPopulation: 0,
+    bonusSlave: 0,
+    price: 0,
+    tree: 0,
   },
   // {
   //   id: 1001,
@@ -38,6 +48,11 @@ export const fortificationData: Fortification[] = [
   //   defenseHorseman: 1.1,
   //   defenseSword: 1.1,
   //   defenseSpear: 1.1,
+  // bonusTaxes: 1,
+  // bonusPopulation: 1,
+  // bonusSlave: 1,
+  // price:
+  // tree
   // },
 
   {
@@ -52,6 +67,11 @@ export const fortificationData: Fortification[] = [
     defenseHorseman: 1,
     defenseSword: 1.2,
     defenseSpear: 1.2,
+    bonusTaxes: 1,
+    bonusPopulation: 1,
+    bonusSlave: 0.25,
+    price: 2500,
+    tree: 500,
   },
   {
     id: 1003,
@@ -65,6 +85,11 @@ export const fortificationData: Fortification[] = [
     defenseHorseman: 1,
     defenseSword: 1.3,
     defenseSpear: 1.3,
+    bonusTaxes: 2,
+    bonusPopulation: 2,
+    bonusSlave: 0.5,
+    price: 5000,
+    tree: 1000,
   },
   {
     id: 1004,
@@ -78,6 +103,11 @@ export const fortificationData: Fortification[] = [
     defenseHorseman: 1,
     defenseSword: 1.4,
     defenseSpear: 1.4,
+    bonusTaxes: 3,
+    bonusPopulation: 3,
+    bonusSlave: 0.75,
+    price: 10000,
+    tree: 2500,
   },
   {
     id: 1005,
@@ -91,6 +121,11 @@ export const fortificationData: Fortification[] = [
     defenseHorseman: 1,
     defenseSword: 1.5,
     defenseSpear: 1.5,
+    bonusTaxes: 4,
+    bonusPopulation: 4,
+    bonusSlave: 1,
+    price: 12000,
+    tree: 4000,
   },
   // {
   //   id: 1100,
@@ -104,6 +139,11 @@ export const fortificationData: Fortification[] = [
   //   defenseHorseman: 1.1,
   //   defenseSword: 1,
   //   defenseSpear: 1,
+  // bonusTaxes: 1,
+  // bonusPopulation: 1,
+  // bonusSlave: 1,
+  // price:
+  // tree
   // },
   // {
   //   id: 1101,
@@ -117,6 +157,11 @@ export const fortificationData: Fortification[] = [
   //   defenseHorseman: 1,
   //   defenseSword: 1,
   //   defenseSpear: 1,
+  // bonusTaxes: 1,
+  // bonusPopulation: 1,
+  // bonusSlave: 1,
+  // price:
+  // tree
   // },
   // {
   //   id: 1102,
@@ -130,7 +175,12 @@ export const fortificationData: Fortification[] = [
   //   defenseHorseman: 0.5,
   //   defenseSword: 0.5,
   //   defenseSpear: 0.5,
-  // },
+  // bonusTaxes: 1,
+  // bonusPopulation: 1,
+  // bonusSlave: 1,
+  // price:
+  // tree
+  // // },
   // {
   //   id: 1103,
   //   fortificationName: 'Горы',
@@ -143,5 +193,10 @@ export const fortificationData: Fortification[] = [
   //   defenseHorseman: 1,
   //   defenseSword: 1,
   //   defenseSpear: 1,
+  // bonusTaxes: 1,
+  // bonusPopulation: 1,
+  // bonusSlave: 1,
+  // price:
+  // tree
   // },
 ];

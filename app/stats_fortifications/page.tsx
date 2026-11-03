@@ -39,38 +39,38 @@ const StatsTable = () => {
         Header: 'Бонус Атаки',
         accessor: 'attackBonus',
       },
-      {
-        Header: 'Бонус ХП',
-        accessor: 'healthBonus',
-      },
+      // {
+      //   Header: 'Бонус ХП',
+      //   accessor: 'healthBonus',
+      // },
       {
         Header: 'Мораль',
         accessor: 'moralityBonus',
       },
-      {
-        Header: 'Бонус в Атаке по',
-        columns: [
-          {
-            Header: 'Всадникам',
-            accessor: 'attackHorseman',
-          },
-          {
-            Header: 'Мечниками',
-            accessor: 'attackSwordsman',
-          },
-          {
-            Header: 'Копейщикам',
-            accessor: 'attackSpearman',
-          },
-        ],
-      },
+      // {
+      //   Header: 'Бонус в Атаке по',
+      //   columns: [
+      //     {
+      //       Header: 'Всадникам',
+      //       accessor: 'attackHorseman',
+      //     },
+      //     {
+      //       Header: 'Мечниками',
+      //       accessor: 'attackSwordsman',
+      //     },
+      //     {
+      //       Header: 'Копейщикам',
+      //       accessor: 'attackSpearman',
+      //     },
+      //   ],
+      // },
       {
         Header: 'Бонус в тылу по',
         columns: [
-          {
-            Header: 'Всадникам',
-            accessor: 'defenseHorseman',
-          },
+          // {
+          //   Header: 'Всадникам',
+          //   accessor: 'defenseHorseman',
+          // },
           {
             Header: 'Мечникам',
             accessor: 'defenseSword',
@@ -78,6 +78,36 @@ const StatsTable = () => {
           {
             Header: 'Копейщикам',
             accessor: 'defenseSpear',
+          },
+        ],
+      },
+      {
+        Header: 'Экономические бонусы',
+        columns: [
+          {
+            Header: 'Налоги',
+            accessor: 'bonusTaxes',
+          },
+          {
+            Header: 'Рост Населения',
+            accessor: 'bonusPopulation',
+          },
+          {
+            Header: 'Добыча рабами',
+            accessor: 'bonusSlave',
+          },
+        ],
+      },
+      {
+        Header: 'Цена постройки',
+        columns: [
+          {
+            Header: 'Дерево',
+            accessor: 'tree',
+          },
+          {
+            Header: 'Серебро',
+            accessor: 'price',
           },
         ],
       },
