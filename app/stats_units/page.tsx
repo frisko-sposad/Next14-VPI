@@ -63,18 +63,18 @@ const StatsTable = () => {
         ],
       },
       {
-        Header: 'Бонус в Тылу от',
+        Header: 'Бонус в Тылу по',
         columns: [
           {
-            Header: 'Всадников',
+            Header: 'Всадникам',
             accessor: 'defenseHorseman',
           },
           {
-            Header: 'Мечников',
+            Header: 'Мечникам',
             accessor: 'defenseSword',
           },
           {
-            Header: 'Копейщиков',
+            Header: 'Копейщикам',
             accessor: 'defenseSpear',
           },
         ],
