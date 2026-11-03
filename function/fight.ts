@@ -292,9 +292,12 @@ function getIsFight(
   ready2: boolean,
   moralityBonus1: number,
   moralityBonus2: number,
+  moralityFortification1: number,
+  moralityFortification2: number,
 ) {
-  const allMorality1 = morality1 + moralityBonus1;
-  const allMorality2 = morality2 + moralityBonus2;
+  const allMorality1 = morality1 + moralityBonus1 + moralityFortification1;
+  const allMorality2 = morality2 + moralityBonus2 + moralityFortification2;
+
   status_victory = '';
   status = 'Идёт бой';
   let isFight = true;
@@ -465,6 +468,9 @@ export function getResultRoundFight(
   const moralityBonus1 = flank1[0].squadHero.moralityBonus;
   const moralityBonus2 = flank2[0].squadHero.moralityBonus;
 
+  const moralityFortification1 = flank1[0].squadFortification.moralityBonus;
+  const moralityFortification2 = flank2[0].squadFortification.moralityBonus;
+
   const { row1, row2, isFight, ready1, ready2 } = getIsFight(
     squadUnit1.squadNumber,
     squadUnit2.squadNumber,
@@ -484,6 +490,8 @@ export function getResultRoundFight(
     squadUnit2.ready,
     moralityBonus1,
     moralityBonus2,
+    moralityFortification1,
+    moralityFortification2,
   );
 
   if (!isFight || !ready1 || !ready2) {
