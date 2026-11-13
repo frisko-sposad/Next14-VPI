@@ -3950,9 +3950,9 @@ export const polygonsData = [
       size: '',
       religion: 'Семеро',
       overlord: 'Мартеллы',
-      owner: 'Драйленды',
+      owner: 'Толанды',
     },
-    color: '#660000',
+    color: '#CC6600',
     latlngs: [
       { lat: 76.7403731690145, lng: 13.0078125 },
       { lat: 76.3830040344108, lng: 10.986328125000002 },
